@@ -15,7 +15,7 @@ jobs:
     name: Trust-boundary policy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Reject proof placeholders and added trust
         run: python3 scripts/check_policy.py
 
@@ -23,7 +23,7 @@ jobs:
     name: Lean kernel verification
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: leanprover/lean-action@v1
         with:
           build: true
