@@ -1,0 +1,88 @@
+{
+  "python_version": "3.14.4",
+  "dependencies": "Python standard library only",
+  "inputs": {
+    "p": 1201,
+    "x_first": 301,
+    "x_last": 306
+  },
+  "enumeration": "1 <= a <= M, a divides M^2, b=M^2/a; y<=z",
+  "rows": [
+    {
+      "p": 1201,
+      "x": 301,
+      "c": 3,
+      "M": 361501,
+      "solution_count": 0,
+      "solutions": []
+    },
+    {
+      "p": 1201,
+      "x": 302,
+      "c": 7,
+      "M": 362702,
+      "solution_count": 0,
+      "solutions": []
+    },
+    {
+      "p": 1201,
+      "x": 303,
+      "c": 11,
+      "M": 363903,
+      "solution_count": 0,
+      "solutions": []
+    },
+    {
+      "p": 1201,
+      "x": 304,
+      "c": 15,
+      "M": 365104,
+      "solution_count": 0,
+      "solutions": []
+    },
+    {
+      "p": 1201,
+      "x": 305,
+      "c": 19,
+      "M": 366305,
+      "solution_count": 0,
+      "solutions": []
+    },
+    {
+      "p": 1201,
+      "x": 306,
+      "c": 23,
+      "M": 367506,
+      "solution_count": 3,
+      "solutions": [
+        {
+          "x": 306,
+          "y": 15980,
+          "z": 172727820,
+          "factor_a": 34,
+          "factor_b": 3972372354,
+          "integer_lhs": 3378473249846400,
+          "integer_rhs": 3378473249846400
+        },
+        {
+          "x": 306,
+          "y": 16218,
+          "z": 1082101,
+          "factor_a": 5508,
+          "factor_b": 24520817,
+          "integer_lhs": 21480605158032,
+          "integer_rhs": 21480605158032
+        },
+        {
+          "x": 306,
+          "y": 21618,
+          "z": 61251,
+          "factor_a": 129708,
+          "factor_b": 1041267,
+          "integer_lhs": 1620727920432,
+          "integer_rhs": 1620727920432
+        }
+      ]
+    }
+  ]
+}
