@@ -1,0 +1,11 @@
+name = "OutcastsMathLab"
+version = "0.1.0"
+defaultTargets = ["OutcastsMathLab"]
+
+[[lean_lib]]
+name = "OutcastsMathLab"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.0"

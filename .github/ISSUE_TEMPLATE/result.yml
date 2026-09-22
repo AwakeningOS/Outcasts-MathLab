@@ -1,0 +1,38 @@
+name: Reproduction or Result
+description: Report a verified result, counterexample, or useful failure.
+title: "[result] P000 "
+labels: ["result"]
+body:
+  - type: input
+    id: problem
+    attributes:
+      label: Problem ID
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and command
+      description: Include OS, Lean/mathlib version, command, seed, and input count.
+    validations:
+      required: true
+  - type: textarea
+    id: measured
+    attributes:
+      label: Measured result
+      description: Paste concise output and link complete logs or PR.
+    validations:
+      required: true
+  - type: textarea
+    id: interpretation
+    attributes:
+      label: Interpretation
+      description: What does the result support or refute?
+    validations:
+      required: true
+  - type: textarea
+    id: unknowns
+    attributes:
+      label: Unverified claims and limits
+    validations:
+      required: true

@@ -1,0 +1,47 @@
+name: Problem Candidate
+description: Propose a theorem or subproblem only after checking prior work.
+title: "[candidate] "
+labels: ["candidate"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Exact question
+      description: State the claim and link its primary source.
+    validations:
+      required: true
+  - type: textarea
+    id: prior
+    attributes:
+      label: Known results and existing formalization
+      description: Include mathlib declarations, repositories, and papers searched.
+    validations:
+      required: true
+  - type: textarea
+    id: smallest
+    attributes:
+      label: Smallest executable test
+      description: Give the minimal theorem, checker, fixture, or counterexample search.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision rule
+      description: Define success, failure, and inconclusive outcomes.
+    validations:
+      required: true
+  - type: textarea
+    id: budget
+    attributes:
+      label: Budget and stop condition
+      description: Fix time, trial, and compute limits before work begins.
+    validations:
+      required: true
+  - type: textarea
+    id: decomposition
+    attributes:
+      label: Multi-agent decomposition
+      description: Explain independent roles and artifacts, not just multiple opinions.
+    validations:
+      required: true

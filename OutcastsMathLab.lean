@@ -1,0 +1,1 @@
+import OutcastsMathLab.Problems.P000_VerifierSmoke.Proof
