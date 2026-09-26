@@ -1,0 +1,30 @@
+{
+  "scope": "all odd primes < 200, p=409 (all allowed x), p=1201 (x=301..306)",
+  "cases": 2324,
+  "solutions": 970,
+  "independent_direct_search_matches": true,
+  "records_sha256": "4b6c0bf82a7edc250b6b3c6a44d1916b6815e871f0bdcf70bbeaa82e9a23e9a1",
+  "fixture_1201_x306": [
+    [
+      306,
+      15980,
+      172727820
+    ],
+    [
+      306,
+      16218,
+      1082101
+    ],
+    [
+      306,
+      21618,
+      61251
+    ]
+  ],
+  "noncoprime_counterexample": {
+    "c": 2,
+    "M": 6,
+    "d": 4,
+    "e": 9
+  }
+}

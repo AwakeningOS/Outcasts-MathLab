@@ -27,3 +27,11 @@ jobs:
       - uses: leanprover/lean-action@v1
         with:
           build: true
+
+  finite-regression:
+    name: Exact finite regression
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Compare divisor enumeration with independent direct search
+        run: python3 Problems/P001_ErdosStraus1201/check_prime_divisors.py
