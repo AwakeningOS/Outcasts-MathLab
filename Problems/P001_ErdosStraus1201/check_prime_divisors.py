@@ -3,6 +3,7 @@
 import hashlib
 import json
 from math import gcd, isqrt
+from pathlib import Path
 
 
 def prime(p):
@@ -67,14 +68,19 @@ def main():
     if not (4*9 == 6*6 and (4+6) % 2 == 0 and (9+6) % 2 != 0):
         raise RuntimeError("counterexample changed")
     data = json.dumps(records, sort_keys=True, separators=(",", ":")).encode()
-    print(json.dumps({
+    result = {
         "scope": "all odd primes < 200, p=409 (all allowed x), p=1201 (x=301..306)",
         "cases": len(cases), "solutions": sum(len(r["solutions"]) for r in records),
         "independent_direct_search_matches": True,
         "records_sha256": hashlib.sha256(data).hexdigest(),
-        "fixture_1201_x306": fixture,
+        "fixture_1201_x306": [list(solution) for solution in fixture],
         "noncoprime_counterexample": {"c": 2, "M": 6, "d": 4, "e": 9},
-    }, indent=2))
+    }
+    expected_path = Path(__file__).with_name("prime-divisor-results.json")
+    expected = json.loads(expected_path.read_text(encoding="utf-8"))
+    if result != expected:
+        raise RuntimeError(f"finite regression differs from {expected_path.name}")
+    print(json.dumps(result, indent=2))
 
 
 if __name__ == "__main__":

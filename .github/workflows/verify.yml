@@ -33,5 +33,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Compare divisor enumeration with independent direct search
+      - name: Compare direct search and committed finite-result JSON
         run: python3 Problems/P001_ErdosStraus1201/check_prime_divisors.py

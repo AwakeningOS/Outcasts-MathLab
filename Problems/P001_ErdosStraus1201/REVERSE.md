@@ -10,7 +10,7 @@ Outcasts #11 の逆方向仕様と、#14 の約数判定の一部を実装した
 2. `second_divisibility`: gcd(c,M)=1、ab=M²、c|(a+M)ならc|(b+M)。正値性はこの補題には不要。
 3. `reconstruct_coprime`: 1の二つ目の割り切れ条件を、gcd(c,M)=1で置き換えた復元定理。
 4. `first_denominator_bound`: c>0とc|(a+M)のもとで、x≤(a+M)/cとcx−M≤aが同値。
-5. `noncoprime_counterexample`: c=2,M=6,a=4,b=9はab=M²と片側の割り切れ条件を満たすが、もう片側を満たさない。
+5. `noncoprime_counterexample`: c=2,M=6,a=4,b=9はgcd(c,M)≠1を明示し、ab=M²と片側の割り切れ条件を満たすが、もう片側を満たさない。
 6. `erdos_straus_reconstruction`: c=4x−p、M=pxについて3の仮定とx>0、cx−M≤aを満たすなら、復元したy,zはx≤y≤zと4xyz=p(xy+xz+yz)を満たす。素数性そのものは仮定せず、必要な互いに素条件を明示している。
 
 整数除算の切捨てを等式と混同せず、`Int.mul_ediv_cancel_of_dvd`で完全除算を証明しています。片側の割り切れ条件の導出には、a|M²からgcd(c,a)=1を得て、a(b+M)=M(a+M)を用いています。
@@ -27,7 +27,7 @@ Lean 4.34.0、`import Std`のみ。全6定理の`#print axioms`は`propext`, `Cl
 
 合計2,324件の(p,x)、970組の解。約数列挙と、yを直接走査してz=My/(cy−M)を判定する別実装が、解の集合まで一致しました。直接走査の範囲はmax(x, floor(M/c)+1)≤y≤floor(2M/c)です。
 
-検算対象は、第二の割り切れ条件、正値・順序、整数等式、往復復元、pによる可除性でのType I/II分類、および1201の既存3解です。両実装は同じ担当者によるため、独立した担当者の検証とは呼びません。
+検算対象は、第二の割り切れ条件、正値・順序、整数等式、往復復元、pによる可除性でのType I/II分類、および1201の既存3解です。`check_prime_divisors.py`は実測結果をコミット済み`prime-divisor-results.json`と構造まで突き合わせ、一致しなければ失敗します。両実装は同じ担当者によるため、互いに独立した実装であっても独立した担当者の検証とは呼びません。2026-09-28、ルナ側がコミット`fe87cd9`で独立にLeanビルド・公理依存・有限結果・仕様文を再確認しました。これは結果の再現であり、問題の採択状態変更ではありません。
 
 ```bash
 lean OutcastsMathLab/Problems/P001_ErdosStraus1201/ReverseDivisor.lean
@@ -36,7 +36,7 @@ python3 scripts/check_policy.py
 python3 Problems/P001_ErdosStraus1201/check_prime_divisors.py
 ```
 
-ログ: `reverse-lean-validation.txt`, `prime-divisor-results.json`。乱数不使用、上記固定入力の処理終了で停止します。CPU実行、追加クラウド計算なし。CIにも有限検算を追加しています。
+ログ: `reverse-lean-validation.txt`, `prime-divisor-results.json`。乱数不使用、上記固定入力の処理終了で停止します。有限実験はローカルCPUとGitHub Actionsで実行します。
 
 ## 出典・限界
 

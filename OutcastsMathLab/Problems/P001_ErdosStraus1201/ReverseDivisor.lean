@@ -74,6 +74,7 @@ theorem first_denominator_bound (c M a x : Int) (hc : 0 < c)
 
 theorem noncoprime_counterexample :
     (4 : Int) * 9 = 6 * 6 ∧ 0 < (4 : Int) ∧ (4 : Int) ≤ 6 ∧
+    Int.gcd 2 6 ≠ 1 ∧
     (2 : Int) ∣ 4 + 6 ∧ ¬ (2 : Int) ∣ 9 + 6 := by decide
 
 -- Conditional construction, not universal existence of the parameters.
