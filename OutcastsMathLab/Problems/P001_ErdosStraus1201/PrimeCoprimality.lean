@@ -39,8 +39,8 @@ theorem odd_prime_coprimality (p x : Nat)
   have hpx : Nat.gcd p x = 1 := hp.coprime_iff_not_dvd.mpr hnotx
   have hp4 : Nat.gcd p 4 = 1 := hp.coprime_iff_not_dvd.mpr hnot4
   apply gcd_shift_product
-  · simpa using hpx
-  · simpa using hp4
+  · exact (Int.gcd_natCast_natCast p x).trans hpx
+  · exact (Int.gcd_natCast_natCast p 4).trans hp4
 
 -- The prime-range wrapper no longer assumes coprimality separately.
 theorem odd_prime_reconstruction (p x : Nat) (a b : Int)
