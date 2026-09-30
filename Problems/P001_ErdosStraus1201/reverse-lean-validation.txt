@@ -1,0 +1,6 @@
+'OutcastsReverseDivisor.reconstruct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsReverseDivisor.second_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsReverseDivisor.reconstruct_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsReverseDivisor.first_denominator_bound' depends on axioms: [propext, Quot.sound]
+'OutcastsReverseDivisor.noncoprime_counterexample' depends on axioms: [propext]
+'OutcastsReverseDivisor.erdos_straus_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
