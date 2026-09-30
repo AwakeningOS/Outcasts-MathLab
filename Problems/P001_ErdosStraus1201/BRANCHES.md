@@ -63,15 +63,22 @@ as one of today's three Lean theorems.
 ## Literature and remaining question
 
 Search terms: Erdős–Straus Type I Type II divisor criterion, fixed shift,
-bounded factor-pair parametrization. Primary references inspected:
+bounded factor-pair parametrization, smallest denominator p/2. Primary
+references inspected:
 
+- [Kyle Bradford, v1, Propositions 1–4](https://arxiv.org/html/2403.16047v1):
+  states these same two `d | x²` congruences and reconstructs the two Types.
+  That paper uses the sharper range `ceil(p/4)≤x≤ceil(p/2)`. We do not import
+  that range theorem here: our equivalence retains the order bound explicitly
+  and assumes only `x<p` and `gcd(c,p)=1`. The congruences themselves are
+  therefore already published, not merely analogous to prior work.
 - [Elsholtz–Tao, v6, Introduction and §2](https://arxiv.org/html/1107.1010v6):
   the standard prime-denominator Type I/II classification.
 - [Dahan, v1, §2.3, Corollary 2.7 and Definition 2.8](https://arxiv.org/html/2608.24035v1#S2.SS3):
   the complete two-branch fixed-shift criterion using coprime divisors of `x`.
   The present `x²` form instead starts from our bounded factor `a | (px)²`.
 
-Neither source supplies the missing universal witness in every prime case.
+These references do not supply the missing universal witness in every prime case.
 Local mathlib source inspection found and reused the standard prime/coprime
 and divisibility lemmas; no claim of first formalization is made.
 
