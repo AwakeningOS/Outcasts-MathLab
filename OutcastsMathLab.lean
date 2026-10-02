@@ -3,3 +3,4 @@ import OutcastsMathLab.Problems.P001_ErdosStraus1201.Verification
 import OutcastsMathLab.Problems.P001_ErdosStraus1201.ReverseDivisor
 import OutcastsMathLab.Problems.P001_ErdosStraus1201.PrimeCoprimality
 import OutcastsMathLab.Problems.P001_ErdosStraus1201.PrimeDivisorBranches
+import OutcastsMathLab.Problems.P001_ErdosStraus1201.PrimeBranchBridge
