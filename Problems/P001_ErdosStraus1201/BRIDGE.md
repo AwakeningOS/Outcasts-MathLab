@@ -6,10 +6,10 @@
 
 ## 命題
 
-すべて `Nat.Prime p`、`p ≠ 2`、`p < 4x ≤ 3p` を仮定します。
+1〜3 は `Nat.Prime p`、`p ≠ 2`、`p < 4x`、`x < p` を仮定します（Outcasts #25 の依頼どおり。上側は `4x ≤ 3p` ではなく `x < p` で足ります）。4〜6 は復元の元定理 `odd_prime_reconstruction` が `4x ≤ 3p` を要求するので、その範囲で述べます。
 
-1. `shift_cast`: `p < 4x` なら、自然数の引き算 `4*x-p` を整数へ移すと `4x−p` に一致する（切り捨てが起きない）。
-2. `shift_coprime`: `Nat.Coprime (4*x-p) p`。`odd_prime_coprimality` の整数版の `gcd(4x−p, px)=1` から取り出します。
+1. `shift_cast`: `p < 4x` なら、自然数の引き算 `4*x-p` を整数へ移すと `4x−p` に一致する（切り捨てが起きない）。素数性は不要です。
+2. `shift_coprime`: `Nat.Coprime (4*x-p) p`。`odd_prime_coprimality` の整数版の `gcd(4x−p, px)=1` から `Int.gcd_natCast_natCast` で自然数へ戻し、`p ∣ px` で右側を `p` に落とします。
 3. `prime_factor_witness_iff_branches`: `c = 4*x-p` で `factor_witness_iff_branches` を使った形。gcd の仮定が消えます。
 4. `factor_witness_reconstruction`: 自然数の因数 `a` が `FactorWitness p x (4*x-p) a` を満たせば、`b = (px)²/a`（自然数の正確な商）として、`y = (a+px)/(4x−p)`、`z = (b+px)/(4x−p)` は `0 < x ≤ y ≤ z` と `4xyz = p(xy+xz+yz)` を満たす（整数上）。
 5. `branchI_reconstruction`: Branch I の `t` から、`a = t` として 4 の結論。

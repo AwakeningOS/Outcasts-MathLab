@@ -13,11 +13,11 @@ theorem shift_cast (p x : Nat) (hlo : p < 4 * x) :
   omega
 
 -- Nat coprimality of the shift with p, taken from the Int-level theorem.
+-- Only x < p is needed on the upper side; 0 < x follows from p < 4x.
 theorem shift_coprime (p x : Nat) (hp : Nat.Prime p) (hodd : p ≠ 2)
-    (hlo : p < 4 * x) (hhi : 4 * x ≤ 3 * p) :
+    (hlo : p < 4 * x) (hxp : x < p) :
     Nat.Coprime (4 * x - p) p := by
   have hx : 0 < x := by omega
-  have hxp : x < p := by omega
   have h := OutcastsPrimeCoprimality.odd_prime_coprimality p x hp hodd hx hxp
   rw [← shift_cast p x hlo, ← Int.natCast_mul, Int.gcd_natCast_natCast] at h
   exact Nat.Coprime.coprime_dvd_right (Nat.dvd_mul_right p x) h
@@ -25,12 +25,12 @@ theorem shift_coprime (p x : Nat) (hp : Nat.Prime p) (hodd : p ≠ 2)
 -- The two-branch equivalence with c = 4*x-p; no coprimality hypothesis remains.
 theorem prime_factor_witness_iff_branches (p x a : Nat)
     (hp : Nat.Prime p) (hodd : p ≠ 2)
-    (hlo : p < 4 * x) (hhi : 4 * x ≤ 3 * p) :
+    (hlo : p < 4 * x) (hxp : x < p) :
     FactorWitness p x (4 * x - p) a ↔
       BranchI p x (4 * x - p) a ∨
         ∃ t, a = p * t ∧ BranchII p x (4 * x - p) t :=
-  factor_witness_iff_branches p x (4 * x - p) a hp (by omega)
-    (shift_coprime p x hp hodd hlo hhi)
+  factor_witness_iff_branches p x (4 * x - p) a hp hxp
+    (shift_coprime p x hp hodd hlo hxp)
 
 -- A Nat factor witness yields the Int reconstruction of PrimeCoprimality.
 -- The complementary factor b is the exact Nat quotient (px)^2 / a.
@@ -73,7 +73,7 @@ theorem branchI_reconstruction (p x t : Nat)
       4 * (x : Int) * y * z =
         (p : Int) * ((x : Int) * y + (x : Int) * z + y * z) :=
   factor_witness_reconstruction p x t hp hodd hlo hhi
-    ((prime_factor_witness_iff_branches p x t hp hodd hlo hhi).mpr (Or.inl h))
+    ((prime_factor_witness_iff_branches p x t hp hodd hlo (by omega)).mpr (Or.inl h))
 
 -- Branch II: the factor is p*t.
 theorem branchII_reconstruction (p x t : Nat)
@@ -87,7 +87,7 @@ theorem branchII_reconstruction (p x t : Nat)
       4 * (x : Int) * y * z =
         (p : Int) * ((x : Int) * y + (x : Int) * z + y * z) :=
   factor_witness_reconstruction p x (p * t) hp hodd hlo hhi
-    ((prime_factor_witness_iff_branches p x (p * t) hp hodd hlo hhi).mpr
+    ((prime_factor_witness_iff_branches p x (p * t) hp hodd hlo (by omega)).mpr
       (Or.inr ⟨t, rfl, h⟩))
 
 -- Non-vacuity: the known solution 4/1201 = 1/306 + 1/21618 + 1/61251
