@@ -1,4 +1,10 @@
-import Mathlib
+import Mathlib.Data.Nat.Prime.Defs
+import Mathlib.Data.Nat.GCD.Basic
+import Mathlib.Algebra.BigOperators.Group.List.Basic
+import Mathlib.Tactic.NormNum.Prime
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.Ring
 
 /- A finite counterexample to a NEW short-product budget hypothesis.
    Existing P000/P001 statements are untouched.
