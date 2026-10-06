@@ -1,0 +1,9043 @@
+{
+  "summary": {
+    "rows": 106,
+    "box_pairs_per_p": 53,
+    "primes": [
+      345601,
+      670849
+    ],
+    "all_certificates_match": true,
+    "all_full_divisor_sets_agree": true,
+    "randomness": false,
+    "classification_definition": "QR iff -1 outside H*G^2; subgroup iff outside H but inside H*G^2; exponent iff inside H but not actual divisors",
+    "nonresidue_failed_rows": 12,
+    "nonresidue_with_group_escape_but_failure": 5,
+    "counts": {
+      "quadratic_character": 81,
+      "nonquadratic_subgroup": 4,
+      "exponent": 21
+    },
+    "examples": [
+      {
+        "p": 345601,
+        "a": 1,
+        "u": 19,
+        "M": 345620,
+        "modulus": 76,
+        "factorization": [
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            1571,
+            1
+          ]
+        ],
+        "all_divisors": [
+          1,
+          2,
+          4,
+          5,
+          10,
+          11,
+          20,
+          22,
+          44,
+          55,
+          110,
+          220,
+          1571,
+          3142,
+          6284,
+          7855,
+          15710,
+          17281,
+          31420,
+          34562,
+          69124,
+          86405,
+          172810,
+          345620
+        ],
+        "T": [
+          5,
+          11,
+          51
+        ],
+        "group": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          51,
+          53,
+          55,
+          59,
+          61,
+          63,
+          65,
+          67,
+          69,
+          71,
+          73,
+          75
+        ],
+        "group_contains_neg_one": true,
+        "legendre_u_p": -1,
+        "failure_type": "exponent",
+        "odd_prime_jacobi_p_values": [
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            1571,
+            -1
+          ]
+        ],
+        "actual_witnesses": [],
+        "full_divisor_sets_agree": true
+      },
+      {
+        "p": 345601,
+        "a": 2,
+        "u": 19,
+        "M": 691221,
+        "modulus": 152,
+        "factorization": [
+          [
+            3,
+            1
+          ],
+          [
+            113,
+            1
+          ],
+          [
+            2039,
+            1
+          ]
+        ],
+        "all_divisors": [
+          1,
+          3,
+          113,
+          339,
+          2039,
+          6117,
+          230407,
+          691221
+        ],
+        "T": [
+          3,
+          63,
+          113
+        ],
+        "group": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          51,
+          53,
+          55,
+          59,
+          61,
+          63,
+          65,
+          67,
+          69,
+          71,
+          73,
+          75,
+          77,
+          79,
+          81,
+          83,
+          85,
+          87,
+          89,
+          91,
+          93,
+          97,
+          99,
+          101,
+          103,
+          105,
+          107,
+          109,
+          111,
+          113,
+          115,
+          117,
+          119,
+          121,
+          123,
+          125,
+          127,
+          129,
+          131,
+          135,
+          137,
+          139,
+          141,
+          143,
+          145,
+          147,
+          149,
+          151
+        ],
+        "group_contains_neg_one": true,
+        "legendre_u_p": -1,
+        "failure_type": "exponent",
+        "odd_prime_jacobi_p_values": [
+          [
+            3,
+            1
+          ],
+          [
+            113,
+            -1
+          ],
+          [
+            2039,
+            1
+          ]
+        ],
+        "actual_witnesses": [],
+        "full_divisor_sets_agree": true
+      },
+      {
+        "p": 345601,
+        "a": 3,
+        "u": 19,
+        "M": 1036822,
+        "modulus": 228,
+        "factorization": [
+          [
+            2,
+            1
+          ],
+          [
+            518411,
+            1
+          ]
+        ],
+        "all_divisors": [
+          1,
+          2,
+          518411,
+          1036822
+        ],
+        "T": [
+          167
+        ],
+        "group": [
+          1,
+          25,
+          49,
+          59,
+          61,
+          71,
+          73,
+          85,
+          107,
+          121,
+          143,
+          155,
+          157,
+          167,
+          169,
+          179,
+          203,
+          227
+        ],
+        "group_contains_neg_one": true,
+        "legendre_u_p": -1,
+        "failure_type": "exponent",
+        "odd_prime_jacobi_p_values": [
+          [
+            518411,
+            -1
+          ]
+        ],
+        "actual_witnesses": [],
+        "full_divisor_sets_agree": true
+      },
+      {
+        "p": 670849,
+        "a": 1,
+        "u": 17,
+        "M": 670866,
+        "modulus": 68,
+        "factorization": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            15973,
+            1
+          ]
+        ],
+        "all_divisors": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          14,
+          21,
+          42,
+          15973,
+          31946,
+          47919,
+          95838,
+          111811,
+          223622,
+          335433,
+          670866
+        ],
+        "T": [
+          3,
+          7,
+          61
+        ],
+        "group": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          53,
+          55,
+          57,
+          59,
+          61,
+          63,
+          65,
+          67
+        ],
+        "group_contains_neg_one": true,
+        "legendre_u_p": -1,
+        "failure_type": "exponent",
+        "odd_prime_jacobi_p_values": [
+          [
+            3,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            15973,
+            -1
+          ]
+        ],
+        "actual_witnesses": [],
+        "full_divisor_sets_agree": true
+      }
+    ]
+  },
+  "rows": [
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 1,
+      "M": 345602,
+      "modulus": 4,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          172801,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        172801,
+        345602
+      ],
+      "T": [
+        1
+      ],
+      "group": [
+        1
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          172801,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 2,
+      "M": 345603,
+      "modulus": 8,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          115201,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        115201,
+        345603
+      ],
+      "T": [
+        1,
+        3
+      ],
+      "group": [
+        1,
+        3
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          115201,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 3,
+      "M": 345604,
+      "modulus": 12,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          12343,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        7,
+        14,
+        28,
+        12343,
+        24686,
+        49372,
+        86401,
+        172802,
+        345604
+      ],
+      "T": [
+        7
+      ],
+      "group": [
+        1,
+        7
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          7,
+          1
+        ],
+        [
+          12343,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 4,
+      "M": 345605,
+      "modulus": 16,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          409,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        13,
+        65,
+        169,
+        409,
+        845,
+        2045,
+        5317,
+        26585,
+        69121,
+        345605
+      ],
+      "T": [
+        5,
+        9,
+        13
+      ],
+      "group": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          409,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 5,
+      "M": 345606,
+      "modulus": 20,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          57601,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        6,
+        57601,
+        115202,
+        172803,
+        345606
+      ],
+      "T": [
+        1,
+        3
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          57601,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 6,
+      "M": 345607,
+      "modulus": 24,
+      "factorization": [
+        [
+          345607,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        345607
+      ],
+      "T": [
+        7
+      ],
+      "group": [
+        1,
+        7
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          345607,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 2,
+      "u": 1,
+      "M": 691203,
+      "modulus": 8,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          13553,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        17,
+        51,
+        13553,
+        40659,
+        230401,
+        691203
+      ],
+      "T": [
+        1,
+        3
+      ],
+      "group": [
+        1,
+        3
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          13553,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 2,
+      "u": 3,
+      "M": 691205,
+      "modulus": 24,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          138241,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        138241,
+        691205
+      ],
+      "T": [
+        1,
+        5
+      ],
+      "group": [
+        1,
+        5
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          138241,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 2,
+      "u": 5,
+      "M": 691207,
+      "modulus": 40,
+      "factorization": [
+        [
+          11,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          2027,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        11,
+        31,
+        341,
+        2027,
+        22297,
+        62837,
+        691207
+      ],
+      "T": [
+        11,
+        27,
+        31
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19,
+        21,
+        23,
+        27,
+        29,
+        31,
+        33,
+        37,
+        39
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          11,
+          1
+        ],
+        [
+          31,
+          -1
+        ],
+        [
+          2027,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 1,
+      "M": 1036804,
+      "modulus": 12,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          259201,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        259201,
+        518402,
+        1036804
+      ],
+      "T": [
+        1
+      ],
+      "group": [
+        1
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          259201,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 2,
+      "M": 1036805,
+      "modulus": 24,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          2693,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        7,
+        11,
+        35,
+        55,
+        77,
+        385,
+        2693,
+        13465,
+        18851,
+        29623,
+        94255,
+        148115,
+        207361,
+        1036805
+      ],
+      "T": [
+        5,
+        7,
+        11
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          2693,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 4,
+      "M": 1036807,
+      "modulus": 48,
+      "factorization": [
+        [
+          59,
+          1
+        ],
+        [
+          17573,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        59,
+        17573,
+        1036807
+      ],
+      "T": [
+        5,
+        11
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        11,
+        25,
+        29,
+        31,
+        35
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          59,
+          -1
+        ],
+        [
+          17573,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 5,
+      "M": 1036808,
+      "modulus": 60,
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          109,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        8,
+        29,
+        41,
+        58,
+        82,
+        109,
+        116,
+        164,
+        218,
+        232,
+        328,
+        436,
+        872,
+        1189,
+        2378,
+        3161,
+        4469,
+        4756,
+        6322,
+        8938,
+        9512,
+        12644,
+        17876,
+        25288,
+        35752,
+        129601,
+        259202,
+        518404,
+        1036808
+      ],
+      "T": [
+        29,
+        41,
+        49
+      ],
+      "group": [
+        1,
+        29,
+        41,
+        49
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          29,
+          -1
+        ],
+        [
+          41,
+          -1
+        ],
+        [
+          109,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 4,
+      "u": 1,
+      "M": 1382405,
+      "modulus": 16,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          151,
+          1
+        ],
+        [
+          1831,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        151,
+        755,
+        1831,
+        9155,
+        276481,
+        1382405
+      ],
+      "T": [
+        5,
+        7
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          151,
+          -1
+        ],
+        [
+          1831,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 4,
+      "u": 3,
+      "M": 1382407,
+      "modulus": 48,
+      "factorization": [
+        [
+          13,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          2473,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        13,
+        43,
+        559,
+        2473,
+        32149,
+        106339,
+        1382407
+      ],
+      "T": [
+        13,
+        25,
+        43
+      ],
+      "group": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          13,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          2473,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 4,
+      "u": 5,
+      "M": 1382409,
+      "modulus": 80,
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          21943,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        63,
+        21943,
+        65829,
+        153601,
+        197487,
+        460803,
+        1382409
+      ],
+      "T": [
+        3,
+        7,
+        23
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          21943,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 1,
+      "M": 1728006,
+      "modulus": 20,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          41143,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        14,
+        21,
+        42,
+        41143,
+        82286,
+        123429,
+        246858,
+        288001,
+        576002,
+        864003,
+        1728006
+      ],
+      "T": [
+        3,
+        7
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          41143,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 2,
+      "M": 1728007,
+      "modulus": 40,
+      "factorization": [
+        [
+          181,
+          1
+        ],
+        [
+          9547,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        181,
+        9547,
+        1728007
+      ],
+      "T": [
+        21,
+        27
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          181,
+          -1
+        ],
+        [
+          9547,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 3,
+      "M": 1728008,
+      "modulus": 60,
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          61,
+          1
+        ],
+        [
+          3541,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        8,
+        61,
+        122,
+        244,
+        488,
+        3541,
+        7082,
+        14164,
+        28328,
+        216001,
+        432002,
+        864004,
+        1728008
+      ],
+      "T": [
+        1
+      ],
+      "group": [
+        1
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          61,
+          1
+        ],
+        [
+          3541,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 4,
+      "M": 1728009,
+      "modulus": 80,
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          1901,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        9,
+        101,
+        303,
+        909,
+        1901,
+        5703,
+        17109,
+        192001,
+        576003,
+        1728009
+      ],
+      "T": [
+        3,
+        21,
+        61
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          1901,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 6,
+      "M": 1728011,
+      "modulus": 120,
+      "factorization": [
+        [
+          37,
+          1
+        ],
+        [
+          46703,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        37,
+        46703,
+        1728011
+      ],
+      "T": [
+        23,
+        37
+      ],
+      "group": [
+        1,
+        11,
+        13,
+        23,
+        37,
+        47,
+        49,
+        59
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          37,
+          1
+        ],
+        [
+          46703,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 6,
+      "u": 1,
+      "M": 2073607,
+      "modulus": 24,
+      "factorization": [
+        [
+          2073607,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2073607
+      ],
+      "T": [
+        7
+      ],
+      "group": [
+        1,
+        7
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          2073607,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 6,
+      "u": 5,
+      "M": 2073611,
+      "modulus": 120,
+      "factorization": [
+        [
+          23,
+          1
+        ],
+        [
+          89,
+          1
+        ],
+        [
+          1013,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        23,
+        89,
+        1013,
+        2047,
+        23299,
+        90157,
+        2073611
+      ],
+      "T": [
+        23,
+        53,
+        89
+      ],
+      "group": [
+        1,
+        7,
+        11,
+        13,
+        19,
+        23,
+        37,
+        41,
+        47,
+        49,
+        53,
+        59,
+        77,
+        89,
+        91,
+        103
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          23,
+          1
+        ],
+        [
+          89,
+          -1
+        ],
+        [
+          1013,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 11,
+      "M": 345612,
+      "modulus": 44,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          83,
+          1
+        ],
+        [
+          347,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        12,
+        83,
+        166,
+        249,
+        332,
+        347,
+        498,
+        694,
+        996,
+        1041,
+        1388,
+        2082,
+        4164,
+        28801,
+        57602,
+        86403,
+        115204,
+        172806,
+        345612
+      ],
+      "T": [
+        3,
+        39
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        35,
+        37,
+        39,
+        41,
+        43
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          83,
+          -1
+        ],
+        [
+          347,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 2,
+      "u": 11,
+      "M": 691213,
+      "modulus": 88,
+      "factorization": [
+        [
+          167,
+          1
+        ],
+        [
+          4139,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        167,
+        4139,
+        691213
+      ],
+      "T": [
+        3,
+        79
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        13,
+        21,
+        25,
+        27,
+        29,
+        39,
+        49,
+        59,
+        61,
+        63,
+        67,
+        75,
+        79,
+        81,
+        85,
+        87
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          167,
+          -1
+        ],
+        [
+          4139,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 11,
+      "M": 1036814,
+      "modulus": 132,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          14011,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        37,
+        74,
+        14011,
+        28022,
+        518407,
+        1036814
+      ],
+      "T": [
+        19,
+        37
+      ],
+      "group": [
+        1,
+        7,
+        19,
+        25,
+        37,
+        43,
+        49,
+        79,
+        97,
+        127
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          37,
+          1
+        ],
+        [
+          14011,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 4,
+      "u": 11,
+      "M": 1382415,
+      "modulus": 176,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          4007,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        5,
+        15,
+        23,
+        69,
+        115,
+        345,
+        4007,
+        12021,
+        20035,
+        60105,
+        92161,
+        276483,
+        460805,
+        1382415
+      ],
+      "T": [
+        3,
+        5,
+        23,
+        135
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        9,
+        15,
+        23,
+        25,
+        27,
+        31,
+        37,
+        45,
+        47,
+        49,
+        53,
+        59,
+        67,
+        69,
+        71,
+        75,
+        81,
+        89,
+        91,
+        93,
+        97,
+        103,
+        111,
+        113,
+        115,
+        119,
+        125,
+        133,
+        135,
+        137,
+        141,
+        147,
+        155,
+        157,
+        159,
+        163,
+        169
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          4007,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 11,
+      "M": 1728016,
+      "modulus": 220,
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          6353,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        17,
+        34,
+        68,
+        136,
+        272,
+        6353,
+        12706,
+        25412,
+        50824,
+        101648,
+        108001,
+        216002,
+        432004,
+        864008,
+        1728016
+      ],
+      "T": [
+        17,
+        193
+      ],
+      "group": [
+        1,
+        9,
+        13,
+        17,
+        49,
+        57,
+        69,
+        73,
+        81,
+        89,
+        117,
+        141,
+        153,
+        169,
+        173,
+        181,
+        193,
+        197,
+        201,
+        217
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          17,
+          1
+        ],
+        [
+          6353,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 6,
+      "u": 11,
+      "M": 2073617,
+      "modulus": 264,
+      "factorization": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          22787,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        7,
+        13,
+        91,
+        22787,
+        159509,
+        296231,
+        2073617
+      ],
+      "T": [
+        7,
+        13,
+        83
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        13,
+        17,
+        23,
+        25,
+        35,
+        41,
+        47,
+        49,
+        53,
+        61,
+        65,
+        67,
+        71,
+        79,
+        83,
+        85,
+        91,
+        97,
+        107,
+        109,
+        115,
+        119,
+        125,
+        127,
+        131,
+        151,
+        161,
+        163,
+        169,
+        175,
+        191,
+        205,
+        221,
+        227,
+        233,
+        235,
+        245
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          22787,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 13,
+      "M": 345614,
+      "modulus": 52,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          172807,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        172807,
+        345614
+      ],
+      "T": [
+        11
+      ],
+      "group": [
+        1,
+        7,
+        9,
+        11,
+        15,
+        17,
+        19,
+        25,
+        29,
+        31,
+        47,
+        49
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          172807,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 2,
+      "u": 13,
+      "M": 691215,
+      "modulus": 104,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          227,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        5,
+        7,
+        15,
+        21,
+        29,
+        35,
+        87,
+        105,
+        145,
+        203,
+        227,
+        435,
+        609,
+        681,
+        1015,
+        1135,
+        1589,
+        3045,
+        3405,
+        4767,
+        6583,
+        7945,
+        19749,
+        23835,
+        32915,
+        46081,
+        98745,
+        138243,
+        230405,
+        691215
+      ],
+      "T": [
+        3,
+        5,
+        7,
+        19,
+        29
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          29,
+          -1
+        ],
+        [
+          227,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 13,
+      "M": 1036816,
+      "modulus": 156,
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          137,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        8,
+        11,
+        16,
+        22,
+        43,
+        44,
+        86,
+        88,
+        137,
+        172,
+        176,
+        274,
+        344,
+        473,
+        548,
+        688,
+        946,
+        1096,
+        1507,
+        1892,
+        2192,
+        3014,
+        3784,
+        5891,
+        6028,
+        7568,
+        11782,
+        12056,
+        23564,
+        24112,
+        47128,
+        64801,
+        94256,
+        129602,
+        259204,
+        518408,
+        1036816
+      ],
+      "T": [
+        11,
+        43,
+        137
+      ],
+      "group": [
+        1,
+        5,
+        11,
+        25,
+        41,
+        43,
+        47,
+        49,
+        55,
+        59,
+        61,
+        71,
+        79,
+        83,
+        89,
+        103,
+        119,
+        121,
+        125,
+        127,
+        133,
+        137,
+        139,
+        149
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          11,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          137,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 4,
+      "u": 13,
+      "M": 1382417,
+      "modulus": 208,
+      "factorization": [
+        [
+          179,
+          1
+        ],
+        [
+          7723,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        179,
+        7723,
+        1382417
+      ],
+      "T": [
+        27,
+        179
+      ],
+      "group": [
+        1,
+        3,
+        9,
+        17,
+        25,
+        27,
+        35,
+        43,
+        49,
+        51,
+        75,
+        81,
+        105,
+        107,
+        113,
+        121,
+        129,
+        131,
+        139,
+        147,
+        153,
+        155,
+        179,
+        185
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          179,
+          -1
+        ],
+        [
+          7723,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 13,
+      "M": 1728018,
+      "modulus": 260,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          96001,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        6,
+        9,
+        18,
+        96001,
+        192002,
+        288003,
+        576006,
+        864009,
+        1728018
+      ],
+      "T": [
+        3,
+        61
+      ],
+      "group": [
+        1,
+        3,
+        9,
+        27,
+        29,
+        61,
+        81,
+        87,
+        107,
+        183,
+        209,
+        243
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          96001,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 6,
+      "u": 13,
+      "M": 2073619,
+      "modulus": 312,
+      "factorization": [
+        [
+          2073619,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2073619
+      ],
+      "T": [
+        67
+      ],
+      "group": [
+        1,
+        19,
+        25,
+        49,
+        67,
+        115,
+        121,
+        163,
+        187,
+        217,
+        289,
+        307
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          2073619,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 17,
+      "M": 345618,
+      "modulus": 68,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          211,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        13,
+        14,
+        18,
+        21,
+        26,
+        39,
+        42,
+        63,
+        78,
+        91,
+        117,
+        126,
+        182,
+        211,
+        234,
+        273,
+        422,
+        546,
+        633,
+        819,
+        1266,
+        1477,
+        1638,
+        1899,
+        2743,
+        2954,
+        3798,
+        4431,
+        5486,
+        8229,
+        8862,
+        13293,
+        16458,
+        19201,
+        24687,
+        26586,
+        38402,
+        49374,
+        57603,
+        115206,
+        172809,
+        345618
+      ],
+      "T": [
+        3,
+        7,
+        13
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        21,
+        23,
+        25,
+        27,
+        31,
+        33,
+        39,
+        49,
+        53,
+        63
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          211,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 2,
+      "u": 17,
+      "M": 691219,
+      "modulus": 136,
+      "factorization": [
+        [
+          23,
+          1
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          733,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        23,
+        41,
+        733,
+        943,
+        16859,
+        30053,
+        691219
+      ],
+      "T": [
+        23,
+        41,
+        53
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          23,
+          1
+        ],
+        [
+          41,
+          -1
+        ],
+        [
+          733,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 17,
+      "M": 1036820,
+      "modulus": 204,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          1103,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        20,
+        47,
+        94,
+        188,
+        235,
+        470,
+        940,
+        1103,
+        2206,
+        4412,
+        5515,
+        11030,
+        22060,
+        51841,
+        103682,
+        207364,
+        259205,
+        518410,
+        1036820
+      ],
+      "T": [
+        5,
+        47,
+        83
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        13,
+        25,
+        29,
+        31,
+        35,
+        41,
+        47,
+        49,
+        59,
+        65,
+        79,
+        83,
+        91,
+        113,
+        121,
+        125,
+        139,
+        145,
+        155,
+        157,
+        163,
+        169,
+        173,
+        175,
+        179,
+        191,
+        197,
+        199,
+        203
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          47,
+          -1
+        ],
+        [
+          1103,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 4,
+      "u": 17,
+      "M": 1382421,
+      "modulus": 272,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          307,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        19,
+        57,
+        79,
+        237,
+        307,
+        921,
+        1501,
+        4503,
+        5833,
+        17499,
+        24253,
+        72759,
+        460807,
+        1382421
+      ],
+      "T": [
+        3,
+        19,
+        35,
+        79
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        143,
+        145,
+        147,
+        149,
+        151,
+        155,
+        157,
+        159,
+        161,
+        163,
+        165,
+        167,
+        169,
+        171,
+        173,
+        175,
+        177,
+        179,
+        181,
+        183,
+        185,
+        189,
+        191,
+        193,
+        195,
+        197,
+        199,
+        201,
+        203,
+        205,
+        207,
+        209,
+        211,
+        213,
+        215,
+        217,
+        219,
+        223,
+        225,
+        227,
+        229,
+        231,
+        233,
+        235,
+        237,
+        239,
+        241,
+        243,
+        245,
+        247,
+        249,
+        251,
+        253,
+        257,
+        259,
+        261,
+        263,
+        265,
+        267,
+        269,
+        271
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          19,
+          -1
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          307,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 17,
+      "M": 1728022,
+      "modulus": 340,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          864011,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        864011,
+        1728022
+      ],
+      "T": [
+        71
+      ],
+      "group": [
+        1,
+        11,
+        21,
+        31,
+        71,
+        81,
+        91,
+        101,
+        121,
+        131,
+        161,
+        211,
+        231,
+        281,
+        311,
+        321
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          864011,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 6,
+      "u": 17,
+      "M": 2073623,
+      "modulus": 408,
+      "factorization": [
+        [
+          1051,
+          1
+        ],
+        [
+          1973,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        1051,
+        1973,
+        2073623
+      ],
+      "T": [
+        235,
+        341
+      ],
+      "group": [
+        1,
+        23,
+        25,
+        49,
+        53,
+        71,
+        77,
+        91,
+        95,
+        101,
+        121,
+        139,
+        143,
+        145,
+        149,
+        163,
+        167,
+        169,
+        211,
+        215,
+        217,
+        235,
+        283,
+        293,
+        311,
+        335,
+        341,
+        361,
+        365,
+        379,
+        389,
+        403
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          1051,
+          1
+        ],
+        [
+          1973,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 19,
+      "M": 345620,
+      "modulus": 76,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          1571,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        20,
+        22,
+        44,
+        55,
+        110,
+        220,
+        1571,
+        3142,
+        6284,
+        7855,
+        15710,
+        17281,
+        31420,
+        34562,
+        69124,
+        86405,
+        172810,
+        345620
+      ],
+      "T": [
+        5,
+        11,
+        51
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": -1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          1571,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 2,
+      "u": 19,
+      "M": 691221,
+      "modulus": 152,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          2039,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        113,
+        339,
+        2039,
+        6117,
+        230407,
+        691221
+      ],
+      "T": [
+        3,
+        63,
+        113
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        135,
+        137,
+        139,
+        141,
+        143,
+        145,
+        147,
+        149,
+        151
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": -1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          113,
+          -1
+        ],
+        [
+          2039,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 19,
+      "M": 1036822,
+      "modulus": 228,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          518411,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        518411,
+        1036822
+      ],
+      "T": [
+        167
+      ],
+      "group": [
+        1,
+        25,
+        49,
+        59,
+        61,
+        71,
+        73,
+        85,
+        107,
+        121,
+        143,
+        155,
+        157,
+        167,
+        169,
+        179,
+        203,
+        227
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": -1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          518411,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 4,
+      "u": 19,
+      "M": 1382423,
+      "modulus": 304,
+      "factorization": [
+        [
+          7,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          11617,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        7,
+        17,
+        119,
+        11617,
+        81319,
+        197489,
+        1382423
+      ],
+      "T": [
+        7,
+        17,
+        65
+      ],
+      "group": [
+        1,
+        7,
+        17,
+        23,
+        33,
+        39,
+        49,
+        55,
+        65,
+        71,
+        81,
+        87,
+        97,
+        103,
+        113,
+        119,
+        129,
+        135,
+        145,
+        151,
+        161,
+        167,
+        177,
+        183,
+        193,
+        199,
+        215,
+        225,
+        231,
+        241,
+        257,
+        263,
+        273,
+        279,
+        289,
+        295
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": -1,
+      "failure_type": "nonquadratic_subgroup",
+      "odd_prime_jacobi_p_values": [
+        [
+          7,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          11617,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 19,
+      "M": 1728024,
+      "modulus": 380,
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          89,
+          1
+        ],
+        [
+          809,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        24,
+        89,
+        178,
+        267,
+        356,
+        534,
+        712,
+        809,
+        1068,
+        1618,
+        2136,
+        2427,
+        3236,
+        4854,
+        6472,
+        9708,
+        19416,
+        72001,
+        144002,
+        216003,
+        288004,
+        432006,
+        576008,
+        864012,
+        1728024
+      ],
+      "T": [
+        3,
+        49,
+        89
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69,
+        81,
+        83,
+        87,
+        89,
+        101,
+        103,
+        107,
+        109,
+        121,
+        123,
+        127,
+        129,
+        141,
+        143,
+        147,
+        149,
+        161,
+        163,
+        167,
+        169,
+        181,
+        183,
+        187,
+        189,
+        201,
+        203,
+        207,
+        221,
+        223,
+        227,
+        229,
+        241,
+        243,
+        249,
+        261,
+        263,
+        267,
+        269,
+        281,
+        283,
+        287,
+        289,
+        301,
+        303,
+        307,
+        309,
+        321,
+        327,
+        329,
+        341,
+        343,
+        347,
+        349,
+        363,
+        367,
+        369
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": -1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          89,
+          -1
+        ],
+        [
+          809,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 6,
+      "u": 19,
+      "M": 2073625,
+      "modulus": 456,
+      "factorization": [
+        [
+          5,
+          3
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          313,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        25,
+        53,
+        125,
+        265,
+        313,
+        1325,
+        1565,
+        6625,
+        7825,
+        16589,
+        39125,
+        82945,
+        414725,
+        2073625
+      ],
+      "T": [
+        5,
+        53,
+        313
+      ],
+      "group": [
+        1,
+        5,
+        25,
+        29,
+        49,
+        53,
+        73,
+        77,
+        97,
+        101,
+        121,
+        125,
+        145,
+        149,
+        169,
+        173,
+        193,
+        197,
+        217,
+        221,
+        241,
+        245,
+        265,
+        269,
+        289,
+        293,
+        313,
+        317,
+        337,
+        341,
+        365,
+        385,
+        389,
+        409,
+        413,
+        433
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": -1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          53,
+          -1
+        ],
+        [
+          313,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 23,
+      "M": 345624,
+      "modulus": 92,
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          14401,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        24,
+        14401,
+        28802,
+        43203,
+        57604,
+        86406,
+        115208,
+        172812,
+        345624
+      ],
+      "T": [
+        3,
+        49
+      ],
+      "group": [
+        1,
+        3,
+        9,
+        13,
+        25,
+        27,
+        29,
+        31,
+        35,
+        39,
+        41,
+        47,
+        49,
+        55,
+        59,
+        71,
+        73,
+        75,
+        77,
+        81,
+        85,
+        87
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          14401,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 2,
+      "u": 23,
+      "M": 691225,
+      "modulus": 184,
+      "factorization": [
+        [
+          5,
+          2
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          643,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        25,
+        43,
+        215,
+        643,
+        1075,
+        3215,
+        16075,
+        27649,
+        138245,
+        691225
+      ],
+      "T": [
+        5,
+        43,
+        91
+      ],
+      "group": [
+        1,
+        5,
+        9,
+        11,
+        19,
+        21,
+        25,
+        31,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        61,
+        67,
+        71,
+        73,
+        81,
+        83,
+        87,
+        91,
+        95,
+        99,
+        105,
+        107,
+        109,
+        119,
+        121,
+        125,
+        127,
+        149,
+        151,
+        155,
+        157,
+        167,
+        169,
+        171,
+        177,
+        181
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          643,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 3,
+      "u": 23,
+      "M": 1036826,
+      "modulus": 276,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          2389,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        7,
+        14,
+        31,
+        62,
+        217,
+        434,
+        2389,
+        4778,
+        16723,
+        33446,
+        74059,
+        148118,
+        518413,
+        1036826
+      ],
+      "T": [
+        7,
+        31,
+        181
+      ],
+      "group": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43,
+        49,
+        55,
+        61,
+        67,
+        73,
+        79,
+        85,
+        91,
+        97,
+        103,
+        109,
+        121,
+        127,
+        133,
+        139,
+        145,
+        151,
+        157,
+        163,
+        169,
+        175,
+        181,
+        187,
+        193,
+        199,
+        205,
+        211,
+        217,
+        223,
+        229,
+        235,
+        241,
+        247,
+        259,
+        265,
+        271
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          7,
+          1
+        ],
+        [
+          31,
+          -1
+        ],
+        [
+          2389,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 4,
+      "u": 23,
+      "M": 1382427,
+      "modulus": 368,
+      "factorization": [
+        [
+          3,
+          5
+        ],
+        [
+          5689,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        9,
+        27,
+        81,
+        243,
+        5689,
+        17067,
+        51201,
+        153603,
+        460809,
+        1382427
+      ],
+      "T": [
+        3,
+        169
+      ],
+      "group": [
+        1,
+        3,
+        9,
+        25,
+        27,
+        35,
+        41,
+        49,
+        59,
+        73,
+        75,
+        81,
+        105,
+        121,
+        123,
+        131,
+        139,
+        147,
+        163,
+        169,
+        177,
+        179,
+        185,
+        187,
+        193,
+        209,
+        211,
+        219,
+        225,
+        233,
+        243,
+        257,
+        259,
+        265,
+        289,
+        305,
+        307,
+        315,
+        323,
+        331,
+        347,
+        353,
+        361,
+        363
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          5689,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 5,
+      "u": 23,
+      "M": 1728028,
+      "modulus": 460,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          432007,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        432007,
+        864014,
+        1728028
+      ],
+      "T": [
+        67
+      ],
+      "group": [
+        1,
+        7,
+        9,
+        29,
+        41,
+        43,
+        49,
+        63,
+        67,
+        81,
+        83,
+        101,
+        103,
+        107,
+        121,
+        141,
+        143,
+        169,
+        183,
+        203,
+        209,
+        227,
+        247,
+        261,
+        263,
+        267,
+        269,
+        283,
+        287,
+        289,
+        301,
+        327,
+        343,
+        349,
+        361,
+        367,
+        369,
+        381,
+        383,
+        387,
+        409,
+        441,
+        447,
+        449
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          432007,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 345601,
+      "a": 6,
+      "u": 23,
+      "M": 2073629,
+      "modulus": 552,
+      "factorization": [
+        [
+          1163,
+          1
+        ],
+        [
+          1783,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        1163,
+        1783,
+        2073629
+      ],
+      "T": [
+        59,
+        127
+      ],
+      "group": [
+        1,
+        25,
+        29,
+        31,
+        35,
+        49,
+        55,
+        59,
+        73,
+        77,
+        101,
+        121,
+        127,
+        131,
+        151,
+        169,
+        173,
+        179,
+        193,
+        197,
+        223,
+        265,
+        269,
+        271,
+        289,
+        317,
+        323,
+        347,
+        361,
+        371,
+        395,
+        409,
+        415,
+        439,
+        443,
+        461,
+        463,
+        485,
+        487,
+        491,
+        509,
+        515,
+        533,
+        535
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          1163,
+          -1
+        ],
+        [
+          1783,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 1,
+      "M": 670850,
+      "modulus": 4,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          13417,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        5,
+        10,
+        25,
+        50,
+        13417,
+        26834,
+        67085,
+        134170,
+        335425,
+        670850
+      ],
+      "T": [
+        1
+      ],
+      "group": [
+        1
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          13417,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 2,
+      "M": 670851,
+      "modulus": 8,
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          569,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        9,
+        131,
+        393,
+        569,
+        1179,
+        1707,
+        5121,
+        74539,
+        223617,
+        670851
+      ],
+      "T": [
+        1,
+        3
+      ],
+      "group": [
+        1,
+        3
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          569,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 3,
+      "M": 670852,
+      "modulus": 12,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          97,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        7,
+        13,
+        14,
+        19,
+        26,
+        28,
+        38,
+        52,
+        76,
+        91,
+        97,
+        133,
+        182,
+        194,
+        247,
+        266,
+        364,
+        388,
+        494,
+        532,
+        679,
+        988,
+        1261,
+        1358,
+        1729,
+        1843,
+        2522,
+        2716,
+        3458,
+        3686,
+        5044,
+        6916,
+        7372,
+        8827,
+        12901,
+        17654,
+        23959,
+        25802,
+        35308,
+        47918,
+        51604,
+        95836,
+        167713,
+        335426,
+        670852
+      ],
+      "T": [
+        1,
+        7
+      ],
+      "group": [
+        1,
+        7
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          97,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 4,
+      "M": 670853,
+      "modulus": 16,
+      "factorization": [
+        [
+          670853,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        670853
+      ],
+      "T": [
+        5
+      ],
+      "group": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          670853,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 5,
+      "M": 670854,
+      "modulus": 20,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          6577,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        6,
+        17,
+        34,
+        51,
+        102,
+        6577,
+        13154,
+        19731,
+        39462,
+        111809,
+        223618,
+        335427,
+        670854
+      ],
+      "T": [
+        3,
+        17
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          17,
+          -1
+        ],
+        [
+          6577,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 6,
+      "M": 670855,
+      "modulus": 24,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          134171,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        134171,
+        670855
+      ],
+      "T": [
+        5,
+        11
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          134171,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 2,
+      "u": 1,
+      "M": 1341699,
+      "modulus": 8,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          447233,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        447233,
+        1341699
+      ],
+      "T": [
+        1,
+        3
+      ],
+      "group": [
+        1,
+        3
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          447233,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 2,
+      "u": 3,
+      "M": 1341701,
+      "modulus": 24,
+      "factorization": [
+        [
+          1341701,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        1341701
+      ],
+      "T": [
+        5
+      ],
+      "group": [
+        1,
+        5
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          1341701,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 2,
+      "u": 5,
+      "M": 1341703,
+      "modulus": 40,
+      "factorization": [
+        [
+          11,
+          1
+        ],
+        [
+          283,
+          1
+        ],
+        [
+          431,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        11,
+        283,
+        431,
+        3113,
+        4741,
+        121973,
+        1341703
+      ],
+      "T": [
+        3,
+        11,
+        31
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19,
+        21,
+        23,
+        27,
+        29,
+        31,
+        33,
+        37,
+        39
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          11,
+          1
+        ],
+        [
+          283,
+          -1
+        ],
+        [
+          431,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 1,
+      "M": 2012548,
+      "modulus": 12,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          503137,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        503137,
+        1006274,
+        2012548
+      ],
+      "T": [
+        1
+      ],
+      "group": [
+        1
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          503137,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 2,
+      "M": 2012549,
+      "modulus": 24,
+      "factorization": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          443,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        7,
+        11,
+        59,
+        77,
+        413,
+        443,
+        649,
+        3101,
+        4543,
+        4873,
+        26137,
+        34111,
+        182959,
+        287507,
+        2012549
+      ],
+      "T": [
+        7,
+        11
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          443,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 4,
+      "M": 2012551,
+      "modulus": 48,
+      "factorization": [
+        [
+          31,
+          1
+        ],
+        [
+          64921,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        31,
+        64921,
+        2012551
+      ],
+      "T": [
+        25,
+        31
+      ],
+      "group": [
+        1,
+        7,
+        25,
+        31
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          31,
+          1
+        ],
+        [
+          64921,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 5,
+      "M": 2012552,
+      "modulus": 60,
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          197,
+          1
+        ],
+        [
+          1277,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        8,
+        197,
+        394,
+        788,
+        1277,
+        1576,
+        2554,
+        5108,
+        10216,
+        251569,
+        503138,
+        1006276,
+        2012552
+      ],
+      "T": [
+        17
+      ],
+      "group": [
+        1,
+        17,
+        49,
+        53
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          197,
+          1
+        ],
+        [
+          1277,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 4,
+      "u": 1,
+      "M": 2683397,
+      "modulus": 16,
+      "factorization": [
+        [
+          2683397,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2683397
+      ],
+      "T": [
+        5
+      ],
+      "group": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          2683397,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 4,
+      "u": 3,
+      "M": 2683399,
+      "modulus": 48,
+      "factorization": [
+        [
+          17,
+          1
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          5443,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        17,
+        29,
+        493,
+        5443,
+        92531,
+        157847,
+        2683399
+      ],
+      "T": [
+        17,
+        19,
+        29
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        25,
+        29,
+        31,
+        35,
+        37,
+        41,
+        43,
+        47
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          17,
+          -1
+        ],
+        [
+          29,
+          -1
+        ],
+        [
+          5443,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 4,
+      "u": 5,
+      "M": 2683401,
+      "modulus": 80,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          127781,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        7,
+        21,
+        127781,
+        383343,
+        894467,
+        2683401
+      ],
+      "T": [
+        3,
+        7,
+        21
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          127781,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 1,
+      "M": 3354246,
+      "modulus": 20,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          3803,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        14,
+        18,
+        21,
+        42,
+        49,
+        63,
+        98,
+        126,
+        147,
+        294,
+        441,
+        882,
+        3803,
+        7606,
+        11409,
+        22818,
+        26621,
+        34227,
+        53242,
+        68454,
+        79863,
+        159726,
+        186347,
+        239589,
+        372694,
+        479178,
+        559041,
+        1118082,
+        1677123,
+        3354246
+      ],
+      "T": [
+        3,
+        7
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3803,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 2,
+      "M": 3354247,
+      "modulus": 40,
+      "factorization": [
+        [
+          13,
+          1
+        ],
+        [
+          258019,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        13,
+        258019,
+        3354247
+      ],
+      "T": [
+        13,
+        19
+      ],
+      "group": [
+        1,
+        7,
+        9,
+        11,
+        13,
+        19,
+        23,
+        37
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          13,
+          1
+        ],
+        [
+          258019,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 3,
+      "M": 3354248,
+      "modulus": 60,
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          419281,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        8,
+        419281,
+        838562,
+        1677124,
+        3354248
+      ],
+      "T": [
+        1
+      ],
+      "group": [
+        1
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          419281,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 4,
+      "M": 3354249,
+      "modulus": 80,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          23789,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        47,
+        141,
+        23789,
+        71367,
+        1118083,
+        3354249
+      ],
+      "T": [
+        3,
+        29,
+        47
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          23789,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 6,
+      "M": 3354251,
+      "modulus": 120,
+      "factorization": [
+        [
+          23,
+          1
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          3557,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        23,
+        41,
+        943,
+        3557,
+        81811,
+        145837,
+        3354251
+      ],
+      "T": [
+        23,
+        41,
+        77
+      ],
+      "group": [
+        1,
+        7,
+        11,
+        13,
+        19,
+        23,
+        37,
+        41,
+        47,
+        49,
+        53,
+        59,
+        77,
+        89,
+        91,
+        103
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          23,
+          1
+        ],
+        [
+          41,
+          -1
+        ],
+        [
+          3557,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 6,
+      "u": 1,
+      "M": 4025095,
+      "modulus": 24,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          805019,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        805019,
+        4025095
+      ],
+      "T": [
+        5,
+        11
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          805019,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 6,
+      "u": 5,
+      "M": 4025099,
+      "modulus": 120,
+      "factorization": [
+        [
+          13,
+          1
+        ],
+        [
+          309623,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        13,
+        309623,
+        4025099
+      ],
+      "T": [
+        13,
+        23
+      ],
+      "group": [
+        1,
+        11,
+        13,
+        23,
+        37,
+        47,
+        49,
+        59
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          13,
+          1
+        ],
+        [
+          309623,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 11,
+      "M": 670860,
+      "modulus": 44,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3727,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        18,
+        20,
+        30,
+        36,
+        45,
+        60,
+        90,
+        180,
+        3727,
+        7454,
+        11181,
+        14908,
+        18635,
+        22362,
+        33543,
+        37270,
+        44724,
+        55905,
+        67086,
+        74540,
+        111810,
+        134172,
+        167715,
+        223620,
+        335430,
+        670860
+      ],
+      "T": [
+        3,
+        5,
+        31
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        9,
+        15,
+        23,
+        25,
+        27,
+        31,
+        37
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3727,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 2,
+      "u": 11,
+      "M": 1341709,
+      "modulus": 88,
+      "factorization": [
+        [
+          47,
+          1
+        ],
+        [
+          28547,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        47,
+        28547,
+        1341709
+      ],
+      "T": [
+        35,
+        47
+      ],
+      "group": [
+        1,
+        9,
+        13,
+        15,
+        19,
+        21,
+        23,
+        25,
+        29,
+        31,
+        35,
+        43,
+        47,
+        49,
+        51,
+        61,
+        71,
+        81,
+        83,
+        85
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          47,
+          1
+        ],
+        [
+          28547,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 11,
+      "M": 2012558,
+      "modulus": 132,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          1006279,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        1006279,
+        2012558
+      ],
+      "T": [
+        43
+      ],
+      "group": [
+        1,
+        43
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          1006279,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 4,
+      "u": 11,
+      "M": 2683407,
+      "modulus": 176,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          73,
+          1
+        ],
+        [
+          12253,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        73,
+        219,
+        12253,
+        36759,
+        894469,
+        2683407
+      ],
+      "T": [
+        3,
+        73,
+        109
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        145,
+        147,
+        149,
+        151,
+        153,
+        155,
+        157,
+        159,
+        161,
+        163,
+        167,
+        169,
+        171,
+        173,
+        175
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          73,
+          -1
+        ],
+        [
+          12253,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 11,
+      "M": 3354256,
+      "modulus": 220,
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          7229,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        29,
+        58,
+        116,
+        232,
+        464,
+        7229,
+        14458,
+        28916,
+        57832,
+        115664,
+        209641,
+        419282,
+        838564,
+        1677128,
+        3354256
+      ],
+      "T": [
+        29,
+        189
+      ],
+      "group": [
+        1,
+        29,
+        81,
+        109,
+        129,
+        141,
+        149,
+        181,
+        189,
+        201
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          29,
+          -1
+        ],
+        [
+          7229,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 6,
+      "u": 11,
+      "M": 4025105,
+      "modulus": 264,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          2347,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        7,
+        35,
+        49,
+        245,
+        343,
+        1715,
+        2347,
+        11735,
+        16429,
+        82145,
+        115003,
+        575015,
+        805021,
+        4025105
+      ],
+      "T": [
+        5,
+        7,
+        235
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        13,
+        17,
+        23,
+        25,
+        35,
+        41,
+        47,
+        49,
+        53,
+        61,
+        65,
+        67,
+        71,
+        79,
+        83,
+        85,
+        91,
+        97,
+        107,
+        109,
+        115,
+        119,
+        125,
+        127,
+        131,
+        151,
+        161,
+        163,
+        169,
+        175,
+        191,
+        205,
+        221,
+        227,
+        233,
+        235,
+        245
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          2347,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 13,
+      "M": 670862,
+      "modulus": 52,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          509,
+          1
+        ],
+        [
+          659,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        509,
+        659,
+        1018,
+        1318,
+        335431,
+        670862
+      ],
+      "T": [
+        35,
+        41
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          509,
+          -1
+        ],
+        [
+          659,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 2,
+      "u": 13,
+      "M": 1341711,
+      "modulus": 104,
+      "factorization": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          229,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        27,
+        31,
+        63,
+        93,
+        189,
+        217,
+        229,
+        279,
+        651,
+        687,
+        837,
+        1603,
+        1953,
+        2061,
+        4809,
+        5859,
+        6183,
+        7099,
+        14427,
+        21297,
+        43281,
+        49693,
+        63891,
+        149079,
+        191673,
+        447237,
+        1341711
+      ],
+      "T": [
+        3,
+        7,
+        21,
+        31
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        15,
+        17,
+        21,
+        25,
+        27,
+        31,
+        35,
+        37,
+        43,
+        45,
+        47,
+        49,
+        51,
+        63,
+        71,
+        75,
+        81,
+        85,
+        93
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          229,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 13,
+      "M": 2012560,
+      "modulus": 156,
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          2287,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        10,
+        11,
+        16,
+        20,
+        22,
+        40,
+        44,
+        55,
+        80,
+        88,
+        110,
+        176,
+        220,
+        440,
+        880,
+        2287,
+        4574,
+        9148,
+        11435,
+        18296,
+        22870,
+        25157,
+        36592,
+        45740,
+        50314,
+        91480,
+        100628,
+        125785,
+        182960,
+        201256,
+        251570,
+        402512,
+        503140,
+        1006280,
+        2012560
+      ],
+      "T": [
+        5,
+        11,
+        103
+      ],
+      "group": [
+        1,
+        5,
+        11,
+        25,
+        41,
+        43,
+        47,
+        49,
+        55,
+        59,
+        61,
+        71,
+        79,
+        83,
+        89,
+        103,
+        119,
+        121,
+        125,
+        127,
+        133,
+        137,
+        139,
+        149
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          2287,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 4,
+      "u": 13,
+      "M": 2683409,
+      "modulus": 208,
+      "factorization": [
+        [
+          41,
+          1
+        ],
+        [
+          65449,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        41,
+        65449,
+        2683409
+      ],
+      "T": [
+        41,
+        137
+      ],
+      "group": [
+        1,
+        17,
+        41,
+        49,
+        57,
+        73,
+        81,
+        89,
+        113,
+        129,
+        137,
+        201
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          41,
+          -1
+        ],
+        [
+          65449,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 13,
+      "M": 3354258,
+      "modulus": 260,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          13001,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        6,
+        43,
+        86,
+        129,
+        258,
+        13001,
+        26002,
+        39003,
+        78006,
+        559043,
+        1118086,
+        1677129,
+        3354258
+      ],
+      "T": [
+        1,
+        3,
+        43
+      ],
+      "group": [
+        1,
+        3,
+        9,
+        23,
+        27,
+        29,
+        43,
+        49,
+        61,
+        69,
+        81,
+        87,
+        101,
+        103,
+        107,
+        121,
+        127,
+        129,
+        147,
+        181,
+        183,
+        207,
+        209,
+        243
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          13001,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 6,
+      "u": 13,
+      "M": 4025107,
+      "modulus": 312,
+      "factorization": [
+        [
+          17,
+          1
+        ],
+        [
+          236771,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        17,
+        236771,
+        4025107
+      ],
+      "T": [
+        17,
+        275
+      ],
+      "group": [
+        1,
+        11,
+        17,
+        19,
+        25,
+        49,
+        59,
+        67,
+        83,
+        113,
+        115,
+        121,
+        163,
+        185,
+        187,
+        203,
+        209,
+        217,
+        227,
+        233,
+        257,
+        275,
+        289,
+        307
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          17,
+          -1
+        ],
+        [
+          236771,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 17,
+      "M": 670866,
+      "modulus": 68,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          15973,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        14,
+        21,
+        42,
+        15973,
+        31946,
+        47919,
+        95838,
+        111811,
+        223622,
+        335433,
+        670866
+      ],
+      "T": [
+        3,
+        7,
+        61
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": -1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          15973,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 2,
+      "u": 17,
+      "M": 1341715,
+      "modulus": 136,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          268343,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        268343,
+        1341715
+      ],
+      "T": [
+        5,
+        15
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        9,
+        11,
+        15,
+        25,
+        27,
+        29,
+        33,
+        37,
+        45,
+        47,
+        49,
+        55,
+        61,
+        75,
+        81,
+        87,
+        89,
+        91,
+        99,
+        103,
+        107,
+        109,
+        111,
+        121,
+        125,
+        127,
+        131,
+        133,
+        135
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": -1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          268343,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 17,
+      "M": 2012564,
+      "modulus": 204,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          337,
+          1
+        ],
+        [
+          1493,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        337,
+        674,
+        1348,
+        1493,
+        2986,
+        5972,
+        503141,
+        1006282,
+        2012564
+      ],
+      "T": [
+        65,
+        133
+      ],
+      "group": [
+        1,
+        5,
+        13,
+        25,
+        29,
+        37,
+        41,
+        49,
+        53,
+        61,
+        65,
+        73,
+        77,
+        89,
+        97,
+        101,
+        109,
+        113,
+        121,
+        125,
+        133,
+        137,
+        145,
+        149,
+        157,
+        161,
+        169,
+        173,
+        181,
+        185,
+        193,
+        197
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": -1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          337,
+          -1
+        ],
+        [
+          1493,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 4,
+      "u": 17,
+      "M": 2683413,
+      "modulus": 272,
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          298157,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        9,
+        298157,
+        894471,
+        2683413
+      ],
+      "T": [
+        3,
+        45
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        9,
+        11,
+        15,
+        25,
+        27,
+        33,
+        37,
+        45,
+        55,
+        61,
+        75,
+        81,
+        91,
+        99,
+        103,
+        109,
+        111,
+        121,
+        125,
+        127,
+        131,
+        133,
+        135,
+        165,
+        183,
+        185,
+        223,
+        225,
+        243
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": -1,
+      "failure_type": "nonquadratic_subgroup",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          298157,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 17,
+      "M": 3354262,
+      "modulus": 340,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          54101,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        31,
+        62,
+        54101,
+        108202,
+        1677131,
+        3354262
+      ],
+      "T": [
+        31,
+        41
+      ],
+      "group": [
+        1,
+        11,
+        21,
+        31,
+        41,
+        61,
+        71,
+        81,
+        91,
+        101,
+        111,
+        121,
+        131,
+        141,
+        151,
+        161,
+        171,
+        181,
+        191,
+        201,
+        211,
+        231,
+        241,
+        251,
+        261,
+        271,
+        281,
+        291,
+        301,
+        311,
+        321,
+        331
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": -1,
+      "failure_type": "nonquadratic_subgroup",
+      "odd_prime_jacobi_p_values": [
+        [
+          31,
+          1
+        ],
+        [
+          54101,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 6,
+      "u": 17,
+      "M": 4025111,
+      "modulus": 408,
+      "factorization": [
+        [
+          4025111,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        4025111
+      ],
+      "T": [
+        191
+      ],
+      "group": [
+        1,
+        47,
+        169,
+        191
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": -1,
+      "failure_type": "nonquadratic_subgroup",
+      "odd_prime_jacobi_p_values": [
+        [
+          4025111,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 19,
+      "M": 670868,
+      "modulus": 76,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          193,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        11,
+        22,
+        44,
+        79,
+        158,
+        193,
+        316,
+        386,
+        772,
+        869,
+        1738,
+        2123,
+        3476,
+        4246,
+        8492,
+        15247,
+        30494,
+        60988,
+        167717,
+        335434,
+        670868
+      ],
+      "T": [
+        3,
+        11,
+        41
+      ],
+      "group": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          11,
+          1
+        ],
+        [
+          79,
+          -1
+        ],
+        [
+          193,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 2,
+      "u": 19,
+      "M": 1341717,
+      "modulus": 152,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          34403,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        13,
+        39,
+        34403,
+        103209,
+        447239,
+        1341717
+      ],
+      "T": [
+        3,
+        13,
+        51
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        13,
+        17,
+        21,
+        23,
+        25,
+        27,
+        29,
+        37,
+        39,
+        47,
+        49,
+        51,
+        53,
+        55,
+        59,
+        63,
+        67,
+        69,
+        73,
+        75,
+        81,
+        87,
+        91,
+        107,
+        109,
+        111,
+        117,
+        119,
+        121,
+        137,
+        141,
+        147
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          34403,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 19,
+      "M": 2012566,
+      "modulus": 228,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          71,
+          1
+        ],
+        [
+          14173,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        71,
+        142,
+        14173,
+        28346,
+        1006283,
+        2012566
+      ],
+      "T": [
+        37,
+        71
+      ],
+      "group": [
+        1,
+        11,
+        13,
+        23,
+        25,
+        35,
+        37,
+        47,
+        49,
+        59,
+        61,
+        71,
+        73,
+        83,
+        85,
+        97,
+        107,
+        109,
+        119,
+        121,
+        131,
+        143,
+        145,
+        155,
+        157,
+        167,
+        169,
+        179,
+        181,
+        191,
+        193,
+        203,
+        205,
+        215,
+        217,
+        227
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          71,
+          -1
+        ],
+        [
+          14173,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 4,
+      "u": 19,
+      "M": 2683415,
+      "modulus": 304,
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          1783,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        5,
+        7,
+        35,
+        43,
+        215,
+        301,
+        1505,
+        1783,
+        8915,
+        12481,
+        62405,
+        76669,
+        383345,
+        536683,
+        2683415
+      ],
+      "T": [
+        5,
+        7,
+        43,
+        263
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        9,
+        11,
+        17,
+        23,
+        25,
+        35,
+        39,
+        43,
+        45,
+        47,
+        49,
+        55,
+        61,
+        63,
+        73,
+        77,
+        81,
+        83,
+        85,
+        87,
+        93,
+        99,
+        101,
+        111,
+        115,
+        119,
+        121,
+        123,
+        125,
+        131,
+        137,
+        139,
+        149,
+        153,
+        157,
+        159,
+        161,
+        163,
+        169,
+        175,
+        177,
+        187,
+        191,
+        195,
+        197,
+        199,
+        201,
+        207,
+        213,
+        215,
+        225,
+        229,
+        233,
+        235,
+        237,
+        239,
+        245,
+        251,
+        253,
+        263,
+        267,
+        271,
+        273,
+        275,
+        277,
+        283,
+        289,
+        291,
+        301
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          1783,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 19,
+      "M": 3354264,
+      "modulus": 380,
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          293,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        12,
+        18,
+        24,
+        27,
+        36,
+        53,
+        54,
+        72,
+        106,
+        108,
+        159,
+        212,
+        216,
+        293,
+        318,
+        424,
+        477,
+        586,
+        636,
+        879,
+        954,
+        1172,
+        1272,
+        1431,
+        1758,
+        1908,
+        2344,
+        2637,
+        2862,
+        3516,
+        3816,
+        5274,
+        5724,
+        7032,
+        7911,
+        10548,
+        11448,
+        15529,
+        15822,
+        21096,
+        31058,
+        31644,
+        46587,
+        62116,
+        63288,
+        93174,
+        124232,
+        139761,
+        186348,
+        279522,
+        372696,
+        419283,
+        559044,
+        838566,
+        1118088,
+        1677132,
+        3354264
+      ],
+      "T": [
+        3,
+        53,
+        293
+      ],
+      "group": [
+        1,
+        3,
+        9,
+        11,
+        13,
+        27,
+        33,
+        37,
+        39,
+        49,
+        53,
+        61,
+        67,
+        81,
+        97,
+        99,
+        101,
+        103,
+        107,
+        111,
+        113,
+        117,
+        119,
+        121,
+        127,
+        131,
+        139,
+        143,
+        147,
+        149,
+        159,
+        161,
+        167,
+        169,
+        173,
+        183,
+        191,
+        193,
+        199,
+        201,
+        203,
+        217,
+        223,
+        227,
+        229,
+        239,
+        243,
+        251,
+        257,
+        271,
+        287,
+        289,
+        291,
+        293,
+        297,
+        301,
+        303,
+        307,
+        309,
+        311,
+        317,
+        321,
+        329,
+        333,
+        337,
+        339,
+        349,
+        351,
+        357,
+        359,
+        363,
+        373
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          293,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 6,
+      "u": 19,
+      "M": 4025113,
+      "modulus": 456,
+      "factorization": [
+        [
+          29,
+          1
+        ],
+        [
+          138797,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        29,
+        138797,
+        4025113
+      ],
+      "T": [
+        29,
+        173
+      ],
+      "group": [
+        1,
+        25,
+        29,
+        49,
+        53,
+        73,
+        121,
+        169,
+        173,
+        221,
+        269,
+        289,
+        293,
+        313,
+        317,
+        341,
+        385,
+        413
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          29,
+          -1
+        ],
+        [
+          138797,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 23,
+      "M": 670872,
+      "modulus": 92,
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          27953,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        24,
+        27953,
+        55906,
+        83859,
+        111812,
+        167718,
+        223624,
+        335436,
+        670872
+      ],
+      "T": [
+        3,
+        77
+      ],
+      "group": [
+        1,
+        3,
+        9,
+        13,
+        25,
+        27,
+        29,
+        31,
+        35,
+        39,
+        41,
+        47,
+        49,
+        55,
+        59,
+        71,
+        73,
+        75,
+        77,
+        81,
+        85,
+        87
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          27953,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 2,
+      "u": 23,
+      "M": 1341721,
+      "modulus": 184,
+      "factorization": [
+        [
+          271,
+          1
+        ],
+        [
+          4951,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        271,
+        4951,
+        1341721
+      ],
+      "T": [
+        87,
+        167
+      ],
+      "group": [
+        1,
+        9,
+        25,
+        31,
+        39,
+        41,
+        47,
+        49,
+        55,
+        71,
+        73,
+        81,
+        87,
+        95,
+        105,
+        119,
+        121,
+        127,
+        151,
+        167,
+        169,
+        177
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          271,
+          1
+        ],
+        [
+          4951,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 3,
+      "u": 23,
+      "M": 2012570,
+      "modulus": 276,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          28751,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        14,
+        35,
+        70,
+        28751,
+        57502,
+        143755,
+        201257,
+        287510,
+        402514,
+        1006285,
+        2012570
+      ],
+      "T": [
+        5,
+        7,
+        47
+      ],
+      "group": [
+        1,
+        5,
+        7,
+        13,
+        17,
+        19,
+        25,
+        35,
+        43,
+        47,
+        49,
+        53,
+        59,
+        65,
+        67,
+        71,
+        73,
+        79,
+        85,
+        89,
+        91,
+        95,
+        103,
+        113,
+        119,
+        121,
+        125,
+        131,
+        133,
+        137,
+        149,
+        167,
+        169,
+        175,
+        179,
+        193,
+        199,
+        215,
+        221,
+        235,
+        239,
+        245,
+        247,
+        265
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          28751,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 4,
+      "u": 23,
+      "M": 2683419,
+      "modulus": 368,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          137,
+          1
+        ],
+        [
+          6529,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        137,
+        411,
+        6529,
+        19587,
+        894473,
+        2683419
+      ],
+      "T": [
+        3,
+        137,
+        273
+      ],
+      "group": [
+        1,
+        3,
+        9,
+        11,
+        17,
+        19,
+        25,
+        27,
+        33,
+        35,
+        41,
+        43,
+        49,
+        51,
+        57,
+        59,
+        65,
+        67,
+        73,
+        75,
+        81,
+        83,
+        89,
+        91,
+        97,
+        99,
+        105,
+        107,
+        113,
+        121,
+        123,
+        129,
+        131,
+        137,
+        139,
+        145,
+        147,
+        153,
+        155,
+        163,
+        169,
+        171,
+        177,
+        179,
+        185,
+        187,
+        193,
+        195,
+        201,
+        203,
+        209,
+        211,
+        217,
+        219,
+        225,
+        227,
+        233,
+        235,
+        241,
+        243,
+        249,
+        251,
+        257,
+        259,
+        265,
+        267,
+        273,
+        275,
+        281,
+        283,
+        289,
+        291,
+        297,
+        305,
+        307,
+        313,
+        315,
+        321,
+        323,
+        329,
+        331,
+        337,
+        339,
+        347,
+        353,
+        355,
+        361,
+        363
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          3,
+          1
+        ],
+        [
+          137,
+          -1
+        ],
+        [
+          6529,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 5,
+      "u": 23,
+      "M": 3354268,
+      "modulus": 460,
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          61,
+          1
+        ],
+        [
+          233,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        4,
+        59,
+        61,
+        118,
+        122,
+        233,
+        236,
+        244,
+        466,
+        932,
+        3599,
+        7198,
+        13747,
+        14213,
+        14396,
+        27494,
+        28426,
+        54988,
+        56852,
+        838567,
+        1677134,
+        3354268
+      ],
+      "T": [
+        59,
+        61,
+        233
+      ],
+      "group": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19,
+        21,
+        27,
+        29,
+        31,
+        33,
+        37,
+        39,
+        41,
+        43,
+        47,
+        49,
+        51,
+        53,
+        57,
+        59,
+        61,
+        63,
+        67,
+        71,
+        73,
+        77,
+        79,
+        81,
+        83,
+        87,
+        89,
+        91,
+        93,
+        97,
+        99,
+        101,
+        103,
+        107,
+        109,
+        111,
+        113,
+        117,
+        119,
+        121,
+        123,
+        127,
+        129,
+        131,
+        133,
+        137,
+        139,
+        141,
+        143,
+        147,
+        149,
+        151,
+        153,
+        157,
+        159,
+        163,
+        167,
+        169,
+        171,
+        173,
+        177,
+        179,
+        181,
+        183,
+        187,
+        189,
+        191,
+        193,
+        197,
+        199,
+        201,
+        203,
+        209,
+        211,
+        213,
+        217,
+        219,
+        221,
+        223,
+        227,
+        229,
+        231,
+        233,
+        237,
+        239,
+        241,
+        243,
+        247,
+        249,
+        251,
+        257,
+        259,
+        261,
+        263,
+        267,
+        269,
+        271,
+        273,
+        277,
+        279,
+        281,
+        283,
+        287,
+        289,
+        291,
+        293,
+        297,
+        301,
+        303,
+        307,
+        309,
+        311,
+        313,
+        317,
+        319,
+        321,
+        323,
+        327,
+        329,
+        331,
+        333,
+        337,
+        339,
+        341,
+        343,
+        347,
+        349,
+        351,
+        353,
+        357,
+        359,
+        361,
+        363,
+        367,
+        369,
+        371,
+        373,
+        377,
+        379,
+        381,
+        383,
+        387,
+        389,
+        393,
+        397,
+        399,
+        401,
+        403,
+        407,
+        409,
+        411,
+        413,
+        417,
+        419,
+        421,
+        423,
+        427,
+        429,
+        431,
+        433,
+        439,
+        441,
+        443,
+        447,
+        449,
+        451,
+        453,
+        457,
+        459
+      ],
+      "group_contains_neg_one": true,
+      "legendre_u_p": 1,
+      "failure_type": "exponent",
+      "odd_prime_jacobi_p_values": [
+        [
+          59,
+          1
+        ],
+        [
+          61,
+          -1
+        ],
+        [
+          233,
+          -1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    },
+    {
+      "p": 670849,
+      "a": 6,
+      "u": 23,
+      "M": 4025117,
+      "modulus": 552,
+      "factorization": [
+        [
+          1187,
+          1
+        ],
+        [
+          3391,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        1187,
+        3391,
+        4025117
+      ],
+      "T": [
+        79,
+        83
+      ],
+      "group": [
+        1,
+        7,
+        11,
+        25,
+        29,
+        49,
+        73,
+        77,
+        79,
+        83,
+        101,
+        103,
+        107,
+        121,
+        155,
+        169,
+        173,
+        175,
+        193,
+        197,
+        199,
+        203,
+        227,
+        247,
+        251,
+        265,
+        269,
+        275,
+        289,
+        295,
+        317,
+        319,
+        343,
+        361,
+        367,
+        409,
+        419,
+        461,
+        467,
+        485,
+        509,
+        511,
+        533,
+        539
+      ],
+      "group_contains_neg_one": false,
+      "legendre_u_p": 1,
+      "failure_type": "quadratic_character",
+      "odd_prime_jacobi_p_values": [
+        [
+          1187,
+          1
+        ],
+        [
+          3391,
+          1
+        ]
+      ],
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true
+    }
+  ]
+}

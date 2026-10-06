@@ -1,0 +1,67 @@
+✔ [2810/3385] Built OutcastsMathLab.Problems.P000_VerifierSmoke.Statement (403ms)
+ℹ [3762/3769] Built OutcastsMathLab.Problems.P000_VerifierSmoke.Proof (416ms)
+info: OutcastsMathLab/Problems/P000_VerifierSmoke/Proof.lean:9:0: 'OutcastsMathLab.P000.verified' does not depend on any axioms
+ℹ [3763/3769] Built OutcastsMathLab.Research.DeterministicFailure (735ms)
+info: OutcastsMathLab/Research/DeterministicFailure.lean:101:0: 'OutcastsMathLab.Research.DeterministicFailure.dvd_mul_split' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Research/DeterministicFailure.lean:102:0: 'OutcastsMathLab.Research.DeterministicFailure.mem_subProducts_of_dvd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/DeterministicFailure.lean:103:0: 'OutcastsMathLab.Research.DeterministicFailure.no_witness_of_cert' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/DeterministicFailure.lean:104:0: 'OutcastsMathLab.Research.DeterministicFailure.no_divisorWitness_of_cert' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3764/3769] Built OutcastsMathLab.Research.InvolutionBound (1.0s)
+info: OutcastsMathLab/Research/InvolutionBound.lean:137:0: 'OutcastsMathLab.Research.InvolutionBound.neg_one_ne_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/InvolutionBound.lean:138:0: 'OutcastsMathLab.Research.InvolutionBound.card_le_half_of_fixedPointFree_involution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/InvolutionBound.lean:139:0: 'OutcastsMathLab.Research.InvolutionBound.iota_ne_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/InvolutionBound.lean:140:0: 'OutcastsMathLab.Research.InvolutionBound.card_le_half_totient_of_no_neg_one_divisor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/InvolutionBound.lean:141:0: 'OutcastsMathLab.Research.InvolutionBound.dahan_involution_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/InvolutionBound.lean:142:0: 'OutcastsMathLab.Research.InvolutionBound.no_witness_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3765/3769] Built OutcastsMathLab.Research.PsiObstruction (1.9s)
+info: OutcastsMathLab/Research/PsiObstruction.lean:100:0: 'OutcastsMathLab.Research.PsiObstruction.jacobi_eq_one_of_prime_factors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/PsiObstruction.lean:101:0: 'OutcastsMathLab.Research.PsiObstruction.psi_obstruction_forces_residue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/PsiObstruction.lean:102:0: 'OutcastsMathLab.Research.PsiObstruction.psi_eq_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/PsiObstruction.lean:103:0: 'OutcastsMathLab.Research.PsiObstruction.psi_kernel_forces_residue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/PsiObstruction.lean:104:0: 'OutcastsMathLab.Research.PsiObstruction.nonresidue_shift_escapes_psi' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3766/3769] Built OutcastsMathLab.Research.HardPrimes20261005 (2.4s)
+info: OutcastsMathLab/Research/HardPrimes20261005.lean:285:0: 'OutcastsMathLab.Research.HardPrimes20261005.no_witness_345601_box' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/HardPrimes20261005.lean:558:0: 'OutcastsMathLab.Research.HardPrimes20261005.no_witness_670849_box' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3767/3769] Built OutcastsMathLab.Research.JacobiObstruction (3.7s)
+info: OutcastsMathLab/Research/JacobiObstruction.lean:148:0: 'OutcastsMathLab.Research.JacobiObstruction.jacobi_eq_one_of_dvd_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/JacobiObstruction.lean:149:0: 'OutcastsMathLab.Research.JacobiObstruction.witness_jacobi_eq_neg_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/JacobiObstruction.lean:150:0: 'OutcastsMathLab.Research.JacobiObstruction.no_witness_of_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/JacobiObstruction.lean:151:0: 'OutcastsMathLab.Research.JacobiObstruction.no_witness_of_mod_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/JacobiObstruction.lean:152:0: 'OutcastsMathLab.Research.JacobiObstruction.finite_witnesses_miss_infinitely_many_primes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/JacobiObstruction.lean:153:0: 'OutcastsMathLab.Research.JacobiObstruction.witness_409' depends on axioms: [propext]
+✔ [3768/3769] Built OutcastsMathLab (1.1s)
+Build completed successfully (3769 jobs).

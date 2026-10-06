@@ -1,0 +1,343 @@
+{
+  "inputs": [
+    {
+      "p": 345601,
+      "budget": 19,
+      "residue_mod840": 361,
+      "all_shifts": [
+        {
+          "u": 1,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 2,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 3,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 4,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 5,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 6,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 7,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 8,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 9,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 10,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 11,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 12,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 13,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 14,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 15,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 16,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 17,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 18,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 19,
+          "jacobi": -1,
+          "euler_residue": 345600
+        }
+      ],
+      "nonresidue_shifts": [
+        19
+      ],
+      "all_admissible_nonresidue_pairs": [
+        {
+          "a": 1,
+          "u": 19,
+          "factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              1571,
+              1
+            ]
+          ],
+          "all_divisors": [
+            1,
+            2,
+            4,
+            5,
+            10,
+            11,
+            20,
+            22,
+            44,
+            55,
+            110,
+            220,
+            1571,
+            3142,
+            6284,
+            7855,
+            15710,
+            17281,
+            31420,
+            34562,
+            69124,
+            86405,
+            172810,
+            345620
+          ],
+          "witnesses": []
+        }
+      ],
+      "HNR_refuted": true,
+      "Hlog_refuted": false
+    },
+    {
+      "p": 670849,
+      "budget": 20,
+      "residue_mod840": 529,
+      "all_shifts": [
+        {
+          "u": 1,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 2,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 3,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 4,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 5,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 6,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 7,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 8,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 9,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 10,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 11,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 12,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 13,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 14,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 15,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 16,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 17,
+          "jacobi": -1,
+          "euler_residue": 670848
+        },
+        {
+          "u": 18,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 19,
+          "jacobi": 1,
+          "euler_residue": 1
+        },
+        {
+          "u": 20,
+          "jacobi": 1,
+          "euler_residue": 1
+        }
+      ],
+      "nonresidue_shifts": [
+        17
+      ],
+      "all_admissible_nonresidue_pairs": [
+        {
+          "a": 1,
+          "u": 17,
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              15973,
+              1
+            ]
+          ],
+          "all_divisors": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            14,
+            21,
+            42,
+            15973,
+            31946,
+            47919,
+            95838,
+            111811,
+            223622,
+            335433,
+            670866
+          ],
+          "witnesses": []
+        }
+      ],
+      "HNR_refuted": true,
+      "Hlog_refuted": false
+    }
+  ],
+  "example": {
+    "p": 345601,
+    "a": 1,
+    "u": 19,
+    "M": 345620,
+    "modulus": 76,
+    "unit_divisor_residues": [
+      1,
+      5,
+      11,
+      27,
+      29,
+      51,
+      55,
+      69
+    ],
+    "q": 1571,
+    "q_residue": 51,
+    "forbidden_group_power": 75,
+    "actual_q_exponent": 1
+  },
+  "shift_values_checked": 39,
+  "actual_pairs_checked": 2,
+  "randomness": false,
+  "integer_range_extension": false,
+  "scope": "exact finite integer checks; Lean is verified separately"
+}
