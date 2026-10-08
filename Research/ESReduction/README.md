@@ -55,6 +55,27 @@ theorem es_all_iff_hard_primes :
 
 覆う類は Mordell の古典的な整理と同じですが、法 3・5・7 の部分は Mordell の元の恒等式ではなく、Dahan の Type II 証人で書き直しています。
 
+## 追加: Type II 証人の目標（`OutcastsMathLab/Research/ESWitnessTarget.lean`、17 定理）
+
+Outcasts >>39 で合意した証明対象「各 p で、候補 (a,u) 全体にわたる実際の証人の数の合計が正」を、上の帰着の上に Lean の命題として固定します。
+**目標そのものは証明していません。**
+
+| 定義・定理 | 内容 |
+|---|---|
+| `W p a u` | `a p + u` の約数 s で `4au ∣ s + 1` を満たすものの個数（実際の約数で数え、大小の条件なし）。`W_pos_iff` で「証人が存在する」と同値 |
+| `box B` / `WSum p B` | 積の予算 `1 ≤ a, 1 ≤ u, a u ≤ B` の箱と、その上の W の合計。`mem_box`、`WSum_pos_iff` |
+| `es_of_W_pos` / `es_of_WSum_pos` | W > 0、WSum > 0 なら ES p |
+| `es_all_of_budget` | **どんな予算関数 B でも**、6 類の各素数で `WSum p (B p) > 0` なら、すべての n ≥ 2 で ES n |
+| `es_all_of_typeII` | 予算なしの形: 6 類の各素数に Type II 証人があれば、すべての n ≥ 2 で ES n |
+| `Hlog`（定義）/ `es_all_of_Hlog` | Hlog（予算 ⌈log₂ p⌉ = `Nat.clog 2 p`）を命題として固定し、Hlog ⇒ 予想を示す。**Hlog は未証明**で、必要以上に強い候補 |
+| `hlog_at_1201` ほか 7 個 | 1201、2521、66529、345601、670849、1740481、5843041 で、Hlog の条件が成り立つ（au 最小の証人を Python で探し、Lean で整除と合同を確認） |
+
+注意:
+- この目標は**十分条件で、必要条件ではありません**。Type I の解しか持たない素数があっても、予想は成り立ちえます。
+- 7 素数での成立は、Hlog の証拠ではなく、定義が意図どおりに働くことの確認です（HNR のように u を非剰余に絞ると、345601・670849 では予算内の証人がなくなります。Outcasts >>30）。
+- au 最小の証人: 1201 (4,1,31)、2521 (1,2,87)、66529 (1,5,39)、345601 (1,9,107)、670849 (1,8,319)、1740481 (3,4,3311)、5843041 (1,5,7359)。
+  5843041 の 7359 = 3·11·223 は素因数 3 個の積で、>>21 の反例（素因数 1〜2 個の積に限った予算）とは矛盾しません。
+
 ## 出典
 
 - Mordell の合同恒等式と法 840 の 6 類: L. J. Mordell, *Diophantine Equations* (1969)。整理は Elsholtz–Tao, arXiv:1107.1010, §1。
@@ -73,9 +94,9 @@ theorem es_all_iff_hard_primes :
 
 | 項目 | 結果 |
 |---|---|
-| `lake build`（このモジュールの生成物を消してから） | `OutcastsMathLab.Research.ESReduction` Built（13s）、980 jobs、終了コード 0。Lean 4.34.0 / mathlib v4.34.0 |
-| `#print axioms`（全 22 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
-| `scripts/check_policy.py` | 3 files、禁止構文なし。`sorry` / `native_decide` / 新しい公理なし |
+| `lake build`（両モジュールの生成物を消してから） | `ESReduction` Built（15s）、`ESWitnessTarget` Built（9.6s）、1035 jobs、終了コード 0。Lean 4.34.0 / mathlib v4.34.0 |
+| `#print axioms`（22 + 17 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
+| `scripts/check_policy.py` | 4 files、禁止構文なし。`sorry` / `native_decide` / 新しい公理なし |
 
 作者と照合者は同じ（ルナ）なので、独立した確認には数えません（`docs/PROTOCOL.md` §3）。
 
