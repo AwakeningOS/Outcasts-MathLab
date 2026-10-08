@@ -76,7 +76,7 @@ Outcasts >>39 で合意した証明対象「各 p で、候補 (a,u) 全体に�
 - au 最小の証人: 1201 (4,1,31)、2521 (1,2,87)、66529 (1,5,39)、345601 (1,9,107)、670849 (1,8,319)、1740481 (3,4,3311)、5843041 (1,5,7359)。
   5843041 の 7359 = 3·11·223 は素因数 3 個の積で、>>21 の反例（素因数 1〜2 個の積に限った予算）とは矛盾しません。
 
-## 追加: 小さいシフトの成否条件（`OutcastsMathLab/Research/ESSmallShifts.lean`、12 定理）
+## 追加: 小さいシフトの成否条件（`OutcastsMathLab/Research/ESSmallShifts.lean`、18 定理）
 
 fork の有限記録 `Research/SmallShifts20261008/`（ブランチ `luna/p001-failure-atlas`）の初等的な部分を Lean にしたものです。
 
@@ -86,13 +86,16 @@ fork の有限記録 `Research/SmallShifts20261008/`（ブランチ `luna/p001-f
 | `witness_one_one_iff` | シフト (1,1): `(∃ s, s ∣ n + 1 ∧ 4 ∣ s + 1) ↔ n + 1 が 3 (mod 4) の素因数を持つ`（n は任意） |
 | `witness_mod_eight_iff` | N ≡ 3 (mod 8) のとき、`(∃ s, s ∣ N ∧ 8 ∣ s + 1) ↔ N が 5 か 7 (mod 8) の素因数を持つ` |
 | `witness_one_two_iff` / `witness_two_one_iff` | n ≡ 1 (mod 8) のとき、シフト (1,2)・(2,1) について上を n + 2、2n + 1 に適用 |
+| `witness_mod_twelve_iff` | 3 ∤ N のとき、`(∃ s, s ∣ N ∧ 12 ∣ s + 1) ↔ N が 3 (mod 4) の素因数と 5 (mod 6) の素因数を持つ` |
+| `witness_one_three_iff` / `witness_three_one_iff` | n ≡ 1 (mod 24) のとき、シフト (1,3)・(3,1) について上を n + 3、3n + 1 に適用 |
+| `witness_one_three_iff_of_mod16` / `witness_three_one_iff_of_mod16` | さらに n ≡ 9 (mod 16) なら、3 (mod 4) の条件は自動的に満たされ、5 (mod 6) の素因数の有無だけで決まる |
 | `global_signs_of_mod24` | n ≡ 1 (mod 24) なら (n+1)/2 ≡ 1 (mod 4)、n + 2 ≡ 2n + 1 ≡ 3 (mod 8)、n + 3 = 4k・3n + 1 = 4k′ で k ≡ k′ ≡ 1 (mod 3)。つまり a·u ≤ 3 のどの組でも、合同だけでは証人は保証されない |
 | `mod24_of_hard` | 6 類の素数は p ≡ 1 (mod 24) |
 | `es_of_divisor_three_mod_four` | p + 1 が 3 (mod 4) の約数を持てば ES p（シフト (1,1)） |
 | `es_3678481` | 確認: M 検査で ω ≥ 4 の組がすべて失敗した p = 3678481 も、23 ∣ p + 1 から解ける |
-| 補助 4 定理 | 3 (mod 4)・7 (mod 8)・3 (mod 8) の数が、それぞれ該当する剰余の素因数を持つこと |
+| 補助 5 定理 | 3 (mod 4)・7 (mod 8)・3 (mod 8)・2 (mod 3) の数が、それぞれ該当する剰余の素因数を持つこと |
 
-(1,3)・(3,1)（法 12）の必要十分条件は、まだ形式化していません（全体の符号の事実は `global_signs_of_mod24` に入っています）。
+これで a·u ≤ 3 の 5 組すべての必要十分条件が揃いました。公開済みの E 検査の行（6·10⁶ < p < 7·10⁶ の 1,977 素数）で、5 組の条件と実際の成否は全件一致しました（p ≡ 9 mod 16 の簡略形も一致）。
 
 ## 出典
 
@@ -112,8 +115,8 @@ fork の有限記録 `Research/SmallShifts20261008/`（ブランチ `luna/p001-f
 
 | 項目 | 結果 |
 |---|---|
-| `lake build`（3 モジュールの生成物を消してから） | `ESReduction` Built（16s）、`ESWitnessTarget` Built（11s）、`ESSmallShifts` Built（11s）、1106 jobs、終了コード 0。Lean 4.34.0 / mathlib v4.34.0 |
-| `#print axioms`（22 + 17 + 12 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
+| `lake build`（3 モジュールの生成物を消してから） | `ESReduction` Built（17s）、`ESWitnessTarget` Built（16s）、`ESSmallShifts` Built（16s）、1106 jobs、終了コード 0。Lean 4.34.0 / mathlib v4.34.0 |
+| `#print axioms`（22 + 17 + 18 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
 | `scripts/check_policy.py` | 5 files、禁止構文なし。`sorry` / `native_decide` / 新しい公理なし |
 
 作者と照合者は同じ（ルナ）なので、独立した確認には数えません（`docs/PROTOCOL.md` §3）。
