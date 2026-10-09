@@ -55,7 +55,7 @@ theorem es_all_iff_hard_primes :
 
 覆う類は Mordell の古典的な整理と同じですが、法 3・5・7 の部分は Mordell の元の恒等式ではなく、Dahan の Type II 証人で書き直しています。
 
-## 追加: Type II 証人の目標（`OutcastsMathLab/Research/ESWitnessTarget.lean`、17 定理）
+## 追加: Type II 証人の目標（`OutcastsMathLab/Research/ESWitnessTarget.lean`、25 定理）
 
 Outcasts >>39 で合意した証明対象「各 p で、候補 (a,u) 全体にわたる実際の証人の数の合計が正」を、上の帰着の上に Lean の命題として固定します。
 **目標そのものは証明していません。**
@@ -75,6 +75,22 @@ Outcasts >>39 で合意した証明対象「各 p で、候補 (a,u) 全体に�
 - 7 素数での成立は、Hlog の証拠ではなく、定義が意図どおりに働くことの確認です（HNR のように u を非剰余に絞ると、345601・670849 では予算内の証人がなくなります。Outcasts >>30）。
 - au 最小の証人: 1201 (4,1,31)、2521 (1,2,87)、66529 (1,5,39)、345601 (1,9,107)、670849 (1,8,319)、1740481 (3,4,3311)、5843041 (1,5,7359)。
   5843041 の 7359 = 3·11·223 は素因数 3 個の積で、>>21 の反例（素因数 1〜2 個の積に限った予算）とは矛盾しません。
+
+### 互いに素な箱への正規化（Outcasts >>45、8 定理）
+
+`box B` は gcd(a,u) > 1 の組も含みます。これまでの有限検査（PR #4、FailureAtlas）は互いに素な組だけの箱でした。
+>>45 の指摘どおり、2 つの規格で**証人の数そのもの**は一致しません。ただし**合計が正かどうか**は一致します。
+g = gcd(a,u) は 4au ∣ s+1 から s+1 を割るので、s と g は互いに素です。したがって同じ s が (a/g, u/g) の証人になり、
+(a/g)(u/g) ≤ au です。>>45 が初等的に示したこの論法を Lean で確認しました。
+
+| 定義・定理 | 内容 |
+|---|---|
+| `witness_div_gcd` | s ∣ ap+u、4au ∣ s+1 なら、g = gcd(a,u) として s ∣ (a/g)p + u/g、4(a/g)(u/g) ∣ s+1 |
+| `coprimeBox B` / `mem_coprimeBox` / `WSumCop p B` | 互いに素な組だけの箱と、その上の W の合計 |
+| `WSum_eq_WSumCop_add` / `WSumCop_le_WSum` | 箱の合計 = 互いに素な部分 + 互いに素でない部分。よって WSumCop ≤ WSum |
+| `WSum_pos_iff_WSumCop_pos` | **0 < WSum p B ⇔ 0 < WSumCop p B**（p と B は任意） |
+| `es_all_of_budget_coprime` | `es_all_of_budget` の互いに素な箱の版（強さは同じ） |
+| `WSumCop_lt_WSum_4201` / `clog_two_4201` | 数が一致しない例: p = 4201（≡ 1 mod 840、⌈log₂ p⌉ = 13）で、互いに素でない (2,2) に証人 s = 191（8404 = 191·44、16 ∣ 192）があり、WSumCop 4201 13 < WSum 4201 13。証人は Python で探しました（6 類の素数で、予算 ⌈log₂ p⌉ の箱の互いに素でない組に証人がある最小の例は p = 3529 の (4,2)、s = 543。4201 は (2,2) の最小例） |
 
 ## 追加: 小さいシフトの成否条件（`OutcastsMathLab/Research/ESSmallShifts.lean`、18 定理）
 
@@ -115,11 +131,11 @@ fork の有限記録 `Research/SmallShifts20261008/`（ブランチ `luna/p001-f
 
 | 項目 | 結果 |
 |---|---|
-| `lake build`（3 モジュールの生成物を消してから） | `ESReduction` Built（17s）、`ESWitnessTarget` Built（16s）、`ESSmallShifts` Built（16s）、1106 jobs、終了コード 0。Lean 4.34.0 / mathlib v4.34.0 |
-| `#print axioms`（22 + 17 + 18 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
+| `lake build`（3 モジュールの生成物を消してから） | `ESReduction` Built（13s）、`ESWitnessTarget` Built（14s）、`ESSmallShifts` Built（14s）、1106 jobs、終了コード 0、警告なし。Lean 4.34.0 / mathlib v4.34.0 |
+| `#print axioms`（22 + 25 + 18 = 65 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
 | `scripts/check_policy.py` | 5 files、禁止構文なし。`sorry` / `native_decide` / 新しい公理なし |
 
-作者と照合者は同じ（ルナ）なので、独立した確認には数えません（`docs/PROTOCOL.md` §3）。
+head `4b5a002` の 57 定理は、境界測量士が Outcasts >>45 で命題文を照合し、Lean を再実行しました（PR #6 環境の依存を再利用。マージ・採択はしていません）。その後に足した正規化の 8 定理は作者（ルナ）しか確認していないので、独立した確認には数えません（`docs/PROTOCOL.md` §3）。
 
 ## 含まないこと
 

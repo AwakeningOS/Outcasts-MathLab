@@ -141,6 +141,97 @@ theorem hlog_at_5843041 : 0 < WSum 5843041 (Nat.clog 2 5843041) :=
     (mem_box.mpr ⟨by norm_num, by norm_num, le_trans (by norm_num) (le_clog_two (k := 4) (by norm_num))⟩)
     (by norm_num) (by norm_num)
 
+/-! ## Coprime normalisation of the box (Outcasts >>45)
+
+`box B` contains shifts with `gcd a u > 1`, while the earlier finite checks (PR #4, the failure
+atlas) used coprime boxes.  The witness *counts* of the two boxes can differ
+(`WSumCop_lt_WSum_4201`), but their positivity is the same: a witness `s` for `(a, u)` is coprime
+to `g = gcd a u` (because `g ∣ s + 1`), so the same `s` is a witness for `(a / g, u / g)`, whose
+product is at most `a u`.  The argument was given in Outcasts >>45; this section checks it in Lean. -/
+
+/-- A Type II witness for `(a, u)` is also a witness for the coprime shift `(a / g, u / g)`,
+`g = gcd a u`. -/
+theorem witness_div_gcd {p a u s : ℕ} (hs : s ∣ a * p + u) (hm : 4 * a * u ∣ s + 1) :
+    s ∣ a / Nat.gcd a u * p + u / Nat.gcd a u ∧
+      4 * (a / Nat.gcd a u) * (u / Nat.gcd a u) ∣ s + 1 := by
+  have hga : Nat.gcd a u ∣ a := Nat.gcd_dvd_left a u
+  have hgu : Nat.gcd a u ∣ u := Nat.gcd_dvd_right a u
+  have hg1 : Nat.gcd a u ∣ s + 1 :=
+    hga.trans ((Dvd.intro_left 4 rfl).trans ((Dvd.intro u rfl).trans hm))
+  have hcop : Nat.Coprime s (Nat.gcd a u) :=
+    Nat.dvd_one.mp ((Nat.dvd_add_right (Nat.gcd_dvd_left _ _)).mp
+      ((Nat.gcd_dvd_right _ _).trans hg1))
+  refine ⟨?_, ?_⟩
+  · have heq : a * p + u = (a / Nat.gcd a u * p + u / Nat.gcd a u) * Nat.gcd a u :=
+      calc a * p + u
+          = a / Nat.gcd a u * Nat.gcd a u * p + u / Nat.gcd a u * Nat.gcd a u := by
+            rw [Nat.div_mul_cancel hga, Nat.div_mul_cancel hgu]
+        _ = (a / Nat.gcd a u * p + u / Nat.gcd a u) * Nat.gcd a u := by ring
+    exact hcop.dvd_of_dvd_mul_right (heq ▸ hs)
+  · exact (Nat.mul_dvd_mul (Nat.mul_dvd_mul (dvd_refl 4) (Nat.div_dvd_of_dvd hga))
+      (Nat.div_dvd_of_dvd hgu)).trans hm
+
+/-- The coprime part of the product budget box. -/
+def coprimeBox (B : ℕ) : Finset (ℕ × ℕ) :=
+  (box B).filter (fun au => Nat.Coprime au.1 au.2)
+
+theorem mem_coprimeBox {B a u : ℕ} :
+    (a, u) ∈ coprimeBox B ↔ 1 ≤ a ∧ 1 ≤ u ∧ a * u ≤ B ∧ Nat.Coprime a u := by
+  unfold coprimeBox
+  rw [Finset.mem_filter, mem_box]
+  tauto
+
+/-- Total number of Type II witnesses over the coprime box. -/
+def WSumCop (p B : ℕ) : ℕ := ∑ au ∈ coprimeBox B, W p au.1 au.2
+
+/-- The full box splits into its coprime and non-coprime parts. -/
+theorem WSum_eq_WSumCop_add (p B : ℕ) :
+    WSum p B = WSumCop p B +
+      ∑ au ∈ (box B).filter (fun au => ¬ Nat.Coprime au.1 au.2), W p au.1 au.2 :=
+  (Finset.sum_filter_add_sum_filter_not (box B) _ _).symm
+
+theorem WSumCop_le_WSum (p B : ℕ) : WSumCop p B ≤ WSum p B := by
+  rw [WSum_eq_WSumCop_add p B]
+  exact Nat.le_add_right _ _
+
+/-- **Positivity does not depend on the box convention.** -/
+theorem WSum_pos_iff_WSumCop_pos {p B : ℕ} : 0 < WSum p B ↔ 0 < WSumCop p B := by
+  constructor
+  · intro h
+    obtain ⟨⟨a, u⟩, hau, hw⟩ := WSum_pos_iff.mp h
+    obtain ⟨ha, hu, hB⟩ := mem_box.mp hau
+    obtain ⟨s, hs, hm⟩ := (W_pos_iff (by omega)).mp hw
+    obtain ⟨hs', hm'⟩ := witness_div_gcd hs hm
+    have hg : 0 < Nat.gcd a u := Nat.gcd_pos_of_pos_left u ha
+    have ha0 : 1 ≤ a / Nat.gcd a u := Nat.div_pos (Nat.gcd_le_left u ha) hg
+    have hu0 : 1 ≤ u / Nat.gcd a u := Nat.div_pos (Nat.gcd_le_right (m := a) hu) hg
+    have hle : a / Nat.gcd a u * (u / Nat.gcd a u) ≤ B :=
+      le_trans (Nat.mul_le_mul (Nat.div_le_self a _) (Nat.div_le_self u _)) hB
+    exact Finset.sum_pos_iff.mpr ⟨(a / Nat.gcd a u, u / Nat.gcd a u),
+      mem_coprimeBox.mpr ⟨ha0, hu0, hle, Nat.coprime_div_gcd_div_gcd hg⟩,
+      (W_pos_iff (by omega)).mpr ⟨s, hs', hm'⟩⟩
+  · intro h
+    exact lt_of_lt_of_le h (WSumCop_le_WSum p B)
+
+/-- The budget theorem with the coprime box (same strength as `es_all_of_budget`). -/
+theorem es_all_of_budget_coprime (B : ℕ → ℕ)
+    (h : ∀ p, p.Prime → p % 840 ∈ hardResidues → 0 < WSumCop p (B p)) :
+    ∀ n, 2 ≤ n → ES n :=
+  es_all_of_budget B fun p hp hh => WSum_pos_iff_WSumCop_pos.mpr (h p hp hh)
+
+/-- The counts can differ: at `p = 4201` (`≡ 1 mod 840`, budget `⌈log₂ p⌉ = 13`) the
+non-coprime shift `(2, 2)` has the witness `s = 191` (`8404 = 191 · 44`, `16 ∣ 192`), which the
+coprime box does not count.  Witness found in Python, checked here. -/
+theorem WSumCop_lt_WSum_4201 : WSumCop 4201 13 < WSum 4201 13 := by
+  rw [WSum_eq_WSumCop_add]
+  refine Nat.lt_add_of_pos_right (Finset.sum_pos_iff.mpr ⟨(2, 2), ?_, ?_⟩)
+  · exact Finset.mem_filter.mpr ⟨mem_box.mpr ⟨by norm_num, by norm_num, by norm_num⟩, by decide⟩
+  · exact (W_pos_iff (by norm_num)).mpr ⟨191, by norm_num, by norm_num⟩
+
+theorem clog_two_4201 : Nat.clog 2 4201 = 13 := by
+  refine le_antisymm ((Nat.clog_le_iff_le_pow (by norm_num)).mpr (by norm_num)) ?_
+  exact le_clog_two (k := 12) (by norm_num)
+
 #print axioms W_pos_iff
 #print axioms mem_box
 #print axioms WSum_pos_iff
@@ -158,5 +249,13 @@ theorem hlog_at_5843041 : 0 < WSum 5843041 (Nat.clog 2 5843041) :=
 #print axioms hlog_at_670849
 #print axioms hlog_at_1740481
 #print axioms hlog_at_5843041
+#print axioms witness_div_gcd
+#print axioms mem_coprimeBox
+#print axioms WSum_eq_WSumCop_add
+#print axioms WSumCop_le_WSum
+#print axioms WSum_pos_iff_WSumCop_pos
+#print axioms es_all_of_budget_coprime
+#print axioms WSumCop_lt_WSum_4201
+#print axioms clog_two_4201
 
 end OutcastsMathLab.Research.ESWitnessTarget
