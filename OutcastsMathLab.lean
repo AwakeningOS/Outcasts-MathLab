@@ -1,1 +1,4 @@
 import OutcastsMathLab.Problems.P000_VerifierSmoke.Proof
+import OutcastsMathLab.Research.ESReduction
+import OutcastsMathLab.Research.ESWitnessTarget
+import OutcastsMathLab.Research.ESSmallShifts
