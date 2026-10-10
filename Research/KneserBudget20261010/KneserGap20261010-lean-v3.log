@@ -1,0 +1,9 @@
+'OutcastsMathLab.Research.KneserGap20261010.actual_product_set' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.KneserGap20261010.actual_target_and_gap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.KneserGap20261010.residue_orders_four' depends on axioms: [propext]
+'OutcastsMathLab.Research.KneserGap20261010.admissible_trivial_quotient_shortage' depends on axioms: [propext,
+ Quot.sound]
