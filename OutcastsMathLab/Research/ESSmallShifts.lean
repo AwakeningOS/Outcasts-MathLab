@@ -294,6 +294,36 @@ theorem hard_examples_mod_eleven :
   refine ⟨⟨by norm_num, by decide, by norm_num⟩, ⟨by norm_num, by decide, by norm_num⟩,
     ⟨by norm_num, by decide, by norm_num⟩⟩
 
+/-! ### The trivial witness `s = a n + u` (Q test, fork `Research/QR11Bit20261010/`)
+
+The Q test found that the shift `(1, 22)` almost never fails when `p ≡ 10 (mod 11)`: for hard primes
+`p ≡ 1 (mod 8)`, so `p + 22 ≡ -1 (mod 88)` and the shifted number itself is a witness (`t = 1`).
+This does not enlarge the covering (for `p ≡ 10 (mod 11)` the shift `(1, 1)` already has `s = 11`,
+`witness_of_mod_eleven`); it gives a second, independent witness in the same class. -/
+
+/-- If `4 a u ∣ a n + u + 1`, the shifted number `a n + u` itself is a witness. -/
+theorem trivial_witness {n a u : ℕ} (h : 4 * a * u ∣ a * n + u + 1) :
+    (a * n + u) ∣ a * n + u ∧ 4 * a * u ∣ (a * n + u) + 1 :=
+  ⟨dvd_refl _, h⟩
+
+/-- For `n ≡ 1 (mod 8)` and `n ≡ 10 (mod 11)`, the shift `(1, 22)` has the witness `s = n + 22`. -/
+theorem witness_one_twentytwo {n : ℕ} (h8 : n % 8 = 1) (h11 : n % 11 = 10) :
+    (n + 22) ∣ 1 * n + 22 ∧ 4 * 1 * 22 ∣ (n + 22) + 1 := by
+  refine ⟨by simp, ?_⟩
+  omega
+
+/-- A hard prime with `p ≡ 10 (mod 11)` is solved by the shift `(1, 22)` with `s = p + 22`. -/
+theorem es_of_hard_mod_eleven_ten {p : ℕ} (hp : 0 < p) (hh : p % 840 ∈ hardResidues)
+    (h11 : p % 11 = 10) : ES p := by
+  have h24 := mod24_of_hard hh
+  obtain ⟨h1, h2⟩ := witness_one_twentytwo (n := p) (by omega) h11
+  exact es_of_witness (a := 1) (u := 22) (s := p + 22) hp one_pos (by norm_num) h1 h2
+
+/-- Non-vacuity: `4201` (hard class `1 mod 840`, `≡ 10 mod 11`) has `s = 4223` at `(1, 22)`
+(`4224 = 88 · 48`). -/
+theorem witness_4201_one_twentytwo : 4223 ∣ 1 * 4201 + 22 ∧ 4 * 1 * 22 ∣ 4223 + 1 := by
+  norm_num
+
 #print axioms mod_mem_of_prime_factors
 #print axioms exists_prime_mod_four_three
 #print axioms witness_one_one_iff
@@ -316,5 +346,9 @@ theorem hard_examples_mod_eleven :
 #print axioms witness_of_mod_eleven
 #print axioms es_of_mod_eleven
 #print axioms hard_examples_mod_eleven
+#print axioms trivial_witness
+#print axioms witness_one_twentytwo
+#print axioms es_of_hard_mod_eleven_ten
+#print axioms witness_4201_one_twentytwo
 
 end OutcastsMathLab.Research.ESSmallShifts

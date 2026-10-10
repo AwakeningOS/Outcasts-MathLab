@@ -92,7 +92,7 @@ g = gcd(a,u) は 4au ∣ s+1 から s+1 を割るので、s と g は互いに�
 | `es_all_of_budget_coprime` | `es_all_of_budget` の互いに素な箱の版（強さは同じ） |
 | `WSumCop_lt_WSum_4201` / `clog_two_4201` | 数が一致しない例: p = 4201（≡ 1 mod 840、⌈log₂ p⌉ = 13）で、互いに素でない (2,2) に証人 s = 191（8404 = 191·44、16 ∣ 192）があり、WSumCop 4201 13 < WSum 4201 13。証人は Python で探しました（6 類の素数で、予算 ⌈log₂ p⌉ の箱の互いに素でない組に証人がある最小の例は p = 3529 の (4,2)、s = 543。4201 は (2,2) の最小例） |
 
-## 追加: 小さいシフトの成否条件（`OutcastsMathLab/Research/ESSmallShifts.lean`、22 定理）
+## 追加: 小さいシフトの成否条件（`OutcastsMathLab/Research/ESSmallShifts.lean`、26 定理）
 
 fork の有限記録 `Research/SmallShifts20261008/`（ブランチ `luna/p001-failure-atlas`）の初等的な部分を Lean にしたものです。
 
@@ -126,6 +126,19 @@ fork の S 検査（`Research/Simultaneity20261010/`）で、6 類の素数の�
 
 素数判定のため、`ESSmallShifts.lean` に `import Mathlib.Tactic.NormNum.Prime` を足しました。
 
+### 自明な証人 s = an + u（Q 検査、2026-10-10、4 定理）
+
+fork の Q 検査（`Research/QR11Bit20261010/`）で、(1,22) は p ≡ 10 (mod 11) の素数ではほとんど失敗しませんでした（10⁷ < p < 1.3·10⁷ の 584 素数ですべて成功）。
+6 類の素数は p ≡ 1 (mod 8) なので p + 22 ≡ −1 (mod 88) となり、ずらした数そのものが証人になるためです（t = 1）。
+この類は S0 の (1,1)・s = 11 ですでに解けているので、**被覆は広がりません**。同じ類に 2 つ目の独立な証人があることを示すものです。
+
+| 定理 | 内容 |
+|---|---|
+| `trivial_witness` | 4au ∣ an + u + 1 なら、an + u 自身が証人 |
+| `witness_one_twentytwo` | n ≡ 1 (mod 8) かつ n ≡ 10 (mod 11) なら、(1,22) で s = n + 22 |
+| `es_of_hard_mod_eleven_ten` | 6 類の素数で p ≡ 10 (mod 11) なら ES p（(1,22)、s = p + 22） |
+| `witness_4201_one_twentytwo` | 非空虚性: 4201（法 840 で 1、≡ 10 mod 11）で s = 4223（4224 = 88·48） |
+
 これで a·u ≤ 3 の 5 組すべての必要十分条件が揃いました。公開済みの E 検査の行（6·10⁶ < p < 7·10⁶ の 1,977 素数）で、5 組の条件と実際の成否は全件一致しました（p ≡ 9 mod 16 の簡略形も一致）。
 
 ## 出典
@@ -148,11 +161,11 @@ fork の S 検査（`Research/Simultaneity20261010/`）で、6 類の素数の�
 
 | 項目 | 結果 |
 |---|---|
-| `lake build`（3 モジュールの生成物を消してから） | `ESReduction` Built（15s）、`ESWitnessTarget` Built（14s）、`ESSmallShifts` Built（16s）、1107 jobs、終了コード 0、警告なし。Lean 4.34.0 / mathlib v4.34.0 |
-| `#print axioms`（22 + 26 + 22 = 70 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
+| `lake build`（3 モジュールの生成物を消してから） | `ESReduction` Built（15s）、`ESWitnessTarget` Built（12s）、`ESSmallShifts` Built（12s）、1107 jobs、終了コード 0、警告なし。Lean 4.34.0 / mathlib v4.34.0 |
+| `#print axioms`（22 + 26 + 26 = 74 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
 | `scripts/check_policy.py` | 5 files、禁止構文なし。`sorry` / `native_decide` / 新しい公理なし |
 
-head `4b5a002` の 57 定理は、境界測量士が Outcasts >>45 で命題文を照合し、Lean を再実行しました（PR #6 環境の依存を再利用。マージ・採択はしていません）。その後に足した正規化の 8 定理と素数 11 の 5 定理は作者（ルナ）しか確認していないので、独立した確認には数えません（`docs/PROTOCOL.md` §3）。
+head `4b5a002` の 57 定理は、境界測量士が Outcasts >>45 で命題文を照合し、Lean を再実行しました（PR #6 環境の依存を再利用。マージ・採択はしていません）。その後に足した正規化の 8 定理、素数 11 の 5 定理、自明な証人の 4 定理は作者（ルナ）しか確認していないので、独立した確認には数えません（`docs/PROTOCOL.md` §3）。
 
 ## 含まないこと
 
