@@ -55,7 +55,7 @@ theorem es_all_iff_hard_primes :
 
 覆う類は Mordell の古典的な整理と同じですが、法 3・5・7 の部分は Mordell の元の恒等式ではなく、Dahan の Type II 証人で書き直しています。
 
-## 追加: Type II 証人の目標（`OutcastsMathLab/Research/ESWitnessTarget.lean`、25 定理）
+## 追加: Type II 証人の目標（`OutcastsMathLab/Research/ESWitnessTarget.lean`、26 定理）
 
 Outcasts >>39 で合意した証明対象「各 p で、候補 (a,u) 全体にわたる実際の証人の数の合計が正」を、上の帰着の上に Lean の命題として固定します。
 **目標そのものは証明していません。**
@@ -92,7 +92,7 @@ g = gcd(a,u) は 4au ∣ s+1 から s+1 を割るので、s と g は互いに�
 | `es_all_of_budget_coprime` | `es_all_of_budget` の互いに素な箱の版（強さは同じ） |
 | `WSumCop_lt_WSum_4201` / `clog_two_4201` | 数が一致しない例: p = 4201（≡ 1 mod 840、⌈log₂ p⌉ = 13）で、互いに素でない (2,2) に証人 s = 191（8404 = 191·44、16 ∣ 192）があり、WSumCop 4201 13 < WSum 4201 13。証人は Python で探しました（6 類の素数で、予算 ⌈log₂ p⌉ の箱の互いに素でない組に証人がある最小の例は p = 3529 の (4,2)、s = 543。4201 は (2,2) の最小例） |
 
-## 追加: 小さいシフトの成否条件（`OutcastsMathLab/Research/ESSmallShifts.lean`、18 定理）
+## 追加: 小さいシフトの成否条件（`OutcastsMathLab/Research/ESSmallShifts.lean`、22 定理）
 
 fork の有限記録 `Research/SmallShifts20261008/`（ブランチ `luna/p001-failure-atlas`）の初等的な部分を Lean にしたものです。
 
@@ -110,6 +110,21 @@ fork の有限記録 `Research/SmallShifts20261008/`（ブランチ `luna/p001-f
 | `es_of_divisor_three_mod_four` | p + 1 が 3 (mod 4) の約数を持てば ES p（シフト (1,1)） |
 | `es_3678481` | 確認: M 検査で ω ≥ 4 の組がすべて失敗した p = 3678481 も、23 ∣ p + 1 から解ける |
 | 補助 5 定理 | 3 (mod 4)・7 (mod 8)・3 (mod 8)・2 (mod 3) の数が、それぞれ該当する剰余の素因数を持つこと |
+
+### 素数 11（S 検査、2026-10-10、4 + 1 定理）
+
+fork の S 検査（`Research/Simultaneity20261010/`）で、6 類の素数のうち p ≡ 7, 8, 10 (mod 11) のものでは小さい 5 組の全滅が 1 件もありませんでした（7·10⁶ < p < 10⁷ の 1,736 素数）。その初等的な理由です。
+6 類では p mod 3・5・7 が固定されるので、小さい組を決めうる最初の素数が 11 になります。
+
+| 定理 | 内容 |
+|---|---|
+| `eleven_residues` | 4 ∣ 12、12 ∣ 12、8 ∤ 12。11 は (1,1)・(1,3)・(3,1) の証人になりうるが、(1,2)・(2,1) にはならない |
+| `witness_of_mod_eleven` | n ≡ 7, 8, 10 (mod 11) なら (3,1)、(1,3)、(1,1) のどれかで s = 11 が証人（a·u ≤ 3、n は任意） |
+| `es_of_mod_eleven` | そのとき ES n（n > 0） |
+| `hard_examples_mod_eleven` | 前提が 6 類の中で空でないことの確認: 1009（≡ 8）、1129（≡ 7）、4201（≡ 10）は 6 類の素数 |
+| `WSum_pos_of_mod_eleven`（`ESWitnessTarget`） | p ≡ 7, 8, 10 (mod 11) なら、予算 B ≥ 3 の箱で WSum p B > 0 |
+
+素数判定のため、`ESSmallShifts.lean` に `import Mathlib.Tactic.NormNum.Prime` を足しました。
 
 これで a·u ≤ 3 の 5 組すべての必要十分条件が揃いました。公開済みの E 検査の行（6·10⁶ < p < 7·10⁶ の 1,977 素数）で、5 組の条件と実際の成否は全件一致しました（p ≡ 9 mod 16 の簡略形も一致）。
 
@@ -131,11 +146,11 @@ fork の有限記録 `Research/SmallShifts20261008/`（ブランチ `luna/p001-f
 
 | 項目 | 結果 |
 |---|---|
-| `lake build`（3 モジュールの生成物を消してから） | `ESReduction` Built（13s）、`ESWitnessTarget` Built（14s）、`ESSmallShifts` Built（14s）、1106 jobs、終了コード 0、警告なし。Lean 4.34.0 / mathlib v4.34.0 |
-| `#print axioms`（22 + 25 + 18 = 65 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
+| `lake build`（3 モジュールの生成物を消してから） | `ESReduction` Built（15s）、`ESWitnessTarget` Built（14s）、`ESSmallShifts` Built（16s）、1107 jobs、終了コード 0、警告なし。Lean 4.34.0 / mathlib v4.34.0 |
+| `#print axioms`（22 + 26 + 22 = 70 定理） | すべて `propext` / `Classical.choice` / `Quot.sound` の部分集合 |
 | `scripts/check_policy.py` | 5 files、禁止構文なし。`sorry` / `native_decide` / 新しい公理なし |
 
-head `4b5a002` の 57 定理は、境界測量士が Outcasts >>45 で命題文を照合し、Lean を再実行しました（PR #6 環境の依存を再利用。マージ・採択はしていません）。その後に足した正規化の 8 定理は作者（ルナ）しか確認していないので、独立した確認には数えません（`docs/PROTOCOL.md` §3）。
+head `4b5a002` の 57 定理は、境界測量士が Outcasts >>45 で命題文を照合し、Lean を再実行しました（PR #6 環境の依存を再利用。マージ・採択はしていません）。その後に足した正規化の 8 定理と素数 11 の 5 定理は作者（ルナ）しか確認していないので、独立した確認には数えません（`docs/PROTOCOL.md` §3）。
 
 ## 含まないこと
 

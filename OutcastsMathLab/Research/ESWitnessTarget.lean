@@ -232,6 +232,18 @@ theorem clog_two_4201 : Nat.clog 2 4201 = 13 := by
   refine le_antisymm ((Nat.clog_le_iff_le_pow (by norm_num)).mpr (by norm_num)) ?_
   exact le_clog_two (k := 12) (by norm_num)
 
+/-- For `p ≡ 7, 8, 10 (mod 11)` the box of budget `3` already has a witness (`s = 11` for
+`(3,1)`, `(1,3)`, `(1,1)`; see `ESSmallShifts.witness_of_mod_eleven`). -/
+theorem WSum_pos_of_mod_eleven {p B : ℕ} (hB : 3 ≤ B)
+    (h : p % 11 = 7 ∨ p % 11 = 8 ∨ p % 11 = 10) : 0 < WSum p B := by
+  rcases h with h | h | h
+  · exact WSum_pos_of_witness (a := 3) (u := 1) (s := 11)
+      (mem_box.mpr ⟨by norm_num, by norm_num, by omega⟩) (by omega) (by norm_num)
+  · exact WSum_pos_of_witness (a := 1) (u := 3) (s := 11)
+      (mem_box.mpr ⟨by norm_num, by norm_num, by omega⟩) (by omega) (by norm_num)
+  · exact WSum_pos_of_witness (a := 1) (u := 1) (s := 11)
+      (mem_box.mpr ⟨by norm_num, by norm_num, by omega⟩) (by omega) (by norm_num)
+
 #print axioms W_pos_iff
 #print axioms mem_box
 #print axioms WSum_pos_iff
@@ -257,5 +269,6 @@ theorem clog_two_4201 : Nat.clog 2 4201 = 13 := by
 #print axioms es_all_of_budget_coprime
 #print axioms WSumCop_lt_WSum_4201
 #print axioms clog_two_4201
+#print axioms WSum_pos_of_mod_eleven
 
 end OutcastsMathLab.Research.ESWitnessTarget

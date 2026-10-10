@@ -1,6 +1,7 @@
 import OutcastsMathLab.Research.ESReduction
 import Mathlib.Data.Nat.Factorization.Induction
 import Mathlib.Data.Finset.Basic
+import Mathlib.Tactic.NormNum.Prime
 
 /-!
 # Small shifts on the hard primes: the Mordell obstruction left by `a u ≤ 3`
@@ -260,6 +261,39 @@ fail) is solved by the shift `(1,1)`, since `23 ∣ p + 1` and `23 ≡ 3 (mod 4)
 theorem es_3678481 : ES 3678481 :=
   es_of_divisor_three_mod_four (q := 23) (by norm_num) (by norm_num) (by norm_num)
 
+/-! ### The prime `11` (S test, fork `Research/Simultaneity20261010/`)
+
+In the six hard classes `p mod 3, 5, 7` are fixed, so `11` is the first prime that can decide the
+small shifts.  Since `11 ≡ 3 (mod 4)` and `11 ≡ -1 (mod 12)`, `s = 11` is a witness for `(1,1)`,
+`(1,3)` and `(3,1)` whenever it divides the shifted number, i.e. for `n ≡ 10, 8, 7 (mod 11)`.  It is
+not a witness for `(1,2)`, `(2,1)` (`8 ∤ 12`).  The S test observed no wipe-out of the five small
+shifts in these classes (1,736 hard primes in `7·10⁶ < p < 10⁷`); this section is the elementary
+reason. -/
+
+theorem eleven_residues : 4 ∣ 11 + 1 ∧ 12 ∣ 11 + 1 ∧ ¬ 8 ∣ 11 + 1 := by decide
+
+/-- For `n ≡ 7, 8, 10 (mod 11)` one of the shifts `(3,1)`, `(1,3)`, `(1,1)` has the witness `s = 11`. -/
+theorem witness_of_mod_eleven {n : ℕ} (h : n % 11 = 7 ∨ n % 11 = 8 ∨ n % 11 = 10) :
+    ∃ a u s, 0 < a ∧ 0 < u ∧ a * u ≤ 3 ∧ s ∣ a * n + u ∧ 4 * a * u ∣ s + 1 := by
+  rcases h with h | h | h
+  · exact ⟨3, 1, 11, by norm_num, by norm_num, by norm_num, by omega, by norm_num⟩
+  · exact ⟨1, 3, 11, by norm_num, by norm_num, by norm_num, by omega, by norm_num⟩
+  · exact ⟨1, 1, 11, by norm_num, by norm_num, by norm_num, by omega, by norm_num⟩
+
+theorem es_of_mod_eleven {n : ℕ} (hn : 0 < n) (h : n % 11 = 7 ∨ n % 11 = 8 ∨ n % 11 = 10) :
+    ES n := by
+  obtain ⟨a, u, s, ha, hu, -, hs, hm⟩ := witness_of_mod_eleven h
+  exact es_of_witness hn ha hu hs hm
+
+/-- The hypothesis is not empty inside the hard classes: the smallest hard primes with
+`p ≡ 8, 7, 10 (mod 11)` are `1009`, `1129`, `4201`. -/
+theorem hard_examples_mod_eleven :
+    (Nat.Prime 1009 ∧ 1009 % 840 ∈ hardResidues ∧ 1009 % 11 = 8) ∧
+    (Nat.Prime 1129 ∧ 1129 % 840 ∈ hardResidues ∧ 1129 % 11 = 7) ∧
+    (Nat.Prime 4201 ∧ 4201 % 840 ∈ hardResidues ∧ 4201 % 11 = 10) := by
+  refine ⟨⟨by norm_num, by decide, by norm_num⟩, ⟨by norm_num, by decide, by norm_num⟩,
+    ⟨by norm_num, by decide, by norm_num⟩⟩
+
 #print axioms mod_mem_of_prime_factors
 #print axioms exists_prime_mod_four_three
 #print axioms witness_one_one_iff
@@ -278,5 +312,9 @@ theorem es_3678481 : ES 3678481 :=
 #print axioms mod24_of_hard
 #print axioms es_of_divisor_three_mod_four
 #print axioms es_3678481
+#print axioms eleven_residues
+#print axioms witness_of_mod_eleven
+#print axioms es_of_mod_eleven
+#print axioms hard_examples_mod_eleven
 
 end OutcastsMathLab.Research.ESSmallShifts
