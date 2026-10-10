@@ -3,7 +3,7 @@
 - 一般補題: `OutcastsMathLab/Research/DeterministicFailure.lean`
 - 生成された証明書: `OutcastsMathLab/Research/HardPrimes20261005.lean`（生成スクリプト `gen_certificates.py`、手で編集しない）
 
-**新しい数学ではない。** 既知の判定条件（Dahan v1 Theorem 3.9(ii): `s ∣ ap+u`、`s ≡ −1 (mod 4au)`）について、
+**新しい数学ではない。** 判定条件（Dahan v1 Theorem 3.9(ii): `s ∣ ap+u`、`s ≡ −1 (mod 4au)`。Dahan は査読前のプレプリントで、ここでは判定式の形だけを使う。2026-10-10 に「既知の判定条件」から書き直した）について、
 特定の素数 `p` と有限個の pair `(a, u)` に証人が**無い**ことを、Lean の定理として検証する部品。
 
 ## 仕組み
