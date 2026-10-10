@@ -130,8 +130,10 @@ fork の S 検査（`Research/Simultaneity20261010/`）で、6 類の素数の�
 
 ## 出典
 
-- Mordell の合同恒等式と法 840 の 6 類: L. J. Mordell, *Diophantine Equations* (1969)。整理は Elsholtz–Tao, arXiv:1107.1010, §1。
-- Type II の判定条件: Dahan, arXiv:2608.24035, Theorem 3.9(ii)（PR #6 の `DivisorWitness` と同じ形）。
+- Mordell の合同恒等式と法 840 の 6 類: L. J. Mordell, *Diophantine Equations* (1969)。整理は Elsholtz–Tao, arXiv:1107.1010, §1（査読済み: J. Aust. Math. Soc. 94 (2013) 50–105）。
+- Type II の判定条件: Dahan, arXiv:2608.24035, Theorem 3.9(ii)（PR #6 の `DivisorWitness` と同じ形）。Dahan v1（2026-08）は**査読前のプレプリント**です。
+  ここで使うのは判定式の形と、その十分性（証人があれば解がある）だけで、十分性は `es_of_witness` として Lean で証明しています。
+  完全性（Type II の解があれば証人がある）には依存していません（2026-10-10 追記）。
 - 解の公式 x = uvt、y = auvn、z = avtn は、こちらで n < 400、a,u ≤ 4 の全 1,957 個の証人で数値的に確かめてから、代数的に証明しました
   （4xyz − n(xy+xz+yz) = auv²tn²(4auvt − u − t − an) で、st = an+u、s+1 = 4auv から 0）。
 
