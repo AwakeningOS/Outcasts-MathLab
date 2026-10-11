@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "dependency_head": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "standalone_theorem_count": 10,
+  "command": "lake env lean Reply20261008.lean",
+  "new_full_project_build": false,
+  "log": "/mnt/hdd1t/outcasts-reply-20261008-uJgvk4/lean-check-v3.log"
+}

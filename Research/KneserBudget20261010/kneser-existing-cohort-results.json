@@ -1,0 +1,3361 @@
+{
+  "candidate": "HKlog",
+  "sources": [
+    {
+      "path": "/mnt/hdd1t/outcasts-witness-budget-20260930-r3Gjat/results.json",
+      "rows": 4519,
+      "rows_sha256": "ee23c2187252324c85a4c8fb756301a394b2783c4d62fb6929120cd7e410a70f",
+      "declared_start": null,
+      "actual_min_p": 1009,
+      "actual_max_p": 1999561,
+      "limit": 2000000
+    },
+    {
+      "path": "/mnt/hdd1t/outcasts-witness-budget-20260930-r3Gjat/results-2m-100m.json",
+      "rows": 174949,
+      "rows_sha256": "32f56343f1a8df5e1296b90079ad7c387dea7cb17e6f22ad1dc82f5b9a014010",
+      "declared_start": 2000001,
+      "actual_min_p": 2000209,
+      "actual_max_p": 99999481,
+      "limit": 100000000
+    }
+  ],
+  "source_rows": 179468,
+  "checked_inputs": 17816,
+  "checked_through_p": 8615161,
+  "all_source_inputs_checked": false,
+  "extra_boxes": 255,
+  "different_K_pair_passes": [
+    {
+      "p": 24481,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 29401,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 43201,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 49681,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 59809,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 64849,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 64969,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 66529,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        9
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 83449,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 90841,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        7
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 91081,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 142969,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 154081,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 174241,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 175081,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 181729,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 196561,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        7,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 225289,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 244561,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 313009,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 314161,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 337969,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 349801,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 353929,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 356449,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 382729,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 384841,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 396001,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 415969,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 468241,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 471241,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 474769,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 530041,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 550489,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 585841,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 592321,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 608161,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 617401,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 619921,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 667921,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 670849,
+      "old_pair": [
+        1,
+        8
+      ],
+      "new_K_pair": [
+        10,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 711001,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 786241,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        8,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 797689,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 806521,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 910849,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 943009,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 950401,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 962161,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 977761,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 980641,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 984481,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 988849,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 993169,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1029361,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1040881,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1069609,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1113961,
+      "old_pair": [
+        8,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        12
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1114801,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1147969,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1160041,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1160161,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1166089,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1169401,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1178809,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1188049,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1354081,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1449361,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1464289,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1481041,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1492969,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1495561,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1499521,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        8,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1517209,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1554841,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1585201,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1629601,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1633129,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1639201,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1661641,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1695961,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1740481,
+      "old_pair": [
+        3,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        13
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1747729,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1762609,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1790209,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        10
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1817041,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1820641,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1867849,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 1926241,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2031121,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        10
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2042401,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2044681,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2058169,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2127841,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2264161,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2267281,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2269129,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2337889,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2406721,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2434441,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2438881,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2508409,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2525161,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2592241,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2618449,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2708521,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2745121,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2764441,
+      "old_pair": [
+        5,
+        2
+      ],
+      "new_K_pair": [
+        15,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2790769,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2812441,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2827969,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2869729,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 2874841,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3043321,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3054241,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3079441,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3232321,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        8
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3401689,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3479569,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3581041,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3588601,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3606961,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3635689,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3640849,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3643609,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3659401,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3676129,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3704761,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3819481,
+      "old_pair": [
+        1,
+        10
+      ],
+      "new_K_pair": [
+        2,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3830401,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        9,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3833281,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3848161,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3877801,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3888889,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 3991681,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4030321,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4134769,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4163041,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4244881,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4279969,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4302601,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4357609,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4363321,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4402561,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4411801,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4426249,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4477489,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4480081,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4501921,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4554169,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4555321,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4648561,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4687321,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4701601,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4740289,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4751209,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4798081,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4799089,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4837009,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4906801,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4917361,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4965601,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4967041,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 4976161,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5037001,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5093929,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5101441,
+      "old_pair": [
+        14,
+        1
+      ],
+      "new_K_pair": [
+        17,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5122681,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5140489,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5205169,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5223409,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5249161,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5252641,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5269009,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5281369,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5287801,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5308801,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5322409,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5392249,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5470369,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5535121,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5572561,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5592049,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5627161,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5700601,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5708641,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5721601,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5844721,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5865841,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5970241,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 5999449,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6034081,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6042481,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6127969,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6157369,
+      "old_pair": [
+        8,
+        1
+      ],
+      "new_K_pair": [
+        4,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6203089,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6221041,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6319681,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6357961,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6379129,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6425329,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        11,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6442801,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6444601,
+      "old_pair": [
+        8,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        9
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6470641,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6473041,
+      "old_pair": [
+        7,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6490801,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6528601,
+      "old_pair": [
+        4,
+        3
+      ],
+      "new_K_pair": [
+        3,
+        7
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6586561,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6668209,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6704161,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6746401,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6790009,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6801001,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6870481,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6910201,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6947329,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 6979561,
+      "old_pair": [
+        1,
+        8
+      ],
+      "new_K_pair": [
+        1,
+        10
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7055281,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7066249,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7079041,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7211521,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7290529,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7303921,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7305601,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7353481,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7404289,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7427281,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7458889,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7472161,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7570201,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7573801,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7595569,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7614601,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7660801,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7670881,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        6,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7782769,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7859041,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7879369,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        3,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7912081,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7950121,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7976809,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        2
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 7988689,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8040481,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8070409,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8095441,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8122249,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8157769,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8169121,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        5
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8172481,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8222449,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        2,
+        3
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8251489,
+      "old_pair": [
+        4,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8394289,
+      "old_pair": [
+        1,
+        5
+      ],
+      "new_K_pair": [
+        5,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8486641,
+      "old_pair": [
+        1,
+        4
+      ],
+      "new_K_pair": [
+        4,
+        1
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    },
+    {
+      "p": 8608609,
+      "old_pair": [
+        5,
+        1
+      ],
+      "new_K_pair": [
+        1,
+        6
+      ],
+      "old_has_actual_witness": true,
+      "old_K": false
+    }
+  ],
+  "counterexample": {
+    "p": 8615161,
+    "budget": 24,
+    "coprime_pairs": 67,
+    "old_witness": {
+      "a": 4,
+      "alpha": 51,
+      "cost": 4,
+      "s": 815,
+      "u": 1,
+      "v": 42283,
+      "xyz": [
+        2156433,
+        1757492844,
+        74312069922852
+      ]
+    },
+    "actual_success_pairs": 10,
+    "failure_counts": {
+      "group_obstruction": 44,
+      "insufficient_Kneser_bound": 23
+    }
+  },
+  "stop_reason": "first_counterexample",
+  "elapsed_seconds": 0.341,
+  "universal_existence_proved": false,
+  "Hlog_refuted": false,
+  "ESC_refuted": false,
+  "new_integer_range_extension": false
+}

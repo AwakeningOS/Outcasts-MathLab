@@ -1,0 +1,10 @@
+u=1 factor sieve complete, cap=101, root=13258
+{"p": 1740481, "u": 1, "cap": 101, "root": 13258, "rows": 101, "divisor_sets_equal_every_row": true, "total_divisors": 1702, "first_a": 30, "ndjson_sha256": "f5a481eb546534b3f98ee97d27764320f5f321796ff6e03c88ce1b23a6377f51", "gzip_sha256": "364c18856b0515414f905a1ce852b4721beb8a66b7222a221ae17657fa1b81c3", "seconds": 0.007}
+first witnesses [{"a": 30, "u": 1, "s": 586679, "alpha": 4889, "v": 89, "product": 30, "xyz": [435121, 255276348270, 22719594996030]}, {"a": 34, "u": 1, "s": 6935, "alpha": 51, "v": 8533, "product": 34, "xyz": [435183, 3017994054, 25752543262782]}]
+u=2 factor sieve complete, cap=217562, root=615355
+{"p": 1740481, "u": 2, "cap": 217562, "root": 615355, "rows": 217562, "divisor_sets_equal_every_row": true, "total_divisors": 5835257, "first_a": null, "ndjson_sha256": "b0738a56f3d3d808c643a2dfaf2bb6cace45e06d909990d6097472efc4e97604", "gzip_sha256": "c665c669bfd5ff6ebbe3570bb19c9392f468f2e3c7d403082b0eb2d845789c84", "seconds": 7.814}
+first witnesses []
+u=3 factor sieve complete, cap=145043, root=502438
+{"p": 1740481, "u": 3, "cap": 145043, "root": 502438, "rows": 145043, "divisor_sets_equal_every_row": true, "total_divisors": 3830365, "first_a": 104, "ndjson_sha256": "d0aa746b7db14a49c6f74b2e47839ae8e982cc6dc82a0ca3b4704c1ecae05084", "gzip_sha256": "5ac47d58a37ed59f9918a5127058fa72dc146425bf6d2a32a45fc1ff8d5041c6", "seconds": 4.888}
+first witnesses [{"a": 104, "u": 3, "s": 11231, "alpha": 9, "v": 16117, "product": 312, "xyz": [435159, 4887270648, 26256047011272]}]
+COMPLETE all rows matched; no universal theorem asserted

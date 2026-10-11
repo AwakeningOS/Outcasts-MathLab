@@ -1,0 +1,140 @@
+﻿2026-10-05T05:20:06.3218441Z Current runner version: '2.337.0'
+2026-10-05T05:20:06.3236752Z ##[group]Runner Image Provisioner
+2026-10-05T05:20:06.3237288Z Hosted Compute Agent
+2026-10-05T05:20:06.3237738Z Version: 20260901.588
+2026-10-05T05:20:06.3238124Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+2026-10-05T05:20:06.3238546Z Build Date: 2026-09-01T19:56:44Z
+2026-10-05T05:20:06.3239038Z Worker ID: {fdf30aad-79bf-4a8c-a71e-4c515984029a}
+2026-10-05T05:20:06.3239462Z Azure Region: centralus
+2026-10-05T05:20:06.3239839Z ##[endgroup]
+2026-10-05T05:20:06.3240583Z ##[group]Operating System
+2026-10-05T05:20:06.3240948Z Ubuntu
+2026-10-05T05:20:06.3241360Z 24.04.5
+2026-10-05T05:20:06.3241675Z LTS
+2026-10-05T05:20:06.3242044Z ##[endgroup]
+2026-10-05T05:20:06.3242394Z ##[group]Runner Image
+2026-10-05T05:20:06.3242809Z Image: ubuntu-24.04
+2026-10-05T05:20:06.3243218Z Version: 20260927.320.1
+2026-10-05T05:20:06.3244097Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-05T05:20:06.3245004Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+2026-10-05T05:20:06.3245562Z ##[endgroup]
+2026-10-05T05:20:06.3246273Z ##[group]GITHUB_TOKEN Permissions
+2026-10-05T05:20:06.3247609Z Contents: read
+2026-10-05T05:20:06.3248009Z Metadata: read
+2026-10-05T05:20:06.3248347Z ##[endgroup]
+2026-10-05T05:20:06.3249654Z Secret source: None
+2026-10-05T05:20:06.3250260Z Cache mode: write
+2026-10-05T05:20:06.3250823Z Prepare workflow directory
+2026-10-05T05:20:06.3461938Z Prepare all required actions
+2026-10-05T05:20:06.3493848Z Getting action download info
+2026-10-05T05:20:06.5827873Z Download action repository 'actions/checkout@v5' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+2026-10-05T05:20:06.7688663Z Complete job name: Trust-boundary policy
+2026-10-05T05:20:06.8241961Z ##[group]Run actions/checkout@v5
+2026-10-05T05:20:06.8242391Z with:
+2026-10-05T05:20:06.8242659Z   repository: AwakeningOS/Outcasts-MathLab
+2026-10-05T05:20:06.8244934Z   token: ***
+2026-10-05T05:20:06.8245189Z   ssh-strict: true
+2026-10-05T05:20:06.8245433Z   ssh-user: git
+2026-10-05T05:20:06.8245688Z   persist-credentials: true
+2026-10-05T05:20:06.8246024Z   clean: true
+2026-10-05T05:20:06.8246278Z   sparse-checkout-cone-mode: true
+2026-10-05T05:20:06.8246571Z   fetch-depth: 1
+2026-10-05T05:20:06.8246815Z   fetch-tags: false
+2026-10-05T05:20:06.8247063Z   show-progress: true
+2026-10-05T05:20:06.8247316Z   lfs: false
+2026-10-05T05:20:06.8247555Z   submodules: false
+2026-10-05T05:20:06.8247811Z   set-safe-directory: true
+2026-10-05T05:20:06.8248095Z   allow-unsafe-pr-checkout: false
+2026-10-05T05:20:06.8248474Z ##[endgroup]
+2026-10-05T05:20:06.8916183Z Syncing repository: AwakeningOS/Outcasts-MathLab
+2026-10-05T05:20:06.8917314Z ##[group]Getting Git version info
+2026-10-05T05:20:06.8917827Z Working directory is '/home/runner/work/Outcasts-MathLab/Outcasts-MathLab'
+2026-10-05T05:20:06.8918514Z [command]/usr/bin/git version
+2026-10-05T05:20:06.9009610Z git version 2.55.0
+2026-10-05T05:20:06.9023393Z ##[endgroup]
+2026-10-05T05:20:06.9033887Z Temporarily overriding HOME='/home/runner/work/_temp/fec9e50d-68e1-4f6b-8940-5cda9d569e38' before making global git config changes
+2026-10-05T05:20:06.9035179Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-05T05:20:06.9037508Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Outcasts-MathLab/Outcasts-MathLab
+2026-10-05T05:20:06.9084982Z Deleting the contents of '/home/runner/work/Outcasts-MathLab/Outcasts-MathLab'
+2026-10-05T05:20:06.9090476Z ##[group]Initializing the repository
+2026-10-05T05:20:06.9097787Z [command]/usr/bin/git init /home/runner/work/Outcasts-MathLab/Outcasts-MathLab
+2026-10-05T05:20:06.9182834Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-05T05:20:06.9183868Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-05T05:20:06.9184656Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-05T05:20:06.9185497Z hint: call:
+2026-10-05T05:20:06.9186248Z hint:
+2026-10-05T05:20:06.9186643Z hint: 	git config --global init.defaultBranch <name>
+2026-10-05T05:20:06.9186976Z hint:
+2026-10-05T05:20:06.9187294Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-05T05:20:06.9187796Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-05T05:20:06.9188196Z hint:
+2026-10-05T05:20:06.9188427Z hint: 	git branch -m <name>
+2026-10-05T05:20:06.9188683Z hint:
+2026-10-05T05:20:06.9189021Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-05T05:20:06.9189941Z Initialized empty Git repository in /home/runner/work/Outcasts-MathLab/Outcasts-MathLab/.git/
+2026-10-05T05:20:06.9198861Z [command]/usr/bin/git remote add origin https://github.com/AwakeningOS/Outcasts-MathLab
+2026-10-05T05:20:06.9245521Z ##[endgroup]
+2026-10-05T05:20:06.9246247Z ##[group]Disabling automatic garbage collection
+2026-10-05T05:20:06.9248727Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-05T05:20:06.9281434Z ##[endgroup]
+2026-10-05T05:20:06.9282172Z ##[group]Setting up auth
+2026-10-05T05:20:06.9288468Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-05T05:20:06.9321033Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-05T05:20:06.9623315Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-05T05:20:06.9654228Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-05T05:20:06.9835850Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-05T05:20:06.9866199Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-05T05:20:07.0042491Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-05T05:20:07.0075877Z ##[endgroup]
+2026-10-05T05:20:07.0076449Z ##[group]Fetching the repository
+2026-10-05T05:20:07.0081969Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b663077dba62e95e258f6cb0a4ce4e571025ecad:refs/remotes/pull/6/merge
+2026-10-05T05:20:07.5751642Z From https://github.com/AwakeningOS/Outcasts-MathLab
+2026-10-05T05:20:07.5752320Z  * [new ref]         b663077dba62e95e258f6cb0a4ce4e571025ecad -> pull/6/merge
+2026-10-05T05:20:07.5755056Z ##[endgroup]
+2026-10-05T05:20:07.5755706Z ##[group]Determining the checkout info
+2026-10-05T05:20:07.5756880Z ##[endgroup]
+2026-10-05T05:20:07.5767037Z [command]/usr/bin/git sparse-checkout disable
+2026-10-05T05:20:07.6802328Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-05T05:20:07.6987497Z ##[group]Checking out the ref
+2026-10-05T05:20:07.6989579Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/6/merge
+2026-10-05T05:20:07.8092348Z Note: switching to 'refs/remotes/pull/6/merge'.
+2026-10-05T05:20:07.8114500Z 
+2026-10-05T05:20:07.8115492Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-05T05:20:07.8116695Z changes and commit them, and you can discard any commits you make in this
+2026-10-05T05:20:07.8117746Z state without impacting any branches by switching back to a branch.
+2026-10-05T05:20:07.8118447Z 
+2026-10-05T05:20:07.8118946Z If you want to create a new branch to retain commits you create, you may
+2026-10-05T05:20:07.8120025Z do so (now or later) by using -c with the switch command. Example:
+2026-10-05T05:20:07.8120662Z 
+2026-10-05T05:20:07.8120984Z   git switch -c <new-branch-name>
+2026-10-05T05:20:07.8121506Z 
+2026-10-05T05:20:07.8121829Z Or undo this operation with:
+2026-10-05T05:20:07.8122636Z 
+2026-10-05T05:20:07.8122996Z   git switch -
+2026-10-05T05:20:07.8123474Z 
+2026-10-05T05:20:07.8124276Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-05T05:20:07.8125055Z 
+2026-10-05T05:20:07.8125989Z HEAD is now at b663077 Merge fc6ed0305974e2501721aefd73186907ed45d7f6 into afffbfd463d7e6a626d44f6d66c608a18abeda29
+2026-10-05T05:20:07.8129069Z ##[endgroup]
+2026-10-05T05:20:07.8145951Z [command]/usr/bin/git log -1 --format=%H
+2026-10-05T05:20:07.8171605Z b663077dba62e95e258f6cb0a4ce4e571025ecad
+2026-10-05T05:20:07.8364335Z ##[group]Run python3 scripts/check_policy.py
+2026-10-05T05:20:07.8365047Z [36;1mpython3 scripts/check_policy.py[0m
+2026-10-05T05:20:07.8697243Z shell: /usr/bin/bash -e {0}
+2026-10-05T05:20:07.8697756Z ##[endgroup]
+2026-10-05T05:20:07.8973789Z policy: checked 7 Lean files; no blocked construct found
+2026-10-05T05:20:07.9149167Z Post job cleanup.
+2026-10-05T05:20:07.9712673Z [command]/usr/bin/git version
+2026-10-05T05:20:07.9774756Z git version 2.55.0
+2026-10-05T05:20:07.9787389Z Temporarily overriding HOME='/home/runner/work/_temp/c9654876-d5f3-4d2e-abdf-31c72797bc97' before making global git config changes
+2026-10-05T05:20:07.9790140Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-05T05:20:07.9792057Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Outcasts-MathLab/Outcasts-MathLab
+2026-10-05T05:20:08.0989509Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-05T05:20:08.1025735Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-05T05:20:08.1211200Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-05T05:20:08.1239822Z http.https://github.com/.extraheader
+2026-10-05T05:20:08.1249056Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-05T05:20:08.2037927Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-05T05:20:08.2275108Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-05T05:20:08.2317869Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-05T05:20:08.2690372Z Cleaning up orphan processes

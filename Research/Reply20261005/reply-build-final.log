@@ -1,0 +1,2 @@
+ℹ [135/533] Replayed OutcastsMathLab.Problems.P000_VerifierSmoke.Proof
+info: OutcastsMathLab/Problems/P000_VerifierSmoke/Proof.lean:9:0: 'OutcastsMathLab.P000.verified' does not depend on any axioms

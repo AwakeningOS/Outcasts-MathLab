@@ -1,0 +1,326 @@
+{
+  "head": "4b5a002a02f5dc284681af4418eef73e984194de",
+  "dependency_head": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "lean_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "dependency_manifests_exactly_equal": true,
+  "compiled_modules": 3,
+  "passed_theorems": 57,
+  "all_axioms_standard_subset": true,
+  "new_full_lake_build": false,
+  "source_modules_recompiled_into_new_directory": true,
+  "failed_harness_attempts": [
+    {
+      "stage": "first invocation",
+      "cause": "Explicit --root omitted for external source; Lean rejected before elaboration",
+      "log": "/mnt/hdd1t/outcasts-reply-20261009-eTMABt/ESReduction-lean.log"
+    },
+    {
+      "stage": "second harness",
+      "cause": "ESReduction passed 22 theorems; the one-line axioms parser could not read wrapped output",
+      "log": "/mnt/hdd1t/outcasts-reply-20261009-eTMABt/ESReduction-lean-v2.log"
+    }
+  ],
+  "results": [
+    {
+      "module": "ESReduction",
+      "exit_code": 0,
+      "theorem_count": 22,
+      "seconds": 3.53,
+      "source_sha256": "4aa54ad23b12d510c24519c5e4115d0f2e0e50516289867ca6b53f4ff29ad282",
+      "log": "/mnt/hdd1t/outcasts-reply-20261009-eTMABt/ESReduction-lean-v3.log",
+      "theorem_axioms": {
+        "OutcastsMathLab.Research.ESReduction.es_iff_rat": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.es_mul": [
+          "propext"
+        ],
+        "OutcastsMathLab.Research.ESReduction.es_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.es_of_mod_four_eq_three": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.es_of_mod_eight_eq_five": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.es_of_witness": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.hard_of_residues": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.mod_ne_zero_of_prime": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.mod8_eq_one": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.mod3_eq_one": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.mod5_cases": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.mod7_cases": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.dvd_mod3": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.dvd_mod15_a": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.dvd_mod15_b": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.dvd_mod7_a": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.dvd_mod7_b": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.dvd_mod7_c": [
+          "propext",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.es_of_not_hard": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.es_all_iff_hard_primes": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.es_1201": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESReduction.not_es_one": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ESWitnessTarget",
+      "exit_code": 0,
+      "theorem_count": 17,
+      "seconds": 1.02,
+      "source_sha256": "9024afc77725fe69a3cef296a7fe5128255cdd955587b1ee57a8fad594472834",
+      "log": "/mnt/hdd1t/outcasts-reply-20261009-eTMABt/ESWitnessTarget-lean-v3.log",
+      "theorem_axioms": {
+        "OutcastsMathLab.Research.ESWitnessTarget.W_pos_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.mem_box": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.WSum_pos_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.es_of_W_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.es_of_WSum_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.WSum_pos_of_witness": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.es_all_of_budget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.es_all_of_typeII": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.es_all_of_Hlog": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.le_clog_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.hlog_at_1201": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.hlog_at_2521": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.hlog_at_66529": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.hlog_at_345601": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.hlog_at_670849": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.hlog_at_1740481": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESWitnessTarget.hlog_at_5843041": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ESSmallShifts",
+      "exit_code": 0,
+      "theorem_count": 18,
+      "seconds": 2.32,
+      "source_sha256": "6e1ac9d917e3c370000650a600b91bae4462a3130222956cfecc9ff84ffddb62",
+      "log": "/mnt/hdd1t/outcasts-reply-20261009-eTMABt/ESSmallShifts-lean-v3.log",
+      "theorem_axioms": {
+        "OutcastsMathLab.Research.ESSmallShifts.mod_mem_of_prime_factors": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.exists_prime_mod_four_three": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_one_one_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.exists_prime_mod_eight_five_or_seven": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.exists_prime_mod_eight_three_or_seven": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_mod_eight_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_one_two_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_two_one_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.exists_prime_mod_three_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_mod_twelve_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_one_three_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_three_one_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_one_three_iff_of_mod16": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.witness_three_one_iff_of_mod16": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.global_signs_of_mod24": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.mod24_of_hard": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.es_of_divisor_three_mod_four": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OutcastsMathLab.Research.ESSmallShifts.es_3678481": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    }
+  ]
+}
