@@ -1,0 +1,320 @@
+[
+  {
+    "relative": "participants/Recalibration20261010/README.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/7512796/Research/Recalibration20261010/README.md",
+    "bytes": 6325,
+    "sha256": "2e3fc788675f63e54bbd6af1873cc8dbed29a3eb215d494f791485bd768f4967"
+  },
+  {
+    "relative": "participants/Recalibration20261010/SHA256SUMS",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/7512796/Research/Recalibration20261010/SHA256SUMS",
+    "bytes": 589,
+    "sha256": "5cdfaa66a3af7dc6edc7c79e34360c2209c2f825700e4c7f7be9e633627b7807"
+  },
+  {
+    "relative": "participants/Recalibration20261010/contract.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/7512796/Research/Recalibration20261010/contract.md",
+    "bytes": 5752,
+    "sha256": "0076c6112f47ac27542d47175181c2b286d6765e48d33da802a8b771d4abd55b"
+  },
+  {
+    "relative": "participants/Recalibration20261010/recalibration_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/7512796/Research/Recalibration20261010/recalibration_results.json",
+    "bytes": 3383,
+    "sha256": "dfc614c6ace3c3a9f497b1fed4a93b7557fe3ed50073d845a89da90b8f5f6a21"
+  },
+  {
+    "relative": "participants/Recalibration20261010/recalibration_test.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/7512796/Research/Recalibration20261010/recalibration_test.py",
+    "bytes": 7434,
+    "sha256": "c87493c063e1ef9512f9578950b8e6db27688fb4836739b71641cd4ce18322f1"
+  },
+  {
+    "relative": "participants/Recalibration20261010/refit_bias_estimate.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/7512796/Research/Recalibration20261010/refit_bias_estimate.json",
+    "bytes": 106,
+    "sha256": "da91f1624072020cb990a65f3b2724c800d6dd5fba2f1df1d1d583e2d01e5772"
+  },
+  {
+    "relative": "participants/Recalibration20261010/refit_bias_estimate.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/7512796/Research/Recalibration20261010/refit_bias_estimate.py",
+    "bytes": 2484,
+    "sha256": "d434d017ccf62df3572a3b8257176dc16b1788b39734deade427396daec8aa38"
+  },
+  {
+    "relative": "participants/Recalibration20261010/run.log",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/7512796/Research/Recalibration20261010/run.log",
+    "bytes": 43,
+    "sha256": "84fa1b85ec957add668833bba365d1690919d11dced80e91c69c9849744c5396"
+  },
+  {
+    "relative": "participants/KneserReview20261010/KneserGap20261010-luna.log",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/15ca039a4caa455ed9197e1ebfe9090385e7592e/Research/KneserReview20261010/KneserGap20261010-luna.log",
+    "bytes": 471,
+    "sha256": "9078b178e87417b0ff2a3cb21574d8521024339c184d55182308904853ba2e8c"
+  },
+  {
+    "relative": "participants/KneserReview20261010/README.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/15ca039a4caa455ed9197e1ebfe9090385e7592e/Research/KneserReview20261010/README.md",
+    "bytes": 5459,
+    "sha256": "6b45c6f116a48d53467bf656667105c3d8f80fb4dfb5f5979a9dcc439a9174b3"
+  },
+  {
+    "relative": "participants/KneserReview20261010/SHA256SUMS",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/15ca039a4caa455ed9197e1ebfe9090385e7592e/Research/KneserReview20261010/SHA256SUMS",
+    "bytes": 519,
+    "sha256": "2e6b4b5d2fa14ef28f8c19c76a40da2a5599f3addc0bcc4a9510702a8908973d"
+  },
+  {
+    "relative": "participants/KneserReview20261010/kneser_check.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/15ca039a4caa455ed9197e1ebfe9090385e7592e/Research/KneserReview20261010/kneser_check.py",
+    "bytes": 7117,
+    "sha256": "8261bc85e69d0d889dda62fc3cc393e6f475910b9f7adffea935e96101fe4b0c"
+  },
+  {
+    "relative": "participants/KneserReview20261010/kneser_check_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/15ca039a4caa455ed9197e1ebfe9090385e7592e/Research/KneserReview20261010/kneser_check_results.json",
+    "bytes": 30028,
+    "sha256": "b75334ad083c28c8b7cead5e52e92625e293d848a8d168f274181e935a644a0b"
+  },
+  {
+    "relative": "participants/KneserReview20261010/kneser_extend.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/15ca039a4caa455ed9197e1ebfe9090385e7592e/Research/KneserReview20261010/kneser_extend.py",
+    "bytes": 1347,
+    "sha256": "a3736481bcc0828ba6bc314630a539fb431d34a654b8543cdd54d0ec47b93498"
+  },
+  {
+    "relative": "participants/KneserReview20261010/kneser_extend_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/15ca039a4caa455ed9197e1ebfe9090385e7592e/Research/KneserReview20261010/kneser_extend_results.json",
+    "bytes": 278,
+    "sha256": "864f8c59b857566faee58f81dc1083f143d3f7eeb9f52f82a3f0e7dd6a007b37"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/README.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/README.md",
+    "bytes": 6365,
+    "sha256": "b9f1b0c60c0362c0f74b8ae588377ba6bcbfa7efe2d6b3df92255d34624df3dd"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/SHA256SUMS",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/SHA256SUMS",
+    "bytes": 744,
+    "sha256": "1bbeba99256d5677875361576d96b6db2dd0176ec1039dfbe60e7ee832afeaad"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/contract.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/contract.md",
+    "bytes": 6353,
+    "sha256": "feb0d7dcf096857f517a6631650e59ed5e98f548594aaa69be3a98386d52ade0"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/explore.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/explore.py",
+    "bytes": 1222,
+    "sha256": "b3db67050ed594620809b87d466af551f6e2b3dd72c9c74ff33dfb16fd5ea132"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/explore_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/explore_results.json",
+    "bytes": 5062,
+    "sha256": "fec0696af1dcc95bcfebd22334e42d874f088ba4b2e2266e3c41037d3ca24af9"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/run.log",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/run.log",
+    "bytes": 18,
+    "sha256": "c02e89d43767cb6d71a9ed8d300a946a19e9c3411c0172dec0c457c2ef3eb610"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/simul_stats.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/simul_stats.py",
+    "bytes": 5684,
+    "sha256": "c2c3664e859101d91a560c793906fa0b63e905e6d17a9c2b74f9c092c213eb4c"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/simultaneity_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/simultaneity_results.json",
+    "bytes": 4071,
+    "sha256": "d43293b5eb99198e93ca63fa756839e93f31017538faf155dc7b41d9be860ec7"
+  },
+  {
+    "relative": "participants/Simultaneity20261010/simultaneity_test.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/f332792edca83d86d0c163007019297e2586cd8e/Research/Simultaneity20261010/simultaneity_test.py",
+    "bytes": 4949,
+    "sha256": "6c03f80fa46a13223e121251801b2d73712f61ca6ee4369e270fc26eff9cc813"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/README.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/README.md",
+    "bytes": 6862,
+    "sha256": "efe3d8736ada974eb1d89a1c66b729e78c66849eec4544cd961de16f6d104d2b"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/SHA256SUMS",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/SHA256SUMS",
+    "bytes": 1049,
+    "sha256": "00871d804f9065035336b65fbdfe246be0cd36ed2c7217f5b46f14b624b4d91a"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/contract.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/contract.md",
+    "bytes": 6056,
+    "sha256": "12bf3b0b46fbb6cf17e0ced7d6c5c41baf5267f985b5281016b682c68b8ca917"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/explore.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/explore.py",
+    "bytes": 827,
+    "sha256": "2ff541d9cbf87170c1aa3a20d387a0f5388fc2a2a82c0c8e6b560e082e92d937"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/explore2.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/explore2.py",
+    "bytes": 780,
+    "sha256": "b0cdf2e5ee52f81d5619e25a94b89ea52e8a6e724693a7ecc8b11cd29982bc75"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/explore2_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/explore2_results.json",
+    "bytes": 4832,
+    "sha256": "f8446d0a765f3a1371bcfce1902315650fe2f710d5dd401d37b727e9e1a88e73"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/explore3.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/explore3.py",
+    "bytes": 1785,
+    "sha256": "0ab1ec12161313707a983853f8417c583f3528ce037f97b29383c2feec8ede7f"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/explore3_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/explore3_results.json",
+    "bytes": 3977,
+    "sha256": "af2e081cba45dc4afaad82ab7815b0aa915d64b4d63b8f6737429140e2592bb1"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/explore_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/explore_results.json",
+    "bytes": 3144,
+    "sha256": "4c9cb4ba6037e435c2c5df94b0bff9bcb6488a0841c1a0307c1860e1120da31b"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/qr11_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/qr11_results.json",
+    "bytes": 5774,
+    "sha256": "407e3be00fe359b51508da9e798bb6fbad2af999540eafbf929d44f41206133b"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/qr11_test.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/qr11_test.py",
+    "bytes": 5066,
+    "sha256": "0a5b7767bfbc75f5d65636991311fab2b3464b5f8a40c97cbaf638d6fe8066cf"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/qr_stats.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/qr_stats.py",
+    "bytes": 9505,
+    "sha256": "5b988a5f6bc00e6b18cda83d30fbbcb660cbf7bdcaa8c89f2adf360a54835f55"
+  },
+  {
+    "relative": "participants/QR11Bit20261010/run.log",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/071d33a/Research/QR11Bit20261010/run.log",
+    "bytes": 36,
+    "sha256": "bb0767633daeda023312f810690f4552ae6299a7dd7a48475a63d352ce209de3"
+  },
+  {
+    "relative": "participants/HardestPrimes20261010/README.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/909b7ac/Research/HardestPrimes20261010/README.md",
+    "bytes": 5859,
+    "sha256": "0c1e67ec53bb930b73c1a505b594b4aa4437fc78ee2664fdc2218d59b9f3fe9f"
+  },
+  {
+    "relative": "participants/HardestPrimes20261010/SHA256SUMS",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/909b7ac/Research/HardestPrimes20261010/SHA256SUMS",
+    "bytes": 648,
+    "sha256": "653dc03675b2d9798fb8ce6146e9bdab906a8f7cd7d09d42a0abde82ca9ca534"
+  },
+  {
+    "relative": "participants/HardestPrimes20261010/contract.md",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/909b7ac/Research/HardestPrimes20261010/contract.md",
+    "bytes": 5099,
+    "sha256": "c81b2e1d1c7dfbaad2231feb6ec534737b9e8dead6a07d6b1f09d1b98f84fbd1"
+  },
+  {
+    "relative": "participants/HardestPrimes20261010/explore.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/909b7ac/Research/HardestPrimes20261010/explore.py",
+    "bytes": 2718,
+    "sha256": "5c49badd16ea48ef2d82db112d50de9164166afd646e513496abceac772873d8"
+  },
+  {
+    "relative": "participants/HardestPrimes20261010/explore_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/909b7ac/Research/HardestPrimes20261010/explore_results.json",
+    "bytes": 2658,
+    "sha256": "f33a1e46a83be1a1d8fe4f647b4c560d95ec8c7e2b4b2987b68107dbd46855ae"
+  },
+  {
+    "relative": "participants/HardestPrimes20261010/hardest_results.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/909b7ac/Research/HardestPrimes20261010/hardest_results.json",
+    "bytes": 2734,
+    "sha256": "c54f941eb24d840ab7436884b0edde37788dec11d533c1e716596586c9a79006"
+  },
+  {
+    "relative": "participants/HardestPrimes20261010/hardest_test.py",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/909b7ac/Research/HardestPrimes20261010/hardest_test.py",
+    "bytes": 6614,
+    "sha256": "1a44424f9498d21ca2bbca9b506d25bb6a76bddcdb59f509e33d4ea661e60059"
+  },
+  {
+    "relative": "participants/HardestPrimes20261010/run.log",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/909b7ac/Research/HardestPrimes20261010/run.log",
+    "bytes": 18,
+    "sha256": "c8e532595b27f5f0637c38cd2486fbf5b92503cb0717f25d19c6a4b9b34b9da2"
+  },
+  {
+    "relative": "pr6/OutcastsMathLab/Research/JacobiObstruction.lean",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/b7a27ee156dcff9d4009d5f68ce102772aa7157a/OutcastsMathLab/Research/JacobiObstruction.lean",
+    "bytes": 11993,
+    "sha256": "fdc62200f7efe1bc5db821fd21f3d51b3cc7a492344a45770a856067ad7e3fee"
+  },
+  {
+    "relative": "pr6/lake-manifest.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/b7a27ee156dcff9d4009d5f68ce102772aa7157a/lake-manifest.json",
+    "bytes": 3149,
+    "sha256": "8db296d06571d5a856a5fe212bf74b8a4e4a29b1d58c414808a8abadb19c12ea"
+  },
+  {
+    "relative": "pr6/lean-toolchain",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/b7a27ee156dcff9d4009d5f68ce102772aa7157a/lean-toolchain",
+    "bytes": 25,
+    "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  {
+    "relative": "pr7/OutcastsMathLab/Research/ESReduction.lean",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/fd7b0724602a8fff96d3c182f67f4018512b0d26/OutcastsMathLab/Research/ESReduction.lean",
+    "bytes": 11120,
+    "sha256": "4aa54ad23b12d510c24519c5e4115d0f2e0e50516289867ca6b53f4ff29ad282"
+  },
+  {
+    "relative": "pr7/OutcastsMathLab/Research/ESWitnessTarget.lean",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/fd7b0724602a8fff96d3c182f67f4018512b0d26/OutcastsMathLab/Research/ESWitnessTarget.lean",
+    "bytes": 13020,
+    "sha256": "fe6ce9ca1f85cb487a18c498316bff2218de22be20ff4dcc18f8c739c0738159"
+  },
+  {
+    "relative": "pr7/OutcastsMathLab/Research/ESSmallShifts.lean",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/fd7b0724602a8fff96d3c182f67f4018512b0d26/OutcastsMathLab/Research/ESSmallShifts.lean",
+    "bytes": 17246,
+    "sha256": "d91ec04fe3890591064538b37b5d4268985f45e9bc2760384cc485104ccc96a3"
+  },
+  {
+    "relative": "pr7/lake-manifest.json",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/fd7b0724602a8fff96d3c182f67f4018512b0d26/lake-manifest.json",
+    "bytes": 3149,
+    "sha256": "8db296d06571d5a856a5fe212bf74b8a4e4a29b1d58c414808a8abadb19c12ea"
+  },
+  {
+    "relative": "pr7/lean-toolchain",
+    "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/fd7b0724602a8fff96d3c182f67f4018512b0d26/lean-toolchain",
+    "bytes": 25,
+    "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  }
+]
