@@ -1,0 +1,16 @@
+{
+  "original_character_source": "/mnt/hdd1t/outcasts-reply-20261013-ks9Uhb/check-residual-20261013.py",
+  "original_character_sha256": "a3e8f462617fbeb23cd5969c1f5a1ce4ab269a729fb15ec8ebdf5578333c0675",
+  "character_copy_changes": "Definition prefix only; replace run/helper locations with local paths, no math changes",
+  "original_integer_source": "/mnt/hdd1t/outcasts-reply-20261010-DnoRad/test-kneser-budget-20261010.py",
+  "original_integer_sha256": "8f084e1fb9c517bf8bea1303f964629012e39a91ae06c95d2bba4cac1e35a103",
+  "baseline_sources": {
+    "/mnt/hdd1t/outcasts-reply-20261013-ks9Uhb/residual-audit-rows.json": "fe678272ac47bc797479b88218222f986d637cc3027cbcda3087d80d124c6a39",
+    "/mnt/hdd1t/outcasts-reply-20261014-Dgn34n/slack-certificate-rows.json": "054c6d5a996e814bba61947259490604c95b9381fc76aae3e4a67942ec5bedc9"
+  },
+  "initial_seconds": 2.897,
+  "portable_replay_seconds": 0.435,
+  "portable_replay_exit": 0,
+  "all_result_fields_except_timing_and_source_paths_match": true,
+  "fresh_full_build_or_Lean": false
+}

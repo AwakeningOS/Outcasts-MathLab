@@ -1,0 +1,270 @@
+{
+  "inputs": [
+    2521,
+    66529,
+    345601,
+    670849,
+    5843041
+  ],
+  "c_candidates": [
+    3,
+    127,
+    4
+  ],
+  "rows": 160,
+  "all_divisors_independently_matched": true,
+  "all_reconstructions_checked": true,
+  "summary": [
+    {
+      "p": 2521,
+      "cf": {
+        "canonical_cf": [
+          0,
+          630,
+          4
+        ],
+        "convergents": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            630
+          ],
+          [
+            4,
+            2521
+          ]
+        ],
+        "eligible_principal_unit_denominators": [],
+        "eligible_intermediate_unit_denominators": [
+          631
+        ]
+      },
+      "first_c_I": 23,
+      "first_c_II": 23,
+      "successful_candidates_I": 4,
+      "successful_candidates_II": 3,
+      "c3_I_count": 0,
+      "c3_II_count": 0,
+      "first_witness_I": {
+        "d": 848,
+        "xyz": [
+          636,
+          69748,
+          131876031
+        ]
+      },
+      "first_witness_II": {
+        "d": 8,
+        "xyz": [
+          636,
+          70588,
+          5611746
+        ]
+      }
+    },
+    {
+      "p": 66529,
+      "cf": {
+        "canonical_cf": [
+          0,
+          16632,
+          4
+        ],
+        "convergents": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            16632
+          ],
+          [
+            4,
+            66529
+          ]
+        ],
+        "eligible_principal_unit_denominators": [],
+        "eligible_intermediate_unit_denominators": [
+          16633
+        ]
+      },
+      "first_c_I": 19,
+      "first_c_II": 31,
+      "successful_candidates_I": 4,
+      "successful_candidates_II": 3,
+      "c3_I_count": 0,
+      "c3_II_count": 0,
+      "first_witness_I": {
+        "d": 127,
+        "xyz": [
+          16637,
+          58254900,
+          507708871715100
+        ]
+      },
+      "first_witness_II": {
+        "d": 100,
+        "xyz": [
+          16640,
+          35925660,
+          5978029824
+        ]
+      }
+    },
+    {
+      "p": 345601,
+      "cf": {
+        "canonical_cf": [
+          0,
+          86400,
+          4
+        ],
+        "convergents": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            86400
+          ],
+          [
+            4,
+            345601
+          ]
+        ],
+        "eligible_principal_unit_denominators": [],
+        "eligible_intermediate_unit_denominators": [
+          86401
+        ]
+      },
+      "first_c_I": 11,
+      "first_c_II": 19,
+      "successful_candidates_I": 10,
+      "successful_candidates_II": 7,
+      "c3_I_count": 0,
+      "c3_II_count": 0,
+      "first_witness_I": {
+        "d": 83,
+        "xyz": [
+          86403,
+          2714633026,
+          976645263843789666
+        ]
+      },
+      "first_witness_II": {
+        "d": 121,
+        "xyz": [
+          86405,
+          1573866954,
+          1123884083970
+        ]
+      }
+    },
+    {
+      "p": 670849,
+      "cf": {
+        "canonical_cf": [
+          0,
+          167712,
+          4
+        ],
+        "convergents": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            167712
+          ],
+          [
+            4,
+            670849
+          ]
+        ],
+        "eligible_principal_unit_denominators": [],
+        "eligible_intermediate_unit_denominators": [
+          167713
+        ]
+      },
+      "first_c_I": 19,
+      "first_c_II": 39,
+      "successful_candidates_I": 8,
+      "successful_candidates_II": 3,
+      "c3_I_count": 0,
+      "c3_II_count": 0,
+      "first_witness_I": {
+        "d": 13249643,
+        "xyz": [
+          167717,
+          5922422704,
+          50291789222224
+        ]
+      },
+      "first_witness_II": {
+        "d": 17,
+        "xyz": [
+          167722,
+          2885321549,
+          28466582402434
+        ]
+      }
+    },
+    {
+      "p": 5843041,
+      "cf": {
+        "canonical_cf": [
+          0,
+          1460760,
+          4
+        ],
+        "convergents": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1460760
+          ],
+          [
+            4,
+            5843041
+          ]
+        ],
+        "eligible_principal_unit_denominators": [],
+        "eligible_intermediate_unit_denominators": [
+          1460761
+        ]
+      },
+      "first_c_I": 3,
+      "first_c_II": 3,
+      "successful_candidates_I": 9,
+      "successful_candidates_II": 8,
+      "c3_I_count": 4,
+      "c3_II_count": 2,
+      "first_witness_I": {
+        "d": 653,
+        "xyz": [
+          1460761,
+          2845095471618,
+          37187909228186680226106
+        ]
+      },
+      "first_witness_II": {
+        "d": 653,
+        "xyz": [
+          1460761,
+          2846367306658,
+          6367323664993946
+        ]
+      }
+    }
+  ],
+  "new_global_existence_proof": false
+}

@@ -1,0 +1,38 @@
+'OutcastsMathLab.Research.ESWitnessTarget.W_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.mem_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.WSum_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.es_of_W_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.es_of_WSum_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.WSum_pos_of_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.es_all_of_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.es_all_of_typeII' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.es_all_of_Hlog' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.le_clog_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.hlog_at_1201' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.hlog_at_2521' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.hlog_at_66529' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.hlog_at_345601' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.hlog_at_670849' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.hlog_at_1740481' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.hlog_at_5843041' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.witness_div_gcd' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.mem_coprimeBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.WSum_eq_WSumCop_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.WSumCop_le_WSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.WSum_pos_iff_WSumCop_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.es_all_of_budget_coprime' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.WSumCop_lt_WSum_4201' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.clog_two_4201' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESWitnessTarget.WSum_pos_of_mod_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4626 @@
+[
+  {
+    "p": 66529,
+    "a": 1,
+    "u": 8,
+    "N": 66537,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        7393,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-2",
+    "eta": "2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      }
+    ],
+    "raw_lower": "-5933/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 66529,
+    "a": 8,
+    "u": 1,
+    "N": 532233,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        4549,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "1/2",
+    "C": "-1/2",
+    "ell_over_phi": "-3/2",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        13,
+        1
+      ],
+      [
+        4549,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 2,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 34,
+        "delta": 24,
+        "norm_squared_upper": "70",
+        "rho": "1071/128"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 34,
+        "delta": -24,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-4009/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 345601,
+    "a": 1,
+    "u": 8,
+    "N": 345609,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        3491,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-7/2",
+    "eta": "7/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 34,
+        "delta": -24,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 34,
+        "delta": 24,
+        "norm_squared_upper": "70",
+        "rho": "1071/128"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 34,
+        "delta": 24,
+        "norm_squared_upper": "70",
+        "rho": "1071/128"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 34,
+        "delta": -24,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-9/4",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 345601,
+    "a": 8,
+    "u": 1,
+    "N": 2764809,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        307201,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-2",
+    "eta": "2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      }
+    ],
+    "raw_lower": "-5933/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 670849,
+    "a": 1,
+    "u": 8,
+    "N": 670857,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        701,
+        1
+      ]
+    ],
+    "W": 2,
+    "witnesses": [
+      319,
+      7711
+    ],
+    "R": "1",
+    "C": "1",
+    "ell_over_phi": "-3",
+    "eta": "4",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        29,
+        1
+      ],
+      [
+        701,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 4,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 68,
+        "delta": -48,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 68,
+        "delta": 48,
+        "norm_squared_upper": "140",
+        "rho": "12117/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      }
+    ],
+    "raw_lower": "-8937/8192",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": true
+  },
+  {
+    "p": 670849,
+    "a": 8,
+    "u": 1,
+    "N": 5366793,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        1788931,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-3/2",
+    "eta": "3/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-1049/1024",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 1740481,
+    "a": 1,
+    "u": 8,
+    "N": 1740489,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        580163,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-3/2",
+    "eta": "3/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-1049/1024",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 1740481,
+    "a": 8,
+    "u": 1,
+    "N": 13923849,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        103,
+        1
+      ],
+      [
+        45061,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "1/2",
+    "C": "-1/2",
+    "ell_over_phi": "-3/2",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        103,
+        1
+      ],
+      [
+        45061,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 2,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      }
+    ],
+    "raw_lower": "-5933/8192",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 3678481,
+    "a": 1,
+    "u": 8,
+    "N": 3678489,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        113,
+        1
+      ],
+      [
+        3617,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      }
+    ],
+    "raw_lower": "0",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 3678481,
+    "a": 8,
+    "u": 1,
+    "N": 29427849,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        297251,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-7/2",
+    "eta": "7/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 34,
+        "delta": -24,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 34,
+        "delta": 24,
+        "norm_squared_upper": "70",
+        "rho": "1071/128"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 34,
+        "delta": 24,
+        "norm_squared_upper": "70",
+        "rho": "1071/128"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 34,
+        "delta": -24,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-9/4",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 5843041,
+    "a": 1,
+    "u": 8,
+    "N": 5843049,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        1947683,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-3/2",
+    "eta": "3/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-1049/1024",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 5843041,
+    "a": 8,
+    "u": 1,
+    "N": 46744329,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        15581443,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-3/2",
+    "eta": "3/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-1049/1024",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 8,
+    "N": 8615169,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        957241,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-2",
+    "eta": "2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-1049/1024",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 24,
+    "N": 8615185,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        1723037,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      }
+    ],
+    "raw_lower": "-1449/2048",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 8615161,
+    "a": 3,
+    "u": 8,
+    "N": 25845491,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        7,
+        2
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        71,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "3/2",
+    "C": "-3/2",
+    "ell_over_phi": "-5/2",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        17,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        71,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 4,
+    "target_in_K": true,
+    "W_H": 6,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": -48,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 32,
+        "delta": 16,
+        "norm_squared_upper": "56",
+        "rho": "7663/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 32,
+        "delta": -16,
+        "norm_squared_upper": "48/5",
+        "rho": "3173/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 32,
+        "delta": -16,
+        "norm_squared_upper": "48/5",
+        "rho": "3173/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 32,
+        "delta": 16,
+        "norm_squared_upper": "56",
+        "rho": "7663/1024"
+      }
+    ],
+    "raw_lower": "-2709/2048",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 8615161,
+    "a": 8,
+    "u": 1,
+    "N": 68921289,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        101,
+        1
+      ],
+      [
+        75821,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "1/2",
+    "C": "-1/2",
+    "ell_over_phi": "-3/2",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        101,
+        1
+      ],
+      [
+        75821,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 2,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 34,
+        "delta": 24,
+        "norm_squared_upper": "70",
+        "rho": "1071/128"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 34,
+        "delta": -24,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-4009/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 8615161,
+    "a": 8,
+    "u": 3,
+    "N": 68921291,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        83,
+        1
+      ],
+      [
+        149,
+        1
+      ],
+      [
+        5573,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      }
+    ],
+    "raw_lower": "-479/512",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 8615161,
+    "a": 24,
+    "u": 1,
+    "N": 206763865,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        53,
+        1
+      ],
+      [
+        10133,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-3/2",
+    "eta": "3/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 24,
+        "delta": -16,
+        "norm_squared_upper": "8/5",
+        "rho": "81/64"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 24,
+        "delta": 16,
+        "norm_squared_upper": "48",
+        "rho": "7095/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 24,
+        "delta": 16,
+        "norm_squared_upper": "48",
+        "rho": "7095/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 24,
+        "delta": -16,
+        "norm_squared_upper": "8/5",
+        "rho": "81/64"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      }
+    ],
+    "raw_lower": "-14185/8192",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 18490201,
+    "a": 1,
+    "u": 8,
+    "N": 18490209,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        1381,
+        1
+      ],
+      [
+        4463,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "1/2",
+    "C": "-1/2",
+    "ell_over_phi": "-3/2",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        1381,
+        1
+      ],
+      [
+        4463,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 2,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 8,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 24,
+        "delta": 16,
+        "norm_squared_upper": "48",
+        "rho": "7095/1024"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 24,
+        "delta": -16,
+        "norm_squared_upper": "8/5",
+        "rho": "81/64"
+      }
+    ],
+    "raw_lower": "-199/8192",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 18490201,
+    "a": 1,
+    "u": 24,
+    "N": 18490225,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        2
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        56893,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        13,
+        1
+      ],
+      [
+        56893,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      }
+    ],
+    "raw_lower": "-1049/1024",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 18490201,
+    "a": 3,
+    "u": 8,
+    "N": 55470611,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        7,
+        1
+      ],
+      [
+        7924373,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-3/4",
+    "eta": "3/4",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      }
+    ],
+    "raw_lower": "-479/512",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 18490201,
+    "a": 8,
+    "u": 1,
+    "N": 147921609,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        313,
+        1
+      ],
+      [
+        14321,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      }
+    ],
+    "raw_lower": "0",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 18490201,
+    "a": 8,
+    "u": 3,
+    "N": 147921611,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        109,
+        1
+      ],
+      [
+        1357079,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "1/4",
+    "C": "-1/4",
+    "ell_over_phi": "-3/4",
+    "eta": "1/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        109,
+        1
+      ],
+      [
+        1357079,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 1,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": -8,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      }
+    ],
+    "raw_lower": "-479/512",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 18490201,
+    "a": 24,
+    "u": 1,
+    "N": 443764825,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        2
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7393,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-2",
+    "eta": "2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      }
+    ],
+    "raw_lower": "-5933/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 53722321,
+    "a": 1,
+    "u": 8,
+    "N": 53722329,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        55441,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      }
+    ],
+    "raw_lower": "0",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 53722321,
+    "a": 1,
+    "u": 24,
+    "N": 53722345,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        10744469,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      }
+    ],
+    "raw_lower": "-1449/2048",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 53722321,
+    "a": 3,
+    "u": 8,
+    "N": 161166971,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        7,
+        1
+      ],
+      [
+        23023853,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-3/4",
+    "eta": "3/4",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      }
+    ],
+    "raw_lower": "-479/512",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 53722321,
+    "a": 8,
+    "u": 1,
+    "N": 429778569,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        37,
+        1
+      ],
+      [
+        2909,
+        1
+      ]
+    ],
+    "W": 3,
+    "witnesses": [
+      31999,
+      49247,
+      1055967
+    ],
+    "R": "2",
+    "C": "1",
+    "ell_over_phi": "-3",
+    "eta": "4",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        37,
+        1
+      ],
+      [
+        2909,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 8,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 24,
+        "delta": -16,
+        "norm_squared_upper": "8/5",
+        "rho": "81/64"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 24,
+        "delta": 16,
+        "norm_squared_upper": "48",
+        "rho": "7095/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 24,
+        "delta": 16,
+        "norm_squared_upper": "48",
+        "rho": "7095/1024"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 24,
+        "delta": -16,
+        "norm_squared_upper": "8/5",
+        "rho": "81/64"
+      }
+    ],
+    "raw_lower": "-199/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": true
+  },
+  {
+    "p": 53722321,
+    "a": 8,
+    "u": 3,
+    "N": 429778571,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        429778571,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-1",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 2,
+        "delta": -1,
+        "norm_squared_upper": "3/5",
+        "rho": "397/512"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 2,
+        "delta": 1,
+        "norm_squared_upper": "7/2",
+        "rho": "479/256"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 2,
+        "delta": 1,
+        "norm_squared_upper": "7/2",
+        "rho": "479/256"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 2,
+        "delta": -1,
+        "norm_squared_upper": "3/5",
+        "rho": "397/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 2,
+        "delta": 1,
+        "norm_squared_upper": "7/2",
+        "rho": "479/256"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 2,
+        "delta": -1,
+        "norm_squared_upper": "3/5",
+        "rho": "397/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 2,
+        "delta": -1,
+        "norm_squared_upper": "3/5",
+        "rho": "397/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 2,
+        "delta": 1,
+        "norm_squared_upper": "7/2",
+        "rho": "479/256"
+      }
+    ],
+    "raw_lower": "-1355/2048",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 53722321,
+    "a": 24,
+    "u": 1,
+    "N": 1289335705,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        163,
+        1
+      ],
+      [
+        226001,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "1/2",
+    "C": "-1/2",
+    "ell_over_phi": "-3/2",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        163,
+        1
+      ],
+      [
+        226001,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 2,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 48,
+        "delta": -32,
+        "norm_squared_upper": "16/5",
+        "rho": "229/128"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 48,
+        "delta": 32,
+        "norm_squared_upper": "96",
+        "rho": "5017/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 16,
+        "delta": 0,
+        "norm_squared_upper": "16",
+        "rho": "4"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 16,
+        "delta": 0,
+        "norm_squared_upper": "16",
+        "rho": "4"
+      }
+    ],
+    "raw_lower": "-5933/8192",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 84525841,
+    "a": 1,
+    "u": 8,
+    "N": 84525849,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        5
+      ],
+      [
+        137,
+        1
+      ],
+      [
+        2539,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-2",
+    "eta": "2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      }
+    ],
+    "raw_lower": "-5933/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 84525841,
+    "a": 1,
+    "u": 24,
+    "N": 84525865,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        582937,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-1",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      }
+    ],
+    "raw_lower": "-1",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 84525841,
+    "a": 3,
+    "u": 8,
+    "N": 253577531,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        257,
+        1
+      ],
+      [
+        653,
+        1
+      ],
+      [
+        1511,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "1/4",
+    "C": "-1/4",
+    "ell_over_phi": "-5/4",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        257,
+        1
+      ],
+      [
+        1511,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 1,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": -8,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 16,
+        "delta": 8,
+        "norm_squared_upper": "28",
+        "rho": "5419/1024"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 16,
+        "delta": -8,
+        "norm_squared_upper": "24/5",
+        "rho": "561/256"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 16,
+        "delta": 8,
+        "norm_squared_upper": "28",
+        "rho": "5419/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 16,
+        "delta": -8,
+        "norm_squared_upper": "24/5",
+        "rho": "561/256"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      }
+    ],
+    "raw_lower": "-7663/8192",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 84525841,
+    "a": 8,
+    "u": 1,
+    "N": 676206729,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        59,
+        1
+      ],
+      [
+        115769,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-2",
+    "eta": "2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      }
+    ],
+    "raw_lower": "-5933/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 84525841,
+    "a": 8,
+    "u": 3,
+    "N": 676206731,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        676206731,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-1",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 2,
+        "delta": -1,
+        "norm_squared_upper": "3/5",
+        "rho": "397/512"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 2,
+        "delta": 1,
+        "norm_squared_upper": "7/2",
+        "rho": "479/256"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 2,
+        "delta": 1,
+        "norm_squared_upper": "7/2",
+        "rho": "479/256"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 2,
+        "delta": -1,
+        "norm_squared_upper": "3/5",
+        "rho": "397/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 2,
+        "delta": 1,
+        "norm_squared_upper": "7/2",
+        "rho": "479/256"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 2,
+        "delta": -1,
+        "norm_squared_upper": "3/5",
+        "rho": "397/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 2,
+        "delta": -1,
+        "norm_squared_upper": "3/5",
+        "rho": "397/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 2,
+        "delta": 1,
+        "norm_squared_upper": "7/2",
+        "rho": "479/256"
+      }
+    ],
+    "raw_lower": "-1355/2048",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 84525841,
+    "a": 24,
+    "u": 1,
+    "N": 2028620185,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        7213,
+        1
+      ],
+      [
+        56249,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-3/2",
+    "eta": "3/2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        7213,
+        1
+      ],
+      [
+        56249,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      }
+    ],
+    "raw_lower": "-10029/8192",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 38296729,
+    "a": 1,
+    "u": 8,
+    "N": 38296737,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        4255193,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "-2",
+    "eta": "2",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 6,
+        "delta": 4,
+        "norm_squared_upper": "12",
+        "rho": "887/256"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 6,
+        "delta": -4,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-1049/1024",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 38296729,
+    "a": 1,
+    "u": 24,
+    "N": 38296753,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        11,
+        1
+      ],
+      [
+        499,
+        1
+      ],
+      [
+        6977,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        499,
+        1
+      ],
+      [
+        6977,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      }
+    ],
+    "raw_lower": "-2897/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 38296729,
+    "a": 3,
+    "u": 8,
+    "N": 114890195,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        43,
+        1
+      ],
+      [
+        97,
+        1
+      ],
+      [
+        787,
+        1
+      ]
+    ],
+    "W": 2,
+    "witnesses": [
+      3935,
+      381695
+    ],
+    "R": "1",
+    "C": "1",
+    "ell_over_phi": "-3",
+    "eta": "4",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        43,
+        1
+      ],
+      [
+        787,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 4,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 32,
+        "delta": 16,
+        "norm_squared_upper": "56",
+        "rho": "7663/1024"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 32,
+        "delta": -16,
+        "norm_squared_upper": "48/5",
+        "rho": "3173/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 32,
+        "delta": -16,
+        "norm_squared_upper": "48/5",
+        "rho": "3173/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 32,
+        "delta": 16,
+        "norm_squared_upper": "56",
+        "rho": "7663/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 32,
+        "delta": 16,
+        "norm_squared_upper": "56",
+        "rho": "7663/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 32,
+        "delta": -16,
+        "norm_squared_upper": "48/5",
+        "rho": "3173/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 32,
+        "delta": -16,
+        "norm_squared_upper": "48/5",
+        "rho": "3173/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 32,
+        "delta": 16,
+        "norm_squared_upper": "56",
+        "rho": "7663/1024"
+      }
+    ],
+    "raw_lower": "-1685/1024",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": true
+  },
+  {
+    "p": 38296729,
+    "a": 8,
+    "u": 1,
+    "N": 306373833,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        4
+      ],
+      [
+        83,
+        1
+      ],
+      [
+        199,
+        1
+      ],
+      [
+        229,
+        1
+      ]
+    ],
+    "W": 2,
+    "witnesses": [
+      1791,
+      19007
+    ],
+    "R": "5/2",
+    "C": "-1/2",
+    "ell_over_phi": "-3/2",
+    "eta": "1",
+    "old_c": "1",
+    "b": "1",
+    "nonresidue_factors": [
+      [
+        199,
+        1
+      ],
+      [
+        229,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 10,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 4,
+        "delta": 0,
+        "norm_squared_upper": "4",
+        "rho": "2"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 12,
+        "delta": 8,
+        "norm_squared_upper": "24",
+        "rho": "5017/1024"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 12,
+        "delta": -8,
+        "norm_squared_upper": "4/5",
+        "rho": "229/256"
+      }
+    ],
+    "raw_lower": "10451/8192",
+    "c_mag": "10451/8192",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 38296729,
+    "a": 8,
+    "u": 3,
+    "N": 306373835,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        2112923,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 4,
+        "delta": 2,
+        "norm_squared_upper": "7",
+        "rho": "1355/512"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 4,
+        "delta": -2,
+        "norm_squared_upper": "6/5",
+        "rho": "561/512"
+      }
+    ],
+    "raw_lower": "-479/512",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  {
+    "p": 38296729,
+    "a": 24,
+    "u": 1,
+    "N": 919121497,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        7,
+        1
+      ],
+      [
+        131303071,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "0",
+    "C": "0",
+    "ell_over_phi": "0",
+    "eta": "0",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [],
+    "nonresidue_multiplicity": 0,
+    "target_in_K": false,
+    "W_H": 0,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 8,
+        "delta": 0,
+        "norm_squared_upper": "8",
+        "rho": "2897/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      }
+    ],
+    "raw_lower": "-2897/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  }
+]

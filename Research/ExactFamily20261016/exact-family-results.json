@@ -1,0 +1,1540 @@
+{
+  "E": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    12,
+    14,
+    15,
+    18,
+    20,
+    21,
+    30,
+    42,
+    60,
+    63,
+    126
+  ],
+  "E_pairs_per_prime": 81,
+  "finite_lambda_checks": 126,
+  "prior_rows_recomputed_and_match": 610,
+  "discovery_set_only": true,
+  "box_summary": [
+    {
+      "p": 66529,
+      "B": 17,
+      "pairs": 43,
+      "Wtot": 4,
+      "positive_rows": 3,
+      "positive_eta_zero": 3,
+      "E_pairs": 33,
+      "E_Wtot": 4,
+      "outside_E_zero_eta_rows": 0,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "4",
+      "Cert0": "4",
+      "Certplus": "0"
+    },
+    {
+      "p": 345601,
+      "B": 19,
+      "pairs": 49,
+      "Wtot": 5,
+      "positive_rows": 3,
+      "positive_eta_zero": 3,
+      "E_pairs": 37,
+      "E_Wtot": 4,
+      "outside_E_zero_eta_rows": 1,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "4",
+      "Cert0": "4",
+      "Certplus": "0"
+    },
+    {
+      "p": 670849,
+      "B": 20,
+      "pairs": 53,
+      "Wtot": 4,
+      "positive_rows": 1,
+      "positive_eta_zero": 1,
+      "E_pairs": 41,
+      "E_Wtot": 1,
+      "outside_E_zero_eta_rows": 0,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "1",
+      "Cert0": "1",
+      "Certplus": "0"
+    },
+    {
+      "p": 1740481,
+      "B": 21,
+      "pairs": 57,
+      "Wtot": 6,
+      "positive_rows": 4,
+      "positive_eta_zero": 4,
+      "E_pairs": 45,
+      "E_Wtot": 5,
+      "outside_E_zero_eta_rows": 2,
+      "outside_E_zero_eta_Wtot": 1,
+      "Cert": "6",
+      "Cert0": "6",
+      "Certplus": "0"
+    },
+    {
+      "p": 3678481,
+      "B": 22,
+      "pairs": 61,
+      "Wtot": 7,
+      "positive_rows": 5,
+      "positive_eta_zero": 5,
+      "E_pairs": 45,
+      "E_Wtot": 7,
+      "outside_E_zero_eta_rows": 3,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "7",
+      "Cert0": "7",
+      "Certplus": "0"
+    },
+    {
+      "p": 5843041,
+      "B": 23,
+      "pairs": 63,
+      "Wtot": 4,
+      "positive_rows": 2,
+      "positive_eta_zero": 2,
+      "E_pairs": 45,
+      "E_Wtot": 3,
+      "outside_E_zero_eta_rows": 3,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "3",
+      "Cert0": "3",
+      "Certplus": "0"
+    },
+    {
+      "p": 8615161,
+      "B": 24,
+      "pairs": 67,
+      "Wtot": 14,
+      "positive_rows": 7,
+      "positive_eta_zero": 7,
+      "E_pairs": 45,
+      "E_Wtot": 10,
+      "outside_E_zero_eta_rows": 4,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "10",
+      "Cert0": "10",
+      "Certplus": "0"
+    },
+    {
+      "p": 18490201,
+      "B": 25,
+      "pairs": 69,
+      "Wtot": 3,
+      "positive_rows": 2,
+      "positive_eta_zero": 2,
+      "E_pairs": 45,
+      "E_Wtot": 2,
+      "outside_E_zero_eta_rows": 4,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "2",
+      "Cert0": "2",
+      "Certplus": "0"
+    },
+    {
+      "p": 53722321,
+      "B": 26,
+      "pairs": 73,
+      "Wtot": 8,
+      "positive_rows": 4,
+      "positive_eta_zero": 3,
+      "E_pairs": 45,
+      "E_Wtot": 3,
+      "outside_E_zero_eta_rows": 4,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "19/6",
+      "Cert0": "3",
+      "Certplus": "1/6"
+    },
+    {
+      "p": 84525841,
+      "B": 27,
+      "pairs": 75,
+      "Wtot": 3,
+      "positive_rows": 2,
+      "positive_eta_zero": 2,
+      "E_pairs": 45,
+      "E_Wtot": 2,
+      "outside_E_zero_eta_rows": 3,
+      "outside_E_zero_eta_Wtot": 0,
+      "Cert": "2",
+      "Cert0": "2",
+      "Certplus": "0"
+    }
+  ],
+  "totals": {
+    "positive_rows": 33,
+    "positive_eta_zero": 32,
+    "positive_eta_nonzero": [
+      {
+        "p": 53722321,
+        "a": 13,
+        "u": 1,
+        "m": 52,
+        "L": 12,
+        "W": 1,
+        "eta": "5/6",
+        "c": "1/6",
+        "forced_E": false,
+        "all_pairs_constant": false
+      }
+    ],
+    "E_rows": 426,
+    "E_success_rows": 31,
+    "outside_E_eta_zero_successes": [
+      {
+        "p": 1740481,
+        "a": 1,
+        "u": 13,
+        "m": 52,
+        "L": 12,
+        "W": 1,
+        "eta": "0",
+        "c": "1",
+        "forced_E": false,
+        "all_pairs_constant": true
+      }
+    ]
+  },
+  "H_Elog": {
+    "status": "Unproved; all10 fixed discovery inputs pass",
+    "counterexample_inputs": []
+  },
+  "H_E": {
+    "status": "Unproved; all10 fixed discovery inputs pass",
+    "counterexample_inputs": []
+  },
+  "full_E_summary": [
+    {
+      "p": 66529,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 66529,
+          "a": 1,
+          "u": 5,
+          "k": 5,
+          "N": 66534,
+          "m": 20,
+          "L": 4,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              853,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            39,
+            2559
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 66529,
+          "a": 1,
+          "u": 9,
+          "k": 9,
+          "N": 66538,
+          "m": 36,
+          "L": 6,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              103,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            323
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 66529,
+          "a": 1,
+          "u": 14,
+          "k": 14,
+          "N": 66543,
+          "m": 56,
+          "L": 6,
+          "factors": [
+            [
+              3,
+              1
+            ],
+            [
+              41,
+              1
+            ],
+            [
+              541,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            1623
+          ],
+          "within_log_budget": true
+        }
+      ]
+    },
+    {
+      "p": 345601,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 345601,
+          "a": 1,
+          "u": 9,
+          "k": 9,
+          "N": 345610,
+          "m": 36,
+          "L": 6,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              107,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            107,
+            323
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 345601,
+          "a": 1,
+          "u": 10,
+          "k": 10,
+          "N": 345611,
+          "m": 40,
+          "L": 4,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              97,
+              1
+            ],
+            [
+              509,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            679
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 345601,
+          "a": 7,
+          "u": 2,
+          "k": 14,
+          "N": 2419209,
+          "m": 56,
+          "L": 6,
+          "factors": [
+            [
+              3,
+              2
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              29,
+              1
+            ],
+            [
+              31,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            279
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 345601,
+          "a": 10,
+          "u": 3,
+          "k": 30,
+          "N": 3456013,
+          "m": 120,
+          "L": 4,
+          "factors": [
+            [
+              11,
+              1
+            ],
+            [
+              41,
+              1
+            ],
+            [
+              79,
+              1
+            ],
+            [
+              97,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            3239
+          ],
+          "within_log_budget": false
+        },
+        {
+          "p": 345601,
+          "a": 14,
+          "u": 3,
+          "k": 42,
+          "N": 4838417,
+          "m": 168,
+          "L": 6,
+          "factors": [
+            [
+              823,
+              1
+            ],
+            [
+              5879,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            5879
+          ],
+          "within_log_budget": false
+        }
+      ]
+    },
+    {
+      "p": 670849,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 670849,
+          "a": 10,
+          "u": 1,
+          "k": 10,
+          "N": 6708491,
+          "m": 40,
+          "L": 4,
+          "factors": [
+            [
+              239,
+              1
+            ],
+            [
+              28069,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            239
+          ],
+          "within_log_budget": true
+        }
+      ]
+    },
+    {
+      "p": 1740481,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 1740481,
+          "a": 3,
+          "u": 4,
+          "k": 12,
+          "N": 5221447,
+          "m": 48,
+          "L": 4,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              83,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            3311,
+            11039
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 1740481,
+          "a": 2,
+          "u": 9,
+          "k": 18,
+          "N": 3480971,
+          "m": 72,
+          "L": 6,
+          "factors": [
+            [
+              13,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              829,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            267767
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 1740481,
+          "a": 1,
+          "u": 21,
+          "k": 21,
+          "N": 1740502,
+          "m": 84,
+          "L": 6,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              157,
+              1
+            ],
+            [
+              241,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            3611,
+            5543
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 1740481,
+          "a": 30,
+          "u": 1,
+          "k": 30,
+          "N": 52214431,
+          "m": 120,
+          "L": 4,
+          "factors": [
+            [
+              89,
+              1
+            ],
+            [
+              586679,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            586679
+          ],
+          "within_log_budget": false
+        }
+      ]
+    },
+    {
+      "p": 3678481,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 3678481,
+          "a": 1,
+          "u": 1,
+          "k": 1,
+          "N": 3678482,
+          "m": 4,
+          "L": 2,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              79967,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            23,
+            79967
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 3678481,
+          "a": 1,
+          "u": 2,
+          "k": 2,
+          "N": 3678483,
+          "m": 8,
+          "L": 2,
+          "factors": [
+            [
+              3,
+              1
+            ],
+            [
+              61,
+              1
+            ],
+            [
+              20101,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            183,
+            60303
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 3678481,
+          "a": 6,
+          "u": 1,
+          "k": 6,
+          "N": 22070887,
+          "m": 24,
+          "L": 2,
+          "factors": [
+            [
+              167,
+              1
+            ],
+            [
+              283,
+              1
+            ],
+            [
+              467,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            167
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 3678481,
+          "a": 2,
+          "u": 5,
+          "k": 10,
+          "N": 7356967,
+          "m": 40,
+          "L": 4,
+          "factors": [
+            [
+              193,
+              1
+            ],
+            [
+              38119,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            38119
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 3678481,
+          "a": 2,
+          "u": 7,
+          "k": 14,
+          "N": 7356969,
+          "m": 56,
+          "L": 6,
+          "factors": [
+            [
+              3,
+              2
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              22093,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            111
+          ],
+          "within_log_budget": true
+        }
+      ]
+    },
+    {
+      "p": 5843041,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 5843041,
+          "a": 1,
+          "u": 5,
+          "k": 5,
+          "N": 5843046,
+          "m": 20,
+          "L": 4,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              223,
+              1
+            ],
+            [
+              397,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            7359
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 5843041,
+          "a": 5,
+          "u": 1,
+          "k": 5,
+          "N": 29215206,
+          "m": 20,
+          "L": 4,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              41,
+              1
+            ],
+            [
+              1277,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            279,
+            11439
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 5843041,
+          "a": 3,
+          "u": 14,
+          "k": 42,
+          "N": 17529137,
+          "m": 168,
+          "L": 6,
+          "factors": [
+            [
+              29,
+              1
+            ],
+            [
+              151,
+              1
+            ],
+            [
+              4003,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            116087
+          ],
+          "within_log_budget": false
+        }
+      ]
+    },
+    {
+      "p": 8615161,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 8615161,
+          "a": 4,
+          "u": 1,
+          "k": 4,
+          "N": 34460645,
+          "m": 16,
+          "L": 4,
+          "factors": [
+            [
+              5,
+              1
+            ],
+            [
+              163,
+              1
+            ],
+            [
+              42283,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            815
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 8615161,
+          "a": 9,
+          "u": 1,
+          "k": 9,
+          "N": 77536450,
+          "m": 36,
+          "L": 6,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              191,
+              1
+            ],
+            [
+              353,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            575
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 8615161,
+          "a": 1,
+          "u": 14,
+          "k": 14,
+          "N": 8615175,
+          "m": 56,
+          "L": 6,
+          "factors": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              29,
+              1
+            ],
+            [
+              233,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            20271,
+            59415
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 8615161,
+          "a": 7,
+          "u": 2,
+          "k": 14,
+          "N": 60306129,
+          "m": 56,
+          "L": 6,
+          "factors": [
+            [
+              3,
+              2
+            ],
+            [
+              13,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              1279,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            279,
+            47151
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 8615161,
+          "a": 1,
+          "u": 18,
+          "k": 18,
+          "N": 8615179,
+          "m": 72,
+          "L": 6,
+          "factors": [
+            [
+              23,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              281,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            8711
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 8615161,
+          "a": 1,
+          "u": 20,
+          "k": 20,
+          "N": 8615181,
+          "m": 80,
+          "L": 4,
+          "factors": [
+            [
+              3,
+              1
+            ],
+            [
+              373,
+              1
+            ],
+            [
+              7699,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            1119
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 8615161,
+          "a": 21,
+          "u": 1,
+          "k": 21,
+          "N": 180918382,
+          "m": 84,
+          "L": 6,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              73,
+              1
+            ],
+            [
+              107,
+              1
+            ],
+            [
+              313,
+              1
+            ]
+          ],
+          "W": 2,
+          "witnesses": [
+            7811,
+            1239167
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 8615161,
+          "a": 10,
+          "u": 3,
+          "k": 30,
+          "N": 86151613,
+          "m": 120,
+          "L": 4,
+          "factors": [
+            [
+              71,
+              1
+            ],
+            [
+              239,
+              1
+            ],
+            [
+              5077,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            239
+          ],
+          "within_log_budget": false
+        },
+        {
+          "p": 8615161,
+          "a": 21,
+          "u": 2,
+          "k": 42,
+          "N": 180918383,
+          "m": 168,
+          "L": 6,
+          "factors": [
+            [
+              173,
+              1
+            ],
+            [
+              907,
+              1
+            ],
+            [
+              1153,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            156911
+          ],
+          "within_log_budget": false
+        }
+      ]
+    },
+    {
+      "p": 18490201,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 18490201,
+          "a": 5,
+          "u": 3,
+          "k": 15,
+          "N": 92451008,
+          "m": 60,
+          "L": 4,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              111119,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            111119
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 18490201,
+          "a": 2,
+          "u": 9,
+          "k": 18,
+          "N": 36980411,
+          "m": 72,
+          "L": 6,
+          "factors": [
+            [
+              13,
+              2
+            ],
+            [
+              218819,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            2844647
+          ],
+          "within_log_budget": true
+        }
+      ]
+    },
+    {
+      "p": 53722321,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 53722321,
+          "a": 1,
+          "u": 10,
+          "k": 10,
+          "N": 53722331,
+          "m": 40,
+          "L": 4,
+          "factors": [
+            [
+              13,
+              1
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              49789,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            1079
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 53722321,
+          "a": 10,
+          "u": 1,
+          "k": 10,
+          "N": 537223211,
+          "m": 40,
+          "L": 4,
+          "factors": [
+            [
+              7,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              53,
+              1
+            ],
+            [
+              6673,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            1519
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 53722321,
+          "a": 1,
+          "u": 14,
+          "k": 14,
+          "N": 53722335,
+          "m": 56,
+          "L": 6,
+          "factors": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              96797,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            111
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 53722321,
+          "a": 15,
+          "u": 2,
+          "k": 30,
+          "N": 805834817,
+          "m": 120,
+          "L": 4,
+          "factors": [
+            [
+              103,
+              1
+            ],
+            [
+              1753,
+              1
+            ],
+            [
+              4463,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            7823639
+          ],
+          "within_log_budget": false
+        }
+      ]
+    },
+    {
+      "p": 84525841,
+      "pairs": 81,
+      "successes": [
+        {
+          "p": 84525841,
+          "a": 20,
+          "u": 1,
+          "k": 20,
+          "N": 1690516821,
+          "m": 80,
+          "L": 4,
+          "factors": [
+            [
+              3,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              233,
+              1
+            ],
+            [
+              7351,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            2418479
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 84525841,
+          "a": 21,
+          "u": 1,
+          "k": 21,
+          "N": 1775042662,
+          "m": 84,
+          "L": 6,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              37,
+              2
+            ],
+            [
+              149,
+              1
+            ],
+            [
+              229,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            104747
+          ],
+          "within_log_budget": true
+        },
+        {
+          "p": 84525841,
+          "a": 30,
+          "u": 1,
+          "k": 30,
+          "N": 2535775231,
+          "m": 120,
+          "L": 4,
+          "factors": [
+            [
+              11,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              73,
+              1
+            ],
+            [
+              103,
+              1
+            ]
+          ],
+          "W": 4,
+          "witnesses": [
+            1679,
+            48719,
+            73439,
+            1070399
+          ],
+          "within_log_budget": false
+        },
+        {
+          "p": 84525841,
+          "a": 3,
+          "u": 14,
+          "k": 42,
+          "N": 253577537,
+          "m": 168,
+          "L": 6,
+          "factors": [
+            [
+              29,
+              1
+            ],
+            [
+              113,
+              1
+            ],
+            [
+              223,
+              1
+            ],
+            [
+              347,
+              1
+            ]
+          ],
+          "W": 1,
+          "witnesses": [
+            25199
+          ],
+          "within_log_budget": false
+        }
+      ]
+    }
+  ],
+  "extended_rows": 810,
+  "seconds": 0.435,
+  "new_ESC_prime_range_or5625_or_MC": false,
+  "Lean_executed": false,
+  "general_existence_proved": false,
+  "source_hashes": {
+    "/mnt/hdd1t/outcasts-reply-20261016-Szuygm/public/integer_helper.py": "8f084e1fb9c517bf8bea1303f964629012e39a91ae06c95d2bba4cac1e35a103",
+    "/mnt/hdd1t/outcasts-reply-20261016-Szuygm/public/character_helper.py": "5fb5df7d5742b9aa5ce89bd4bb45da75692557235edb39a0c981477730ebcd3d",
+    "/mnt/hdd1t/outcasts-reply-20261016-Szuygm/public/baseline-log-rows.json": "5b6df26020ee22fde47a6ce7c9f490f26da2d8274814318b38e7187e4dd4aa42",
+    "/mnt/hdd1t/outcasts-reply-20261016-Szuygm/public/empty-rows.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  }
+}
