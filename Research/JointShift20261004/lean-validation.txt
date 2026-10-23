@@ -1,0 +1,38 @@
+ℹ [135/473] Replayed OutcastsMathLab.Problems.P000_VerifierSmoke.Proof
+info: OutcastsMathLab/Problems/P000_VerifierSmoke/Proof.lean:9:0: 'OutcastsMathLab.P000.verified' does not depend on any axioms
+ℹ [8926/8930] Replayed OutcastsMathLab.Research.ShortProduct20261002
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:159:0: 'OutcastsMathLab.Research.ShortProduct20261002.no_short_witness_budget23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:160:0: 'OutcastsMathLab.Research.ShortProduct20261002.counterexample_prime' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:161:0: 'OutcastsMathLab.Research.ShortProduct20261002.certificates_valid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:162:0: 'OutcastsMathLab.Research.ShortProduct20261002.full_witness' depends on axioms: [propext]
+ℹ [8927/8930] Replayed OutcastsMathLab.Research.Reply20261003
+info: OutcastsMathLab/Research/Reply20261003.lean:108:0: 'OutcastsMathLab.Research.Reply20261003.divisor_witness_cancel_factor' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:109:0: 'OutcastsMathLab.Research.Reply20261003.short_witness_cancel_factor' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:110:0: 'OutcastsMathLab.Research.Reply20261003.short_witness_normalize' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:111:0: 'OutcastsMathLab.Research.Reply20261003.no_short_witness_budget23_all' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:112:0: 'OutcastsMathLab.Research.Reply20261003.box_short_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:113:0: 'OutcastsMathLab.Research.Reply20261003.box_short_witnesses_predicate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:114:0: 'OutcastsMathLab.Research.Reply20261003.modulator_only_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:115:0: 'OutcastsMathLab.Research.Reply20261003.modulator_only_search_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8928/8930] Built OutcastsMathLab.Research.JointShift20261004 (4.5s)
+info: OutcastsMathLab/Research/JointShift20261004.lean:57:0: 'OutcastsMathLab.Research.JointShift20261004.fixed_shift_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/JointShift20261004.lean:58:0: 'OutcastsMathLab.Research.JointShift20261004.fixed_shift_search_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/JointShift20261004.lean:59:0: 'OutcastsMathLab.Research.JointShift20261004.rescue_66529' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8929/8930] Built OutcastsMathLab (2.0s)
+Build completed successfully (8930 jobs).

@@ -1,0 +1,3130 @@
+[
+  {
+    "a": 1,
+    "u": 1,
+    "N": 100687130,
+    "m": 4,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        347197,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 1,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 2,
+    "N": 100687131,
+    "m": 8,
+    "factors": [
+      [
+        3,
+        4
+      ],
+      [
+        67,
+        1
+      ],
+      [
+        18553,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 1,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 3,
+    "N": 100687132,
+    "m": 12,
+    "factors": [
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        8923,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 1,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 4,
+    "N": 100687133,
+    "m": 16,
+    "factors": [
+      [
+        541,
+        1
+      ],
+      [
+        186113,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 5,
+    "N": 100687134,
+    "m": 20,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        83,
+        1
+      ],
+      [
+        202183,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 6,
+    "N": 100687135,
+    "m": 24,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        103,
+        1
+      ],
+      [
+        193,
+        1
+      ],
+      [
+        1013,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 1,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 7,
+    "N": 100687136,
+    "m": 28,
+    "factors": [
+      [
+        2,
+        5
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        286043,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 8,
+    "N": 100687137,
+    "m": 32,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        1766441,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 4,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 9,
+    "N": 100687138,
+    "m": 36,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        37,
+        1
+      ],
+      [
+        1360637,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 10,
+    "N": 100687139,
+    "m": 40,
+    "factors": [
+      [
+        7,
+        1
+      ],
+      [
+        167,
+        1
+      ],
+      [
+        86131,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 11,
+    "N": 100687140,
+    "m": 44,
+    "factors": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        397,
+        1
+      ],
+      [
+        1409,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 5,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 12,
+    "N": 100687141,
+    "m": 48,
+    "factors": [
+      [
+        17,
+        1
+      ],
+      [
+        5922773,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 13,
+    "N": 100687142,
+    "m": 52,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        179,
+        1
+      ],
+      [
+        281249,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 1,
+    "G2size": 6,
+    "m1K": true,
+    "classification": "exponent"
+  },
+  {
+    "a": 1,
+    "u": 14,
+    "N": 100687143,
+    "m": 56,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        33562381,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 15,
+    "N": 100687144,
+    "m": 60,
+    "factors": [
+      [
+        2,
+        3
+      ],
+      [
+        41,
+        1
+      ],
+      [
+        251,
+        1
+      ],
+      [
+        1223,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 1,
+    "G2size": 2,
+    "m1K": true,
+    "classification": "exponent"
+  },
+  {
+    "a": 1,
+    "u": 16,
+    "N": 100687145,
+    "m": 64,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        1549033,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 8,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 17,
+    "N": 100687146,
+    "m": 68,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        104231,
+        1
+      ]
+    ],
+    "W": 1,
+    "witnesses": [
+      2188851
+    ],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [
+      {
+        "s": 2188851,
+        "alpha": 32189,
+        "v": 46,
+        "x": 25171798,
+        "y": 55097305921477,
+        "z": 149086827787526
+      }
+    ],
+    "W_G2": 4,
+    "G2size": 8,
+    "m1K": true,
+    "classification": "success"
+  },
+  {
+    "a": 1,
+    "u": 18,
+    "N": 100687147,
+    "m": 72,
+    "factors": [
+      [
+        11,
+        1
+      ],
+      [
+        9153377,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 19,
+    "N": 100687148,
+    "m": 76,
+    "factors": [
+      [
+        2,
+        2
+      ],
+      [
+        73,
+        1
+      ],
+      [
+        344819,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 9,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 20,
+    "N": 100687149,
+    "m": 80,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        61,
+        1
+      ],
+      [
+        241,
+        1
+      ],
+      [
+        761,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 4,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 21,
+    "N": 100687150,
+    "m": 84,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2013743,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 22,
+    "N": 100687151,
+    "m": 88,
+    "factors": [
+      [
+        100687151,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 5,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 23,
+    "N": 100687152,
+    "m": 92,
+    "factors": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        139,
+        1
+      ],
+      [
+        15091,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 11,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 24,
+    "N": 100687153,
+    "m": 96,
+    "factors": [
+      [
+        7,
+        1
+      ],
+      [
+        14383879,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 4,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 25,
+    "N": 100687154,
+    "m": 100,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        457,
+        1
+      ],
+      [
+        110161,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 10,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 26,
+    "N": 100687155,
+    "m": 104,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        283,
+        1
+      ],
+      [
+        23719,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 6,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 27,
+    "N": 100687156,
+    "m": 108,
+    "factors": [
+      [
+        2,
+        2
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        1324831,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 9,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 2,
+    "u": 1,
+    "N": 201374259,
+    "m": 8,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        3299,
+        1
+      ],
+      [
+        20347,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 1,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 2,
+    "u": 3,
+    "N": 201374261,
+    "m": 24,
+    "factors": [
+      [
+        11,
+        1
+      ],
+      [
+        18306751,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 1,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 2,
+    "u": 5,
+    "N": 201374263,
+    "m": 40,
+    "factors": [
+      [
+        839,
+        1
+      ],
+      [
+        240017,
+        1
+      ]
+    ],
+    "W": 1,
+    "witnesses": [
+      839
+    ],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [
+      {
+        "s": 839,
+        "alpha": 21,
+        "v": 240017,
+        "x": 25201785,
+        "y": 21144297090,
+        "z": 1014998150930106
+      }
+    ],
+    "W_G2": 1,
+    "G2size": 2,
+    "m1K": true,
+    "classification": "success"
+  },
+  {
+    "a": 2,
+    "u": 7,
+    "N": 201374265,
+    "m": 56,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        181,
+        1
+      ],
+      [
+        4363,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 4,
+    "G2size": 3,
+    "m1K": true,
+    "classification": "exponent"
+  },
+  {
+    "a": 2,
+    "u": 9,
+    "N": 201374267,
+    "m": 72,
+    "factors": [
+      [
+        11213,
+        1
+      ],
+      [
+        17959,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 2,
+    "u": 11,
+    "N": 201374269,
+    "m": 88,
+    "factors": [
+      [
+        23,
+        1
+      ],
+      [
+        199,
+        1
+      ],
+      [
+        43997,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 5,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 2,
+    "u": 13,
+    "N": 201374271,
+    "m": 104,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        9319,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 6,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 3,
+    "u": 1,
+    "N": 302061388,
+    "m": 12,
+    "factors": [
+      [
+        2,
+        2
+      ],
+      [
+        75515347,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 1,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 3,
+    "u": 2,
+    "N": 302061389,
+    "m": 24,
+    "factors": [
+      [
+        7,
+        1
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        2538331,
+        1
+      ]
+    ],
+    "W": 1,
+    "witnesses": [
+      119
+    ],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [
+      {
+        "s": 119,
+        "alpha": 5,
+        "v": 2538331,
+        "x": 25383310,
+        "y": 3020613870,
+        "z": 3833658912625485
+      }
+    ],
+    "W_G2": 1,
+    "G2size": 1,
+    "m1K": true,
+    "classification": "success"
+  },
+  {
+    "a": 3,
+    "u": 4,
+    "N": 302061391,
+    "m": 48,
+    "factors": [
+      [
+        41,
+        1
+      ],
+      [
+        7367351,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 1,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "group"
+  },
+  {
+    "a": 3,
+    "u": 5,
+    "N": 302061392,
+    "m": 60,
+    "factors": [
+      [
+        2,
+        4
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        43201,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 3,
+    "u": 7,
+    "N": 302061394,
+    "m": 84,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        353,
+        1
+      ],
+      [
+        427849,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 3,
+    "u": 8,
+    "N": 302061395,
+    "m": 96,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        97,
+        1
+      ],
+      [
+        587,
+        1
+      ],
+      [
+        1061,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 4,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 4,
+    "u": 1,
+    "N": 402748517,
+    "m": 16,
+    "factors": [
+      [
+        402748517,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 4,
+    "u": 3,
+    "N": 402748519,
+    "m": 48,
+    "factors": [
+      [
+        73,
+        1
+      ],
+      [
+        379,
+        1
+      ],
+      [
+        14557,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 4,
+    "u": 5,
+    "N": 402748521,
+    "m": 80,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        191,
+        1
+      ],
+      [
+        100411,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 2,
+    "G2size": 4,
+    "m1K": true,
+    "classification": "exponent"
+  },
+  {
+    "a": 5,
+    "u": 1,
+    "N": 503435646,
+    "m": 20,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        409,
+        1
+      ],
+      [
+        9769,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 5,
+    "u": 2,
+    "N": 503435647,
+    "m": 40,
+    "factors": [
+      [
+        11,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        185291,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 5,
+    "u": 3,
+    "N": 503435648,
+    "m": 60,
+    "factors": [
+      [
+        2,
+        7
+      ],
+      [
+        3933091,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 5,
+    "u": 4,
+    "N": 503435649,
+    "m": 80,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        1033,
+        1
+      ],
+      [
+        162451,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 4,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 6,
+    "u": 1,
+    "N": 604122775,
+    "m": 24,
+    "factors": [
+      [
+        5,
+        2
+      ],
+      [
+        24164911,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 1,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 7,
+    "u": 1,
+    "N": 704809904,
+    "m": 28,
+    "factors": [
+      [
+        2,
+        4
+      ],
+      [
+        43,
+        1
+      ],
+      [
+        1024433,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 7,
+    "u": 2,
+    "N": 704809905,
+    "m": 56,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        46987327,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 7,
+    "u": 3,
+    "N": 704809906,
+    "m": 84,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        9137,
+        1
+      ],
+      [
+        38569,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 8,
+    "u": 1,
+    "N": 805497033,
+    "m": 32,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        24409001,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 4,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 8,
+    "u": 3,
+    "N": 805497035,
+    "m": 96,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        79,
+        1
+      ],
+      [
+        41617,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 4,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 9,
+    "u": 1,
+    "N": 906184162,
+    "m": 36,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        34853237,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 9,
+    "u": 2,
+    "N": 906184163,
+    "m": 72,
+    "factors": [
+      [
+        271,
+        1
+      ],
+      [
+        3343853,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 10,
+    "u": 1,
+    "N": 1006871291,
+    "m": 40,
+    "factors": [
+      [
+        17,
+        1
+      ],
+      [
+        59227723,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 11,
+    "u": 1,
+    "N": 1107558420,
+    "m": 44,
+    "factors": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        41,
+        1
+      ],
+      [
+        450227,
+        1
+      ]
+    ],
+    "W": 1,
+    "witnesses": [
+      615
+    ],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [
+      {
+        "s": 615,
+        "alpha": 14,
+        "v": 1800908,
+        "x": 25212712,
+        "y": 15505817866,
+        "z": 27924551441422328
+      }
+    ],
+    "W_G2": 4,
+    "G2size": 5,
+    "m1K": true,
+    "classification": "success"
+  },
+  {
+    "a": 11,
+    "u": 2,
+    "N": 1107558421,
+    "m": 88,
+    "factors": [
+      [
+        31,
+        1
+      ],
+      [
+        35727691,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 5,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 12,
+    "u": 1,
+    "N": 1208245549,
+    "m": 48,
+    "factors": [
+      [
+        7,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        1699,
+        1
+      ],
+      [
+        5347,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 13,
+    "u": 1,
+    "N": 1308932678,
+    "m": 52,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        654466339,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 6,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 13,
+    "u": 2,
+    "N": 1308932679,
+    "m": 104,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        53,
+        1
+      ],
+      [
+        8232281,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 1,
+    "G2size": 6,
+    "m1K": true,
+    "classification": "exponent"
+  },
+  {
+    "a": 14,
+    "u": 1,
+    "N": 1409619807,
+    "m": 56,
+    "factors": [
+      [
+        3,
+        3
+      ],
+      [
+        1297,
+        1
+      ],
+      [
+        40253,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 15,
+    "u": 1,
+    "N": 1510306936,
+    "m": 60,
+    "factors": [
+      [
+        2,
+        3
+      ],
+      [
+        7817,
+        1
+      ],
+      [
+        24151,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 2,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 16,
+    "u": 1,
+    "N": 1610994065,
+    "m": 64,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        322198813,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 8,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 17,
+    "u": 1,
+    "N": 1711681194,
+    "m": 68,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        239,
+        1
+      ],
+      [
+        439,
+        1
+      ],
+      [
+        2719,
+        1
+      ]
+    ],
+    "W": 1,
+    "witnesses": [
+      2719
+    ],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [
+      {
+        "s": 2719,
+        "alpha": 40,
+        "v": 629526,
+        "x": 25181040,
+        "y": 68467247720,
+        "z": 43101912588180720
+      }
+    ],
+    "W_G2": 4,
+    "G2size": 8,
+    "m1K": true,
+    "classification": "success"
+  },
+  {
+    "a": 18,
+    "u": 1,
+    "N": 1812368323,
+    "m": 72,
+    "factors": [
+      [
+        331,
+        1
+      ],
+      [
+        5475433,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 19,
+    "u": 1,
+    "N": 1913055452,
+    "m": 76,
+    "factors": [
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        173,
+        1
+      ],
+      [
+        223,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 12,
+    "G2size": 9,
+    "m1K": true,
+    "classification": "exponent"
+  },
+  {
+    "a": 20,
+    "u": 1,
+    "N": 2013742581,
+    "m": 80,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        10357,
+        1
+      ],
+      [
+        64811,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 1,
+    "G2size": 4,
+    "m1K": true,
+    "classification": "exponent"
+  },
+  {
+    "a": 21,
+    "u": 1,
+    "N": 2114429710,
+    "m": 84,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        6820741,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": true,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 3,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 22,
+    "u": 1,
+    "N": 2215116839,
+    "m": 88,
+    "factors": [
+      [
+        13,
+        1
+      ],
+      [
+        337,
+        1
+      ],
+      [
+        505619,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 1,
+    "G2size": 5,
+    "m1K": true,
+    "classification": "exponent"
+  },
+  {
+    "a": 23,
+    "u": 1,
+    "N": 2315803968,
+    "m": 92,
+    "factors": [
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4020493,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 11,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 24,
+    "u": 1,
+    "N": 2416491097,
+    "m": 96,
+    "factors": [
+      [
+        1319,
+        1
+      ],
+      [
+        1832063,
+        1
+      ]
+    ],
+    "W": 1,
+    "witnesses": [
+      1832063
+    ],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [
+      {
+        "s": 1832063,
+        "alpha": 19084,
+        "v": 1319,
+        "x": 25171796,
+        "y": 46116316076064,
+        "z": 60827420904328416
+      }
+    ],
+    "W_G2": 2,
+    "G2size": 4,
+    "m1K": true,
+    "classification": "success"
+  },
+  {
+    "a": 25,
+    "u": 1,
+    "N": 2517178226,
+    "m": 100,
+    "factors": [
+      [
+        2,
+        1
+      ],
+      [
+        1258589113,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 10,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 26,
+    "u": 1,
+    "N": 2617865355,
+    "m": 104,
+    "factors": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        131,
+        1
+      ],
+      [
+        190321,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 6,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 27,
+    "u": 1,
+    "N": 2718552484,
+    "m": 108,
+    "factors": [
+      [
+        2,
+        2
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        281,
+        1
+      ],
+      [
+        8369,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": true,
+    "in_E": false,
+    "solutions": [],
+    "W_G2": 0,
+    "G2size": 9,
+    "m1K": false,
+    "classification": "quadratic"
+  },
+  {
+    "a": 1,
+    "u": 30,
+    "N": 100687159,
+    "m": 120,
+    "factors": [
+      [
+        29,
+        1
+      ],
+      [
+        71,
+        1
+      ],
+      [
+        79,
+        1
+      ],
+      [
+        619,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 1,
+    "u": 42,
+    "N": 100687171,
+    "m": 168,
+    "factors": [
+      [
+        13,
+        1
+      ],
+      [
+        2027,
+        1
+      ],
+      [
+        3821,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 1,
+    "u": 60,
+    "N": 100687189,
+    "m": 240,
+    "factors": [
+      [
+        100687189,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 1,
+    "u": 63,
+    "N": 100687192,
+    "m": 252,
+    "factors": [
+      [
+        2,
+        3
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        32189,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 1,
+    "u": 126,
+    "N": 100687255,
+    "m": 504,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        131,
+        1
+      ],
+      [
+        347,
+        1
+      ],
+      [
+        443,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 2,
+    "u": 15,
+    "N": 201374273,
+    "m": 120,
+    "factors": [
+      [
+        47,
+        1
+      ],
+      [
+        4284559,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 2,
+    "u": 21,
+    "N": 201374279,
+    "m": 168,
+    "factors": [
+      [
+        201374279,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 2,
+    "u": 63,
+    "N": 201374321,
+    "m": 504,
+    "factors": [
+      [
+        107,
+        1
+      ],
+      [
+        491,
+        1
+      ],
+      [
+        3833,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 3,
+    "u": 10,
+    "N": 302061397,
+    "m": 120,
+    "factors": [
+      [
+        11,
+        1
+      ],
+      [
+        27460127,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 3,
+    "u": 14,
+    "N": 302061401,
+    "m": 168,
+    "factors": [
+      [
+        3943,
+        1
+      ],
+      [
+        76607,
+        1
+      ]
+    ],
+    "W": 1,
+    "witnesses": [
+      76607
+    ],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": [
+      {
+        "s": 76607,
+        "alpha": 456,
+        "v": 3943,
+        "x": 25172112,
+        "y": 1928359894608,
+        "z": 543108790317096
+      }
+    ]
+  },
+  {
+    "a": 3,
+    "u": 20,
+    "N": 302061407,
+    "m": 240,
+    "factors": [
+      [
+        101,
+        1
+      ],
+      [
+        2990707,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 4,
+    "u": 15,
+    "N": 402748531,
+    "m": 240,
+    "factors": [
+      [
+        2381,
+        1
+      ],
+      [
+        169151,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 5,
+    "u": 6,
+    "N": 503435651,
+    "m": 120,
+    "factors": [
+      [
+        691,
+        1
+      ],
+      [
+        728561,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 5,
+    "u": 12,
+    "N": 503435657,
+    "m": 240,
+    "factors": [
+      [
+        223,
+        1
+      ],
+      [
+        2257559,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 6,
+    "u": 5,
+    "N": 604122779,
+    "m": 120,
+    "factors": [
+      [
+        13,
+        2
+      ],
+      [
+        53,
+        1
+      ],
+      [
+        67447,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 6,
+    "u": 7,
+    "N": 604122781,
+    "m": 168,
+    "factors": [
+      [
+        43,
+        1
+      ],
+      [
+        14049367,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 7,
+    "u": 6,
+    "N": 704809909,
+    "m": 168,
+    "factors": [
+      [
+        704809909,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 7,
+    "u": 9,
+    "N": 704809912,
+    "m": 252,
+    "factors": [
+      [
+        2,
+        3
+      ],
+      [
+        88101239,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 7,
+    "u": 18,
+    "N": 704809921,
+    "m": 504,
+    "factors": [
+      [
+        19,
+        1
+      ],
+      [
+        61,
+        1
+      ],
+      [
+        367,
+        1
+      ],
+      [
+        1657,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 9,
+    "u": 7,
+    "N": 906184168,
+    "m": 252,
+    "factors": [
+      [
+        2,
+        3
+      ],
+      [
+        37,
+        1
+      ],
+      [
+        3061433,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 9,
+    "u": 14,
+    "N": 906184175,
+    "m": 504,
+    "factors": [
+      [
+        5,
+        2
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        479,
+        1
+      ],
+      [
+        5821,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 10,
+    "u": 3,
+    "N": 1006871293,
+    "m": 120,
+    "factors": [
+      [
+        1006871293,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 12,
+    "u": 5,
+    "N": 1208245553,
+    "m": 240,
+    "factors": [
+      [
+        31,
+        1
+      ],
+      [
+        71,
+        1
+      ],
+      [
+        548953,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 14,
+    "u": 3,
+    "N": 1409619809,
+    "m": 168,
+    "factors": [
+      [
+        13,
+        1
+      ],
+      [
+        179,
+        1
+      ],
+      [
+        433,
+        1
+      ],
+      [
+        1399,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 14,
+    "u": 9,
+    "N": 1409619815,
+    "m": 504,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        281923963,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 15,
+    "u": 2,
+    "N": 1510306937,
+    "m": 120,
+    "factors": [
+      [
+        23,
+        1
+      ],
+      [
+        65665519,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 15,
+    "u": 4,
+    "N": 1510306939,
+    "m": 240,
+    "factors": [
+      [
+        1510306939,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 18,
+    "u": 7,
+    "N": 1812368329,
+    "m": 504,
+    "factors": [
+      [
+        23,
+        1
+      ],
+      [
+        83,
+        1
+      ],
+      [
+        949381,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 20,
+    "u": 3,
+    "N": 2013742583,
+    "m": 240,
+    "factors": [
+      [
+        1523,
+        1
+      ],
+      [
+        1322221,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 21,
+    "u": 2,
+    "N": 2114429711,
+    "m": 168,
+    "factors": [
+      [
+        27427,
+        1
+      ],
+      [
+        77093,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 30,
+    "u": 1,
+    "N": 3020613871,
+    "m": 120,
+    "factors": [
+      [
+        11,
+        2
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        860819,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 42,
+    "u": 1,
+    "N": 4228859419,
+    "m": 168,
+    "factors": [
+      [
+        23,
+        1
+      ],
+      [
+        137,
+        1
+      ],
+      [
+        1342069,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 60,
+    "u": 1,
+    "N": 6041227741,
+    "m": 240,
+    "factors": [
+      [
+        3463,
+        1
+      ],
+      [
+        1744507,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 63,
+    "u": 1,
+    "N": 6343289128,
+    "m": 252,
+    "factors": [
+      [
+        2,
+        3
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        2659,
+        1
+      ],
+      [
+        27109,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 63,
+    "u": 2,
+    "N": 6343289129,
+    "m": 504,
+    "factors": [
+      [
+        41,
+        1
+      ],
+      [
+        154714369,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  },
+  {
+    "a": 126,
+    "u": 1,
+    "N": 12686578255,
+    "m": 504,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        797,
+        1
+      ],
+      [
+        12889,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "in_budget": false,
+    "in_E": true,
+    "solutions": []
+  }
+]

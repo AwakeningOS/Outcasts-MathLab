@@ -1,0 +1,29 @@
+/mnt/hdd1t/outcasts-reply-20261007-3GsS6S/Reply20261007.lean:22:4: error: Type mismatch
+  (Nat.dvd_add_iff_right hap).mp had
+has type
+  a ∣ a * p + (a * p + (u + 1))
+but is expected to have type
+  a ∣ u + 1
+'OutcastsMathLab.Research.Reply20261007.prime_form_forces_a_dvd_u_add_one' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261007.rough_inputs_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.Reply20261007.rough_prime_failure' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261007.rough_semiprime_failure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261007.gemmy_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.Reply20261007.gemmy_reconstructions' depends on axioms: [propext]
+'OutcastsMathLab.Research.Reply20261007.square_divisor_residues_345601' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261007.square_divisor_residues_670849' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261007.fixed_c7_both_branches_fail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

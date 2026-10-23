@@ -1,0 +1,22 @@
+{
+  "head_sha": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "baseline_post_28_exact_submitted_body_match": true,
+  "project_generated_objects_initially_absent": true,
+  "dependency_objects_reused": true,
+  "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "lean_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "source_sha256": {
+    "OutcastsMathLab/Research/DeterministicFailure.lean": "73fb5c8f14c0869f7cbcca3fc346e2e8b1e345ed3de5b9eecf4f811a793828bd",
+    "OutcastsMathLab/Research/HardPrimes20261005.lean": "60013f2e4d217743e7706cbadafee63fb1d5f937c712e4af1af22210ee8aa995",
+    "OutcastsMathLab/Research/InvolutionBound.lean": "a5494c0e25163bce932f9a91fdc2548bbc5a97d12c683ec435cc084a35b3596d",
+    "OutcastsMathLab/Research/JacobiObstruction.lean": "5db068f283215da1dac590f9a894efad9331dc0100d631bb0bdb84034d444a96",
+    "OutcastsMathLab/Research/PsiObstruction.lean": "a1afd8f82d173ee734b41f1b5ccd726d1d53a4e5b05f9830f693b963fe026932"
+  },
+  "declared_theorems": 133,
+  "no_native_decide_in_research_sources": true,
+  "policy_exit": 0,
+  "lean-build-retry_exit": 0,
+  "all-axioms_exit": 0,
+  "all_theorem_axioms_checked": 133,
+  "axioms_within_standard_set": true
+}

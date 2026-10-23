@@ -1,0 +1,7 @@
+# Nonresidue-budget candidate HNR, registered 2026-10-06
+
+Target residual primes p modulo840 in {1,121,169,289,361,529}. B=ceil(log2 p). Candidate HNR: some positive coprime a,u with au<=B and J(u|p)=-1 has an actual DivisorWitness p a u s. This strengthens the existing unproved Hlog by forcing psi-escape through u. PR6 does not claim this sufficiency. Literature gives the criterion and quadratic obstruction, not this logarithmic restricted existence guarantee. No priority claim.
+
+Inputs p=345601,670849, selected BEFORE this check from the new PR6's two explicit hard boxes. Input selection is intentionally adversarial, not a frequency estimate. Enumerate everyu=1..B by exact modular exponent for prime p, and everya=1..floor(B/u) when u is a nonresidue. All actual divisors are retained and compared with sqrt integer traversal. Stop after two inputs or180s. A single all-pairs failure refutes HNR; success at both inputs cannot prove it. No prime range expansion. Separate from the original fixed106-row review contract.
+
+Lean target if refuted: exactly the two universal bounded no-witness statements under the added Jacobi=-1 assumption, using PR6's already verified single-pair finite certificates plus norm_num Jacobi evaluations. Preserve imported PR6 source; print axioms; no native_decide/new axiom/holes. The formalized role is a negative result for HNR, not the original ESC or Hlog. Execution on mini only; no GPU.
