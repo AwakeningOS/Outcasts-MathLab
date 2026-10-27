@@ -1,0 +1,124 @@
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:388:25: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  ℕ
+
+case inl.succ
+r : ℕ
+hr : Nat.Prime r
+left✝ : r < 2521
+hnr : r ^ ((2521 - 1) / 2) % 2521 = 2521 - 1
+k : ℕ
+hpos : 0 < 1
+hsize : 51 * 1 ^ 2 < 7563
+hd : r ∣ (2521 + 51 * 1 ^ 2) / 4
+hbound : 1 ≤ 12
+hk : 1 = 2 * k + 1
+hf : r ∣ prodPow [(643, 1)]
+n✝ : ℕ
+h✝ : n✝ + 1 < 2 ∧ 643 ^ (n✝ + 1) = r
+⊢ r ∈ [53, 73, 149, 251, 643, 1663]
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:393:37: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  ℕ
+
+case inr.inl.succ.succ.succ
+r : ℕ
+hr : Nat.Prime r
+left✝ : r < 2521
+hnr : r ^ ((2521 - 1) / 2) % 2521 = 2521 - 1
+k : ℕ
+hpos : 0 < 3
+hsize : 51 * 3 ^ 2 < 7563
+hd : r ∣ (2521 + 51 * 3 ^ 2) / 4
+hbound : 3 ≤ 12
+hk : 3 = 2 * k + 1
+hf : r ∣ prodPow [(5, 1), (149, 1)]
+n✝ : ℕ
+h✝ : n✝ + 1 + 1 + 1 < 2 ∧ ∃ a < 2, 149 ^ (n✝ + 1 + 1 + 1) * 5 ^ a = r
+⊢ r ∈ [53, 73, 149, 251, 643, 1663]
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:398:37: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  ℕ
+
+case inr.inr.inl.succ.succ.succ
+r : ℕ
+hr : Nat.Prime r
+left✝ : r < 2521
+hnr : r ^ ((2521 - 1) / 2) % 2521 = 2521 - 1
+k : ℕ
+hpos : 0 < 5
+hsize : 51 * 5 ^ 2 < 7563
+hd : r ∣ (2521 + 51 * 5 ^ 2) / 4
+hbound : 5 ≤ 12
+hk : 5 = 2 * k + 1
+hf : r ∣ prodPow [(13, 1), (73, 1)]
+n✝ : ℕ
+h✝ : n✝ + 1 + 1 + 1 < 2 ∧ ∃ a < 2, 73 ^ (n✝ + 1 + 1 + 1) * 13 ^ a = r
+⊢ r ∈ [53, 73, 149, 251, 643, 1663]
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:403:37: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  ℕ
+
+case inr.inr.inr.inl.succ.succ.succ
+r : ℕ
+hr : Nat.Prime r
+left✝ : r < 2521
+hnr : r ^ ((2521 - 1) / 2) % 2521 = 2521 - 1
+k : ℕ
+hpos : 0 < 7
+hsize : 51 * 7 ^ 2 < 7563
+hd : r ∣ (2521 + 51 * 7 ^ 2) / 4
+hbound : 7 ≤ 12
+hk : 7 = 2 * k + 1
+hf : r ∣ prodPow [(5, 1), (251, 1)]
+n✝ : ℕ
+h✝ : n✝ + 1 + 1 + 1 < 2 ∧ ∃ a < 2, 251 ^ (n✝ + 1 + 1 + 1) * 5 ^ a = r
+⊢ r ∈ [53, 73, 149, 251, 643, 1663]
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:408:25: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  ℕ
+
+case inr.inr.inr.inr.inl.succ
+r : ℕ
+hr : Nat.Prime r
+left✝ : r < 2521
+hnr : r ^ ((2521 - 1) / 2) % 2521 = 2521 - 1
+k : ℕ
+hpos : 0 < 9
+hsize : 51 * 9 ^ 2 < 7563
+hd : r ∣ (2521 + 51 * 9 ^ 2) / 4
+hbound : 9 ≤ 12
+hk : 9 = 2 * k + 1
+hf : r ∣ prodPow [(1663, 1)]
+n✝ : ℕ
+h✝ : n✝ + 1 < 2 ∧ 1663 ^ (n✝ + 1) = r
+⊢ r ∈ [53, 73, 149, 251, 643, 1663]
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:413:37: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  ℕ
+
+case inr.inr.inr.inr.inr.succ.succ.succ
+r : ℕ
+hr : Nat.Prime r
+left✝ : r < 2521
+hnr : r ^ ((2521 - 1) / 2) % 2521 = 2521 - 1
+k : ℕ
+hpos : 0 < 11
+hsize : 51 * 11 ^ 2 < 7563
+hd : r ∣ (2521 + 51 * 11 ^ 2) / 4
+hbound : 11 ≤ 12
+hk : 11 = 2 * k + 1
+hf : r ∣ prodPow [(41, 1), (53, 1)]
+n✝ : ℕ
+h✝ : n✝ + 1 + 1 + 1 < 2 ∧ ∃ a < 2, 53 ^ (n✝ + 1 + 1 + 1) * 41 ^ a = r
+⊢ r ∈ [53, 73, 149, 251, 643, 1663]
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:448:61: warning: exponent 1260 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:448:58: error: unsolved goals
+⊢ 17 ^ 1260 % 2521 = 2520
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:453:4: warning: exponent 1260 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:452:2: error: unsolved goals
+case left
+⊢ Odd 11 ∧ 53 ^ 1260 % 2521 = 2520
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:454:2: error: unsolved goals
+case right
+⊢ Odd 5 ∧ 29 ^ 1260 % 2521 = 2520
+'GraphDepth20261027.q17_all_children' depends on axioms: [propext, sorryAx, Quot.sound]
+'GraphDepth20261027.q17_and_every_child_fail' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'GraphDepth20261027.p2521_prime_q17_nonresidue' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'GraphDepth20261027.two_edge_path' depends on axioms: [propext, sorryAx]
+'GraphDepth20261027.q29_success' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphDepth20261027.terminal_integer_identity' depends on axioms: [propext]
