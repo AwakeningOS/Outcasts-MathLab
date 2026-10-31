@@ -1,0 +1,6 @@
+'OddSquareLift20261015.involution_odd_power' depends on axioms: [propext]
+'OddSquareLift20261015.odd_lift_power' depends on axioms: [propext]
+'OddSquareLift20261015.odd_lift_membership' depends on axioms: [propext]
+'OddSquareLift20261015.odd_exponent_lift' depends on axioms: [propext]
+'OddSquareLift20261015.numeric_group_obstruction_factorization' depends on axioms: [propext]
+'OddSquareLift20261015.numeric_odd_lift_but_no_divisibility' depends on axioms: [propext]

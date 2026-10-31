@@ -1,0 +1,17 @@
+{
+  "url": "https://zenodo.org/records/21782813/files/01_ERDOS_STRAUSS_Reader_Source_and_Build.zip?download=1",
+  "bytes": 485099,
+  "sha256": "a32cee7793e9dccb55113f9ac1c272968679c91ec8323d4dfe542f5d0a1da9b6",
+  "selected_texts": [
+    {
+      "archive_path": "provenance/research_logbook.tex",
+      "local_name": "provenance__research_logbook.tex",
+      "bytes": 63589
+    },
+    {
+      "archive_path": "reader/erdos_straus_project_reader.tex",
+      "local_name": "reader__erdos_straus_project_reader.tex",
+      "bytes": 95684
+    }
+  ]
+}

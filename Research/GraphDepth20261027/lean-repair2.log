@@ -1,0 +1,6 @@
+'GraphDepth20261027.q17_all_children' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphDepth20261027.q17_and_every_child_fail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphDepth20261027.p2521_prime_q17_nonresidue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphDepth20261027.two_edge_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphDepth20261027.q29_success' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphDepth20261027.terminal_integer_identity' depends on axioms: [propext]

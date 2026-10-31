@@ -1,0 +1,140 @@
+{
+  "repository": "betyourluck/Outcasts-MathLab",
+  "files": [
+    {
+      "commit": "4b5a002a02f5dc284681af4418eef73e984194de",
+      "path": "OutcastsMathLab/Research/ESReduction.lean",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/4b5a002a02f5dc284681af4418eef73e984194de/OutcastsMathLab/Research/ESReduction.lean",
+      "file": "sources/4b5a002a02f5dc284681af4418eef73e984194de/OutcastsMathLab/Research/ESReduction.lean",
+      "bytes": 11120,
+      "sha256": "4aa54ad23b12d510c24519c5e4115d0f2e0e50516289867ca6b53f4ff29ad282",
+      "git_blob_sha1": "048810835c43ff5f01a308701d83f6f7b051fdea"
+    },
+    {
+      "commit": "4b5a002a02f5dc284681af4418eef73e984194de",
+      "path": "OutcastsMathLab/Research/ESWitnessTarget.lean",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/4b5a002a02f5dc284681af4418eef73e984194de/OutcastsMathLab/Research/ESWitnessTarget.lean",
+      "file": "sources/4b5a002a02f5dc284681af4418eef73e984194de/OutcastsMathLab/Research/ESWitnessTarget.lean",
+      "bytes": 7160,
+      "sha256": "9024afc77725fe69a3cef296a7fe5128255cdd955587b1ee57a8fad594472834",
+      "git_blob_sha1": "5876bb035c20bb80a4f84ee21256b9ce948d9b81"
+    },
+    {
+      "commit": "4b5a002a02f5dc284681af4418eef73e984194de",
+      "path": "OutcastsMathLab/Research/ESSmallShifts.lean",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/4b5a002a02f5dc284681af4418eef73e984194de/OutcastsMathLab/Research/ESSmallShifts.lean",
+      "file": "sources/4b5a002a02f5dc284681af4418eef73e984194de/OutcastsMathLab/Research/ESSmallShifts.lean",
+      "bytes": 13239,
+      "sha256": "6e1ac9d917e3c370000650a600b91bae4462a3130222956cfecc9ff84ffddb62",
+      "git_blob_sha1": "e87ff497eab487097ff57888121aca192d77bd7d"
+    },
+    {
+      "commit": "4b5a002a02f5dc284681af4418eef73e984194de",
+      "path": "OutcastsMathLab.lean",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/4b5a002a02f5dc284681af4418eef73e984194de/OutcastsMathLab.lean",
+      "file": "sources/4b5a002a02f5dc284681af4418eef73e984194de/OutcastsMathLab.lean",
+      "bytes": 195,
+      "sha256": "3acd10ffaefb71b548b90d8a21426b4299b4d264858e27efea07cc50d72b4288",
+      "git_blob_sha1": "368995fc32e49233d922b7b6044d492f8127caae"
+    },
+    {
+      "commit": "4b5a002a02f5dc284681af4418eef73e984194de",
+      "path": "Research/ESReduction/README.md",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/4b5a002a02f5dc284681af4418eef73e984194de/Research/ESReduction/README.md",
+      "file": "sources/4b5a002a02f5dc284681af4418eef73e984194de/Research/ESReduction/README.md",
+      "bytes": 10100,
+      "sha256": "531df25a964e7a31ae48531c00f8071b09cb32c314c8cfa0f9366b7e3fb0c4b2",
+      "git_blob_sha1": "580307f13450120be5702ed0cc5a50d49082bf8c"
+    },
+    {
+      "commit": "4b5a002a02f5dc284681af4418eef73e984194de",
+      "path": "lean-toolchain",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/4b5a002a02f5dc284681af4418eef73e984194de/lean-toolchain",
+      "file": "sources/4b5a002a02f5dc284681af4418eef73e984194de/lean-toolchain",
+      "bytes": 25,
+      "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+      "git_blob_sha1": "12359f928f18e4a89ebd1444a0310b025931b17d"
+    },
+    {
+      "commit": "4b5a002a02f5dc284681af4418eef73e984194de",
+      "path": "lake-manifest.json",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/4b5a002a02f5dc284681af4418eef73e984194de/lake-manifest.json",
+      "file": "sources/4b5a002a02f5dc284681af4418eef73e984194de/lake-manifest.json",
+      "bytes": 3149,
+      "sha256": "8db296d06571d5a856a5fe212bf74b8a4e4a29b1d58c414808a8abadb19c12ea",
+      "git_blob_sha1": "f833559824a36896f3d2d7565fa15298a6d36bf8"
+    },
+    {
+      "commit": "4b5a002a02f5dc284681af4418eef73e984194de",
+      "path": "lakefile.toml",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/4b5a002a02f5dc284681af4418eef73e984194de/lakefile.toml",
+      "file": "sources/4b5a002a02f5dc284681af4418eef73e984194de/lakefile.toml",
+      "bytes": 196,
+      "sha256": "f2b1581c556f154b37a5250597fc6f49521aebc1a4e8872261dcadb22450cd4f",
+      "git_blob_sha1": "9d819a19c6b708b5408fe06593c83e60b53bb044"
+    },
+    {
+      "commit": "3c6061ab4740c223cdb21847efdfe7a3206e1b6e",
+      "path": "Research/Stratified20261008/README.md",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/README.md",
+      "file": "sources/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/README.md",
+      "bytes": 5729,
+      "sha256": "3052041383791e34da16f446bf16cbb17cc8bdc8316a217b0d88babe3b5b2c33",
+      "git_blob_sha1": "cd11c10b0ed3b9510fe6b126c26182077409821a"
+    },
+    {
+      "commit": "3c6061ab4740c223cdb21847efdfe7a3206e1b6e",
+      "path": "Research/Stratified20261008/contract.md",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/contract.md",
+      "file": "sources/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/contract.md",
+      "bytes": 3963,
+      "sha256": "2b704cb0e4764a40d7aab891682ccf609b6a69240d541ec9e12af681db432374",
+      "git_blob_sha1": "cad917981c7b170229d252e8ea3b26afe99ead4a"
+    },
+    {
+      "commit": "3c6061ab4740c223cdb21847efdfe7a3206e1b6e",
+      "path": "Research/Stratified20261008/SHA256SUMS",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/SHA256SUMS",
+      "file": "sources/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/SHA256SUMS",
+      "bytes": 412,
+      "sha256": "79a0fb91db880368d19347ba81094aac505585a203d50875e877cabe4b9de683",
+      "git_blob_sha1": "4ad1288a45099b13c7f6802eea7d7dded1f35f16"
+    },
+    {
+      "commit": "3c6061ab4740c223cdb21847efdfe7a3206e1b6e",
+      "path": "Research/Stratified20261008/stratified_results.json",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/stratified_results.json",
+      "file": "sources/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/stratified_results.json",
+      "bytes": 7520,
+      "sha256": "26efa925e901593897bffe1f750ed440fa8cbd21d252f1b87f4686bd5a12b60d",
+      "git_blob_sha1": "06a5f382b1b0cd67e2d5564d796abb7052568c27"
+    },
+    {
+      "commit": "3c6061ab4740c223cdb21847efdfe7a3206e1b6e",
+      "path": "Research/Stratified20261008/stratified_test.py",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/stratified_test.py",
+      "file": "sources/3c6061ab4740c223cdb21847efdfe7a3206e1b6e/Research/Stratified20261008/stratified_test.py",
+      "bytes": 6077,
+      "sha256": "fc6600ede6de1a1e8fe9202114e24c4042d6b1624271878e1a15397aaee88054",
+      "git_blob_sha1": "10b809c219c22c5caa6aa260ec61bee5e36c4d61"
+    },
+    {
+      "commit": "54316da2a0e5df3b1163eb9a32934c4ba0dd1e0a",
+      "path": "Research/WitnessProgram20261008/README.md",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/54316da2a0e5df3b1163eb9a32934c4ba0dd1e0a/Research/WitnessProgram20261008/README.md",
+      "file": "sources/54316da2a0e5df3b1163eb9a32934c4ba0dd1e0a/Research/WitnessProgram20261008/README.md",
+      "bytes": 9288,
+      "sha256": "3065e7c5cffd41a68fa37fd4c1cf2fb58eda6704c9da0f220d944d4207ab4944",
+      "git_blob_sha1": "1391e6d77bfa02bf09d737964ea8cddecab8c944"
+    },
+    {
+      "commit": "2fa24e490ee9cac65cdd4622c65fa41ada6ecae0",
+      "path": "Research/JointFailure20261008/joint_test.py",
+      "url": "https://raw.githubusercontent.com/betyourluck/Outcasts-MathLab/2fa24e490ee9cac65cdd4622c65fa41ada6ecae0/Research/JointFailure20261008/joint_test.py",
+      "file": "sources/2fa24e490ee9cac65cdd4622c65fa41ada6ecae0/Research/JointFailure20261008/joint_test.py",
+      "bytes": 7988,
+      "sha256": "01b45528f9248b5807650f56ddeef9b80b441e04dc86a95711b82b16794d45d5",
+      "git_blob_sha1": "dc909443ef7205585156682c2412b65354519317"
+    }
+  ]
+}
