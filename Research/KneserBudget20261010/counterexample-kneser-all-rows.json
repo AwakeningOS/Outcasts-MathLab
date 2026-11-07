@@ -1,0 +1,7431 @@
+[
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 1,
+    "M": 8615162,
+    "modulus": 4,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        4307581,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        4307581,
+        1
+      ]
+    ],
+    "G": [
+      1
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 2,
+    "M": 8615163,
+    "modulus": 8,
+    "factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        2871721,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        2871721,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3
+    ],
+    "H0": [
+      1,
+      3
+    ],
+    "saturation_trace": [
+      {
+        "q": 3,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          3
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      3
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 2,
+    "u": 1,
+    "M": 17230323,
+    "modulus": 8,
+    "factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        67,
+        1
+      ],
+      [
+        7793,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        67,
+        1
+      ],
+      [
+        7793,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3
+    ],
+    "H0": [
+      1,
+      3
+    ],
+    "saturation_trace": [
+      {
+        "q": 3,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          3
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      3
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 3,
+    "M": 8615164,
+    "modulus": 12,
+    "factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        823,
+        1
+      ],
+      [
+        2617,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        823,
+        1
+      ],
+      [
+        2617,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7
+    ],
+    "H0": [
+      1,
+      7
+    ],
+    "saturation_trace": [
+      {
+        "q": 823,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          7
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      7
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 3,
+    "u": 1,
+    "M": 25845484,
+    "modulus": 12,
+    "factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        923053,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        7,
+        1
+      ],
+      [
+        923053,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7
+    ],
+    "H0": [
+      1,
+      7
+    ],
+    "saturation_trace": [
+      {
+        "q": 7,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          7
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      7
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 4,
+    "M": 8615165,
+    "modulus": 16,
+    "factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        132541,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        132541,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      9,
+      13
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      5,
+      9,
+      13
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 4,
+    "u": 1,
+    "M": 34460645,
+    "modulus": 16,
+    "factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        163,
+        1
+      ],
+      [
+        42283,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        163,
+        1
+      ],
+      [
+        42283,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      5,
+      7,
+      11,
+      15
+    ],
+    "witnesses": [
+      815
+    ],
+    "K": false,
+    "quotients_tested": 5,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 8,
+      "factor_image_sizes": [
+        2,
+        2,
+        2
+      ],
+      "L": 3,
+      "threshold": 7,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 5,
+    "M": 8615166,
+    "modulus": 20,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        41,
+        1
+      ],
+      [
+        5003,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        41,
+        1
+      ],
+      [
+        5003,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      7,
+      9
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      7,
+      9
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 5,
+    "u": 1,
+    "M": 43075806,
+    "modulus": 20,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        7179301,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        7179301,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      7,
+      9
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 6,
+    "M": 8615167,
+    "modulus": 24,
+    "factorization": [
+      [
+        11,
+        1
+      ],
+      [
+        783197,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        11,
+        1
+      ],
+      [
+        783197,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11
+    ],
+    "H0": [
+      1,
+      5,
+      7,
+      11
+    ],
+    "saturation_trace": [
+      {
+        "q": 11,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          11
+        ]
+      },
+      {
+        "q": 783197,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1,
+          11
+        ],
+        "to": [
+          1,
+          5,
+          7,
+          11
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      5,
+      7,
+      11
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 2,
+    "u": 3,
+    "M": 17230325,
+    "modulus": 24,
+    "factorization": [
+      [
+        5,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        98459,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        98459,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11
+    ],
+    "H0": [
+      1,
+      5,
+      7,
+      11
+    ],
+    "saturation_trace": [
+      {
+        "q": 5,
+        "e": 2,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          5
+        ]
+      },
+      {
+        "q": 7,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          5,
+          7,
+          11
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      5,
+      7,
+      11
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 3,
+    "u": 2,
+    "M": 25845485,
+    "modulus": 24,
+    "factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        277,
+        1
+      ],
+      [
+        18661,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        277,
+        1
+      ],
+      [
+        18661,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      13,
+      17
+    ],
+    "H0": [
+      1,
+      5,
+      13,
+      17
+    ],
+    "saturation_trace": [
+      {
+        "q": 5,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          5
+        ]
+      },
+      {
+        "q": 277,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          5,
+          13,
+          17
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      5,
+      13,
+      17
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 6,
+    "u": 1,
+    "M": 51690967,
+    "modulus": 24,
+    "factorization": [
+      [
+        5701,
+        1
+      ],
+      [
+        9067,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5701,
+        1
+      ],
+      [
+        9067,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7,
+      13,
+      19
+    ],
+    "H0": [
+      1,
+      7,
+      13,
+      19
+    ],
+    "saturation_trace": [
+      {
+        "q": 5701,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          13
+        ]
+      },
+      {
+        "q": 9067,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1,
+          13
+        ],
+        "to": [
+          1,
+          7,
+          13,
+          19
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      7,
+      13,
+      19
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 7,
+    "M": 8615168,
+    "modulus": 28,
+    "factorization": [
+      [
+        2,
+        8
+      ],
+      [
+        73,
+        1
+      ],
+      [
+        461,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        73,
+        1
+      ],
+      [
+        461,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      9,
+      13,
+      17,
+      25
+    ],
+    "H0": [
+      1,
+      13
+    ],
+    "saturation_trace": [
+      {
+        "q": 461,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          13
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      13,
+      17,
+      25
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 7,
+    "u": 1,
+    "M": 60306128,
+    "modulus": 28,
+    "factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        3769133,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3769133,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      9,
+      25
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      25
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 8,
+    "M": 8615169,
+    "modulus": 32,
+    "factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        957241,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        957241,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      9,
+      11,
+      17,
+      19,
+      25,
+      27
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      9,
+      11,
+      25
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 8,
+    "u": 1,
+    "M": 68921289,
+    "modulus": 32,
+    "factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        101,
+        1
+      ],
+      [
+        75821,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        101,
+        1
+      ],
+      [
+        75821,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      13,
+      15,
+      21
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 7,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 16,
+      "factor_image_sizes": [
+        3,
+        2,
+        2
+      ],
+      "L": 4,
+      "threshold": 15,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          3,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          15
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          3,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          17
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          3,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 7,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 9,
+    "M": 8615170,
+    "modulus": 36,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        45343,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        45343,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      25,
+      29,
+      31,
+      35
+    ],
+    "H0": [
+      1,
+      19
+    ],
+    "saturation_trace": [
+      {
+        "q": 19,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          19
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      5,
+      19,
+      23
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 2,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1,
+        19
+      ],
+      "index": 6,
+      "factor_image_sizes": [
+        2,
+        1,
+        1
+      ],
+      "L": 1,
+      "threshold": 5,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1,
+          19
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          1,
+          1
+        ],
+        "L": 1,
+        "threshold": 5,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 9,
+    "u": 1,
+    "M": 77536450,
+    "modulus": 36,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        191,
+        1
+      ],
+      [
+        353,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        2
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        191,
+        1
+      ],
+      [
+        353,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      25,
+      29,
+      31,
+      35
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      5,
+      7,
+      11,
+      19,
+      23,
+      25,
+      29,
+      31,
+      35
+    ],
+    "witnesses": [
+      575
+    ],
+    "K": false,
+    "quotients_tested": 6,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 12,
+      "factor_image_sizes": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "L": 5,
+      "threshold": 11,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 11,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 10,
+    "M": 8615171,
+    "modulus": 40,
+    "factorization": [
+      [
+        617,
+        1
+      ],
+      [
+        13963,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        617,
+        1
+      ],
+      [
+        13963,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      9,
+      11,
+      17,
+      19,
+      27,
+      33
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      11,
+      17
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 2,
+    "u": 5,
+    "M": 17230327,
+    "modulus": 40,
+    "factorization": [
+      [
+        31,
+        1
+      ],
+      [
+        677,
+        1
+      ],
+      [
+        821,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        31,
+        1
+      ],
+      [
+        677,
+        1
+      ],
+      [
+        821,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      7,
+      9,
+      11,
+      13,
+      17,
+      19,
+      21,
+      23,
+      27,
+      29,
+      31,
+      33,
+      37,
+      39
+    ],
+    "H0": [
+      1,
+      11,
+      21,
+      31
+    ],
+    "saturation_trace": [
+      {
+        "q": 31,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          31
+        ]
+      },
+      {
+        "q": 821,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1,
+          31
+        ],
+        "to": [
+          1,
+          11,
+          21,
+          31
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      7,
+      11,
+      17,
+      21,
+      27,
+      31,
+      37
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 1,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1,
+        11,
+        21,
+        31
+      ],
+      "index": 4,
+      "factor_image_sizes": [
+        1,
+        2,
+        1
+      ],
+      "L": 1,
+      "threshold": 3,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1,
+          11,
+          21,
+          31
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          1,
+          2,
+          1
+        ],
+        "L": 1,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 5,
+    "u": 2,
+    "M": 43075807,
+    "modulus": 40,
+    "factorization": [
+      [
+        17,
+        1
+      ],
+      [
+        37,
+        1
+      ],
+      [
+        68483,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        17,
+        1
+      ],
+      [
+        37,
+        1
+      ],
+      [
+        68483,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      7,
+      9,
+      11,
+      13,
+      17,
+      19,
+      21,
+      23,
+      27,
+      29,
+      31,
+      33,
+      37,
+      39
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      7,
+      11,
+      17,
+      29,
+      31,
+      37
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 19,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 16,
+      "factor_image_sizes": [
+        2,
+        2,
+        2
+      ],
+      "L": 3,
+      "threshold": 15,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          11
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          19
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          21
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          29
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          31
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          3,
+          9,
+          27
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          2,
+          1
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          13,
+          37
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          17,
+          33
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          1,
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 10,
+    "u": 1,
+    "M": 86151611,
+    "modulus": 40,
+    "factorization": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        47,
+        1
+      ],
+      [
+        20143,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        7,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        47,
+        1
+      ],
+      [
+        20143,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7,
+      9,
+      11,
+      13,
+      19,
+      23,
+      37
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      7,
+      9,
+      11,
+      13,
+      19,
+      23,
+      37
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 11,
+    "M": 8615172,
+    "modulus": 44,
+    "factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        127,
+        1
+      ],
+      [
+        5653,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        127,
+        1
+      ],
+      [
+        5653,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      35,
+      37,
+      39,
+      41,
+      43
+    ],
+    "H0": [
+      1,
+      21
+    ],
+    "saturation_trace": [
+      {
+        "q": 5653,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          21
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      3,
+      19,
+      21,
+      27,
+      29,
+      37,
+      39
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 2,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1,
+        21
+      ],
+      "index": 10,
+      "factor_image_sizes": [
+        2,
+        2,
+        1
+      ],
+      "L": 2,
+      "threshold": 9,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1,
+          21
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2,
+          1
+        ],
+        "L": 2,
+        "threshold": 9,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 11,
+    "u": 1,
+    "M": 94766772,
+    "modulus": 44,
+    "factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        113,
+        1
+      ],
+      [
+        4111,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        113,
+        1
+      ],
+      [
+        4111,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      35,
+      37,
+      39,
+      41,
+      43
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      7,
+      13,
+      15,
+      17,
+      19,
+      23,
+      25,
+      29,
+      31,
+      35,
+      43
+    ],
+    "witnesses": [
+      5763
+    ],
+    "K": false,
+    "quotients_tested": 6,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 20,
+      "factor_image_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "L": 4,
+      "threshold": 19,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 20,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 19,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          21
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 9,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          23
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 9,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 12,
+    "M": 8615173,
+    "modulus": 48,
+    "factorization": [
+      [
+        7,
+        1
+      ],
+      [
+        1230739,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        7,
+        1
+      ],
+      [
+        1230739,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7,
+      13,
+      19,
+      25,
+      31,
+      37,
+      43
+    ],
+    "H0": [
+      1,
+      7
+    ],
+    "saturation_trace": [
+      {
+        "q": 7,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          7
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      7,
+      19,
+      37
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 3,
+    "u": 4,
+    "M": 25845487,
+    "modulus": 48,
+    "factorization": [
+      [
+        359,
+        1
+      ],
+      [
+        71993,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        359,
+        1
+      ],
+      [
+        71993,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      23,
+      31,
+      41
+    ],
+    "H0": [
+      1,
+      23,
+      31,
+      41
+    ],
+    "saturation_trace": [
+      {
+        "q": 359,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          23
+        ]
+      },
+      {
+        "q": 71993,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1,
+          23
+        ],
+        "to": [
+          1,
+          23,
+          31,
+          41
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      23,
+      31,
+      41
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 4,
+    "u": 3,
+    "M": 34460647,
+    "modulus": 48,
+    "factorization": [
+      [
+        13,
+        1
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        5011,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        13,
+        1
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        5011,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      25,
+      29,
+      31,
+      35,
+      37,
+      41,
+      43,
+      47
+    ],
+    "H0": [
+      1,
+      23
+    ],
+    "saturation_trace": [
+      {
+        "q": 23,
+        "e": 2,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          23
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 3,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1,
+        23
+      ],
+      "index": 8,
+      "factor_image_sizes": [
+        2,
+        1,
+        2
+      ],
+      "L": 2,
+      "threshold": 7,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1,
+          23
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ],
+        "L": 2,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          7,
+          17,
+          23
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          23,
+          31,
+          41
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 12,
+    "u": 1,
+    "M": 103381933,
+    "modulus": 48,
+    "factorization": [
+      [
+        43,
+        1
+      ],
+      [
+        523,
+        1
+      ],
+      [
+        4597,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        43,
+        1
+      ],
+      [
+        523,
+        1
+      ],
+      [
+        4597,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7,
+      13,
+      19,
+      25,
+      31,
+      37,
+      43
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      7,
+      13,
+      25,
+      37,
+      43
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 13,
+    "M": 8615174,
+    "modulus": 52,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        4307587,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        4307587,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7,
+      9,
+      11,
+      15,
+      17,
+      19,
+      25,
+      29,
+      31,
+      47,
+      49
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      11
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 13,
+    "u": 1,
+    "M": 111997094,
+    "modulus": 52,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        5090777,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        11,
+        1
+      ],
+      [
+        5090777,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7,
+      9,
+      11,
+      15,
+      17,
+      19,
+      25,
+      29,
+      31,
+      47,
+      49
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      7,
+      11,
+      29
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 14,
+    "M": 8615175,
+    "modulus": 56,
+    "factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        233,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        233,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      51,
+      53,
+      55
+    ],
+    "H0": [
+      1,
+      29
+    ],
+    "saturation_trace": [
+      {
+        "q": 29,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          29
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      3,
+      5,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      51,
+      53,
+      55
+    ],
+    "witnesses": [
+      20271,
+      59415
+    ],
+    "K": false,
+    "quotients_tested": 6,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1,
+        29
+      ],
+      "index": 12,
+      "factor_image_sizes": [
+        2,
+        3,
+        2,
+        1,
+        2
+      ],
+      "L": 5,
+      "threshold": 11,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1,
+          29
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          3,
+          2,
+          1,
+          2
+        ],
+        "L": 5,
+        "threshold": 11,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 2,
+    "u": 7,
+    "M": 17230329,
+    "modulus": 56,
+    "factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        1914481,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        1914481,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      9,
+      19,
+      25,
+      27
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      9,
+      25,
+      27
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 7,
+    "u": 2,
+    "M": 60306129,
+    "modulus": 56,
+    "factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        1279,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        1279,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      51,
+      53,
+      55
+    ],
+    "H0": [
+      1,
+      13
+    ],
+    "saturation_trace": [
+      {
+        "q": 13,
+        "e": 2,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          13
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      3,
+      5,
+      9,
+      11,
+      13,
+      29,
+      31,
+      33,
+      37,
+      39,
+      41,
+      43,
+      47,
+      51,
+      55
+    ],
+    "witnesses": [
+      279,
+      47151
+    ],
+    "K": false,
+    "quotients_tested": 6,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1,
+        13
+      ],
+      "index": 12,
+      "factor_image_sizes": [
+        3,
+        1,
+        2,
+        2
+      ],
+      "L": 4,
+      "threshold": 11,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1,
+          13
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          3,
+          1,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          13,
+          15,
+          27
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          3,
+          1,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          13,
+          29,
+          41
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          3,
+          1,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 14,
+    "u": 1,
+    "M": 120612255,
+    "modulus": 56,
+    "factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        8040817,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        8040817,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      9,
+      13,
+      15,
+      19,
+      23,
+      25,
+      27,
+      39,
+      45
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      5,
+      15
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 15,
+    "M": 8615176,
+    "modulus": 60,
+    "factorization": [
+      [
+        2,
+        3
+      ],
+      [
+        409,
+        1
+      ],
+      [
+        2633,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        409,
+        1
+      ],
+      [
+        2633,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      17,
+      49,
+      53
+    ],
+    "H0": [
+      1,
+      17,
+      49,
+      53
+    ],
+    "saturation_trace": [
+      {
+        "q": 409,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          49
+        ]
+      },
+      {
+        "q": 2633,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1,
+          49
+        ],
+        "to": [
+          1,
+          17,
+          49,
+          53
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      17,
+      49,
+      53
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 3,
+    "u": 5,
+    "M": 25845488,
+    "modulus": 60,
+    "factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        47,
+        1
+      ],
+      [
+        34369,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        47,
+        1
+      ],
+      [
+        34369,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      23,
+      47,
+      49
+    ],
+    "H0": [
+      1,
+      23,
+      47,
+      49
+    ],
+    "saturation_trace": [
+      {
+        "q": 34369,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          49
+        ]
+      },
+      {
+        "q": 47,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1,
+          49
+        ],
+        "to": [
+          1,
+          23,
+          47,
+          49
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      23,
+      47,
+      49
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 5,
+    "u": 3,
+    "M": 43075808,
+    "modulus": 60,
+    "factorization": [
+      [
+        2,
+        5
+      ],
+      [
+        1346119,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        1346119,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      19
+    ],
+    "H0": [
+      1,
+      19
+    ],
+    "saturation_trace": [
+      {
+        "q": 1346119,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          19
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      19
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 15,
+    "u": 1,
+    "M": 129227416,
+    "modulus": 60,
+    "factorization": [
+      [
+        2,
+        3
+      ],
+      [
+        199,
+        1
+      ],
+      [
+        81173,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        199,
+        1
+      ],
+      [
+        81173,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      17,
+      19,
+      23,
+      31,
+      47,
+      49,
+      53
+    ],
+    "H0": [
+      1,
+      19
+    ],
+    "saturation_trace": [
+      {
+        "q": 199,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          19
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      19,
+      47,
+      53
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 16,
+    "M": 8615177,
+    "modulus": 64,
+    "factorization": [
+      [
+        8615177,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        8615177,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      9,
+      17,
+      25,
+      33,
+      41,
+      49,
+      57
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      9
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 16,
+    "u": 1,
+    "M": 137842577,
+    "modulus": 64,
+    "factorization": [
+      [
+        89,
+        1
+      ],
+      [
+        1548793,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        89,
+        1
+      ],
+      [
+        1548793,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      9,
+      17,
+      25,
+      33,
+      41,
+      49,
+      57
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      17,
+      25,
+      57
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 17,
+    "M": 8615178,
+    "modulus": 68,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        3347,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        3347,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      7,
+      9,
+      11,
+      13,
+      15,
+      19,
+      21,
+      29,
+      31,
+      33,
+      37,
+      39,
+      41,
+      43,
+      45,
+      49,
+      55,
+      57,
+      59,
+      61,
+      63,
+      67
+    ],
+    "witnesses": [
+      30123
+    ],
+    "K": false,
+    "quotients_tested": 9,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 32,
+      "factor_image_sizes": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "L": 5,
+      "threshold": 31,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 32,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 31,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          33
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          35
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          13,
+          21,
+          33
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          3,
+          2,
+          1,
+          2
+        ],
+        "L": 4,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          33,
+          47,
+          55
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 7,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 17,
+    "u": 1,
+    "M": 146457738,
+    "modulus": 68,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        131,
+        1
+      ],
+      [
+        467,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        131,
+        1
+      ],
+      [
+        467,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67
+    ],
+    "witnesses": [
+      156807,
+      183531
+    ],
+    "K": false,
+    "quotients_tested": 9,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 32,
+      "factor_image_sizes": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "L": 6,
+      "threshold": 31,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 32,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 6,
+        "threshold": 31,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          33
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 6,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          35
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 6,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          13,
+          21,
+          33
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 6,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          33,
+          47,
+          55
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 6,
+        "threshold": 7,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 18,
+    "M": 8615179,
+    "modulus": 72,
+    "factorization": [
+      [
+        23,
+        1
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        43,
+        1
+      ],
+      [
+        281,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        23,
+        1
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        43,
+        1
+      ],
+      [
+        281,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      25,
+      29,
+      31,
+      35,
+      37,
+      41,
+      43,
+      47,
+      49,
+      53,
+      55,
+      59,
+      61,
+      65,
+      67,
+      71
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      19,
+      23,
+      29,
+      31,
+      37,
+      43,
+      49,
+      53,
+      55,
+      59,
+      61,
+      65,
+      71
+    ],
+    "witnesses": [
+      8711
+    ],
+    "K": false,
+    "quotients_tested": 22,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 24,
+      "factor_image_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "L": 4,
+      "threshold": 23,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 24,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 23,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          17
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          19
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          35
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          37
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          53
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          55
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          25,
+          49
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          17,
+          19,
+          35
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          17,
+          37,
+          53
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          19,
+          37,
+          55
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          35,
+          53,
+          55
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 2,
+    "u": 9,
+    "M": 17230331,
+    "modulus": 72,
+    "factorization": [
+      [
+        919,
+        1
+      ],
+      [
+        18749,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        919,
+        1
+      ],
+      [
+        18749,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11,
+      25,
+      29,
+      31,
+      35,
+      49,
+      53,
+      55,
+      59
+    ],
+    "H0": [
+      1,
+      55
+    ],
+    "saturation_trace": [
+      {
+        "q": 919,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          55
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      11,
+      29,
+      55
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 9,
+    "u": 2,
+    "M": 77536451,
+    "modulus": 72,
+    "factorization": [
+      [
+        77536451,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        77536451,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      11,
+      25,
+      35,
+      49,
+      59
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      11
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 18,
+    "u": 1,
+    "M": 155072899,
+    "modulus": 72,
+    "factorization": [
+      [
+        155072899,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        155072899,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      19
+    ],
+    "H0": [
+      1,
+      19
+    ],
+    "saturation_trace": [
+      {
+        "q": 155072899,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          19
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      19
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 19,
+    "M": 8615180,
+    "modulus": 76,
+    "factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        59,
+        1
+      ],
+      [
+        149,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        59,
+        1
+      ],
+      [
+        149,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51,
+      53,
+      55,
+      59,
+      61,
+      63,
+      65,
+      67,
+      69,
+      71,
+      73,
+      75
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      5,
+      7,
+      13,
+      15,
+      17,
+      25,
+      27,
+      31,
+      33,
+      35,
+      37,
+      47,
+      49,
+      51,
+      53,
+      55,
+      59,
+      61,
+      67,
+      73
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 9,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 36,
+      "factor_image_sizes": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "L": 5,
+      "threshold": 35,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 36,
+        "factor_image_sizes": [
+          2,
+          3,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 35,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          37
+        ],
+        "index": 18,
+        "factor_image_sizes": [
+          2,
+          3,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 17,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          39
+        ],
+        "index": 18,
+        "factor_image_sizes": [
+          2,
+          3,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 17,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          45,
+          49
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          7,
+          11,
+          39,
+          45,
+          49
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          1,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          37,
+          45,
+          49,
+          65,
+          69
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          5,
+          9,
+          17,
+          25,
+          45,
+          49,
+          61,
+          73
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 19,
+    "u": 1,
+    "M": 163688060,
+    "modulus": 76,
+    "factorization": [
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        264013,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        264013,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51,
+      53,
+      55,
+      59,
+      61,
+      63,
+      65,
+      67,
+      69,
+      71,
+      73,
+      75
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      5,
+      21,
+      31,
+      39,
+      43,
+      65
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 9,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 36,
+      "factor_image_sizes": [
+        2,
+        2,
+        2
+      ],
+      "L": 3,
+      "threshold": 35,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 36,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 35,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          37
+        ],
+        "index": 18,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 17,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          39
+        ],
+        "index": 18,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 17,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          45,
+          49
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          7,
+          11,
+          39,
+          45,
+          49
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          37,
+          45,
+          49,
+          65,
+          69
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          1
+        ],
+        "L": 2,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          5,
+          9,
+          17,
+          25,
+          45,
+          49,
+          61,
+          73
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          1,
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 20,
+    "M": 8615181,
+    "modulus": 80,
+    "factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        373,
+        1
+      ],
+      [
+        7699,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        373,
+        1
+      ],
+      [
+        7699,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      7,
+      9,
+      11,
+      13,
+      17,
+      19,
+      21,
+      23,
+      27,
+      29,
+      31,
+      33,
+      37,
+      39,
+      41,
+      43,
+      47,
+      49,
+      51,
+      53,
+      57,
+      59,
+      61,
+      63,
+      67,
+      69,
+      71,
+      73,
+      77,
+      79
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      19,
+      47,
+      53,
+      57,
+      61,
+      79
+    ],
+    "witnesses": [
+      1119
+    ],
+    "K": false,
+    "quotients_tested": 39,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 32,
+      "factor_image_sizes": [
+        2,
+        2,
+        2
+      ],
+      "L": 3,
+      "threshold": 31,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 32,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 31,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          31
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          39
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          41
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          49
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          71
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          3,
+          9,
+          27
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          1,
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          7,
+          23,
+          49
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          13,
+          37
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          31,
+          39
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          41,
+          49
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          43,
+          67
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          53,
+          77
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ],
+        "L": 2,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          11,
+          41,
+          51
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          17,
+          33,
+          49
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          19,
+          41,
+          59
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          1
+        ],
+        "L": 2,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          21,
+          41,
+          61
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          29,
+          41,
+          69
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          31,
+          41,
+          71
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          39,
+          49,
+          71
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          47,
+          49,
+          63
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          49,
+          57,
+          73
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          3,
+          9,
+          13,
+          27,
+          31,
+          37,
+          39
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          1,
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          3,
+          9,
+          27,
+          41,
+          43,
+          49,
+          67
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          1,
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          11,
+          19,
+          41,
+          49,
+          51,
+          59
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          2,
+          1
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          13,
+          37,
+          41,
+          49,
+          53,
+          77
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          31,
+          39,
+          43,
+          53,
+          67,
+          77
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          19,
+          29,
+          31,
+          41,
+          59,
+          69,
+          71
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          2,
+          1
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 4,
+    "u": 5,
+    "M": 34460649,
+    "modulus": 80,
+    "factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        13249,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        13249,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      9,
+      11,
+      17,
+      19,
+      27,
+      33,
+      41,
+      43,
+      49,
+      51,
+      57,
+      59,
+      67,
+      73
+    ],
+    "H0": [
+      1,
+      17,
+      33,
+      49
+    ],
+    "saturation_trace": [
+      {
+        "q": 13249,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          49
+        ]
+      },
+      {
+        "q": 17,
+        "e": 2,
+        "quotient_order": 2,
+        "from": [
+          1,
+          49
+        ],
+        "to": [
+          1,
+          17,
+          33,
+          49
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      3,
+      9,
+      17,
+      19,
+      33,
+      41,
+      49,
+      51,
+      57,
+      67,
+      73
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 5,
+    "u": 4,
+    "M": 43075809,
+    "modulus": 80,
+    "factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        43,
+        1
+      ],
+      [
+        15901,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        43,
+        1
+      ],
+      [
+        15901,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      7,
+      9,
+      21,
+      23,
+      27,
+      29,
+      41,
+      43,
+      47,
+      49,
+      61,
+      63,
+      67,
+      69
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      7,
+      9,
+      21,
+      23,
+      27,
+      29,
+      41,
+      43,
+      49,
+      61,
+      63,
+      67,
+      69
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 20,
+    "u": 1,
+    "M": 172303221,
+    "modulus": 80,
+    "factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        57434407,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        57434407,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      7,
+      9,
+      21,
+      23,
+      27,
+      29,
+      41,
+      43,
+      47,
+      49,
+      61,
+      63,
+      67,
+      69
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      7,
+      21
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 21,
+    "M": 8615182,
+    "modulus": 84,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        4307591,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        4307591,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      71
+    ],
+    "H0": [
+      1,
+      71
+    ],
+    "saturation_trace": [
+      {
+        "q": 4307591,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          71
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      71
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 3,
+    "u": 7,
+    "M": 25845490,
+    "modulus": 84,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        234959,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        234959,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      11,
+      17,
+      19,
+      23,
+      25,
+      31,
+      37,
+      41,
+      55,
+      71
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      5,
+      11,
+      17,
+      37,
+      55
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 7,
+    "u": 3,
+    "M": 60306130,
+    "modulus": 84,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1223,
+        1
+      ],
+      [
+        4931,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        1223,
+        1
+      ],
+      [
+        4931,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      17,
+      25,
+      37,
+      41,
+      43,
+      47,
+      59,
+      67,
+      79,
+      83
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      5,
+      43,
+      47,
+      59,
+      67
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 6,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 12,
+      "factor_image_sizes": [
+        2,
+        2,
+        2
+      ],
+      "L": 3,
+      "threshold": 11,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          41
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          43
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 5,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 21,
+    "u": 1,
+    "M": 180918382,
+    "modulus": 84,
+    "factorization": [
+      [
+        2,
+        1
+      ],
+      [
+        37,
+        1
+      ],
+      [
+        73,
+        1
+      ],
+      [
+        107,
+        1
+      ],
+      [
+        313,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        37,
+        1
+      ],
+      [
+        73,
+        1
+      ],
+      [
+        107,
+        1
+      ],
+      [
+        313,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      11,
+      13,
+      23,
+      25,
+      37,
+      47,
+      59,
+      61,
+      71,
+      73,
+      83
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      11,
+      13,
+      23,
+      37,
+      47,
+      59,
+      61,
+      73,
+      83
+    ],
+    "witnesses": [
+      7811,
+      1239167
+    ],
+    "K": false,
+    "quotients_tested": 6,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 12,
+      "factor_image_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "L": 4,
+      "threshold": 11,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 12,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 11,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          13
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          71
+        ],
+        "index": 6,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 5,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 22,
+    "M": 8615183,
+    "modulus": 88,
+    "factorization": [
+      [
+        389,
+        1
+      ],
+      [
+        22147,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        389,
+        1
+      ],
+      [
+        22147,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      9,
+      15,
+      23,
+      25,
+      27,
+      31,
+      37,
+      45,
+      47,
+      49,
+      53,
+      59,
+      67,
+      69,
+      71,
+      75,
+      81
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      37,
+      59,
+      71
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 2,
+    "u": 11,
+    "M": 17230333,
+    "modulus": 88,
+    "factorization": [
+      [
+        17,
+        1
+      ],
+      [
+        311,
+        1
+      ],
+      [
+        3259,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        17,
+        1
+      ],
+      [
+        311,
+        1
+      ],
+      [
+        3259,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51,
+      53,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67,
+      69,
+      71,
+      73,
+      75,
+      79,
+      81,
+      83,
+      85,
+      87
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      7,
+      17,
+      21,
+      47,
+      51,
+      53
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 22,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 40,
+      "factor_image_sizes": [
+        2,
+        2,
+        2
+      ],
+      "L": 3,
+      "threshold": 39,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 40,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 39,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          21
+        ],
+        "index": 20,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 19,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          23
+        ],
+        "index": 20,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 19,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          43
+        ],
+        "index": 20,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 19,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          45
+        ],
+        "index": 20,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 19,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          65
+        ],
+        "index": 20,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 19,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          67
+        ],
+        "index": 20,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 19,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          21,
+          23,
+          43
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 9,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          21,
+          45,
+          65
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 9,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          23,
+          45,
+          67
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 9,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          43,
+          65,
+          67
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 9,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          25,
+          49,
+          81
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ],
+        "L": 3,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          3,
+          9,
+          25,
+          27,
+          49,
+          59,
+          67,
+          75,
+          81
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          2,
+          1
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          15,
+          23,
+          25,
+          31,
+          47,
+          49,
+          71,
+          81
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          17,
+          25,
+          41,
+          49,
+          57,
+          65,
+          73,
+          81
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          1,
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 11,
+    "u": 2,
+    "M": 94766773,
+    "modulus": 88,
+    "factorization": [
+      [
+        94766773,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        94766773,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      9,
+      13,
+      21,
+      25,
+      29,
+      49,
+      61,
+      81,
+      85
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      13
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 22,
+    "u": 1,
+    "M": 189533543,
+    "modulus": 88,
+    "factorization": [
+      [
+        431,
+        1
+      ],
+      [
+        439753,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        431,
+        1
+      ],
+      [
+        439753,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      7,
+      9,
+      15,
+      17,
+      23,
+      25,
+      31,
+      39,
+      41,
+      47,
+      49,
+      57,
+      63,
+      65,
+      71,
+      73,
+      79,
+      81,
+      87
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      17,
+      23,
+      79
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 6,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 20,
+      "factor_image_sizes": [
+        2,
+        2
+      ],
+      "L": 2,
+      "threshold": 19,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 20,
+        "factor_image_sizes": [
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 19,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          23
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 9,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          65
+        ],
+        "index": 10,
+        "factor_image_sizes": [
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 9,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          25,
+          49,
+          81
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 23,
+    "M": 8615184,
+    "modulus": 92,
+    "factorization": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        179483,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        179483,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67,
+      71,
+      73,
+      75,
+      77,
+      79,
+      81,
+      83,
+      85,
+      87,
+      89,
+      91
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      65,
+      83
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 6,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1
+      ],
+      "index": 44,
+      "factor_image_sizes": [
+        2,
+        2
+      ],
+      "L": 2,
+      "threshold": 43,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1
+        ],
+        "index": 44,
+        "factor_image_sizes": [
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 43,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          45
+        ],
+        "index": 22,
+        "factor_image_sizes": [
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 21,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          47
+        ],
+        "index": 22,
+        "factor_image_sizes": [
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 21,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          9,
+          13,
+          25,
+          29,
+          41,
+          49,
+          73,
+          77,
+          81,
+          85
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          2,
+          2
+        ],
+        "L": 2,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 23,
+    "u": 1,
+    "M": 198148704,
+    "modulus": 92,
+    "factorization": [
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        179,
+        1
+      ],
+      [
+        887,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        3,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        179,
+        1
+      ],
+      [
+        887,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      9,
+      13,
+      25,
+      27,
+      29,
+      31,
+      35,
+      39,
+      41,
+      47,
+      49,
+      55,
+      59,
+      71,
+      73,
+      75,
+      77,
+      81,
+      85,
+      87
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      3,
+      13,
+      27,
+      29,
+      31,
+      35,
+      39,
+      59,
+      73,
+      77,
+      81,
+      85,
+      87
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 1,
+    "u": 24,
+    "M": 8615185,
+    "modulus": 96,
+    "factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        1723037,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        1723037,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      25,
+      29,
+      49,
+      53,
+      73,
+      77
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      5,
+      29,
+      49
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 3,
+    "u": 8,
+    "M": 25845491,
+    "modulus": 96,
+    "factorization": [
+      [
+        7,
+        2
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        71,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        7,
+        2
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        71,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      25,
+      29,
+      31,
+      35,
+      37,
+      41,
+      43,
+      47,
+      49,
+      53,
+      55,
+      59,
+      61,
+      65,
+      67,
+      71,
+      73,
+      77,
+      79,
+      83,
+      85,
+      89,
+      91,
+      95
+    ],
+    "H0": [
+      1,
+      17
+    ],
+    "saturation_trace": [
+      {
+        "q": 17,
+        "e": 1,
+        "quotient_order": 2,
+        "from": [
+          1
+        ],
+        "to": [
+          1,
+          17
+        ]
+      }
+    ],
+    "actual_divisor_residues": [
+      1,
+      5,
+      7,
+      17,
+      19,
+      23,
+      35,
+      37,
+      49,
+      53,
+      55,
+      65,
+      67,
+      71,
+      83,
+      85
+    ],
+    "witnesses": [],
+    "K": false,
+    "quotients_tested": 7,
+    "failure_kind": "insufficient_Kneser_bound",
+    "bad_quotient": {
+      "H": [
+        1,
+        17
+      ],
+      "index": 16,
+      "factor_image_sizes": [
+        3,
+        1,
+        2,
+        2,
+        2
+      ],
+      "L": 5,
+      "threshold": 15,
+      "passes": false
+    },
+    "all_bad_quotients": [
+      {
+        "H": [
+          1,
+          17
+        ],
+        "index": 16,
+        "factor_image_sizes": [
+          3,
+          1,
+          2,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 15,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          17,
+          31,
+          47
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          3,
+          1,
+          2,
+          2,
+          2
+        ],
+        "L": 5,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          17,
+          49,
+          65
+        ],
+        "index": 8,
+        "factor_image_sizes": [
+          2,
+          1,
+          2,
+          2,
+          2
+        ],
+        "L": 4,
+        "threshold": 7,
+        "passes": false
+      },
+      {
+        "H": [
+          1,
+          7,
+          17,
+          23,
+          49,
+          55,
+          65,
+          71
+        ],
+        "index": 4,
+        "factor_image_sizes": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "L": 1,
+        "threshold": 3,
+        "passes": false
+      }
+    ]
+  },
+  {
+    "p": 8615161,
+    "a": 8,
+    "u": 3,
+    "M": 68921291,
+    "modulus": 96,
+    "factorization": [
+      [
+        83,
+        1
+      ],
+      [
+        149,
+        1
+      ],
+      [
+        5573,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        83,
+        1
+      ],
+      [
+        149,
+        1
+      ],
+      [
+        5573,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11,
+      25,
+      29,
+      31,
+      35,
+      49,
+      53,
+      55,
+      59,
+      73,
+      77,
+      79,
+      83
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      5,
+      11,
+      31,
+      53,
+      73,
+      79,
+      83
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  },
+  {
+    "p": 8615161,
+    "a": 24,
+    "u": 1,
+    "M": 206763865,
+    "modulus": 96,
+    "factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        53,
+        1
+      ],
+      [
+        10133,
+        1
+      ]
+    ],
+    "unit_factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        53,
+        1
+      ],
+      [
+        10133,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      5,
+      7,
+      11,
+      25,
+      29,
+      31,
+      35,
+      49,
+      53,
+      55,
+      59,
+      73,
+      77,
+      79,
+      83
+    ],
+    "H0": [
+      1
+    ],
+    "saturation_trace": [],
+    "actual_divisor_residues": [
+      1,
+      5,
+      7,
+      11,
+      25,
+      29,
+      31,
+      35,
+      49,
+      53,
+      55,
+      73,
+      77,
+      79,
+      83
+    ],
+    "witnesses": [],
+    "K": false,
+    "failure_kind": "group_obstruction"
+  }
+]

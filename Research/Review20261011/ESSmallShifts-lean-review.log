@@ -1,0 +1,58 @@
+'OutcastsMathLab.Research.ESSmallShifts.mod_mem_of_prime_factors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.exists_prime_mod_four_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_one_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.exists_prime_mod_eight_five_or_seven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.exists_prime_mod_eight_three_or_seven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_mod_eight_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_one_two_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_two_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.exists_prime_mod_three_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_mod_twelve_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_one_three_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_three_one_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_one_three_iff_of_mod16' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_three_one_iff_of_mod16' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.global_signs_of_mod24' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.mod24_of_hard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.es_of_divisor_three_mod_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.es_3678481' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.eleven_residues' depends on axioms: [propext]
+'OutcastsMathLab.Research.ESSmallShifts.witness_of_mod_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.es_of_mod_eleven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.hard_examples_mod_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.trivial_witness' depends on axioms: [propext]
+'OutcastsMathLab.Research.ESSmallShifts.witness_one_twentytwo' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.es_of_hard_mod_eleven_ten' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESSmallShifts.witness_4201_one_twentytwo' depends on axioms: [propext]

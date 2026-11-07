@@ -1,0 +1,13 @@
+{
+  "source_sha256": "bd60bbcc8161a1625332803d825f96e0c517acbe810149f43a4ed2bce92814f3",
+  "lean_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "threads": 1,
+  "exit_code": 1,
+  "seconds": 0.117,
+  "selected_numeric_theorems": 5,
+  "axioms": {},
+  "standard_axioms_only": true,
+  "dependency_head": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "general_character_theorem_or_prime_existence_formalized": false,
+  "full_project_build": false
+}

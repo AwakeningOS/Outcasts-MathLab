@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "p": 2521,
+      "all_graph_sources": 310,
+      "divisors_tested": 7926,
+      "all_edges_match": true,
+      "original_residual_test_matches": true,
+      "iterative_layers_match": true,
+      "failure_sources": {
+        "17": 6,
+        "53": 3,
+        "73": 3,
+        "149": 2,
+        "251": 3,
+        "643": 2,
+        "1663": 1
+      },
+      "distance_six_vertices": [
+        2153,
+        1249
+      ],
+      "q17_sources": [
+        {
+          "tau": 1,
+          "c": 51,
+          "x": 643,
+          "factors": {
+            "643": 1
+          },
+          "children": [
+            643
+          ]
+        },
+        {
+          "tau": 3,
+          "c": 459,
+          "x": 745,
+          "factors": {
+            "5": 1,
+            "149": 1
+          },
+          "children": [
+            149
+          ]
+        },
+        {
+          "tau": 5,
+          "c": 1275,
+          "x": 949,
+          "factors": {
+            "13": 1,
+            "73": 1
+          },
+          "children": [
+            73
+          ]
+        },
+        {
+          "tau": 7,
+          "c": 2499,
+          "x": 1255,
+          "factors": {
+            "5": 1,
+            "251": 1
+          },
+          "children": [
+            251
+          ]
+        },
+        {
+          "tau": 9,
+          "c": 4131,
+          "x": 1663,
+          "factors": {
+            "1663": 1
+          },
+          "children": [
+            1663
+          ]
+        },
+        {
+          "tau": 11,
+          "c": 6171,
+          "x": 2173,
+          "factors": {
+            "41": 1,
+            "53": 1
+          },
+          "children": [
+            53
+          ]
+        }
+      ]
+    }
+  ],
+  "seconds": 0.02678000199375674
+}

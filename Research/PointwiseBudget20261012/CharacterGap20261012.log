@@ -1,0 +1,5 @@
+'CharacterGap20261012.principal_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CharacterGap20261012.absolute_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CharacterGap20261012.actual_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CharacterGap20261012.no_positive_L1_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CharacterGap20261012.actual_count_positive' depends on axioms: [propext, Classical.choice, Quot.sound]

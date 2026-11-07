@@ -1,0 +1,129 @@
+{
+  "candidate": "HKlog, saturated quotient Kneser certificate within ceil(log2 p)",
+  "input_order_fixed": [
+    1201,
+    2521,
+    66529,
+    345601,
+    670849,
+    1740481,
+    3678481,
+    5843041,
+    84525841
+  ],
+  "records": [
+    {
+      "p": 1201,
+      "budget": 11,
+      "coprime_pairs": 25,
+      "K_sufficient_pairs": 4,
+      "actual_success_pairs": 4,
+      "first_K_pair": [
+        4,
+        1
+      ],
+      "candidate_passes": true
+    },
+    {
+      "p": 2521,
+      "budget": 12,
+      "coprime_pairs": 29,
+      "K_sufficient_pairs": 2,
+      "actual_success_pairs": 2,
+      "first_K_pair": [
+        1,
+        2
+      ],
+      "candidate_passes": true
+    },
+    {
+      "p": 66529,
+      "budget": 17,
+      "coprime_pairs": 43,
+      "K_sufficient_pairs": 1,
+      "actual_success_pairs": 3,
+      "first_K_pair": [
+        1,
+        9
+      ],
+      "candidate_passes": true
+    },
+    {
+      "p": 345601,
+      "budget": 19,
+      "coprime_pairs": 49,
+      "K_sufficient_pairs": 1,
+      "actual_success_pairs": 4,
+      "first_K_pair": [
+        1,
+        9
+      ],
+      "candidate_passes": true
+    },
+    {
+      "p": 670849,
+      "budget": 20,
+      "coprime_pairs": 53,
+      "K_sufficient_pairs": 1,
+      "actual_success_pairs": 3,
+      "first_K_pair": [
+        10,
+        1
+      ],
+      "candidate_passes": true
+    },
+    {
+      "p": 1740481,
+      "budget": 21,
+      "coprime_pairs": 57,
+      "K_sufficient_pairs": 2,
+      "actual_success_pairs": 4,
+      "first_K_pair": [
+        1,
+        13
+      ],
+      "candidate_passes": true
+    },
+    {
+      "p": 3678481,
+      "budget": 22,
+      "coprime_pairs": 61,
+      "K_sufficient_pairs": 4,
+      "actual_success_pairs": 5,
+      "first_K_pair": [
+        1,
+        1
+      ],
+      "candidate_passes": true
+    },
+    {
+      "p": 5843041,
+      "budget": 23,
+      "coprime_pairs": 63,
+      "K_sufficient_pairs": 2,
+      "actual_success_pairs": 3,
+      "first_K_pair": [
+        1,
+        5
+      ],
+      "candidate_passes": true
+    },
+    {
+      "p": 84525841,
+      "budget": 27,
+      "coprime_pairs": 75,
+      "K_sufficient_pairs": 2,
+      "actual_success_pairs": 3,
+      "first_K_pair": [
+        1,
+        19
+      ],
+      "candidate_passes": true
+    }
+  ],
+  "first_fixed_input_counterexample": null,
+  "new_ESC_range_verification": false,
+  "Hlog_refuted": false,
+  "universal_existence_proved": false,
+  "elapsed_seconds": 0.037
+}

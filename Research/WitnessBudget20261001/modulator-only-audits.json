@@ -1,0 +1,1345 @@
+{
+  "counterexample_audits": [
+    {
+      "budget": 12,
+      "full_type_II_positive_witness": {
+        "a": 1,
+        "alpha": 11,
+        "cost": 2,
+        "s": 87,
+        "u": 2,
+        "v": 29,
+        "xyz": [
+          638,
+          55462,
+          804199
+        ]
+      },
+      "independent_replay": true,
+      "independently_checked_pairs": 12,
+      "negative_pairs": [
+        {
+          "M": 2522,
+          "a": 1,
+          "divisor_residues": [
+            1,
+            2
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              97,
+              1
+            ]
+          ],
+          "modulus": 4,
+          "u": 1
+        },
+        {
+          "M": 5043,
+          "a": 2,
+          "divisor_residues": [
+            1,
+            3
+          ],
+          "factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              41,
+              2
+            ]
+          ],
+          "modulus": 8,
+          "u": 1
+        },
+        {
+          "M": 7564,
+          "a": 3,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            7
+          ],
+          "factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              61,
+              1
+            ]
+          ],
+          "modulus": 12,
+          "u": 1
+        },
+        {
+          "M": 10085,
+          "a": 4,
+          "divisor_residues": [
+            1,
+            5
+          ],
+          "factorization": [
+            [
+              5,
+              1
+            ],
+            [
+              2017,
+              1
+            ]
+          ],
+          "modulus": 16,
+          "u": 1
+        },
+        {
+          "M": 12606,
+          "a": 5,
+          "divisor_residues": [
+            1,
+            2,
+            3,
+            6,
+            11,
+            13
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              191,
+              1
+            ]
+          ],
+          "modulus": 20,
+          "u": 1
+        },
+        {
+          "M": 15127,
+          "a": 6,
+          "divisor_residues": [
+            1,
+            7
+          ],
+          "factorization": [
+            [
+              7,
+              1
+            ],
+            [
+              2161,
+              1
+            ]
+          ],
+          "modulus": 24,
+          "u": 1
+        },
+        {
+          "M": 17648,
+          "a": 7,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            8,
+            11,
+            16,
+            22
+          ],
+          "factorization": [
+            [
+              2,
+              4
+            ],
+            [
+              1103,
+              1
+            ]
+          ],
+          "modulus": 28,
+          "u": 1
+        },
+        {
+          "M": 20169,
+          "a": 8,
+          "divisor_residues": [
+            1,
+            3,
+            9,
+            11,
+            17,
+            19,
+            25,
+            27
+          ],
+          "factorization": [
+            [
+              3,
+              5
+            ],
+            [
+              83,
+              1
+            ]
+          ],
+          "modulus": 32,
+          "u": 1
+        },
+        {
+          "M": 22690,
+          "a": 9,
+          "divisor_residues": [
+            1,
+            2,
+            5,
+            10
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              2269,
+              1
+            ]
+          ],
+          "modulus": 36,
+          "u": 1
+        },
+        {
+          "M": 25211,
+          "a": 10,
+          "divisor_residues": [
+            1,
+            3,
+            11,
+            17
+          ],
+          "factorization": [
+            [
+              17,
+              1
+            ],
+            [
+              1483,
+              1
+            ]
+          ],
+          "modulus": 40,
+          "u": 1
+        },
+        {
+          "M": 27732,
+          "a": 11,
+          "divisor_residues": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            12,
+            23,
+            25
+          ],
+          "factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2311,
+              1
+            ]
+          ],
+          "modulus": 44,
+          "u": 1
+        },
+        {
+          "M": 30253,
+          "a": 12,
+          "divisor_residues": [
+            1,
+            13
+          ],
+          "factorization": [
+            [
+              30253,
+              1
+            ]
+          ],
+          "modulus": 48,
+          "u": 1
+        }
+      ],
+      "p": 2521
+    },
+    {
+      "budget": 16,
+      "full_type_II_positive_witness": {
+        "a": 1,
+        "alpha": 3,
+        "cost": 2,
+        "s": 23,
+        "u": 2,
+        "v": 1941,
+        "xyz": [
+          11646,
+          267846,
+          259944543
+        ]
+      },
+      "independent_replay": true,
+      "independently_checked_pairs": 16,
+      "negative_pairs": [
+        {
+          "M": 44642,
+          "a": 1,
+          "divisor_residues": [
+            1,
+            2
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              101,
+              1
+            ]
+          ],
+          "modulus": 4,
+          "u": 1
+        },
+        {
+          "M": 89283,
+          "a": 2,
+          "divisor_residues": [
+            1,
+            3
+          ],
+          "factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              29761,
+              1
+            ]
+          ],
+          "modulus": 8,
+          "u": 1
+        },
+        {
+          "M": 133924,
+          "a": 3,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            7
+          ],
+          "factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              4783,
+              1
+            ]
+          ],
+          "modulus": 12,
+          "u": 1
+        },
+        {
+          "M": 178565,
+          "a": 4,
+          "divisor_residues": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "factorization": [
+            [
+              5,
+              1
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              503,
+              1
+            ]
+          ],
+          "modulus": 16,
+          "u": 1
+        },
+        {
+          "M": 223206,
+          "a": 5,
+          "divisor_residues": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              37201,
+              1
+            ]
+          ],
+          "modulus": 20,
+          "u": 1
+        },
+        {
+          "M": 267847,
+          "a": 6,
+          "divisor_residues": [
+            1,
+            7,
+            13,
+            19
+          ],
+          "factorization": [
+            [
+              43,
+              1
+            ],
+            [
+              6229,
+              1
+            ]
+          ],
+          "modulus": 24,
+          "u": 1
+        },
+        {
+          "M": 312488,
+          "a": 7,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            8,
+            9,
+            11,
+            16,
+            18,
+            22,
+            23,
+            25
+          ],
+          "factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              53,
+              1
+            ],
+            [
+              67,
+              1
+            ]
+          ],
+          "modulus": 28,
+          "u": 1
+        },
+        {
+          "M": 357129,
+          "a": 8,
+          "divisor_residues": [
+            1,
+            3,
+            9,
+            11,
+            17,
+            25,
+            27
+          ],
+          "factorization": [
+            [
+              3,
+              4
+            ],
+            [
+              4409,
+              1
+            ]
+          ],
+          "modulus": 32,
+          "u": 1
+        },
+        {
+          "M": 401770,
+          "a": 9,
+          "divisor_residues": [
+            1,
+            2,
+            5,
+            10
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              40177,
+              1
+            ]
+          ],
+          "modulus": 36,
+          "u": 1
+        },
+        {
+          "M": 446411,
+          "a": 10,
+          "divisor_residues": [
+            1,
+            7,
+            11,
+            13
+          ],
+          "factorization": [
+            [
+              7,
+              1
+            ],
+            [
+              63773,
+              1
+            ]
+          ],
+          "modulus": 40,
+          "u": 1
+        },
+        {
+          "M": 491052,
+          "a": 11,
+          "divisor_residues": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            12,
+            13,
+            14,
+            19,
+            21,
+            26,
+            28,
+            32,
+            38,
+            40,
+            42
+          ],
+          "factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              151,
+              1
+            ],
+            [
+              271,
+              1
+            ]
+          ],
+          "modulus": 44,
+          "u": 1
+        },
+        {
+          "M": 535693,
+          "a": 12,
+          "divisor_residues": [
+            1,
+            11,
+            13,
+            23
+          ],
+          "factorization": [
+            [
+              23,
+              1
+            ],
+            [
+              23291,
+              1
+            ]
+          ],
+          "modulus": 48,
+          "u": 1
+        },
+        {
+          "M": 580334,
+          "a": 13,
+          "divisor_residues": [
+            1,
+            2,
+            7,
+            14,
+            27,
+            33
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              79,
+              1
+            ],
+            [
+              3673,
+              1
+            ]
+          ],
+          "modulus": 52,
+          "u": 1
+        },
+        {
+          "M": 624975,
+          "a": 14,
+          "divisor_residues": [
+            1,
+            3,
+            5,
+            9,
+            13,
+            15,
+            19,
+            23,
+            25,
+            27,
+            39,
+            45
+          ],
+          "factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              641,
+              1
+            ]
+          ],
+          "modulus": 56,
+          "u": 1
+        },
+        {
+          "M": 669616,
+          "a": 15,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            31
+          ],
+          "factorization": [
+            [
+              2,
+              4
+            ],
+            [
+              41851,
+              1
+            ]
+          ],
+          "modulus": 60,
+          "u": 1
+        },
+        {
+          "M": 714257,
+          "a": 16,
+          "divisor_residues": [
+            1,
+            17
+          ],
+          "factorization": [
+            [
+              714257,
+              1
+            ]
+          ],
+          "modulus": 64,
+          "u": 1
+        }
+      ],
+      "p": 44641
+    },
+    {
+      "budget": 17,
+      "full_type_II_positive_witness": {
+        "a": 1,
+        "alpha": 2,
+        "cost": 5,
+        "s": 39,
+        "u": 5,
+        "v": 1706,
+        "xyz": [
+          17060,
+          665290,
+          226996948
+        ]
+      },
+      "independent_replay": true,
+      "independently_checked_pairs": 17,
+      "negative_pairs": [
+        {
+          "M": 66530,
+          "a": 1,
+          "divisor_residues": [
+            1,
+            2
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6653,
+              1
+            ]
+          ],
+          "modulus": 4,
+          "u": 1
+        },
+        {
+          "M": 133059,
+          "a": 2,
+          "divisor_residues": [
+            1,
+            3
+          ],
+          "factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              2609,
+              1
+            ]
+          ],
+          "modulus": 8,
+          "u": 1
+        },
+        {
+          "M": 199588,
+          "a": 3,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            5,
+            8,
+            10
+          ],
+          "factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              41,
+              1
+            ],
+            [
+              1217,
+              1
+            ]
+          ],
+          "modulus": 12,
+          "u": 1
+        },
+        {
+          "M": 266117,
+          "a": 4,
+          "divisor_residues": [
+            1,
+            5
+          ],
+          "factorization": [
+            [
+              266117,
+              1
+            ]
+          ],
+          "modulus": 16,
+          "u": 1
+        },
+        {
+          "M": 332646,
+          "a": 5,
+          "divisor_residues": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              55441,
+              1
+            ]
+          ],
+          "modulus": 20,
+          "u": 1
+        },
+        {
+          "M": 399175,
+          "a": 6,
+          "divisor_residues": [
+            1,
+            5,
+            7,
+            11
+          ],
+          "factorization": [
+            [
+              5,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              2281,
+              1
+            ]
+          ],
+          "modulus": 24,
+          "u": 1
+        },
+        {
+          "M": 465704,
+          "a": 7,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            8,
+            11,
+            16,
+            18,
+            22,
+            23
+          ],
+          "factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              2531,
+              1
+            ]
+          ],
+          "modulus": 28,
+          "u": 1
+        },
+        {
+          "M": 532233,
+          "a": 8,
+          "divisor_residues": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            13,
+            15,
+            21
+          ],
+          "factorization": [
+            [
+              3,
+              2
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              4549,
+              1
+            ]
+          ],
+          "modulus": 32,
+          "u": 1
+        },
+        {
+          "M": 598762,
+          "a": 9,
+          "divisor_residues": [
+            1,
+            2,
+            5,
+            7,
+            10,
+            11,
+            14,
+            22
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              3607,
+              1
+            ]
+          ],
+          "modulus": 36,
+          "u": 1
+        },
+        {
+          "M": 665291,
+          "a": 10,
+          "divisor_residues": [
+            1,
+            11,
+            21,
+            31
+          ],
+          "factorization": [
+            [
+              11,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              1951,
+              1
+            ]
+          ],
+          "modulus": 40,
+          "u": 1
+        },
+        {
+          "M": 731820,
+          "a": 11,
+          "divisor_residues": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            12,
+            15,
+            16,
+            18,
+            20,
+            27,
+            30,
+            36
+          ],
+          "factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              12197,
+              1
+            ]
+          ],
+          "modulus": 44,
+          "u": 1
+        },
+        {
+          "M": 798349,
+          "a": 12,
+          "divisor_residues": [
+            1,
+            13,
+            25,
+            37
+          ],
+          "factorization": [
+            [
+              37,
+              1
+            ],
+            [
+              21577,
+              1
+            ]
+          ],
+          "modulus": 48,
+          "u": 1
+        },
+        {
+          "M": 864878,
+          "a": 13,
+          "divisor_residues": [
+            1,
+            2,
+            7,
+            14,
+            15,
+            30,
+            46,
+            49
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              163,
+              1
+            ],
+            [
+              379,
+              1
+            ]
+          ],
+          "modulus": 52,
+          "u": 1
+        },
+        {
+          "M": 931407,
+          "a": 14,
+          "divisor_residues": [
+            1,
+            3,
+            5,
+            15,
+            17,
+            47,
+            51,
+            53
+          ],
+          "factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              73,
+              1
+            ],
+            [
+              4253,
+              1
+            ]
+          ],
+          "modulus": 56,
+          "u": 1
+        },
+        {
+          "M": 997936,
+          "a": 15,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            8,
+            14,
+            16,
+            26,
+            28,
+            31,
+            37,
+            43,
+            44,
+            52,
+            56
+          ],
+          "factorization": [
+            [
+              2,
+              4
+            ],
+            [
+              97,
+              1
+            ],
+            [
+              643,
+              1
+            ]
+          ],
+          "modulus": 60,
+          "u": 1
+        },
+        {
+          "M": 1064465,
+          "a": 16,
+          "divisor_residues": [
+            1,
+            5,
+            17,
+            23,
+            29,
+            43,
+            51
+          ],
+          "factorization": [
+            [
+              5,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              4951,
+              1
+            ]
+          ],
+          "modulus": 64,
+          "u": 1
+        },
+        {
+          "M": 1130994,
+          "a": 17,
+          "divisor_residues": [
+            1,
+            2,
+            3,
+            6,
+            9,
+            18,
+            19,
+            26,
+            35,
+            38,
+            43,
+            46,
+            47,
+            54,
+            57,
+            61
+          ],
+          "factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              3307,
+              1
+            ]
+          ],
+          "modulus": 68,
+          "u": 1
+        }
+      ],
+      "p": 66529
+    }
+  ],
+  "summary": {
+    "elapsed_seconds": 1.1753331989893923,
+    "failures": 80,
+    "first_failures": [
+      {
+        "budget": 12,
+        "p": 2521
+      },
+      {
+        "budget": 16,
+        "p": 44641
+      },
+      {
+        "budget": 17,
+        "p": 66529
+      },
+      {
+        "budget": 17,
+        "p": 87049
+      },
+      {
+        "budget": 17,
+        "p": 92569
+      },
+      {
+        "budget": 18,
+        "p": 142969
+      },
+      {
+        "budget": 19,
+        "p": 400681
+      },
+      {
+        "budget": 20,
+        "p": 558721
+      },
+      {
+        "budget": 20,
+        "p": 679681
+      },
+      {
+        "budget": 20,
+        "p": 706561
+      }
+    ],
+    "hypothesis": "Every target prime has a divisor witness with u=1 and a<=ceil(log2 p)",
+    "independently_audited_failures": 3,
+    "lean_verified": false,
+    "new_inputs": 61275,
+    "prior_u1_witnesses": 118193,
+    "python": "3.14.4",
+    "source_target_primes": 179468,
+    "sources": [
+      {
+        "filename": "results.json",
+        "rows_sha256": "ee23c2187252324c85a4c8fb756301a394b2783c4d62fb6929120cd7e410a70f"
+      },
+      {
+        "filename": "results-2m-100m.json",
+        "rows_sha256": "32f56343f1a8df5e1296b90079ad7c387dea7cb17e6f22ad1dc82f5b9a014010"
+      }
+    ],
+    "universal_ESC_claim": false,
+    "workers": 8
+  }
+}

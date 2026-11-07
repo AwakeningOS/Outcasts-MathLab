@@ -1,0 +1,380 @@
+{
+  "source_pin": "3d17d5e83cd68b9bea71371155a56d6097644a9b",
+  "manifest": [
+    {
+      "file": "contract.md",
+      "sha256": "9d62e6a294d533e3bb89d73a34da8e463808b6ed4ad3b40ef3aa5db93f7ffd74"
+    },
+    {
+      "file": "n8scan.py",
+      "sha256": "5aa1b3dbbaa83124c8168b8dbca758e54e3c82ff7008a9bebf026d6c661c5a35"
+    },
+    {
+      "file": "selftest.log",
+      "sha256": "ed36e54b3416e4c3b21e74d4176150f3a6c3cb89d0d44889f02f447fb8df75bd"
+    },
+    {
+      "file": "selftest_results.json",
+      "sha256": "cce61ab22a6a7614a87bfb83814850e6800f2fc74d1f711bc03cb4a0fb892b87"
+    },
+    {
+      "file": "README.md",
+      "sha256": "cee32d8608bad6b4ab3b9ba365f9d358e817e35a00ec473d4e16cdd79eb32280"
+    },
+    {
+      "file": "run.log",
+      "sha256": "34859ba7b5bfd2a41c1d8298ad0caf79a62b3139b2f04c584c1d6fadd11eefce"
+    },
+    {
+      "file": "n8_results.json",
+      "sha256": "6245cf62e685fa5444875ddb12eb193b8e518e134ffd11a49fa779afde3b3414"
+    },
+    {
+      "file": "n8_primes.jsonl.gz",
+      "sha256": "92f466453704eed8c5a107dff4bf8ba3f6c1407c6a21c76837c68a57d82009a5"
+    },
+    {
+      "file": "n8_rows.csv.gz",
+      "sha256": "bdf3c3aa4357d01718b1ac799fac07c96b2947fcdf13a1fc1153613ca0e79f2c"
+    }
+  ],
+  "all_manifest_matches": true,
+  "uploaded_prime_records": 33663,
+  "uploaded_prime_list_sha256": "e2cf39689d2a6d1b05b19b42b551533995060e16509769235ae8f94bc0440c21",
+  "existing_data_consistency_counts": {
+    "rows": 3736593,
+    "box_rows": 2524725,
+    "l8_rows": 201978,
+    "l8_W0": 157345,
+    "l8_old0": 188012,
+    "extra_E_rows": 1211868,
+    "box_old0": 0,
+    "box_rescued": 0,
+    "box_comb_miss": 0,
+    "l8_old0_Wpos": 30667,
+    "l8_oldpos": 13966,
+    "l8_rescued": 2335
+  },
+  "existing_data_minima": {
+    "W_B": 6,
+    "E_log": 2,
+    "E_all": 3
+  },
+  "existing_data_rescues_by_pair": {
+    "8,3": 335,
+    "1,8": 525,
+    "8,1": 777,
+    "3,8": 318,
+    "24,1": 235,
+    "1,24": 145
+  },
+  "independent_single_prime": {
+    "p": 100687129,
+    "B": 27,
+    "prime_trial_verified": true,
+    "least_nonresidue": 17,
+    "candidate_rows": 111,
+    "all_divisors_two_independent_paths_match": true,
+    "W_B": 6,
+    "E_log": 2,
+    "E_all": 3,
+    "budget_classifications": {
+      "quadratic": 60,
+      "exponent": 8,
+      "success": 6,
+      "group": 1
+    },
+    "positive_rows": [
+      {
+        "a": 1,
+        "u": 17,
+        "N": 100687146,
+        "m": 68,
+        "factors": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            23,
+            1
+          ],
+          [
+            104231,
+            1
+          ]
+        ],
+        "W": 1,
+        "witnesses": [
+          2188851
+        ],
+        "in_budget": true,
+        "in_E": false,
+        "solutions": [
+          {
+            "s": 2188851,
+            "alpha": 32189,
+            "v": 46,
+            "x": 25171798,
+            "y": 55097305921477,
+            "z": 149086827787526
+          }
+        ],
+        "W_G2": 4,
+        "G2size": 8,
+        "m1K": true,
+        "classification": "success"
+      },
+      {
+        "a": 2,
+        "u": 5,
+        "N": 201374263,
+        "m": 40,
+        "factors": [
+          [
+            839,
+            1
+          ],
+          [
+            240017,
+            1
+          ]
+        ],
+        "W": 1,
+        "witnesses": [
+          839
+        ],
+        "in_budget": true,
+        "in_E": true,
+        "solutions": [
+          {
+            "s": 839,
+            "alpha": 21,
+            "v": 240017,
+            "x": 25201785,
+            "y": 21144297090,
+            "z": 1014998150930106
+          }
+        ],
+        "W_G2": 1,
+        "G2size": 2,
+        "m1K": true,
+        "classification": "success"
+      },
+      {
+        "a": 3,
+        "u": 2,
+        "N": 302061389,
+        "m": 24,
+        "factors": [
+          [
+            7,
+            1
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            2538331,
+            1
+          ]
+        ],
+        "W": 1,
+        "witnesses": [
+          119
+        ],
+        "in_budget": true,
+        "in_E": true,
+        "solutions": [
+          {
+            "s": 119,
+            "alpha": 5,
+            "v": 2538331,
+            "x": 25383310,
+            "y": 3020613870,
+            "z": 3833658912625485
+          }
+        ],
+        "W_G2": 1,
+        "G2size": 1,
+        "m1K": true,
+        "classification": "success"
+      },
+      {
+        "a": 11,
+        "u": 1,
+        "N": 1107558420,
+        "m": 44,
+        "factors": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            41,
+            1
+          ],
+          [
+            450227,
+            1
+          ]
+        ],
+        "W": 1,
+        "witnesses": [
+          615
+        ],
+        "in_budget": true,
+        "in_E": false,
+        "solutions": [
+          {
+            "s": 615,
+            "alpha": 14,
+            "v": 1800908,
+            "x": 25212712,
+            "y": 15505817866,
+            "z": 27924551441422328
+          }
+        ],
+        "W_G2": 4,
+        "G2size": 5,
+        "m1K": true,
+        "classification": "success"
+      },
+      {
+        "a": 17,
+        "u": 1,
+        "N": 1711681194,
+        "m": 68,
+        "factors": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            239,
+            1
+          ],
+          [
+            439,
+            1
+          ],
+          [
+            2719,
+            1
+          ]
+        ],
+        "W": 1,
+        "witnesses": [
+          2719
+        ],
+        "in_budget": true,
+        "in_E": false,
+        "solutions": [
+          {
+            "s": 2719,
+            "alpha": 40,
+            "v": 629526,
+            "x": 25181040,
+            "y": 68467247720,
+            "z": 43101912588180720
+          }
+        ],
+        "W_G2": 4,
+        "G2size": 8,
+        "m1K": true,
+        "classification": "success"
+      },
+      {
+        "a": 24,
+        "u": 1,
+        "N": 2416491097,
+        "m": 96,
+        "factors": [
+          [
+            1319,
+            1
+          ],
+          [
+            1832063,
+            1
+          ]
+        ],
+        "W": 1,
+        "witnesses": [
+          1832063
+        ],
+        "in_budget": true,
+        "in_E": false,
+        "solutions": [
+          {
+            "s": 1832063,
+            "alpha": 19084,
+            "v": 1319,
+            "x": 25171796,
+            "y": 46116316076064,
+            "z": 60827420904328416
+          }
+        ],
+        "W_G2": 2,
+        "G2size": 4,
+        "m1K": true,
+        "classification": "success"
+      },
+      {
+        "a": 3,
+        "u": 14,
+        "N": 302061401,
+        "m": 168,
+        "factors": [
+          [
+            3943,
+            1
+          ],
+          [
+            76607,
+            1
+          ]
+        ],
+        "W": 1,
+        "witnesses": [
+          76607
+        ],
+        "in_budget": false,
+        "in_E": true,
+        "solutions": [
+          {
+            "s": 76607,
+            "alpha": 456,
+            "v": 3943,
+            "x": 25172112,
+            "y": 1928359894608,
+            "z": 543108790317096
+          }
+        ]
+      }
+    ]
+  },
+  "limits": "All-cohort consistency is NOT arithmetic replay. All 111 actual-divisor rows independently replayed only at P. No character/certificate recomputation, Lean, global proof or new cohort scan. Post-result fixed-input audit.",
+  "seconds": 20.32644882495515
+}

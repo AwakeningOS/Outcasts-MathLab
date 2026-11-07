@@ -1,0 +1,26 @@
+'OutcastsMathLab.Research.ESReduction.es_iff_rat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.es_mul' depends on axioms: [propext]
+'OutcastsMathLab.Research.ESReduction.es_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.es_of_mod_four_eq_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESReduction.es_of_mod_eight_eq_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.ESReduction.es_of_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.hard_of_residues' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.mod_ne_zero_of_prime' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.mod8_eq_one' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.mod3_eq_one' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.mod5_cases' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.mod7_cases' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.dvd_mod3' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.dvd_mod15_a' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.dvd_mod15_b' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.dvd_mod7_a' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.dvd_mod7_b' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.dvd_mod7_c' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.es_of_not_hard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.es_all_iff_hard_primes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.es_1201' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.ESReduction.not_es_one' depends on axioms: [propext, Quot.sound]
