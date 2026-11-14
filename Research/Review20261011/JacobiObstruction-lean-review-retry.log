@@ -1,0 +1,32 @@
+'OutcastsMathLab.Research.JacobiObstruction.jacobi_eq_one_of_dvd_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.witness_jacobi_eq_neg_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.no_witness_of_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.no_witness_of_mod_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.finite_witnesses_miss_infinitely_many_primes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.witness_409' depends on axioms: [propext]
+'OutcastsMathLab.Research.JacobiObstruction.exists_prime_dvd_jacobiSym_eq_neg_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.witness_has_nonresidue_prime_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.no_smooth_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.witness_prime_factor_nonsquare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.witness_eleven_nonresidue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.witness_1009_eleven' depends on axioms: [propext]

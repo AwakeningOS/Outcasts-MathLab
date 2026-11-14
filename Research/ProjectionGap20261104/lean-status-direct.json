@@ -1,0 +1,18 @@
+{
+  "exit": 0,
+  "context_head": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "mathlib_rev": "5ed2965256430c3649e86755f9576b54eca72435",
+  "version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "log": "/mnt/hdd1t/outcasts-reply-20261104-ohkRaS/lean-direct.log",
+  "seconds": 48.48707493703114,
+  "LEAN_PATH": [
+    "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e/repo/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e/repo/.lake/packages/plausible/.lake/build/lib/lean",
+    "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e/repo/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e/repo/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e/repo/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e/repo/.lake/packages/aesop/.lake/build/lib/lean",
+    "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e/repo/.lake/packages/Qq/.lake/build/lib/lean",
+    "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e/repo/.lake/packages/batteries/.lake/build/lib/lean"
+  ]
+}

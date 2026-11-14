@@ -1,0 +1,13 @@
+'OutcastsMathLab.Research.SquareShift20261023.square_shift_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.SquareShift20261023.preserve_power_odd_modulus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.SquareShift20261023.preserve_power_quarter_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.SquareShift20261023.noncoprime_projections_lose_information' depends on axioms: [propext]
+'OutcastsMathLab.Research.SquareShift20261023.higher_power_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

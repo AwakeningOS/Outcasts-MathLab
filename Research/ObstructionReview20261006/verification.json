@@ -1,0 +1,491 @@
+{
+  "head_sha": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "baseline_post_28_exact_submitted_body_match": true,
+  "project_generated_objects_initially_absent": true,
+  "dependency_objects_reused": true,
+  "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "lean_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "source_sha256": {
+    "OutcastsMathLab/Research/DeterministicFailure.lean": "73fb5c8f14c0869f7cbcca3fc346e2e8b1e345ed3de5b9eecf4f811a793828bd",
+    "OutcastsMathLab/Research/HardPrimes20261005.lean": "60013f2e4d217743e7706cbadafee63fb1d5f937c712e4af1af22210ee8aa995",
+    "OutcastsMathLab/Research/InvolutionBound.lean": "a5494c0e25163bce932f9a91fdc2548bbc5a97d12c683ec435cc084a35b3596d",
+    "OutcastsMathLab/Research/JacobiObstruction.lean": "5db068f283215da1dac590f9a894efad9331dc0100d631bb0bdb84034d444a96",
+    "OutcastsMathLab/Research/PsiObstruction.lean": "a1afd8f82d173ee734b41f1b5ccd726d1d53a4e5b05f9830f693b963fe026932"
+  },
+  "declared_theorems": 133,
+  "no_native_decide_in_research_sources": true,
+  "policy_exit": 0,
+  "lean-build-retry_exit": 0,
+  "all-axioms_exit": 0,
+  "all_theorem_axioms_checked": 133,
+  "axioms_within_standard_set": true,
+  "ci_run_id": 37267308373,
+  "ci_lean_job_id": 111626727484,
+  "ci_policy_job_id": 111626727713,
+  "ci_merge_checkout_sha": "b663077dba62e95e258f6cb0a4ce4e571025ecad",
+  "ci_source_hashes_match_local": true,
+  "ci_lean_job_success_actual_logs_checked": true,
+  "ci_first_three_modules_replayed_last_two_built": true,
+  "local_all_five_modules_fresh_built": true,
+  "build_jobs": 3769,
+  "policy_files": 7,
+  "first_lake_option_attempt_exit": 1,
+  "final_lake_build_exit": 0,
+  "new_candidate": "HNR = Hlog plus Jacobi(u,p)=-1",
+  "candidate_status": "Refuted at345601 and670849",
+  "new_lean_theorems": 7,
+  "new_lean_initial_compile_exit": 1,
+  "new_lean_final_compile_exit": 0,
+  "new_lean_axioms_standard": true,
+  "new_lean_source_sha256": "769df2b43701fe5c27d83ec019892947746c7ecccbc05a5f2776f7c0ff9e1e50",
+  "new_lean_context_head": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "new_lean_is_standalone_not_pr4_default_build": true,
+  "new_lean_github_ci_verified": false,
+  "Hlog_refuted": false,
+  "universal_ESC_proof": false,
+  "all_2370_atlas_primes_replayed": false,
+  "statistical_null_models_replayed": false,
+  "execution_directory": "/mnt/hdd1t/outcasts-obstruction-review-20261006-D3Hr7e",
+  "host": "mini",
+  "gpu_used": false,
+  "gpu_power_changed": false,
+  "box_audit_summary": {
+    "rows": 106,
+    "box_pairs_per_p": 53,
+    "primes": [
+      345601,
+      670849
+    ],
+    "all_certificates_match": true,
+    "all_full_divisor_sets_agree": true,
+    "randomness": false,
+    "classification_definition": "QR iff -1 outside H*G^2; subgroup iff outside H but inside H*G^2; exponent iff inside H but not actual divisors",
+    "nonresidue_failed_rows": 12,
+    "nonresidue_with_group_escape_but_failure": 5,
+    "counts": {
+      "quadratic_character": 81,
+      "nonquadratic_subgroup": 4,
+      "exponent": 21
+    },
+    "examples": [
+      {
+        "p": 345601,
+        "a": 1,
+        "u": 19,
+        "M": 345620,
+        "modulus": 76,
+        "factorization": [
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            1571,
+            1
+          ]
+        ],
+        "all_divisors": [
+          1,
+          2,
+          4,
+          5,
+          10,
+          11,
+          20,
+          22,
+          44,
+          55,
+          110,
+          220,
+          1571,
+          3142,
+          6284,
+          7855,
+          15710,
+          17281,
+          31420,
+          34562,
+          69124,
+          86405,
+          172810,
+          345620
+        ],
+        "T": [
+          5,
+          11,
+          51
+        ],
+        "group": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          51,
+          53,
+          55,
+          59,
+          61,
+          63,
+          65,
+          67,
+          69,
+          71,
+          73,
+          75
+        ],
+        "group_contains_neg_one": true,
+        "legendre_u_p": -1,
+        "failure_type": "exponent",
+        "odd_prime_jacobi_p_values": [
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            1571,
+            -1
+          ]
+        ],
+        "actual_witnesses": [],
+        "full_divisor_sets_agree": true
+      },
+      {
+        "p": 345601,
+        "a": 2,
+        "u": 19,
+        "M": 691221,
+        "modulus": 152,
+        "factorization": [
+          [
+            3,
+            1
+          ],
+          [
+            113,
+            1
+          ],
+          [
+            2039,
+            1
+          ]
+        ],
+        "all_divisors": [
+          1,
+          3,
+          113,
+          339,
+          2039,
+          6117,
+          230407,
+          691221
+        ],
+        "T": [
+          3,
+          63,
+          113
+        ],
+        "group": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          51,
+          53,
+          55,
+          59,
+          61,
+          63,
+          65,
+          67,
+          69,
+          71,
+          73,
+          75,
+          77,
+          79,
+          81,
+          83,
+          85,
+          87,
+          89,
+          91,
+          93,
+          97,
+          99,
+          101,
+          103,
+          105,
+          107,
+          109,
+          111,
+          113,
+          115,
+          117,
+          119,
+          121,
+          123,
+          125,
+          127,
+          129,
+          131,
+          135,
+          137,
+          139,
+          141,
+          143,
+          145,
+          147,
+          149,
+          151
+        ],
+        "group_contains_neg_one": true,
+        "legendre_u_p": -1,
+        "failure_type": "exponent",
+        "odd_prime_jacobi_p_values": [
+          [
+            3,
+            1
+          ],
+          [
+            113,
+            -1
+          ],
+          [
+            2039,
+            1
+          ]
+        ],
+        "actual_witnesses": [],
+        "full_divisor_sets_agree": true
+      },
+      {
+        "p": 345601,
+        "a": 3,
+        "u": 19,
+        "M": 1036822,
+        "modulus": 228,
+        "factorization": [
+          [
+            2,
+            1
+          ],
+          [
+            518411,
+            1
+          ]
+        ],
+        "all_divisors": [
+          1,
+          2,
+          518411,
+          1036822
+        ],
+        "T": [
+          167
+        ],
+        "group": [
+          1,
+          25,
+          49,
+          59,
+          61,
+          71,
+          73,
+          85,
+          107,
+          121,
+          143,
+          155,
+          157,
+          167,
+          169,
+          179,
+          203,
+          227
+        ],
+        "group_contains_neg_one": true,
+        "legendre_u_p": -1,
+        "failure_type": "exponent",
+        "odd_prime_jacobi_p_values": [
+          [
+            518411,
+            -1
+          ]
+        ],
+        "actual_witnesses": [],
+        "full_divisor_sets_agree": true
+      },
+      {
+        "p": 670849,
+        "a": 1,
+        "u": 17,
+        "M": 670866,
+        "modulus": 68,
+        "factorization": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            15973,
+            1
+          ]
+        ],
+        "all_divisors": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          14,
+          21,
+          42,
+          15973,
+          31946,
+          47919,
+          95838,
+          111811,
+          223622,
+          335433,
+          670866
+        ],
+        "T": [
+          3,
+          7,
+          61
+        ],
+        "group": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          53,
+          55,
+          57,
+          59,
+          61,
+          63,
+          65,
+          67
+        ],
+        "group_contains_neg_one": true,
+        "legendre_u_p": -1,
+        "failure_type": "exponent",
+        "odd_prime_jacobi_p_values": [
+          [
+            3,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            15973,
+            -1
+          ]
+        ],
+        "actual_witnesses": [],
+        "full_divisor_sets_agree": true
+      }
+    ]
+  },
+  "HNR_inputs": [
+    {
+      "p": 345601,
+      "budget": 19,
+      "nonresidue_shifts": [
+        19
+      ],
+      "HNR_refuted": true
+    },
+    {
+      "p": 670849,
+      "budget": 20,
+      "nonresidue_shifts": [
+        17
+      ],
+      "HNR_refuted": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "contract": "character-budget-contract-20261012.md",
+  "candidate": "Habslog",
+  "known_identity_not_new_theorem": true,
+  "summaries": [
+    {
+      "p": 8615161,
+      "B": 24,
+      "pairs": 67,
+      "M": "41491/990",
+      "R": "35287/990",
+      "Eplus": "58/15",
+      "Eminus": "31459/990",
+      "Wtotal": 14,
+      "W_over_M": "13860/41491",
+      "M_minus_R": "94/15",
+      "Habslog_pass": true,
+      "Hlog_witness_present": true,
+      "positive_errors": 7,
+      "negative_errors": 58,
+      "zero_errors": 2,
+      "all_divisor_and_prior_methods_match": true
+    },
+    {
+      "p": 53722321,
+      "B": 26,
+      "pairs": 73,
+      "M": "32069/720",
+      "R": "29909/720",
+      "Eplus": "5/2",
+      "Eminus": "28109/720",
+      "Wtotal": 8,
+      "W_over_M": "5760/32069",
+      "M_minus_R": "3",
+      "Habslog_pass": true,
+      "Hlog_witness_present": true,
+      "positive_errors": 4,
+      "negative_errors": 68,
+      "zero_errors": 1,
+      "all_divisor_and_prior_methods_match": true
+    }
+  ],
+  "new_ESC_range_scan": false,
+  "general_existence_proved": false,
+  "seconds": 0.038,
+  "helper_sha256": "8f084e1fb9c517bf8bea1303f964629012e39a91ae06c95d2bba4cac1e35a103"
+}

@@ -1,0 +1,32 @@
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:393:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:399:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:399:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:399:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:405:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:405:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:405:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:411:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:411:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:411:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:417:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:423:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:423:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:423:14: error: No goals to be solved
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:462:4: error: failed to synthesize
+  Decidable
+    (Allowed 2521 17 11 ∧
+      Nat.Prime 53 ∧ 53 < 2521 ∧ 53 ^ ((2521 - 1) / 2) % 2521 = 2521 - 1 ∧ 53 ∣ (2521 + sigma 17 * 17 * 11 ^ 2) / 4)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+/mnt/hdd1t/outcasts-reply-20261027-4t2EOL/GraphDepth20261027.lean:464:4: error: failed to synthesize
+  Decidable
+    (Allowed 2521 53 5 ∧
+      Nat.Prime 29 ∧ 29 < 2521 ∧ 29 ^ ((2521 - 1) / 2) % 2521 = 2521 - 1 ∧ 29 ∣ (2521 + sigma 53 * 53 * 5 ^ 2) / 4)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+'GraphDepth20261027.q17_all_children' depends on axioms: [propext, sorryAx, Quot.sound]
+'GraphDepth20261027.q17_and_every_child_fail' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'GraphDepth20261027.p2521_prime_q17_nonresidue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphDepth20261027.two_edge_path' depends on axioms: [propext, sorryAx]
+'GraphDepth20261027.q29_success' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphDepth20261027.terminal_integer_identity' depends on axioms: [propext]

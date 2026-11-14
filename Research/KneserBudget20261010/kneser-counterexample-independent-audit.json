@@ -1,0 +1,3508 @@
+{
+  "p": 8615161,
+  "p_is_prime": true,
+  "residue_mod840": 121,
+  "budget": 24,
+  "coprime_pairs": 67,
+  "actual_success_pairs": 10,
+  "all_divisor_integer_scans_match": true,
+  "all_prime_factorizations_independently_recovered_from_divisors": true,
+  "all_generated_groups_and_subgroups_match": true,
+  "failure_counts": {
+    "group_obstruction": 44,
+    "admissible_Kneser_bound_failure": 23,
+    "refined_Kneser_passes": 0
+  },
+  "stronger_admissible_quotient_candidate_also_refuted": true,
+  "selected_actual_success": {
+    "a": 4,
+    "u": 1,
+    "M": 34460645,
+    "m": 16,
+    "witnesses": [
+      815
+    ],
+    "factorization": [
+      [
+        5,
+        1
+      ],
+      [
+        163,
+        1
+      ],
+      [
+        42283,
+        1
+      ]
+    ],
+    "G": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "kind": "admissible_Kneser_bound_failure",
+    "admissible_bad_quotient": {
+      "H": [
+        1
+      ],
+      "orders": [
+        4,
+        4,
+        4
+      ],
+      "L": 3,
+      "index": 8,
+      "threshold": 7,
+      "admissible": true,
+      "factor_image_sizes": [
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "positive_ESC_denominators": [
+    2156433,
+    1757492844,
+    74312069922852
+  ],
+  "Hlog_refuted": false,
+  "ESC_refuted": false,
+  "Lean_verified": false,
+  "rows": [
+    {
+      "a": 1,
+      "u": 1,
+      "M": 8615162,
+      "m": 4,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          4307581,
+          1
+        ]
+      ],
+      "G": [
+        1
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1
+      ]
+    },
+    {
+      "a": 1,
+      "u": 2,
+      "M": 8615163,
+      "m": 8,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          2871721,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3
+      ]
+    },
+    {
+      "a": 2,
+      "u": 1,
+      "M": 17230323,
+      "m": 8,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          67,
+          1
+        ],
+        [
+          7793,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3
+      ]
+    },
+    {
+      "a": 1,
+      "u": 3,
+      "M": 8615164,
+      "m": 12,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          823,
+          1
+        ],
+        [
+          2617,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        7
+      ]
+    },
+    {
+      "a": 3,
+      "u": 1,
+      "M": 25845484,
+      "m": 12,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          923053,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        7
+      ]
+    },
+    {
+      "a": 1,
+      "u": 4,
+      "M": 8615165,
+      "m": 16,
+      "witnesses": [],
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          132541,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        9,
+        13
+      ]
+    },
+    {
+      "a": 4,
+      "u": 1,
+      "M": 34460645,
+      "m": 16,
+      "witnesses": [
+        815
+      ],
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          163,
+          1
+        ],
+        [
+          42283,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          4,
+          4,
+          4
+        ],
+        "L": 3,
+        "index": 8,
+        "threshold": 7,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 1,
+      "u": 5,
+      "M": 8615166,
+      "m": 20,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          5003,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        7,
+        9
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        7,
+        9
+      ]
+    },
+    {
+      "a": 5,
+      "u": 1,
+      "M": 43075806,
+      "m": 20,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          7179301,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        7,
+        9
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        7,
+        9
+      ]
+    },
+    {
+      "a": 1,
+      "u": 6,
+      "M": 8615167,
+      "m": 24,
+      "witnesses": [],
+      "factorization": [
+        [
+          11,
+          1
+        ],
+        [
+          783197,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        7,
+        11
+      ]
+    },
+    {
+      "a": 2,
+      "u": 3,
+      "M": 17230325,
+      "m": 24,
+      "witnesses": [],
+      "factorization": [
+        [
+          5,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          98459,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        7,
+        11
+      ]
+    },
+    {
+      "a": 3,
+      "u": 2,
+      "M": 25845485,
+      "m": 24,
+      "witnesses": [],
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          277,
+          1
+        ],
+        [
+          18661,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        13,
+        17
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        13,
+        17
+      ]
+    },
+    {
+      "a": 6,
+      "u": 1,
+      "M": 51690967,
+      "m": 24,
+      "witnesses": [],
+      "factorization": [
+        [
+          5701,
+          1
+        ],
+        [
+          9067,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7,
+        13,
+        19
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        7,
+        13,
+        19
+      ]
+    },
+    {
+      "a": 1,
+      "u": 7,
+      "M": 8615168,
+      "m": 28,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          8
+        ],
+        [
+          73,
+          1
+        ],
+        [
+          461,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        25
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        25
+      ]
+    },
+    {
+      "a": 7,
+      "u": 1,
+      "M": 60306128,
+      "m": 28,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          3769133,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        9,
+        25
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        9,
+        25
+      ]
+    },
+    {
+      "a": 1,
+      "u": 8,
+      "M": 8615169,
+      "m": 32,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          957241,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        9,
+        11,
+        17,
+        19,
+        25,
+        27
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        9,
+        11,
+        17,
+        19,
+        25,
+        27
+      ]
+    },
+    {
+      "a": 8,
+      "u": 1,
+      "M": 68921289,
+      "m": 32,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          75821,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          8,
+          8,
+          8
+        ],
+        "L": 4,
+        "index": 16,
+        "threshold": 15,
+        "admissible": true,
+        "factor_image_sizes": [
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 1,
+      "u": 9,
+      "M": 8615170,
+      "m": 36,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          45343,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        25,
+        29,
+        31,
+        35
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1,
+          19
+        ],
+        "orders": [
+          6,
+          1,
+          1
+        ],
+        "L": 1,
+        "index": 6,
+        "threshold": 5,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "a": 9,
+      "u": 1,
+      "M": 77536450,
+      "m": 36,
+      "witnesses": [
+        575
+      ],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          191,
+          1
+        ],
+        [
+          353,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        25,
+        29,
+        31,
+        35
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "L": 5,
+        "index": 12,
+        "threshold": 11,
+        "admissible": true,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 1,
+      "u": 10,
+      "M": 8615171,
+      "m": 40,
+      "witnesses": [],
+      "factorization": [
+        [
+          617,
+          1
+        ],
+        [
+          13963,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        9,
+        11,
+        17,
+        19,
+        27,
+        33
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        9,
+        11,
+        17,
+        19,
+        27,
+        33
+      ]
+    },
+    {
+      "a": 2,
+      "u": 5,
+      "M": 17230327,
+      "m": 40,
+      "witnesses": [],
+      "factorization": [
+        [
+          31,
+          1
+        ],
+        [
+          677,
+          1
+        ],
+        [
+          821,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19,
+        21,
+        23,
+        27,
+        29,
+        31,
+        33,
+        37,
+        39
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1,
+          11,
+          21,
+          31
+        ],
+        "orders": [
+          1,
+          4,
+          1
+        ],
+        "L": 1,
+        "index": 4,
+        "threshold": 3,
+        "admissible": true,
+        "factor_image_sizes": [
+          1,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "a": 5,
+      "u": 2,
+      "M": 43075807,
+      "m": 40,
+      "witnesses": [],
+      "factorization": [
+        [
+          17,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          68483,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19,
+        21,
+        23,
+        27,
+        29,
+        31,
+        33,
+        37,
+        39
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          4,
+          4,
+          4
+        ],
+        "L": 3,
+        "index": 16,
+        "threshold": 15,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 10,
+      "u": 1,
+      "M": 86151611,
+      "m": 40,
+      "witnesses": [],
+      "factorization": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          20143,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7,
+        9,
+        11,
+        13,
+        19,
+        23,
+        37
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        7,
+        9,
+        11,
+        13,
+        19,
+        23,
+        37
+      ]
+    },
+    {
+      "a": 1,
+      "u": 11,
+      "M": 8615172,
+      "m": 44,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          5653,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        35,
+        37,
+        39,
+        41,
+        43
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1,
+          21
+        ],
+        "orders": [
+          10,
+          10,
+          1
+        ],
+        "L": 2,
+        "index": 10,
+        "threshold": 9,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "a": 11,
+      "u": 1,
+      "M": 94766772,
+      "m": 44,
+      "witnesses": [
+        5763
+      ],
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          4111,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        35,
+        37,
+        39,
+        41,
+        43
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          10,
+          10,
+          5,
+          10
+        ],
+        "L": 4,
+        "index": 20,
+        "threshold": 19,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 1,
+      "u": 12,
+      "M": 8615173,
+      "m": 48,
+      "witnesses": [],
+      "factorization": [
+        [
+          7,
+          1
+        ],
+        [
+          1230739,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43
+      ]
+    },
+    {
+      "a": 3,
+      "u": 4,
+      "M": 25845487,
+      "m": 48,
+      "witnesses": [],
+      "factorization": [
+        [
+          359,
+          1
+        ],
+        [
+          71993,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        23,
+        31,
+        41
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        23,
+        31,
+        41
+      ]
+    },
+    {
+      "a": 4,
+      "u": 3,
+      "M": 34460647,
+      "m": 48,
+      "witnesses": [],
+      "factorization": [
+        [
+          13,
+          1
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          5011,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        25,
+        29,
+        31,
+        35,
+        37,
+        41,
+        43,
+        47
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1,
+          23
+        ],
+        "orders": [
+          4,
+          1,
+          4
+        ],
+        "L": 2,
+        "index": 8,
+        "threshold": 7,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "a": 12,
+      "u": 1,
+      "M": 103381933,
+      "m": 48,
+      "witnesses": [],
+      "factorization": [
+        [
+          43,
+          1
+        ],
+        [
+          523,
+          1
+        ],
+        [
+          4597,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43
+      ]
+    },
+    {
+      "a": 1,
+      "u": 13,
+      "M": 8615174,
+      "m": 52,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          4307587,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7,
+        9,
+        11,
+        15,
+        17,
+        19,
+        25,
+        29,
+        31,
+        47,
+        49
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        7,
+        9,
+        11,
+        15,
+        17,
+        19,
+        25,
+        29,
+        31,
+        47,
+        49
+      ]
+    },
+    {
+      "a": 13,
+      "u": 1,
+      "M": 111997094,
+      "m": 52,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          5090777,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7,
+        9,
+        11,
+        15,
+        17,
+        19,
+        25,
+        29,
+        31,
+        47,
+        49
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        7,
+        9,
+        11,
+        15,
+        17,
+        19,
+        25,
+        29,
+        31,
+        47,
+        49
+      ]
+    },
+    {
+      "a": 1,
+      "u": 14,
+      "M": 8615175,
+      "m": 56,
+      "witnesses": [
+        20271,
+        59415
+      ],
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          233,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        51,
+        53,
+        55
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1,
+          29
+        ],
+        "orders": [
+          6,
+          6,
+          6,
+          1,
+          3
+        ],
+        "L": 5,
+        "index": 12,
+        "threshold": 11,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          3,
+          2,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "a": 2,
+      "u": 7,
+      "M": 17230329,
+      "m": 56,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          1914481,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        9,
+        19,
+        25,
+        27
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        9,
+        19,
+        25,
+        27
+      ]
+    },
+    {
+      "a": 7,
+      "u": 2,
+      "M": 60306129,
+      "m": 56,
+      "witnesses": [
+        279,
+        47151
+      ],
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          1279,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        51,
+        53,
+        55
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1,
+          13
+        ],
+        "orders": [
+          6,
+          1,
+          6,
+          6
+        ],
+        "L": 4,
+        "index": 12,
+        "threshold": 11,
+        "admissible": true,
+        "factor_image_sizes": [
+          3,
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 14,
+      "u": 1,
+      "M": 120612255,
+      "m": 56,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          8040817,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        9,
+        13,
+        15,
+        19,
+        23,
+        25,
+        27,
+        39,
+        45
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        5,
+        9,
+        13,
+        15,
+        19,
+        23,
+        25,
+        27,
+        39,
+        45
+      ]
+    },
+    {
+      "a": 1,
+      "u": 15,
+      "M": 8615176,
+      "m": 60,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          409,
+          1
+        ],
+        [
+          2633,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        17,
+        49,
+        53
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        17,
+        49,
+        53
+      ]
+    },
+    {
+      "a": 3,
+      "u": 5,
+      "M": 25845488,
+      "m": 60,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          34369,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        23,
+        47,
+        49
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        23,
+        47,
+        49
+      ]
+    },
+    {
+      "a": 5,
+      "u": 3,
+      "M": 43075808,
+      "m": 60,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          5
+        ],
+        [
+          1346119,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        19
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        19
+      ]
+    },
+    {
+      "a": 15,
+      "u": 1,
+      "M": 129227416,
+      "m": 60,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          3
+        ],
+        [
+          199,
+          1
+        ],
+        [
+          81173,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        17,
+        19,
+        23,
+        31,
+        47,
+        49,
+        53
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        17,
+        19,
+        23,
+        31,
+        47,
+        49,
+        53
+      ]
+    },
+    {
+      "a": 1,
+      "u": 16,
+      "M": 8615177,
+      "m": 64,
+      "witnesses": [],
+      "factorization": [
+        [
+          8615177,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        9,
+        17,
+        25,
+        33,
+        41,
+        49,
+        57
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        9,
+        17,
+        25,
+        33,
+        41,
+        49,
+        57
+      ]
+    },
+    {
+      "a": 16,
+      "u": 1,
+      "M": 137842577,
+      "m": 64,
+      "witnesses": [],
+      "factorization": [
+        [
+          89,
+          1
+        ],
+        [
+          1548793,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        9,
+        17,
+        25,
+        33,
+        41,
+        49,
+        57
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        9,
+        17,
+        25,
+        33,
+        41,
+        49,
+        57
+      ]
+    },
+    {
+      "a": 1,
+      "u": 17,
+      "M": 8615178,
+      "m": 68,
+      "witnesses": [
+        30123
+      ],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          3347,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          16,
+          16,
+          4,
+          8
+        ],
+        "L": 5,
+        "index": 32,
+        "threshold": 31,
+        "admissible": true,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 17,
+      "u": 1,
+      "M": 146457738,
+      "m": 68,
+      "witnesses": [
+        156807,
+        183531
+      ],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          467,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          16,
+          16,
+          8,
+          16,
+          8
+        ],
+        "L": 6,
+        "index": 32,
+        "threshold": 31,
+        "admissible": true,
+        "factor_image_sizes": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 1,
+      "u": 18,
+      "M": 8615179,
+      "m": 72,
+      "witnesses": [
+        8711
+      ],
+      "factorization": [
+        [
+          23,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          281,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        25,
+        29,
+        31,
+        35,
+        37,
+        41,
+        43,
+        47,
+        49,
+        53,
+        55,
+        59,
+        61,
+        65,
+        67,
+        71
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "L": 4,
+        "index": 24,
+        "threshold": 23,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 2,
+      "u": 9,
+      "M": 17230331,
+      "m": 72,
+      "witnesses": [],
+      "factorization": [
+        [
+          919,
+          1
+        ],
+        [
+          18749,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11,
+        25,
+        29,
+        31,
+        35,
+        49,
+        53,
+        55,
+        59
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        7,
+        11,
+        25,
+        29,
+        31,
+        35,
+        49,
+        53,
+        55,
+        59
+      ]
+    },
+    {
+      "a": 9,
+      "u": 2,
+      "M": 77536451,
+      "m": 72,
+      "witnesses": [],
+      "factorization": [
+        [
+          77536451,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        11,
+        25,
+        35,
+        49,
+        59
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        11,
+        25,
+        35,
+        49,
+        59
+      ]
+    },
+    {
+      "a": 18,
+      "u": 1,
+      "M": 155072899,
+      "m": 72,
+      "witnesses": [],
+      "factorization": [
+        [
+          155072899,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        19
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        19
+      ]
+    },
+    {
+      "a": 1,
+      "u": 19,
+      "M": 8615180,
+      "m": 76,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          149,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          9,
+          6,
+          18,
+          9
+        ],
+        "L": 5,
+        "index": 36,
+        "threshold": 35,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 19,
+      "u": 1,
+      "M": 163688060,
+      "m": 76,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          264013,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          9,
+          6,
+          6
+        ],
+        "L": 3,
+        "index": 36,
+        "threshold": 35,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 1,
+      "u": 20,
+      "M": 8615181,
+      "m": 80,
+      "witnesses": [
+        1119
+      ],
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          373,
+          1
+        ],
+        [
+          7699,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19,
+        21,
+        23,
+        27,
+        29,
+        31,
+        33,
+        37,
+        39,
+        41,
+        43,
+        47,
+        49,
+        51,
+        53,
+        57,
+        59,
+        61,
+        63,
+        67,
+        69,
+        71,
+        73,
+        77,
+        79
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          4,
+          4,
+          4
+        ],
+        "L": 3,
+        "index": 32,
+        "threshold": 31,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 4,
+      "u": 5,
+      "M": 34460649,
+      "m": 80,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          13249,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        9,
+        11,
+        17,
+        19,
+        27,
+        33,
+        41,
+        43,
+        49,
+        51,
+        57,
+        59,
+        67,
+        73
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        9,
+        11,
+        17,
+        19,
+        27,
+        33,
+        41,
+        43,
+        49,
+        51,
+        57,
+        59,
+        67,
+        73
+      ]
+    },
+    {
+      "a": 5,
+      "u": 4,
+      "M": 43075809,
+      "m": 80,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          15901,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69
+      ]
+    },
+    {
+      "a": 20,
+      "u": 1,
+      "M": 172303221,
+      "m": 80,
+      "witnesses": [],
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          57434407,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        23,
+        27,
+        29,
+        41,
+        43,
+        47,
+        49,
+        61,
+        63,
+        67,
+        69
+      ]
+    },
+    {
+      "a": 1,
+      "u": 21,
+      "M": 8615182,
+      "m": 84,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          4307591,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        71
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        71
+      ]
+    },
+    {
+      "a": 3,
+      "u": 7,
+      "M": 25845490,
+      "m": 84,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          234959,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        11,
+        17,
+        19,
+        23,
+        25,
+        31,
+        37,
+        41,
+        55,
+        71
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        11,
+        17,
+        19,
+        23,
+        25,
+        31,
+        37,
+        41,
+        55,
+        71
+      ]
+    },
+    {
+      "a": 7,
+      "u": 3,
+      "M": 60306130,
+      "m": 84,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          1223,
+          1
+        ],
+        [
+          4931,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        17,
+        25,
+        37,
+        41,
+        43,
+        47,
+        59,
+        67,
+        79,
+        83
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          6,
+          6,
+          6
+        ],
+        "L": 3,
+        "index": 12,
+        "threshold": 11,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 21,
+      "u": 1,
+      "M": 180918382,
+      "m": 84,
+      "witnesses": [
+        7811,
+        1239167
+      ],
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          73,
+          1
+        ],
+        [
+          107,
+          1
+        ],
+        [
+          313,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        11,
+        13,
+        23,
+        25,
+        37,
+        47,
+        59,
+        61,
+        71,
+        73,
+        83
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          3,
+          6,
+          6,
+          6
+        ],
+        "L": 4,
+        "index": 12,
+        "threshold": 11,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 1,
+      "u": 22,
+      "M": 8615183,
+      "m": 88,
+      "witnesses": [],
+      "factorization": [
+        [
+          389,
+          1
+        ],
+        [
+          22147,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        9,
+        15,
+        23,
+        25,
+        27,
+        31,
+        37,
+        45,
+        47,
+        49,
+        53,
+        59,
+        67,
+        69,
+        71,
+        75,
+        81
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        5,
+        9,
+        15,
+        23,
+        25,
+        27,
+        31,
+        37,
+        45,
+        47,
+        49,
+        53,
+        59,
+        67,
+        69,
+        71,
+        75,
+        81
+      ]
+    },
+    {
+      "a": 2,
+      "u": 11,
+      "M": 17230333,
+      "m": 88,
+      "witnesses": [],
+      "factorization": [
+        [
+          17,
+          1
+        ],
+        [
+          311,
+          1
+        ],
+        [
+          3259,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        79,
+        81,
+        83,
+        85,
+        87
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          10,
+          10,
+          10
+        ],
+        "L": 3,
+        "index": 40,
+        "threshold": 39,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 11,
+      "u": 2,
+      "M": 94766773,
+      "m": 88,
+      "witnesses": [],
+      "factorization": [
+        [
+          94766773,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        9,
+        13,
+        21,
+        25,
+        29,
+        49,
+        61,
+        81,
+        85
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        9,
+        13,
+        21,
+        25,
+        29,
+        49,
+        61,
+        81,
+        85
+      ]
+    },
+    {
+      "a": 22,
+      "u": 1,
+      "M": 189533543,
+      "m": 88,
+      "witnesses": [],
+      "factorization": [
+        [
+          431,
+          1
+        ],
+        [
+          439753,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        7,
+        9,
+        15,
+        17,
+        23,
+        25,
+        31,
+        39,
+        41,
+        47,
+        49,
+        57,
+        63,
+        65,
+        71,
+        73,
+        79,
+        81,
+        87
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          10,
+          10
+        ],
+        "L": 2,
+        "index": 20,
+        "threshold": 19,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 1,
+      "u": 23,
+      "M": 8615184,
+      "m": 92,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          179483,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1
+        ],
+        "orders": [
+          22,
+          22
+        ],
+        "L": 2,
+        "index": 44,
+        "threshold": 43,
+        "admissible": true,
+        "factor_image_sizes": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 23,
+      "u": 1,
+      "M": 198148704,
+      "m": 92,
+      "witnesses": [],
+      "factorization": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          179,
+          1
+        ],
+        [
+          887,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        3,
+        9,
+        13,
+        25,
+        27,
+        29,
+        31,
+        35,
+        39,
+        41,
+        47,
+        49,
+        55,
+        59,
+        71,
+        73,
+        75,
+        77,
+        81,
+        85,
+        87
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        3,
+        9,
+        13,
+        25,
+        27,
+        29,
+        31,
+        35,
+        39,
+        41,
+        47,
+        49,
+        55,
+        59,
+        71,
+        73,
+        75,
+        77,
+        81,
+        85,
+        87
+      ]
+    },
+    {
+      "a": 1,
+      "u": 24,
+      "M": 8615185,
+      "m": 96,
+      "witnesses": [],
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          1723037,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        25,
+        29,
+        49,
+        53,
+        73,
+        77
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        25,
+        29,
+        49,
+        53,
+        73,
+        77
+      ]
+    },
+    {
+      "a": 3,
+      "u": 8,
+      "M": 25845491,
+      "m": 96,
+      "witnesses": [],
+      "factorization": [
+        [
+          7,
+          2
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          71,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        25,
+        29,
+        31,
+        35,
+        37,
+        41,
+        43,
+        47,
+        49,
+        53,
+        55,
+        59,
+        61,
+        65,
+        67,
+        71,
+        73,
+        77,
+        79,
+        83,
+        85,
+        89,
+        91,
+        95
+      ],
+      "kind": "admissible_Kneser_bound_failure",
+      "admissible_bad_quotient": {
+        "H": [
+          1,
+          17
+        ],
+        "orders": [
+          4,
+          1,
+          8,
+          4,
+          4
+        ],
+        "L": 5,
+        "index": 16,
+        "threshold": 15,
+        "admissible": true,
+        "factor_image_sizes": [
+          3,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "a": 8,
+      "u": 3,
+      "M": 68921291,
+      "m": 96,
+      "witnesses": [],
+      "factorization": [
+        [
+          83,
+          1
+        ],
+        [
+          149,
+          1
+        ],
+        [
+          5573,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11,
+        25,
+        29,
+        31,
+        35,
+        49,
+        53,
+        55,
+        59,
+        73,
+        77,
+        79,
+        83
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        7,
+        11,
+        25,
+        29,
+        31,
+        35,
+        49,
+        53,
+        55,
+        59,
+        73,
+        77,
+        79,
+        83
+      ]
+    },
+    {
+      "a": 24,
+      "u": 1,
+      "M": 206763865,
+      "m": 96,
+      "witnesses": [],
+      "factorization": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          10133,
+          1
+        ]
+      ],
+      "G": [
+        1,
+        5,
+        7,
+        11,
+        25,
+        29,
+        31,
+        35,
+        49,
+        53,
+        55,
+        59,
+        73,
+        77,
+        79,
+        83
+      ],
+      "kind": "group_obstruction",
+      "certificate_G": [
+        1,
+        5,
+        7,
+        11,
+        25,
+        29,
+        31,
+        35,
+        49,
+        53,
+        55,
+        59,
+        73,
+        77,
+        79,
+        83
+      ]
+    }
+  ]
+}

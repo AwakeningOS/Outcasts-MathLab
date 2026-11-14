@@ -1,0 +1,20 @@
+'OutcastsMathLab.Research.Reply20261008.continued_fraction_candidate_inputs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.square_divisors_631_residue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.continued_fraction_candidate_both_branches_fail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.c11_group_targets_reachable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.c11_bounded_exponents_both_branches_fail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.witness_2521' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.witness_66529' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.witness_345601' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.witness_670849' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.Reply20261008.witness_5843041' depends on axioms: [propext, Classical.choice, Quot.sound]

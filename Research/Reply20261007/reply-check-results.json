@@ -1,0 +1,330 @@
+{
+  "date_jst": "2026-10-07",
+  "host": "mini",
+  "baseline_30_exact_match": true,
+  "new_external_posts": [
+    {
+      "id": "434ff174-7f18-4f7e-9edc-837a5bf730b7",
+      "post_number": 31,
+      "created_at": "2026-10-06T05:08:45.734852Z"
+    },
+    {
+      "id": "8715224c-201c-4a44-9a4c-3ca8629c3283",
+      "post_number": 32,
+      "created_at": "2026-10-06T23:22:34.837152Z"
+    }
+  ],
+  "range_extension": false,
+  "randomness": false,
+  "gpu_used": false,
+  "witnesses": [
+    {
+      "p": 345601,
+      "a": 1,
+      "u": 9,
+      "s": 107,
+      "M": 345610,
+      "m": 36,
+      "budget": 19,
+      "factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          107,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        2,
+        5,
+        10,
+        17,
+        19,
+        34,
+        38,
+        85,
+        95,
+        107,
+        170,
+        190,
+        214,
+        323,
+        535,
+        646,
+        1070,
+        1615,
+        1819,
+        2033,
+        3230,
+        3638,
+        4066,
+        9095,
+        10165,
+        18190,
+        20330,
+        34561,
+        69122,
+        172805,
+        345610
+      ],
+      "all_witness_divisors": [
+        107,
+        323
+      ],
+      "alpha": 3,
+      "v": 3230,
+      "xyz": [
+        87210,
+        9331227,
+        3348873690
+      ],
+      "integer_identity": 10900936251810138049200,
+      "full_divisor_sets_agree": true,
+      "u_legendre": 1,
+      "phi_m": 12
+    },
+    {
+      "p": 670849,
+      "a": 1,
+      "u": 8,
+      "s": 7711,
+      "M": 670857,
+      "m": 32,
+      "budget": 20,
+      "factorization": [
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          701,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        3,
+        11,
+        29,
+        33,
+        87,
+        319,
+        701,
+        957,
+        2103,
+        7711,
+        20329,
+        23133,
+        60987,
+        223619,
+        670857
+      ],
+      "all_witness_divisors": [
+        319,
+        7711
+      ],
+      "alpha": 241,
+      "v": 87,
+      "xyz": [
+        167736,
+        1293396872,
+        14065690983
+      ],
+      "integer_identity": 12206162621913254148006144,
+      "full_divisor_sets_agree": true,
+      "u_legendre": 1,
+      "phi_m": 16
+    }
+  ],
+  "initial_attempt": {
+    "p": 2521,
+    "a": 6,
+    "u": 1,
+    "M": 15127,
+    "excluded_factor": 7,
+    "status": "stopped on false Hrough precondition; not a counterexample"
+  },
+  "Hrough_tests": [
+    {
+      "statement": "gcd(ap+u,210)=1 plus product log budget is sufficient for an actual witness",
+      "p": 2521,
+      "p_prime": true,
+      "p_mod840": 1,
+      "a": 10,
+      "u": 1,
+      "budget": 12,
+      "M": 25211,
+      "m": 40,
+      "factorization": [
+        [
+          17,
+          1
+        ],
+        [
+          1483,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        17,
+        1483,
+        25211
+      ],
+      "gcd_210": 1,
+      "M_prime": false,
+      "M_mod_m": 11,
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true,
+      "candidate_attributed_to_jemmy": false,
+      "status": "Refuted"
+    },
+    {
+      "statement": "gcd(ap+u,210)=1 plus product log budget is sufficient for an actual witness",
+      "p": 2521,
+      "p_prime": true,
+      "p_mod840": 1,
+      "a": 12,
+      "u": 1,
+      "budget": 12,
+      "M": 30253,
+      "m": 48,
+      "factorization": [
+        [
+          30253,
+          1
+        ]
+      ],
+      "all_divisors": [
+        1,
+        30253
+      ],
+      "gcd_210": 1,
+      "M_prime": true,
+      "M_mod_m": 13,
+      "actual_witnesses": [],
+      "full_divisor_sets_agree": true,
+      "candidate_attributed_to_jemmy": false,
+      "status": "Refuted"
+    }
+  ],
+  "fixed_c7_branches": [
+    {
+      "p": 345601,
+      "x": 86402,
+      "c": 7,
+      "x_factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          43201,
+          1
+        ]
+      ],
+      "square_factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          43201,
+          2
+        ]
+      ],
+      "all_square_divisors": [
+        1,
+        2,
+        4,
+        43201,
+        86402,
+        172804,
+        1866326401,
+        3732652802,
+        7465305604
+      ],
+      "residues": [
+        1,
+        2,
+        4
+      ],
+      "typeI_target": 3,
+      "typeII_target": 6,
+      "typeI_hits_without_order_filter": [],
+      "typeII_hits_without_order_filter": [],
+      "full_divisor_sets_agree": true,
+      "scope": "only this first denominator, not all Type I or Type II"
+    },
+    {
+      "p": 670849,
+      "x": 167714,
+      "c": 7,
+      "x_factorization": [
+        [
+          2,
+          1
+        ],
+        [
+          83857,
+          1
+        ]
+      ],
+      "square_factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          83857,
+          2
+        ]
+      ],
+      "all_square_divisors": [
+        1,
+        2,
+        4,
+        83857,
+        167714,
+        335428,
+        7031996449,
+        14063992898,
+        28127985796
+      ],
+      "residues": [
+        1,
+        2,
+        4
+      ],
+      "typeI_target": 3,
+      "typeII_target": 6,
+      "typeI_hits_without_order_filter": [],
+      "typeII_hits_without_order_filter": [],
+      "full_divisor_sets_agree": true,
+      "scope": "only this first denominator, not all Type I or Type II"
+    }
+  ]
+}

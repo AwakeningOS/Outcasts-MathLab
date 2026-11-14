@@ -1,0 +1,3 @@
+✔ [199/214] Built OutcastsMathLab.Problems.P000_VerifierSmoke.Statement (2.7s)
+ℹ [215/223] Built OutcastsMathLab.Problems.P000_VerifierSmoke.Proof (393ms)
+info: OutcastsMathLab/Problems/P000_VerifierSmoke/Proof.lean:9:0: 'OutcastsMathLab.P000.verified' does not depend on any axioms

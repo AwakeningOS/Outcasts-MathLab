@@ -1,0 +1,1 @@
+{"exit_code":1,"reason":"Harness asserted factor-only lower equals V-K; when the certified signed remainder is positive, the retained lower is stronger than V-K. Corrected only this check to lower>=V-K and removed dead code; formulas, fixed inputs, stopping rules and certificates unchanged."}
