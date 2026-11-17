@@ -1,0 +1,5 @@
+'UpperSourceCharacter20261117.bounds_from_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UpperSourceCharacter20261117.coefficient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UpperSourceCharacter20261117.small_residues' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UpperSourceCharacter20261117.reduced_middle_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UpperSourceCharacter20261117.upper_source_middle_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
