@@ -1,0 +1,29 @@
+'StructureAndSharpThreshold20261125.sym_pair_error_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StructureAndSharpThreshold20261125.bonferroni_odd_nonpos' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.window_Wp_edge_bound' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.window_W3_edge_bound' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.reciprocity_sign_product' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.mod11_universal_antisymmetry' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.dominance_one_step_absorption' does not depend on any axioms
+'StructureAndSharpThreshold20261125.dominance_disjoint_closed_empty' does not depend on any axioms
+'StructureAndSharpThreshold20261125.tournament_disjoint_closed_exclusion' does not depend on any axioms
+'StructureAndSharpThreshold20261125.mod12_disjoint_three_maximal_iff' depends on axioms: [propext]
+'StructureAndSharpThreshold20261125.multi_sink_mod11_lock' does not depend on any axioms
+'StructureAndSharpThreshold20261125.upper_ell_div_x_i0_j0' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.upper_ell_div_x_i1_j0' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.upper_ell_div_x_i0_j1' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.upper_ell_div_x_i1_j1' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.upper_ell_div_x_i2_j1_mod8_lock' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StructureAndSharpThreshold20261125.upper_ell_div_x_i2_j1_contradiction' depends on axioms: [propext]
+'StructureAndSharpThreshold20261125.upper_ell_div_x_j2_reductions' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.cor_156_ell13_general' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.cor_156_ell11_general' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.witness_295129' does not depend on any axioms
+'StructureAndSharpThreshold20261125.witness_376009' does not depend on any axioms
+'StructureAndSharpThreshold20261125.upper_sharp_threshold_lock' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.upper_sharp_threshold_strict_impossible' depends on axioms: [propext, Quot.sound]
+'StructureAndSharpThreshold20261125.sat_40609_equality' does not depend on any axioms
+'StructureAndSharpThreshold20261125.witness_1129_compositeR' does not depend on any axioms
+'StructureAndSharpThreshold20261125.rescue_236807209_307' does not depend on any axioms

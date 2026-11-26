@@ -1,0 +1,287 @@
+{
+  "initial_and_oracle_separated_all_old_result_fields_match": true,
+  "initial_seconds": 3.265,
+  "final_seconds": 3.342,
+  "norm_validation_rows": 422,
+  "first_development_rescue": {
+    "p": 16000609,
+    "a": 3,
+    "u": 8,
+    "N": 48001835,
+    "m": 96,
+    "L": 8,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        53,
+        1
+      ],
+      [
+        113,
+        1
+      ],
+      [
+        229,
+        1
+      ]
+    ],
+    "W": 1,
+    "witnesses": [
+      84959
+    ],
+    "R": "1",
+    "C": "0",
+    "ell_over_phi": "-1",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        113,
+        1
+      ],
+      [
+        229,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 4,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 16,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          1,
+          1
+        ],
+        "gamma": 32,
+        "delta": 16,
+        "norm_squared_upper": "56",
+        "rho": "7663/1024"
+      },
+      {
+        "param": [
+          0,
+          3,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          0,
+          3,
+          1
+        ],
+        "gamma": 32,
+        "delta": -16,
+        "norm_squared_upper": "48/5",
+        "rho": "3173/1024"
+      },
+      {
+        "param": [
+          1,
+          1,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          1,
+          1
+        ],
+        "gamma": 32,
+        "delta": 16,
+        "norm_squared_upper": "56",
+        "rho": "7663/1024"
+      },
+      {
+        "param": [
+          1,
+          3,
+          0
+        ],
+        "gamma": 0,
+        "delta": 0,
+        "norm_squared_upper": "0",
+        "rho": "0"
+      },
+      {
+        "param": [
+          1,
+          3,
+          1
+        ],
+        "gamma": 32,
+        "delta": -16,
+        "norm_squared_upper": "48/5",
+        "rho": "3173/1024"
+      }
+    ],
+    "raw_lower": "363/2048",
+    "c_mag": "363/2048",
+    "rescues_old_zero": true,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  "correct_layer_table": {
+    "1": [
+      90,
+      3,
+      87,
+      0,
+      0
+    ],
+    "2": [
+      192,
+      13,
+      153,
+      6,
+      20
+    ],
+    "3": [
+      144,
+      15,
+      99,
+      0,
+      30
+    ]
+  },
+  "outside_E_remaining_group_obstruction": [
+    [
+      18490201,
+      1,
+      13,
+      13,
+      52,
+      6
+    ]
+  ],
+  "necessary_condition_plus_K_not_sufficient_example": {
+    "p": 66529,
+    "a": 8,
+    "u": 1,
+    "N": 532233,
+    "m": 32,
+    "L": 8,
+    "factors": [
+      [
+        3,
+        2
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        4549,
+        1
+      ]
+    ],
+    "W": 0,
+    "witnesses": [],
+    "R": "1/2",
+    "C": "-1/2",
+    "ell_over_phi": "-3/2",
+    "eta": "1",
+    "old_c": "0",
+    "b": "0",
+    "nonresidue_factors": [
+      [
+        13,
+        1
+      ],
+      [
+        4549,
+        1
+      ]
+    ],
+    "nonresidue_multiplicity": 2,
+    "target_in_K": true,
+    "W_H": 2,
+    "H_card": 4,
+    "u_legendre": 1,
+    "T4": 0,
+    "order8_magnitude_terms": [
+      {
+        "param": [
+          0,
+          1
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          0,
+          3
+        ],
+        "gamma": 2,
+        "delta": 0,
+        "norm_squared_upper": "2",
+        "rho": "1449/1024"
+      },
+      {
+        "param": [
+          1,
+          1
+        ],
+        "gamma": 34,
+        "delta": 24,
+        "norm_squared_upper": "70",
+        "rho": "1071/128"
+      },
+      {
+        "param": [
+          1,
+          3
+        ],
+        "gamma": 34,
+        "delta": -24,
+        "norm_squared_upper": "2/5",
+        "rho": "81/128"
+      }
+    ],
+    "raw_lower": "-4009/4096",
+    "c_mag": "0",
+    "rescues_old_zero": false,
+    "loses_old_positive": false,
+    "Qmag_counterexample": false
+  },
+  "new_bound_reconstructs_full_W": false,
+  "norm_bound_uses_order8_argument": false,
+  "lower_bound_values_on_development_set_not_holdout": true,
+  "development_inputs_overlap_old10_at_p18490201": true
+}

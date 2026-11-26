@@ -1,0 +1,91 @@
+{
+  "execution_host": "mini",
+  "lean_version": "4.34.0",
+  "mathlib_version": "v4.34.0",
+  "dependency_cache_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "initial_time_limit_seconds": 300,
+  "retry_time_limit_seconds": 900,
+  "first_attempts": "Both first full builds incomplete at300s. Bridge retry passed. Research retry manually stopped during broad Mathlib import; narrow-import build separately verified. Logs retained.",
+  "supplementary_direct_check": "180s time limit reached (exit124); NOT used as successful verification evidence",
+  "first_narrow_import_check": "Failed because Nat GCD Basic import was missing; required import added; proof body unchanged; failed log retained",
+  "bridge_head": "ccea7147314f83d1835818e3f90a7136e4df02ac",
+  "bridge_fresh_project_rebuild": true,
+  "dependency_objects_reused": true,
+  "bridge_build_jobs": 645,
+  "reply_build_jobs": 864,
+  "bridge_axioms": {
+    "OutcastsPrimeBranchBridge.shift_cast": [
+      "propext",
+      "Quot.sound"
+    ],
+    "OutcastsPrimeBranchBridge.shift_coprime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OutcastsPrimeBranchBridge.prime_factor_witness_iff_branches": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OutcastsPrimeBranchBridge.factor_witness_reconstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OutcastsPrimeBranchBridge.branchI_reconstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OutcastsPrimeBranchBridge.branchII_reconstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OutcastsPrimeBranchBridge.example_1201_branchII": [
+      "propext"
+    ],
+    "OutcastsPrimeBranchBridge.example_1201_reconstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OutcastsPrimeBranchBridge.example_1201_branchI": [
+      "propext"
+    ]
+  },
+  "reply_axioms": {
+    "OutcastsMathLab.Research.Reply20261005.witness_s_pos": [
+      "propext",
+      "Quot.sound"
+    ],
+    "OutcastsMathLab.Research.Reply20261005.fixed_shift_bound_auto": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OutcastsMathLab.Research.Reply20261005.fixed_shift_search_complete_auto": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OutcastsMathLab.Research.Reply20261005.witnesses_1740481": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "bridge_policy": "policy: checked 7 Lean files; no blocked construct found",
+  "reply_policy": "policy: checked 6 Lean files; no blocked construct found",
+  "bridge_github_ci_success_asserted": false,
+  "finite_negative_rows_lean_formalized": false,
+  "universal_existence_proof": false,
+  "merge_or_adoption_performed": false,
+  "GPU_used": false,
+  "GPU_power_settings_changed": false,
+  "reply_source_sha256": "d27012db1ec0986131715704cff1e65083768390be1cdaeb744e47d455ffa912",
+  "bridge_source_sha256": "cdef00e0f1e340d5b6def2f84acaa80917705633252248a65f16ab813095e257",
+  "short_product_refactor": "Only import lines changed; definitions, statements and proof body exactly match base HEAD",
+  "short_product_source_sha256": "fba27e45cf3bcb2e27c53b2d9f66d51a59ce56ee5a761fdf2cb9d53f3145a0d0"
+}

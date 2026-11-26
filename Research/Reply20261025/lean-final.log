@@ -1,0 +1,7 @@
+'ShortRoot20261025.no_residue_of_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShortRoot20261025.source_fails_of_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShortRoot20261025.all_allowed_fail_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShortRoot20261025.all_allowed_fail_17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShortRoot20261025.all_allowed_fail_19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShortRoot20261025.child_29_actual_root_outside_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShortRoot20261025.child_29_type_I_certificate' depends on axioms: [propext]

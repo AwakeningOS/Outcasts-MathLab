@@ -1,0 +1,196 @@
+{
+  "varying_tau": [
+    {
+      "p": 42698041,
+      "q": 41,
+      "tau": 3,
+      "rad_tau": 3,
+      "c": 1107,
+      "x": 10674787,
+      "factors": [
+        [
+          223,
+          1
+        ],
+        [
+          47869,
+          1
+        ]
+      ],
+      "R": 123,
+      "K_R_size": 40,
+      "K_c_size": 360,
+      "TypeII_group_pass": false,
+      "TypeI_group_pass": false,
+      "actual_TypeI_rad": [],
+      "actual_TypeI_full": []
+    },
+    {
+      "p": 42698041,
+      "q": 41,
+      "tau": 27,
+      "rad_tau": 3,
+      "c": 89667,
+      "x": 10696927,
+      "factors": [
+        [
+          17,
+          1
+        ],
+        [
+          331,
+          1
+        ],
+        [
+          1901,
+          1
+        ]
+      ],
+      "R": 123,
+      "K_R_size": 80,
+      "K_c_size": 58320,
+      "TypeII_group_pass": true,
+      "TypeI_group_pass": true,
+      "actual_TypeI_rad": [
+        20334858227
+      ],
+      "actual_TypeI_full": []
+    }
+  ],
+  "worked_lift": {
+    "p": 8615161,
+    "q": 17,
+    "tau": 3,
+    "c": 459,
+    "x": 2153905,
+    "factors": [
+      [
+        5,
+        1
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        2549,
+        1
+      ]
+    ],
+    "R": 51,
+    "all_divisors_count": 45,
+    "full_hits": [],
+    "radical_hits": [
+      {
+        "d": 845,
+        "z": [
+          0,
+          0,
+          -1
+        ],
+        "a": 356,
+        "kernel_element": 103,
+        "s": 9,
+        "h": 9,
+        "exponent_budget": [
+          1,
+          2,
+          1
+        ],
+        "proposed_exponents": [
+          1,
+          2,
+          -8
+        ],
+        "within_budget": false
+      },
+      {
+        "d": 5490303845,
+        "z": [
+          0,
+          0,
+          1
+        ],
+        "a": 254,
+        "kernel_element": 205,
+        "s": 9,
+        "h": 9,
+        "exponent_budget": [
+          1,
+          2,
+          1
+        ],
+        "proposed_exponents": [
+          1,
+          2,
+          10
+        ],
+        "within_budget": false
+      }
+    ],
+    "divisors": [
+      1,
+      5,
+      13,
+      25,
+      65,
+      169,
+      325,
+      845,
+      2197,
+      2549,
+      4225,
+      10985,
+      12745,
+      28561,
+      33137,
+      54925,
+      63725,
+      142805,
+      165685,
+      430781,
+      714025,
+      828425,
+      2153905,
+      5600153,
+      6497401,
+      10769525,
+      28000765,
+      32487005,
+      72801989,
+      84466213,
+      140003825,
+      162435025,
+      364009945,
+      422331065,
+      1098060769,
+      1820049725,
+      2111655325,
+      5490303845,
+      14274789997,
+      27451519225,
+      71373949985,
+      185572269961,
+      356869749925,
+      927861349805,
+      4639306749025
+    ]
+  },
+  "source_candidates_examined": 2,
+  "size_parameter": {
+    "p": 1201,
+    "x": 306,
+    "c": 23,
+    "d": 108,
+    "gcd": 18,
+    "unreduced": 18,
+    "reduced": 1,
+    "bound_numerator": 307,
+    "bound_denominator": 23
+  },
+  "seconds": 0.014344887982588261,
+  "code_sha256": "e503f5b2fe5c74ecdd7687b1288091deab0a6da01f41ab36225be2cc8d015da6",
+  "peer_code_executed": false,
+  "Lean_executed": false,
+  "new_prime_scan": false
+}

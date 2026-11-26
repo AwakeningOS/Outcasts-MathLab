@@ -1,0 +1,36 @@
+Host: mini
+Lean 4.34.0 / mathlib v4.34.0
+Command: lake build
+Final Reply20261003 source SHA256: 40288e3420e6707818be1df24dec59c953d0a9f9960458f5ce306e9b63fcd129
+
+ℹ [8926/8929] Replayed OutcastsMathLab.Research.ShortProduct20261002
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:159:0: 'OutcastsMathLab.Research.ShortProduct20261002.no_short_witness_budget23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:160:0: 'OutcastsMathLab.Research.ShortProduct20261002.counterexample_prime' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:161:0: 'OutcastsMathLab.Research.ShortProduct20261002.certificates_valid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:162:0: 'OutcastsMathLab.Research.ShortProduct20261002.full_witness' depends on axioms: [propext]
+ℹ [8927/8929] Built OutcastsMathLab.Research.Reply20261003 (3.5s)
+info: OutcastsMathLab/Research/Reply20261003.lean:108:0: 'OutcastsMathLab.Research.Reply20261003.divisor_witness_cancel_factor' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:109:0: 'OutcastsMathLab.Research.Reply20261003.short_witness_cancel_factor' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:110:0: 'OutcastsMathLab.Research.Reply20261003.short_witness_normalize' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:111:0: 'OutcastsMathLab.Research.Reply20261003.no_short_witness_budget23_all' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:112:0: 'OutcastsMathLab.Research.Reply20261003.box_short_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:113:0: 'OutcastsMathLab.Research.Reply20261003.box_short_witnesses_predicate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:114:0: 'OutcastsMathLab.Research.Reply20261003.modulator_only_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:115:0: 'OutcastsMathLab.Research.Reply20261003.modulator_only_search_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [8928/8929] Built OutcastsMathLab (2.0s)
+Build completed successfully (8929 jobs).
+
+Command: python3 scripts/check_policy.py
+policy: checked 4 Lean files; no blocked construct found

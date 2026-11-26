@@ -1,0 +1,51 @@
+{
+  "p": 30241,
+  "root": 11,
+  "vertex_count": 509,
+  "sources": 1434,
+  "closed": true,
+  "strongly_connected": true,
+  "interior_success": {
+    "q": 19,
+    "tau": 1,
+    "d": 2225,
+    "denominators": [
+      7565,
+      12040810,
+      1238028859714
+    ]
+  },
+  "peer137": {
+    "input_sha256": "74561b11694774269a85f4a03c10e9f81e2b899db7e7d4aa52ba43e5276bd3f9",
+    "reused_saved_arithmetic": true,
+    "fourth_table": {
+      "0": 10,
+      "1": 371,
+      "2": 807,
+      "3": 336,
+      "4": 76,
+      "5": 22,
+      "6": 1
+    },
+    "changed_vertices": 115,
+    "all_increases": 6,
+    "removing_367_as_vertex_blocks": [
+      21821,
+      28657
+    ],
+    "p2521_107_vertex_claim_recomputed": false
+  },
+  "endpoints": {
+    "11": {
+      "sources": 45,
+      "divisors": 1095,
+      "all_branches_failed": true
+    },
+    "29179": {
+      "sources": 1,
+      "divisors": 9,
+      "all_branches_failed": true
+    }
+  },
+  "full_result_sha256": "91eb4d56b9b6a24816d6b45ca2e73d1c815527b6621f9ec5f5489b74f86c0289"
+}

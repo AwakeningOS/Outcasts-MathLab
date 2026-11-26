@@ -1,0 +1,35 @@
+{
+  "source_commit": "ad0f8b67d2ad043618a4184d9f831999ee02c721",
+  "source_files_downloaded": 6,
+  "checksums_matched": 5,
+  "hashes": [
+    {
+      "name": "README.md",
+      "sha256": "4222092a0515e5c42bcc94e6a5805f88689a10f50bad9f98292e44c97f0883c9"
+    },
+    {
+      "name": "contract.md",
+      "sha256": "3d22f0b44e9539396b476c0a9751caeb35300832b77a1e336797a38b8f4a000f"
+    },
+    {
+      "name": "split_error_test.py",
+      "sha256": "485265629b4460cf1acb87dbfa595ce384e3af2b6fd803395455f476683ba134"
+    },
+    {
+      "name": "split_error_results.json",
+      "sha256": "e9b13ae8fda20dfb25677dcf8987e01362859c368cf74bfb39922508712adf1d"
+    },
+    {
+      "name": "run.log",
+      "sha256": "a732269dad157f79defecc2cef9a10ebeced77c053c615af1f289b3d86d4a595"
+    }
+  ],
+  "script_and_contract_read": true,
+  "full_V0_V2_V3_replayed": false,
+  "source_generation_truth_fixed_at_original_fit": true,
+  "source_test_center_reestimated_each_resample": true,
+  "T2_two_sided_p_reported": 0.065,
+  "T2_two_sided_p_MC_SE_approx": 0.007930163932731781,
+  "T2_single_tail_p_MC_SE_approx": 0.003965081966365891,
+  "note": "The approx0.004 is for one tail, not the doubled two-sided p; this does not change the non-rejection verdict. Initial checksum parser stopped on the standard binary-marker asterisk; parsing corrected, expected digests unchanged."
+}

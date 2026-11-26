@@ -1,0 +1,31 @@
+{
+  "verified": [
+    {
+      "file": "failure_atlas_rows.json.gz",
+      "uncompressed_sha256": "d92e02ec37fd0577617f03fe3c390fd4f9343ecb1bca55d71865a4d4abf2044b",
+      "rows": 65987,
+      "row_groups": {
+        "primes": 54510,
+        "squares": 11477
+      },
+      "all_rows_valid_json": true
+    },
+    {
+      "file": "h2prime_rows.json.gz",
+      "uncompressed_sha256": "4c320c22ca8870b6671c36428767c886e037f538eb2b7dba2dfc650b9e1a06d7",
+      "rows": 71100,
+      "row_groups": null,
+      "all_rows_valid_json": true
+    },
+    {
+      "file": "exponent_rows.json.gz",
+      "uncompressed_sha256": "73b55b2260966d8df4359d88847493339cac01a25ca5a74dcfbb64177efb5b2d",
+      "rows": 107627,
+      "row_groups": null,
+      "all_rows_valid_json": true
+    }
+  ],
+  "author_scripts_executed": false,
+  "monte_carlo_reproduced": false,
+  "independence_or_higher_order_test_performed": false
+}

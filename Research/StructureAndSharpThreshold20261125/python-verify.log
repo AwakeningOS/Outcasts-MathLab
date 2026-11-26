@@ -1,0 +1,18 @@
+Python 3.14.4
+
+[1. Theorem 1A] Brun pure sieve (odd truncation 2k-1, k=ceil(2S)+2, r>=13):
+  |N+(ell)| >     5 when log10(p) >  11.75 (#70 bound: >   4.9)
+  |N+(ell)| >    20 when log10(p) >  35.71 (#70 bound: >  14.8)
+  |N+(ell)| >   100 when log10(p) >  74.37 (#70 bound: >  30.9)
+  |N+(ell)| >  1000 when log10(p) > 138.07 (#70 bound: >  57.3)
+  |N+(ell)| > 10000 when log10(p) > 216.24 (#70 bound: >  89.8)
+
+[2. Theorem 2A/2B/2C] Checked 1237 RES6 primes <= 500k (|W_p|>=2): single_sink=1203, multi_sink=34, types={((5,), (7,)): 21, ((5,), (5,)): 5, ((5,), (5, 7)): 8}, M11 lock 100%.
+  p0=42698041 (1<=n<=349): total=3889, diag=2885, off-diag=1004.
+
+[3. Theorem 3 & #159] p<=50k (137 primes): ell|x upper sources=20733, forbidden_8=0, (1,2)=4, other_divisors=27, primeR=2968 (succ=0).
+[4. Theorem 4] p<=50k: checked 72597 upper sources with 4*ell*s0*r >= (ell+s0)*p+1: strict(s!=ell)=0, equality_hits=[(40609, 11, 14767, 1, 4, 3461)].
+
+[5. Witnesses & #161 counterexample] Verified p=295129, p=376009, and #161 counterexample p=236807209 (root 2134, q 39, 6 children all fail).
+
+ALL CHECKS PASSED.

@@ -1,0 +1,28 @@
+CI URL: https://github.com/AwakeningOS/Outcasts-MathLab/actions/runs/36944994286
+Head SHA: 3190e5d8da00384f4c713c733f1b141fffe79eb6
+Observed checkout merge SHA: d560e21
+This is a filtered excerpt; see the CI URL for complete logs.
+
+Lean kernel verification	Run actions/checkout@v5	2026-10-02T00:14:45.1534137Z HEAD is now at d560e21 Merge 3190e5d8da00384f4c713c733f1b141fffe79eb6 into afffbfd463d7e6a626d44f6d66c608a18abeda29
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:14:57.1854976Z Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:16:01.7419876Z info: OutcastsMathLab/Problems/P000_VerifierSmoke/Proof.lean:9:0: 'OutcastsMathLab.P000.verified' does not depend on any axioms
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3146048Z ℹ [8926/8928] Built OutcastsMathLab.Research.ShortProduct20261002 (147s)
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3148236Z info: OutcastsMathLab/Research/ShortProduct20261002.lean:159:0: 'OutcastsMathLab.Research.ShortProduct20261002.no_short_witness_budget23' depends on axioms: [propext,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3151150Z info: OutcastsMathLab/Research/ShortProduct20261002.lean:160:0: 'OutcastsMathLab.Research.ShortProduct20261002.counterexample_prime' depends on axioms: [propext,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3152773Z info: OutcastsMathLab/Research/ShortProduct20261002.lean:161:0: 'OutcastsMathLab.Research.ShortProduct20261002.certificates_valid' depends on axioms: [propext,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3154762Z info: OutcastsMathLab/Research/ShortProduct20261002.lean:162:0: 'OutcastsMathLab.Research.ShortProduct20261002.full_witness' depends on axioms: [propext]
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:42.6329745Z Build completed successfully (8928 jobs).
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:19:12.5733283Z ##[start-action display=audit axioms with axiom-audit;id=__leanprover_lean-action.axiom-audit]
+
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3148236Z info: OutcastsMathLab/Research/ShortProduct20261002.lean:159:0: 'OutcastsMathLab.Research.ShortProduct20261002.no_short_witness_budget23' depends on axioms: [propext,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3149377Z  Classical.choice,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3149837Z  Quot.sound]
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3151150Z info: OutcastsMathLab/Research/ShortProduct20261002.lean:160:0: 'OutcastsMathLab.Research.ShortProduct20261002.counterexample_prime' depends on axioms: [propext,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3151874Z  Classical.choice,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3152132Z  Quot.sound]
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3152773Z info: OutcastsMathLab/Research/ShortProduct20261002.lean:161:0: 'OutcastsMathLab.Research.ShortProduct20261002.certificates_valid' depends on axioms: [propext,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3153918Z  Classical.choice,
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3154141Z  Quot.sound]
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:38.3154762Z info: OutcastsMathLab/Research/ShortProduct20261002.lean:162:0: 'OutcastsMathLab.Research.ShortProduct20261002.full_witness' depends on axioms: [propext]
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:42.6192978Z ✔ [8927/8928] Built OutcastsMathLab (4.2s)
+Lean kernel verification	Run leanprover/lean-action@v1	2026-10-02T00:18:42.6329745Z Build completed successfully (8928 jobs).

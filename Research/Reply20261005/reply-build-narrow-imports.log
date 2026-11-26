@@ -1,0 +1,37 @@
+ℹ [135/641] Replayed OutcastsMathLab.Problems.P000_VerifierSmoke.Proof
+info: OutcastsMathLab/Problems/P000_VerifierSmoke/Proof.lean:9:0: 'OutcastsMathLab.P000.verified' does not depend on any axioms
+ℹ [858/863] Built OutcastsMathLab.Research.ShortProduct20261002 (85s)
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:164:0: 'OutcastsMathLab.Research.ShortProduct20261002.no_short_witness_budget23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:165:0: 'OutcastsMathLab.Research.ShortProduct20261002.counterexample_prime' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:166:0: 'OutcastsMathLab.Research.ShortProduct20261002.certificates_valid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/ShortProduct20261002.lean:167:0: 'OutcastsMathLab.Research.ShortProduct20261002.full_witness' depends on axioms: [propext]
+✖ [859/863] Building OutcastsMathLab.Research.Reply20261003 (1.6s)
+trace: .> LEAN_PATH=/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/Cli/.lake/build/lib/lean:/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/batteries/.lake/build/lib/lean:/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/Qq/.lake/build/lib/lean:/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/aesop/.lake/build/lib/lean:/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/proofwidgets/.lake/build/lib/lean:/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/importGraph/.lake/build/lib/lean:/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/plausible/.lake/build/lib/lean:/mnt/hdd1t/outcasts-replies-20261003-qS7H8a/repo/.lake/packages/mathlib/.lake/build/lib/lean:/mnt/hdd1t/outcasts-review-20261005-FV8Ioy/research-repo/.lake/build/lib/lean /mnt/hdd1t/outcasts-replies-20261003-qS7H8a/toolchain/bin/lean /mnt/hdd1t/outcasts-review-20261005-FV8Ioy/research-repo/OutcastsMathLab/Research/Reply20261003.lean -o /mnt/hdd1t/outcasts-review-20261005-FV8Ioy/research-repo/.lake/build/lib/lean/OutcastsMathLab/Research/Reply20261003.olean -i /mnt/hdd1t/outcasts-review-20261005-FV8Ioy/research-repo/.lake/build/lib/lean/OutcastsMathLab/Research/Reply20261003.ilean -c /mnt/hdd1t/outcasts-review-20261005-FV8Ioy/research-repo/.lake/build/ir/OutcastsMathLab/Research/Reply20261003.c --setup /mnt/hdd1t/outcasts-review-20261005-FV8Ioy/research-repo/.lake/build/ir/OutcastsMathLab/Research/Reply20261003.setup.json --json
+error: OutcastsMathLab/Research/Reply20261003.lean:20:39: `simp` made no progress
+error: OutcastsMathLab/Research/Reply20261003.lean:21:36: Invalid field `of_dvd_right`: The environment does not contain `Eq.of_dvd_right`, so it is not possible to project the field `of_dvd_right` from an expression
+  hcs
+of type `s.gcd (s + 1) = 1`
+info: OutcastsMathLab/Research/Reply20261003.lean:108:0: 'OutcastsMathLab.Research.Reply20261003.divisor_witness_cancel_factor' depends on axioms: [propext, sorryAx, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:109:0: 'OutcastsMathLab.Research.Reply20261003.short_witness_cancel_factor' depends on axioms: [propext, sorryAx, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:110:0: 'OutcastsMathLab.Research.Reply20261003.short_witness_normalize' depends on axioms: [propext, sorryAx, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:111:0: 'OutcastsMathLab.Research.Reply20261003.no_short_witness_budget23_all' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:112:0: 'OutcastsMathLab.Research.Reply20261003.box_short_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:113:0: 'OutcastsMathLab.Research.Reply20261003.box_short_witnesses_predicate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:114:0: 'OutcastsMathLab.Research.Reply20261003.modulator_only_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Research/Reply20261003.lean:115:0: 'OutcastsMathLab.Research.Reply20261003.modulator_only_search_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Some required targets logged failures:
+- OutcastsMathLab.Research.Reply20261003
+error: build failed

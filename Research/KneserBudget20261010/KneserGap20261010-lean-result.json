@@ -1,0 +1,56 @@
+{
+  "dependency_head": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "lean_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "source_sha256": "27415135e6ebfbbfdac9a9d136327bb3f1dbc03919bbcfa1a42f10b9cce77474",
+  "exit_code": 0,
+  "seconds": 1.271,
+  "axioms": [
+    {
+      "theorem": "OutcastsMathLab.Research.KneserGap20261010.actual_product_set",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "OutcastsMathLab.Research.KneserGap20261010.actual_target_and_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "OutcastsMathLab.Research.KneserGap20261010.residue_orders_four",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "theorem": "OutcastsMathLab.Research.KneserGap20261010.admissible_trivial_quotient_shortage",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "theorems": 4,
+  "full_67_row_negative_Lean_verified": false,
+  "general_Kneser_theorem_Lean_verified": false,
+  "prime_input_and_factors_Lean_verified": false,
+  "first_attempt": {
+    "timeout_seconds": 180,
+    "success": false,
+    "cause_not_isolated": true,
+    "retained_input": "KneserGap20261010-first-attempt.lean"
+  },
+  "second_attempt": {
+    "timeout_seconds": 60,
+    "success": false,
+    "retained_input": "KneserGap20261010-second-attempt.lean"
+  },
+  "selected_numeric_identity_Lean_verified": false,
+  "universal_existence_proved": false,
+  "scope": "Selected actual-hit/Kneser-gap pair, new candidate counterexample mechanism; not the full box or general sufficient criterion"
+}

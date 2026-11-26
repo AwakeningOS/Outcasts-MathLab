@@ -1,0 +1,169 @@
+'OutcastsMathLab.Research.DeterministicFailure.prodPow_nil' depends on axioms: [propext]
+'OutcastsMathLab.Research.DeterministicFailure.prodPow_cons' depends on axioms: [propext]
+'OutcastsMathLab.Research.DeterministicFailure.dvd_mul_split' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.DeterministicFailure.mem_subProducts_of_dvd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.DeterministicFailure.no_witness_of_cert' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.DeterministicFailure.no_divisorWitness_of_cert' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a2_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a2_u3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a2_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a4_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a4_u3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a4_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a6_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a6_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a2_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a4_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a6_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a2_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a4_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a6_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a2_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a4_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a6_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a2_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a4_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a6_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a1_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a2_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a3_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a4_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a5_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p345601_a6_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.no_witness_345601_box' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a2_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a2_u3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a2_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a4_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a4_u3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a4_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a6_u1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a6_u5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a2_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a4_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a6_u11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a2_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a4_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a6_u13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a2_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a4_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a6_u17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a2_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a4_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a6_u19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a1_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a2_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a3_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a4_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a5_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.p670849_a6_u23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.HardPrimes20261005.no_witness_670849_box' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.InvolutionBound.neg_one_ne_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.InvolutionBound.card_le_half_of_fixedPointFree_involution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.InvolutionBound.iota_injective' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.InvolutionBound.iota_ne_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.InvolutionBound.card_le_half_totient_of_no_neg_one_divisor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.InvolutionBound.coprime_of_mem_filter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.InvolutionBound.dahan_involution_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.InvolutionBound.no_witness_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.jacobi_eq_one_of_dvd_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.witness_jacobi_eq_neg_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.no_witness_of_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.no_witness_of_mod_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.finite_witnesses_miss_infinitely_many_primes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.JacobiObstruction.witness_409' depends on axioms: [propext]
+'OutcastsMathLab.Research.PsiObstruction.jacobi_eq_one_of_prime_factors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.PsiObstruction.psi_obstruction_forces_residue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.PsiObstruction.psi_eq_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OutcastsMathLab.Research.PsiObstruction.psi_kernel_forces_residue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.PsiObstruction.nonresidue_shift_escapes_psi' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

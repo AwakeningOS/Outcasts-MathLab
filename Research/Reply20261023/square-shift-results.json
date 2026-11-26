@@ -1,0 +1,1987 @@
+{
+  "scope": "one fixed root, 13 sources, one known child; not universal existence",
+  "root_rows": [
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 1,
+      "base": 11,
+      "c": 11,
+      "x": 633,
+      "factors": {
+        "3": 1,
+        "211": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 9,
+          "base_target": 9,
+          "square_target": 0,
+          "base_pass": false,
+          "square_pass": true,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4
+            ],
+            "1": [
+              0
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 5,
+          "base_target": 5,
+          "square_target": 0,
+          "base_pass": false,
+          "square_pass": true,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              9
+            ],
+            "1": [
+              0
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 3,
+      "base": 11,
+      "c": 99,
+      "x": 655,
+      "factors": {
+        "5": 1,
+        "131": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        5
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 53,
+          "base_target": 9,
+          "square_target": 8,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              5,
+              9
+            ],
+            "9": [
+              1,
+              2,
+              5
+            ],
+            "99": [
+              1,
+              5,
+              20
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 38,
+          "base_target": 5,
+          "square_target": 2,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              5
+            ],
+            "9": [
+              1,
+              5,
+              7
+            ],
+            "99": [
+              1,
+              5,
+              25
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 5,
+      "base": 11,
+      "c": 275,
+      "x": 699,
+      "factors": {
+        "3": 1,
+        "233": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 229,
+          "base_target": 9,
+          "square_target": 4,
+          "base_pass": false,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4
+            ],
+            "25": [
+              1,
+              3,
+              17
+            ],
+            "275": [
+              1,
+              3,
+              92
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 126,
+          "base_target": 5,
+          "square_target": 1,
+          "base_pass": false,
+          "square_pass": true,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [
+            [
+              1,
+              1
+            ]
+          ],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              9
+            ],
+            "25": [
+              1,
+              3,
+              9
+            ],
+            "275": [
+              1,
+              3,
+              9
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 7,
+      "base": 11,
+      "c": 539,
+      "x": 765,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "17": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3,
+        5,
+        9,
+        15,
+        45
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 174,
+          "base_target": 9,
+          "square_target": 27,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              15
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              9,
+              45
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              45,
+              5
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "49": [
+              1,
+              3,
+              5,
+              6,
+              9,
+              10,
+              11,
+              12,
+              15,
+              18,
+              30,
+              33,
+              36,
+              41,
+              45
+            ],
+            "539": [
+              1,
+              3,
+              5,
+              9,
+              12,
+              15,
+              36,
+              45,
+              60,
+              108,
+              180,
+              300,
+              324,
+              361,
+              433
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 313,
+          "base_target": 5,
+          "square_target": 19,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              45
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              45,
+              5
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "49": [
+              1,
+              3,
+              5,
+              9,
+              13,
+              15,
+              16,
+              25,
+              26,
+              27,
+              29,
+              32,
+              37,
+              38,
+              45
+            ],
+            "539": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              25,
+              27,
+              45,
+              75,
+              81,
+              135,
+              136,
+              225,
+              405,
+              408
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 9,
+      "base": 11,
+      "c": 891,
+      "x": 853,
+      "factors": {
+        "853": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 152,
+          "base_target": 9,
+          "square_target": 71,
+          "base_pass": false,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1
+            ],
+            "81": [
+              1
+            ],
+            "891": [
+              1
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 38,
+          "base_target": 5,
+          "square_target": 38,
+          "base_pass": false,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1
+            ],
+            "81": [
+              1
+            ],
+            "891": [
+              1
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 11,
+      "base": 11,
+      "c": 1331,
+      "x": 963,
+      "factors": {
+        "3": 2,
+        "107": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3,
+        9
+      ],
+      "gcd_base_square": 11,
+      "branches": {
+        "I": {
+          "target": 141,
+          "base_target": 9,
+          "square_target": 20,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              9,
+              1
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "121": [
+              1,
+              3,
+              9,
+              27,
+              81
+            ],
+            "1331": [
+              1,
+              3,
+              9,
+              148,
+              444
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 368,
+          "base_target": 5,
+          "square_target": 5,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              3,
+              9
+            ],
+            [
+              9,
+              3
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "121": [
+              1,
+              3,
+              9,
+              27,
+              81
+            ],
+            "1331": [
+              1,
+              3,
+              9,
+              27,
+              81
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 13,
+      "base": 11,
+      "c": 1859,
+      "x": 1095,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "73": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3,
+        5,
+        15
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 1197,
+          "base_target": 9,
+          "square_target": 14,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              15
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "169": [
+              1,
+              3,
+              5,
+              15,
+              34,
+              58,
+              102,
+              113,
+              124
+            ],
+            "1859": [
+              1,
+              3,
+              5,
+              15,
+              124,
+              372,
+              620,
+              1116,
+              1241
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 764,
+          "base_target": 5,
+          "square_target": 88,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "169": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              25,
+              45,
+              56,
+              75
+            ],
+            "1859": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              25,
+              45,
+              75,
+              225
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 15,
+      "base": 11,
+      "c": 2475,
+      "x": 1249,
+      "factors": {
+        "1249": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 2429,
+          "base_target": 9,
+          "square_target": 179,
+          "base_pass": false,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1
+            ],
+            "225": [
+              1
+            ],
+            "2475": [
+              1
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 1226,
+          "base_target": 5,
+          "square_target": 101,
+          "base_pass": false,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1
+            ],
+            "225": [
+              1
+            ],
+            "2475": [
+              1
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 17,
+      "base": 11,
+      "c": 3179,
+      "x": 1425,
+      "factors": {
+        "3": 1,
+        "5": 2,
+        "19": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3,
+        5,
+        15,
+        25,
+        75
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 658,
+          "base_target": 9,
+          "square_target": 80,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              15
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              25
+            ],
+            [
+              15,
+              75
+            ],
+            [
+              25,
+              15
+            ],
+            [
+              75,
+              1
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "289": [
+              1,
+              3,
+              5,
+              15,
+              25,
+              58,
+              75,
+              98,
+              158,
+              174,
+              185,
+              193,
+              201,
+              212,
+              266
+            ],
+            "3179": [
+              1,
+              3,
+              5,
+              15,
+              25,
+              75,
+              212,
+              636,
+              763,
+              1060,
+              1068,
+              1314,
+              1908,
+              2121,
+              2289
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 1754,
+          "base_target": 5,
+          "square_target": 20,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              75
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              25,
+              75
+            ],
+            [
+              75,
+              3
+            ],
+            [
+              75,
+              25
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "289": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              25,
+              45,
+              47,
+              75,
+              86,
+              125,
+              134,
+              141,
+              225,
+              258
+            ],
+            "3179": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              25,
+              45,
+              75,
+              125,
+              225,
+              375,
+              625,
+              1125,
+              1875,
+              2446
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 19,
+      "base": 11,
+      "c": 3971,
+      "x": 1623,
+      "factors": {
+        "3": 1,
+        "541": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 1450,
+          "base_target": 9,
+          "square_target": 6,
+          "base_pass": false,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4
+            ],
+            "361": [
+              1,
+              3,
+              241
+            ],
+            "3971": [
+              1,
+              3,
+              1324
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 2348,
+          "base_target": 5,
+          "square_target": 182,
+          "base_pass": false,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              9
+            ],
+            "361": [
+              1,
+              3,
+              9
+            ],
+            "3971": [
+              1,
+              3,
+              9
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 21,
+      "base": 11,
+      "c": 4851,
+      "x": 1843,
+      "factors": {
+        "19": 1,
+        "97": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        97
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 2330,
+          "base_target": 9,
+          "square_target": 125,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              97,
+              1
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              5,
+              9
+            ],
+            "441": [
+              1,
+              97,
+              391
+            ],
+            "4851": [
+              1,
+              97,
+              4801
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 3008,
+          "base_target": 5,
+          "square_target": 362,
+          "base_pass": false,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "base obstruction",
+          "base_pairs": [],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              4,
+              9
+            ],
+            "441": [
+              1,
+              97,
+              148
+            ],
+            "4851": [
+              1,
+              97,
+              4558
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 23,
+      "base": 11,
+      "c": 5819,
+      "x": 2085,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "139": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3,
+        5,
+        15
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 3298,
+          "base_target": 9,
+          "square_target": 124,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              15
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "529": [
+              1,
+              3,
+              5,
+              15,
+              106,
+              178,
+              318,
+              353,
+              388
+            ],
+            "5819": [
+              1,
+              3,
+              5,
+              15,
+              388,
+              1164,
+              1940,
+              3492,
+              3881
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 3734,
+          "base_target": 5,
+          "square_target": 31,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "529": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              25,
+              45,
+              75,
+              225
+            ],
+            "5819": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              25,
+              45,
+              75,
+              225
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    },
+    {
+      "p": 2521,
+      "q": 11,
+      "tau": 25,
+      "base": 11,
+      "c": 6875,
+      "x": 2349,
+      "factors": {
+        "3": 4,
+        "29": 1
+      },
+      "omega_minus": 1,
+      "positive_divisors": [
+        1,
+        3,
+        9,
+        27,
+        81
+      ],
+      "gcd_base_square": 1,
+      "branches": {
+        "I": {
+          "target": 4354,
+          "base_target": 9,
+          "square_target": 604,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              27
+            ],
+            [
+              3,
+              81
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              27,
+              3
+            ],
+            [
+              81,
+              9
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "625": [
+              1,
+              3,
+              9,
+              27,
+              81,
+              139,
+              417,
+              463,
+              571
+            ],
+            "6875": [
+              1,
+              3,
+              9,
+              27,
+              81,
+              764,
+              2292,
+              4838,
+              6196
+            ]
+          },
+          "actual_divisor_hits": []
+        },
+        "II": {
+          "target": 4526,
+          "base_target": 5,
+          "square_target": 151,
+          "base_pass": true,
+          "square_pass": false,
+          "full_pass": false,
+          "classification": "square-parameter obstruction",
+          "base_pairs": [
+            [
+              1,
+              27
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              27,
+              1
+            ],
+            [
+              81,
+              81
+            ]
+          ],
+          "square_pairs": [],
+          "full_pairs": [],
+          "residue_sets": {
+            "11": [
+              1,
+              3,
+              4,
+              5,
+              9
+            ],
+            "625": [
+              1,
+              3,
+              9,
+              27,
+              81,
+              104,
+              243,
+              311,
+              312
+            ],
+            "6875": [
+              1,
+              3,
+              9,
+              27,
+              81,
+              243,
+              729,
+              2187,
+              6561
+            ]
+          },
+          "actual_divisor_hits": []
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "tau": 1,
+      "x": 633,
+      "factors": {
+        "3": 1,
+        "211": 1
+      },
+      "omega_minus": 1,
+      "I": "base obstruction",
+      "II": "base obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 3,
+      "x": 655,
+      "factors": {
+        "5": 1,
+        "131": 1
+      },
+      "omega_minus": 1,
+      "I": "square-parameter obstruction",
+      "II": "square-parameter obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 5,
+      "x": 699,
+      "factors": {
+        "3": 1,
+        "233": 1
+      },
+      "omega_minus": 1,
+      "I": "base obstruction",
+      "II": "base obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 7,
+      "x": 765,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "17": 1
+      },
+      "omega_minus": 1,
+      "I": "square-parameter obstruction",
+      "II": "square-parameter obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 9,
+      "x": 853,
+      "factors": {
+        "853": 1
+      },
+      "omega_minus": 1,
+      "I": "base obstruction",
+      "II": "base obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 11,
+      "x": 963,
+      "factors": {
+        "3": 2,
+        "107": 1
+      },
+      "omega_minus": 1,
+      "I": "square-parameter obstruction",
+      "II": "square-parameter obstruction",
+      "gcd": 11
+    },
+    {
+      "tau": 13,
+      "x": 1095,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "73": 1
+      },
+      "omega_minus": 1,
+      "I": "square-parameter obstruction",
+      "II": "square-parameter obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 15,
+      "x": 1249,
+      "factors": {
+        "1249": 1
+      },
+      "omega_minus": 1,
+      "I": "base obstruction",
+      "II": "base obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 17,
+      "x": 1425,
+      "factors": {
+        "3": 1,
+        "5": 2,
+        "19": 1
+      },
+      "omega_minus": 1,
+      "I": "square-parameter obstruction",
+      "II": "square-parameter obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 19,
+      "x": 1623,
+      "factors": {
+        "3": 1,
+        "541": 1
+      },
+      "omega_minus": 1,
+      "I": "base obstruction",
+      "II": "base obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 21,
+      "x": 1843,
+      "factors": {
+        "19": 1,
+        "97": 1
+      },
+      "omega_minus": 1,
+      "I": "square-parameter obstruction",
+      "II": "base obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 23,
+      "x": 2085,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "139": 1
+      },
+      "omega_minus": 1,
+      "I": "square-parameter obstruction",
+      "II": "square-parameter obstruction",
+      "gcd": 1
+    },
+    {
+      "tau": 25,
+      "x": 2349,
+      "factors": {
+        "3": 4,
+        "29": 1
+      },
+      "omega_minus": 1,
+      "I": "square-parameter obstruction",
+      "II": "square-parameter obstruction",
+      "gcd": 1
+    }
+  ],
+  "power_preservation_tests": 336,
+  "tested_prime_power_transition_equivalence": true,
+  "child": {
+    "p": 2521,
+    "q": 29,
+    "tau": 1,
+    "base": 87,
+    "c": 87,
+    "x": 652,
+    "factors": {
+      "2": 2,
+      "163": 1
+    },
+    "omega_minus": 1,
+    "positive_divisors": [
+      1,
+      2,
+      4
+    ],
+    "gcd_base_square": 1,
+    "branches": {
+      "I": {
+        "target": 2,
+        "base_target": 2,
+        "square_target": 0,
+        "base_pass": true,
+        "square_pass": true,
+        "full_pass": true,
+        "classification": "success",
+        "base_pairs": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "square_pairs": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "full_pairs": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "residue_sets": {
+          "87": [
+            1,
+            2,
+            4,
+            22,
+            44
+          ],
+          "1": [
+            0
+          ]
+        },
+        "actual_divisor_hits": [
+          1304
+        ]
+      },
+      "II": {
+        "target": 44,
+        "base_target": 44,
+        "square_target": 0,
+        "base_pass": false,
+        "square_pass": true,
+        "full_pass": false,
+        "classification": "base obstruction",
+        "base_pairs": [],
+        "square_pairs": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "full_pairs": [],
+        "residue_sets": {
+          "87": [
+            1,
+            2,
+            4,
+            8,
+            16
+          ],
+          "1": [
+            0
+          ]
+        },
+        "actual_divisor_hits": []
+      }
+    }
+  },
+  "child_solution": {
+    "d": 1304,
+    "x": 652,
+    "y": 18908,
+    "z": 23833534
+  },
+  "valuation_freeze_examples": [
+    {
+      "tau": 5,
+      "x": 699,
+      "delta": 6,
+      "v3_delta": 1,
+      "v3_x": 1
+    },
+    {
+      "tau": 7,
+      "x": 765,
+      "delta": 12,
+      "v3_delta": 1,
+      "v3_x": 2
+    },
+    {
+      "tau": 17,
+      "x": 1425,
+      "delta": 72,
+      "v3_delta": 2,
+      "v3_x": 1
+    },
+    {
+      "tau": 19,
+      "x": 1623,
+      "delta": 90,
+      "v3_delta": 2,
+      "v3_x": 1
+    },
+    {
+      "tau": 25,
+      "x": 2349,
+      "delta": 156,
+      "v3_delta": 1,
+      "v3_x": 4
+    }
+  ],
+  "three_power_lifts": [
+    {
+      "k": 1,
+      "modulus": 3,
+      "roots": [
+        1,
+        2
+      ],
+      "allowed_odd_parameters": [
+        1,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        25
+      ]
+    },
+    {
+      "k": 2,
+      "modulus": 9,
+      "roots": [
+        2,
+        7
+      ],
+      "allowed_odd_parameters": [
+        7,
+        11,
+        25
+      ]
+    },
+    {
+      "k": 3,
+      "modulus": 27,
+      "roots": [
+        2,
+        25
+      ],
+      "allowed_odd_parameters": [
+        25
+      ]
+    },
+    {
+      "k": 4,
+      "modulus": 81,
+      "roots": [
+        25,
+        56
+      ],
+      "allowed_odd_parameters": [
+        25
+      ]
+    },
+    {
+      "k": 5,
+      "modulus": 243,
+      "roots": [
+        106,
+        137
+      ],
+      "allowed_odd_parameters": []
+    }
+  ],
+  "tau25_delta_sets": {
+    "11": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "625": [
+      1,
+      3,
+      9,
+      27,
+      81,
+      139,
+      417,
+      463,
+      571
+    ],
+    "6875": [
+      1,
+      3,
+      9,
+      27,
+      81,
+      764,
+      2292,
+      4838,
+      6196
+    ]
+  },
+  "tau25_targets_mod625": {
+    "I": 604,
+    "II": 596
+  },
+  "noncoprime_projection_counterexample": {
+    "values": [
+      1,
+      122
+    ],
+    "moduli": [
+      11,
+      121
+    ],
+    "full_modulus": 1331
+  },
+  "seconds": 0.0007024150108918548
+}

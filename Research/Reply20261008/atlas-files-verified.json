@@ -1,0 +1,133 @@
+{
+  "commit": "be02b2dbe8f07af2d23ee6d5c9ff536012c6d149",
+  "files_checked": 25,
+  "checks": [
+    {
+      "file": "README.md",
+      "bytes": 11584,
+      "sha256": "ebf1e79fbdd69f18ec745fb60a7660fdc87430cb5512ba1de840e6f36568bf0f"
+    },
+    {
+      "file": "RESULTS.md",
+      "bytes": 18207,
+      "sha256": "84c90e936747275472808892d0dcd090c1c274d0182acf8f78e1ed884eb29177"
+    },
+    {
+      "file": "contracts/exponent.md",
+      "bytes": 3341,
+      "sha256": "c9f5de347ead6f5828953433b392a43519f147293482bd9062cfe187da2aa0bf"
+    },
+    {
+      "file": "contracts/h10prime.md",
+      "bytes": 3112,
+      "sha256": "0bd968243900bb99d025ca8e7c5714381b3af73f1e880f8c1fab6c46a69e4f53"
+    },
+    {
+      "file": "contracts/h11.md",
+      "bytes": 3259,
+      "sha256": "30c15e77fd99bf5d64e757306e803359c372decad7d140fbe7f7ff651a10ff6f"
+    },
+    {
+      "file": "contracts/h2prime.md",
+      "bytes": 2165,
+      "sha256": "4d843dbc5f17b0c24c0153c9bd4c547f88e3551f08219f3033f913280ac16d1c"
+    },
+    {
+      "file": "contracts/p1.md",
+      "bytes": 2960,
+      "sha256": "be8b7432db4d79474f7064c6858da7391648fe96410acd23fe3d055be7d5f848"
+    },
+    {
+      "file": "exponent_atlas.py",
+      "bytes": 6758,
+      "sha256": "f40ba7a8d05f825f6ca0c7101ffacadc6ad8392f273efc5b63cc9d800fc884e6"
+    },
+    {
+      "file": "exponent_rows.json.gz",
+      "bytes": 2088893,
+      "sha256": "4a3dd81bb78ae8381ee08ccc5d4f741011bdc4acd7c51bc0492edfa48876adfd"
+    },
+    {
+      "file": "exponent_summary.json",
+      "bytes": 3575,
+      "sha256": "078a7207ebac23c2a04e70604e29ca259b4912070ad6105b5e78497b101951b7"
+    },
+    {
+      "file": "failure_atlas.py",
+      "bytes": 5014,
+      "sha256": "03ad090cdb72ffe02dbb371952c86e3bf81615bd9a2eb0840dbfba54879b5e90"
+    },
+    {
+      "file": "failure_atlas_rows.json.gz",
+      "bytes": 550240,
+      "sha256": "f21bbb08ef8d17f6788532c426b8f5bbe619f993a1f960b1dc6b583a4fbc3c12"
+    },
+    {
+      "file": "h10prime.py",
+      "bytes": 3944,
+      "sha256": "73061015a0483d7e3b30987a2330e97f599f5beae199eaa4ec2c12d1f8c9bb77"
+    },
+    {
+      "file": "h10prime_summary.json",
+      "bytes": 6116,
+      "sha256": "fa6bab1f69390c0454ecf0a8bad867536546e08f284c3d691d2e100063298b33"
+    },
+    {
+      "file": "h11_independence.py",
+      "bytes": 4190,
+      "sha256": "1f34f72048cd5391e938ea2d592ae39fd7d7f00fa408ee123fd30b181d4bcead"
+    },
+    {
+      "file": "h11_posthoc.json",
+      "bytes": 1260,
+      "sha256": "569781d2b8802926fce15cf84b49f5b5b19837a35de36ef76ed37ca4832dc75f"
+    },
+    {
+      "file": "h11_posthoc.py",
+      "bytes": 1981,
+      "sha256": "64f931ca42a02973d3b7ef5e4eb068b36f1a8317eca8b8c0fd9736c8d5805fff"
+    },
+    {
+      "file": "h11_summary.json",
+      "bytes": 2489,
+      "sha256": "3c246c9eca98523632635ff02e3d3496fbc7713a595d4748ff4a0bf8b0930305"
+    },
+    {
+      "file": "h2prime.py",
+      "bytes": 1408,
+      "sha256": "76856ef952825184dcc83bf9b97a3e3f712b9b755db8b79af30b5ec39ef5ddcb"
+    },
+    {
+      "file": "h2prime_rows.json.gz",
+      "bytes": 867457,
+      "sha256": "2d81dd1ec7990fd99f7ae3a42f78c33308bdcd5bf4e11a7a9d1dc201804e5d41"
+    },
+    {
+      "file": "h2prime_summary.json",
+      "bytes": 1094,
+      "sha256": "77a2251c5251c99063c98c6200e55bcda0d9a327477373c793f65b454c976209"
+    },
+    {
+      "file": "h4_chars.py",
+      "bytes": 893,
+      "sha256": "802b436451f3a608347f3ec361a6ac7274f7487bcf4d36ae8c57b209498685df"
+    },
+    {
+      "file": "jacobi_check.py",
+      "bytes": 1188,
+      "sha256": "b4c94294c24d3da769a649168e5df559cc5ec0210512a7200b3580c45b66c0ac"
+    },
+    {
+      "file": "run_all.sh",
+      "bytes": 659,
+      "sha256": "dc0a2938fef1f4b53d195a089452a33cb12ea94182a2ab9e22a9d7e7b716f0a0"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 1589,
+      "sha256": "d21affd2f9d1707b8ac43700914c34411b141c8f467a313f6e72376490594a6b"
+    }
+  ],
+  "author_scripts_executed": false,
+  "monte_carlo_repeated": false
+}

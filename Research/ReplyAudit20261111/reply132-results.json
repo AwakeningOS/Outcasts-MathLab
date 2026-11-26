@@ -1,0 +1,106 @@
+{
+  "edge_audit": {
+    "p": 30241,
+    "failed_vertices": 498,
+    "canonical": {
+      "1": {
+        "pairs": 314,
+        "failed_children": 236,
+        "successful_children": 78,
+        "distinct_success_vertices": [
+          19,
+          23,
+          59,
+          79,
+          191,
+          263,
+          367,
+          383
+        ]
+      },
+      "3": {
+        "pairs": 190,
+        "failed_children": 179,
+        "successful_children": 11,
+        "distinct_success_vertices": [
+          53,
+          773
+        ]
+      }
+    },
+    "full": {
+      "1": {
+        "pairs": 759,
+        "failed_children": 578,
+        "successful_children": 181,
+        "distinct_success_vertices": [
+          19,
+          23,
+          59,
+          79,
+          191,
+          263,
+          367,
+          383,
+          1039
+        ]
+      },
+      "3": {
+        "pairs": 509,
+        "failed_children": 482,
+        "successful_children": 27,
+        "distinct_success_vertices": [
+          53,
+          773
+        ]
+      }
+    },
+    "vertex1039_incoming_sources": [
+      {
+        "q": 881,
+        "tau": 3,
+        "c": 23787,
+        "x": 13507,
+        "factors": [
+          [
+            13,
+            1
+          ],
+          [
+            1039,
+            1
+          ]
+        ]
+      }
+    ],
+    "canonical_pairs_sha256": "da27572705e58a9b225ea4f541489fa2896a6eb82b6f6b461a838f94f1dc95a1",
+    "full_pairs_sha256": "c0d0124fe12e5b5e303f9bb0aedd1b28c80f2b5885cb1074bc50d6b52bfd4d83"
+  },
+  "cohort_audit": {
+    "p1mod24_nonresidue": {
+      "input_primes": 253,
+      "triples": 524,
+      "hit_primes": 232,
+      "ordered_triples_sha256": "5fdad59155b6f60575233c24e586c91452b8c27430375a872c384c280f012b7c"
+    },
+    "all_primes_nonresidue": {
+      "input_primes": 2094,
+      "triples": 2138,
+      "hit_primes": 931,
+      "ordered_triples_sha256": "01a001bfd3088d777ace03dfa0e772fae29077322cac5e413ef7ca115222f3ca"
+    },
+    "all_primes_all_r": {
+      "input_primes": 2094,
+      "triples": 3586,
+      "hit_primes": 1033,
+      "ordered_triples_sha256": "dbaad7de8e920e4818662ad7720934c2d5dac561ce3b0333a1994ae80c07d27f"
+    },
+    "six_classes_nonresidue": {
+      "input_primes": 53,
+      "triples": 73,
+      "hit_primes": 41,
+      "ordered_triples_sha256": "f2a0342cc3d8dd6005775cc99f71427193f7e5f6a9d549b23ad035df2879e201"
+    }
+  },
+  "scope": "Participant-specified finite tables only; no new existence result or Lean run."
+}

@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "context_head": "fc6ed0305974e2501721aefd73186907ed45d7f6",
+  "attempt": "repair2",
+  "log": "/mnt/hdd1t/outcasts-reply-20261025-jlzF20/lean-repair2.log",
+  "version": "4.34.0",
+  "mathlib": "5ed2965256430c3649e86755f9576b54eca72435",
+  "axiom_declarations": 7,
+  "sorryAx": false,
+  "warnings": 0,
+  "execution_host": "mini",
+  "GitHub_Actions": false,
+  "general_existence_proved": false
+}

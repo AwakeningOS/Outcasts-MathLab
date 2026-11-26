@@ -1,0 +1,5 @@
+'ProjectionGap20261104.parent_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionGap20261104.child_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionGap20261104.separate_occupancy' depends on axioms: [propext, Quot.sound]
+'ProjectionGap20261104.no_simultaneous_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionGap20261104.prime_and_edge_data' depends on axioms: [propext, Classical.choice, Quot.sound]

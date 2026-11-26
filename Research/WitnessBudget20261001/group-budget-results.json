@@ -1,0 +1,3127 @@
+{
+  "elapsed_seconds": 1.7883910299860872,
+  "failures": 0,
+  "hypothesis": "For every target prime with finite G(p), C(p)<=3*G(p)",
+  "lean_verified": false,
+  "observations": [
+    {
+      "C": 14,
+      "G": 8,
+      "first_group_candidates": [
+        {
+          "M": 5101449,
+          "a": 1,
+          "cost": 8,
+          "divisor_residues": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            15,
+            21
+          ],
+          "factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              45959,
+              1
+            ]
+          ],
+          "modulus": 32,
+          "obstruction": "finite_exponent_shortage",
+          "u": 8,
+          "unit_subgroup": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ]
+        }
+      ],
+      "hypothesis_holds": true,
+      "negative_audit": {
+        "budget": 13,
+        "checked_all_positive_pairs": 37,
+        "checked_coprime_pairs": 31,
+        "independent_replay": true,
+        "obstruction_counts": {
+          "finite_exponent_shortage": 3,
+          "group_excludes_minus_one": 28
+        },
+        "p": 5101441,
+        "pair_failures": [
+          {
+            "M": 5101442,
+            "a": 1,
+            "cost": 1,
+            "divisor_residues": [
+              1,
+              2
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                2550721,
+                1
+              ]
+            ],
+            "modulus": 4,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1
+            ]
+          },
+          {
+            "M": 5101443,
+            "a": 1,
+            "cost": 2,
+            "divisor_residues": [
+              1,
+              3
+            ],
+            "factorization": [
+              [
+                3,
+                2
+              ],
+              [
+                19,
+                1
+              ],
+              [
+                29833,
+                1
+              ]
+            ],
+            "modulus": 8,
+            "obstruction": "group_excludes_minus_one",
+            "u": 2,
+            "unit_subgroup": [
+              1,
+              3
+            ]
+          },
+          {
+            "M": 10202883,
+            "a": 2,
+            "cost": 2,
+            "divisor_residues": [
+              1,
+              3
+            ],
+            "factorization": [
+              [
+                3,
+                1
+              ],
+              [
+                113,
+                1
+              ],
+              [
+                30097,
+                1
+              ]
+            ],
+            "modulus": 8,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3
+            ]
+          },
+          {
+            "M": 5101444,
+            "a": 1,
+            "cost": 3,
+            "divisor_residues": [
+              1,
+              2,
+              4
+            ],
+            "factorization": [
+              [
+                2,
+                2
+              ],
+              [
+                1275361,
+                1
+              ]
+            ],
+            "modulus": 12,
+            "obstruction": "group_excludes_minus_one",
+            "u": 3,
+            "unit_subgroup": [
+              1
+            ]
+          },
+          {
+            "M": 15304324,
+            "a": 3,
+            "cost": 3,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              7
+            ],
+            "factorization": [
+              [
+                2,
+                2
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                546583,
+                1
+              ]
+            ],
+            "modulus": 12,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              7
+            ]
+          },
+          {
+            "M": 5101445,
+            "a": 1,
+            "cost": 4,
+            "divisor_residues": [
+              1,
+              5
+            ],
+            "factorization": [
+              [
+                5,
+                1
+              ],
+              [
+                17,
+                1
+              ],
+              [
+                60017,
+                1
+              ]
+            ],
+            "modulus": 16,
+            "obstruction": "group_excludes_minus_one",
+            "u": 4,
+            "unit_subgroup": [
+              1,
+              5,
+              9,
+              13
+            ]
+          },
+          {
+            "M": 20405765,
+            "a": 4,
+            "cost": 4,
+            "divisor_residues": [
+              1,
+              5
+            ],
+            "factorization": [
+              [
+                5,
+                1
+              ],
+              [
+                4081153,
+                1
+              ]
+            ],
+            "modulus": 16,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              5,
+              9,
+              13
+            ]
+          },
+          {
+            "M": 5101446,
+            "a": 1,
+            "cost": 5,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              6,
+              7,
+              9,
+              14,
+              18
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                23,
+                1
+              ],
+              [
+                5281,
+                1
+              ]
+            ],
+            "modulus": 20,
+            "obstruction": "group_excludes_minus_one",
+            "u": 5,
+            "unit_subgroup": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "M": 25507206,
+            "a": 5,
+            "cost": 5,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              6,
+              7,
+              9,
+              14,
+              18
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                1417067,
+                1
+              ]
+            ],
+            "modulus": 20,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "M": 5101447,
+            "a": 1,
+            "cost": 6,
+            "divisor_residues": [
+              1,
+              7,
+              13,
+              19
+            ],
+            "factorization": [
+              [
+                13,
+                1
+              ],
+              [
+                67,
+                1
+              ],
+              [
+                5857,
+                1
+              ]
+            ],
+            "modulus": 24,
+            "obstruction": "group_excludes_minus_one",
+            "u": 6,
+            "unit_subgroup": [
+              1,
+              7,
+              13,
+              19
+            ]
+          },
+          {
+            "M": 10202885,
+            "a": 2,
+            "cost": 6,
+            "divisor_residues": [
+              1,
+              5,
+              7,
+              11
+            ],
+            "factorization": [
+              [
+                5,
+                1
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                26501,
+                1
+              ]
+            ],
+            "modulus": 24,
+            "obstruction": "group_excludes_minus_one",
+            "u": 3,
+            "unit_subgroup": [
+              1,
+              5,
+              7,
+              11
+            ]
+          },
+          {
+            "M": 15304325,
+            "a": 3,
+            "cost": 6,
+            "divisor_residues": [
+              1,
+              5
+            ],
+            "factorization": [
+              [
+                5,
+                2
+              ],
+              [
+                612173,
+                1
+              ]
+            ],
+            "modulus": 24,
+            "obstruction": "group_excludes_minus_one",
+            "u": 2,
+            "unit_subgroup": [
+              1,
+              5
+            ]
+          },
+          {
+            "M": 30608647,
+            "a": 6,
+            "cost": 6,
+            "divisor_residues": [
+              1,
+              7,
+              13,
+              19
+            ],
+            "factorization": [
+              [
+                43,
+                1
+              ],
+              [
+                711829,
+                1
+              ]
+            ],
+            "modulus": 24,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              7,
+              13,
+              19
+            ]
+          },
+          {
+            "M": 5101448,
+            "a": 1,
+            "cost": 7,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              8,
+              9,
+              11,
+              16,
+              18,
+              22
+            ],
+            "factorization": [
+              [
+                2,
+                3
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                29,
+                1
+              ],
+              [
+                1999,
+                1
+              ]
+            ],
+            "modulus": 28,
+            "obstruction": "group_excludes_minus_one",
+            "u": 7,
+            "unit_subgroup": [
+              1,
+              9,
+              11,
+              15,
+              23,
+              25
+            ]
+          },
+          {
+            "M": 35710088,
+            "a": 7,
+            "cost": 7,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "factorization": [
+              [
+                2,
+                3
+              ],
+              [
+                4463761,
+                1
+              ]
+            ],
+            "modulus": 28,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1
+            ]
+          },
+          {
+            "M": 5101449,
+            "a": 1,
+            "cost": 8,
+            "divisor_residues": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              15,
+              21
+            ],
+            "factorization": [
+              [
+                3,
+                1
+              ],
+              [
+                37,
+                1
+              ],
+              [
+                45959,
+                1
+              ]
+            ],
+            "modulus": 32,
+            "obstruction": "finite_exponent_shortage",
+            "u": 8,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17,
+              19,
+              21,
+              23,
+              25,
+              27,
+              29,
+              31
+            ]
+          },
+          {
+            "M": 40811529,
+            "a": 8,
+            "cost": 8,
+            "divisor_residues": [
+              1,
+              3,
+              9,
+              11,
+              27
+            ],
+            "factorization": [
+              [
+                3,
+                1
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                1236713,
+                1
+              ]
+            ],
+            "modulus": 32,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              9,
+              11,
+              17,
+              19,
+              25,
+              27
+            ]
+          },
+          {
+            "M": 5101450,
+            "a": 1,
+            "cost": 9,
+            "divisor_residues": [
+              1,
+              2,
+              5,
+              10,
+              14,
+              17,
+              25,
+              34
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                257,
+                1
+              ],
+              [
+                397,
+                1
+              ]
+            ],
+            "modulus": 36,
+            "obstruction": "group_excludes_minus_one",
+            "u": 9,
+            "unit_subgroup": [
+              1,
+              5,
+              13,
+              17,
+              25,
+              29
+            ]
+          },
+          {
+            "M": 45912970,
+            "a": 9,
+            "cost": 9,
+            "divisor_residues": [
+              1,
+              2,
+              5,
+              10
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                4591297,
+                1
+              ]
+            ],
+            "modulus": 36,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              5,
+              13,
+              17,
+              25,
+              29
+            ]
+          },
+          {
+            "M": 5101451,
+            "a": 1,
+            "cost": 10,
+            "divisor_residues": [
+              1,
+              11
+            ],
+            "factorization": [
+              [
+                5101451,
+                1
+              ]
+            ],
+            "modulus": 40,
+            "obstruction": "group_excludes_minus_one",
+            "u": 10,
+            "unit_subgroup": [
+              1,
+              11
+            ]
+          },
+          {
+            "M": 10202887,
+            "a": 2,
+            "cost": 10,
+            "divisor_residues": [
+              1,
+              7
+            ],
+            "factorization": [
+              [
+                10202887,
+                1
+              ]
+            ],
+            "modulus": 40,
+            "obstruction": "group_excludes_minus_one",
+            "u": 5,
+            "unit_subgroup": [
+              1,
+              7,
+              9,
+              23
+            ]
+          },
+          {
+            "M": 25507207,
+            "a": 5,
+            "cost": 10,
+            "divisor_residues": [
+              1,
+              7,
+              9,
+              11,
+              13,
+              19,
+              23,
+              37
+            ],
+            "factorization": [
+              [
+                11,
+                1
+              ],
+              [
+                23,
+                1
+              ],
+              [
+                41,
+                1
+              ],
+              [
+                2459,
+                1
+              ]
+            ],
+            "modulus": 40,
+            "obstruction": "group_excludes_minus_one",
+            "u": 2,
+            "unit_subgroup": [
+              1,
+              7,
+              9,
+              11,
+              13,
+              19,
+              23,
+              37
+            ]
+          },
+          {
+            "M": 51014411,
+            "a": 10,
+            "cost": 10,
+            "divisor_residues": [
+              1,
+              7,
+              9,
+              11,
+              13,
+              19
+            ],
+            "factorization": [
+              [
+                7,
+                1
+              ],
+              [
+                19,
+                1
+              ],
+              [
+                47,
+                1
+              ],
+              [
+                8161,
+                1
+              ]
+            ],
+            "modulus": 40,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              7,
+              9,
+              11,
+              13,
+              19,
+              23,
+              37
+            ]
+          },
+          {
+            "M": 5101452,
+            "a": 1,
+            "cost": 11,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              4,
+              6,
+              9,
+              10,
+              12,
+              16,
+              18,
+              20,
+              23,
+              27,
+              30,
+              36,
+              37
+            ],
+            "factorization": [
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                141707,
+                1
+              ]
+            ],
+            "modulus": 44,
+            "obstruction": "group_excludes_minus_one",
+            "u": 11,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              23,
+              25,
+              27,
+              31,
+              37
+            ]
+          },
+          {
+            "M": 56115852,
+            "a": 11,
+            "cost": 11,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              12,
+              13,
+              14,
+              17,
+              24,
+              26,
+              28,
+              34,
+              39
+            ],
+            "factorization": [
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                13,
+                1
+              ],
+              [
+                61,
+                1
+              ],
+              [
+                5897,
+                1
+              ]
+            ],
+            "modulus": 44,
+            "obstruction": "finite_exponent_shortage",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              13,
+              15,
+              17,
+              19,
+              21,
+              23,
+              25,
+              27,
+              29,
+              31,
+              35,
+              37,
+              39,
+              41,
+              43
+            ]
+          },
+          {
+            "M": 5101453,
+            "a": 1,
+            "cost": 12,
+            "divisor_residues": [
+              1,
+              7,
+              13,
+              19,
+              25,
+              31,
+              37,
+              43
+            ],
+            "factorization": [
+              [
+                7,
+                1
+              ],
+              [
+                31,
+                1
+              ],
+              [
+                23509,
+                1
+              ]
+            ],
+            "modulus": 48,
+            "obstruction": "group_excludes_minus_one",
+            "u": 12,
+            "unit_subgroup": [
+              1,
+              7,
+              13,
+              19,
+              25,
+              31,
+              37,
+              43
+            ]
+          },
+          {
+            "M": 15304327,
+            "a": 3,
+            "cost": 12,
+            "divisor_residues": [
+              1,
+              7,
+              17,
+              23
+            ],
+            "factorization": [
+              [
+                983,
+                1
+              ],
+              [
+                15569,
+                1
+              ]
+            ],
+            "modulus": 48,
+            "obstruction": "group_excludes_minus_one",
+            "u": 4,
+            "unit_subgroup": [
+              1,
+              7,
+              17,
+              23
+            ]
+          },
+          {
+            "M": 20405767,
+            "a": 4,
+            "cost": 12,
+            "divisor_residues": [
+              1,
+              7
+            ],
+            "factorization": [
+              [
+                20405767,
+                1
+              ]
+            ],
+            "modulus": 48,
+            "obstruction": "group_excludes_minus_one",
+            "u": 3,
+            "unit_subgroup": [
+              1,
+              7
+            ]
+          },
+          {
+            "M": 61217293,
+            "a": 12,
+            "cost": 12,
+            "divisor_residues": [
+              1,
+              13
+            ],
+            "factorization": [
+              [
+                61217293,
+                1
+              ]
+            ],
+            "modulus": 48,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              13,
+              25,
+              37
+            ]
+          },
+          {
+            "M": 5101454,
+            "a": 1,
+            "cost": 13,
+            "divisor_residues": [
+              1,
+              2,
+              23,
+              46
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                2550727,
+                1
+              ]
+            ],
+            "modulus": 52,
+            "obstruction": "finite_exponent_shortage",
+            "u": 13,
+            "unit_subgroup": [
+              1,
+              9,
+              23,
+              29,
+              43,
+              51
+            ]
+          },
+          {
+            "M": 66318734,
+            "a": 13,
+            "cost": 13,
+            "divisor_residues": [
+              1,
+              2,
+              7,
+              10,
+              14,
+              17,
+              31,
+              34
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                17,
+                1
+              ],
+              [
+                31,
+                1
+              ],
+              [
+                62921,
+                1
+              ]
+            ],
+            "modulus": 52,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              7,
+              9,
+              11,
+              15,
+              17,
+              19,
+              25,
+              29,
+              31,
+              47,
+              49
+            ]
+          }
+        ]
+      },
+      "p": 5101441,
+      "successful_witness": {
+        "a": 14,
+        "alpha": 2,
+        "cost": 14,
+        "s": 111,
+        "u": 1,
+        "v": 643425,
+        "xyz": [
+          1286850,
+          142840348,
+          91907050911900
+        ]
+      },
+      "triple_budget": 24
+    },
+    {
+      "C": 19,
+      "G": 7,
+      "first_group_candidates": [
+        {
+          "M": 591680888,
+          "a": 7,
+          "cost": 7,
+          "divisor_residues": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25
+          ],
+          "factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              131,
+              1
+            ],
+            [
+              24547,
+              1
+            ]
+          ],
+          "modulus": 28,
+          "obstruction": "finite_exponent_shortage",
+          "u": 1,
+          "unit_subgroup": [
+            1,
+            3,
+            5,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            23,
+            25,
+            27
+          ]
+        }
+      ],
+      "hypothesis_holds": true,
+      "negative_audit": {
+        "budget": 18,
+        "checked_all_positive_pairs": 58,
+        "checked_coprime_pairs": 47,
+        "independent_replay": true,
+        "obstruction_counts": {
+          "finite_exponent_shortage": 4,
+          "group_excludes_minus_one": 43
+        },
+        "p": 84525841,
+        "pair_failures": [
+          {
+            "M": 84525842,
+            "a": 1,
+            "cost": 1,
+            "divisor_residues": [
+              1,
+              2
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                601,
+                1
+              ],
+              [
+                70321,
+                1
+              ]
+            ],
+            "modulus": 4,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1
+            ]
+          },
+          {
+            "M": 84525843,
+            "a": 1,
+            "cost": 2,
+            "divisor_residues": [
+              1,
+              3
+            ],
+            "factorization": [
+              [
+                3,
+                1
+              ],
+              [
+                28175281,
+                1
+              ]
+            ],
+            "modulus": 8,
+            "obstruction": "group_excludes_minus_one",
+            "u": 2,
+            "unit_subgroup": [
+              1,
+              3
+            ]
+          },
+          {
+            "M": 169051683,
+            "a": 2,
+            "cost": 2,
+            "divisor_residues": [
+              1,
+              3
+            ],
+            "factorization": [
+              [
+                3,
+                1
+              ],
+              [
+                19,
+                1
+              ],
+              [
+                2965819,
+                1
+              ]
+            ],
+            "modulus": 8,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3
+            ]
+          },
+          {
+            "M": 84525844,
+            "a": 1,
+            "cost": 3,
+            "divisor_residues": [
+              1,
+              2,
+              4
+            ],
+            "factorization": [
+              [
+                2,
+                2
+              ],
+              [
+                13,
+                1
+              ],
+              [
+                1625497,
+                1
+              ]
+            ],
+            "modulus": 12,
+            "obstruction": "group_excludes_minus_one",
+            "u": 3,
+            "unit_subgroup": [
+              1
+            ]
+          },
+          {
+            "M": 253577524,
+            "a": 3,
+            "cost": 3,
+            "divisor_residues": [
+              1,
+              2,
+              4
+            ],
+            "factorization": [
+              [
+                2,
+                2
+              ],
+              [
+                63394381,
+                1
+              ]
+            ],
+            "modulus": 12,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1
+            ]
+          },
+          {
+            "M": 84525845,
+            "a": 1,
+            "cost": 4,
+            "divisor_residues": [
+              1,
+              5,
+              9,
+              13
+            ],
+            "factorization": [
+              [
+                5,
+                1
+              ],
+              [
+                2957,
+                1
+              ],
+              [
+                5717,
+                1
+              ]
+            ],
+            "modulus": 16,
+            "obstruction": "group_excludes_minus_one",
+            "u": 4,
+            "unit_subgroup": [
+              1,
+              5,
+              9,
+              13
+            ]
+          },
+          {
+            "M": 338103365,
+            "a": 4,
+            "cost": 4,
+            "divisor_residues": [
+              1,
+              5
+            ],
+            "factorization": [
+              [
+                5,
+                1
+              ],
+              [
+                67620673,
+                1
+              ]
+            ],
+            "modulus": 16,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              5,
+              9,
+              13
+            ]
+          },
+          {
+            "M": 84525846,
+            "a": 1,
+            "cost": 5,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              6
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                41,
+                1
+              ],
+              [
+                343601,
+                1
+              ]
+            ],
+            "modulus": 20,
+            "obstruction": "group_excludes_minus_one",
+            "u": 5,
+            "unit_subgroup": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "M": 422629206,
+            "a": 5,
+            "cost": 5,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              6
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                70438201,
+                1
+              ]
+            ],
+            "modulus": 20,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "M": 84525847,
+            "a": 1,
+            "cost": 6,
+            "divisor_residues": [
+              1,
+              7
+            ],
+            "factorization": [
+              [
+                7,
+                1
+              ],
+              [
+                199,
+                1
+              ],
+              [
+                60679,
+                1
+              ]
+            ],
+            "modulus": 24,
+            "obstruction": "group_excludes_minus_one",
+            "u": 6,
+            "unit_subgroup": [
+              1,
+              7
+            ]
+          },
+          {
+            "M": 169051685,
+            "a": 2,
+            "cost": 6,
+            "divisor_residues": [
+              1,
+              5,
+              7,
+              11
+            ],
+            "factorization": [
+              [
+                5,
+                1
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                3073667,
+                1
+              ]
+            ],
+            "modulus": 24,
+            "obstruction": "group_excludes_minus_one",
+            "u": 3,
+            "unit_subgroup": [
+              1,
+              5,
+              7,
+              11
+            ]
+          },
+          {
+            "M": 253577525,
+            "a": 3,
+            "cost": 6,
+            "divisor_residues": [
+              1,
+              5,
+              13,
+              17
+            ],
+            "factorization": [
+              [
+                5,
+                2
+              ],
+              [
+                17,
+                1
+              ],
+              [
+                596653,
+                1
+              ]
+            ],
+            "modulus": 24,
+            "obstruction": "group_excludes_minus_one",
+            "u": 2,
+            "unit_subgroup": [
+              1,
+              5,
+              13,
+              17
+            ]
+          },
+          {
+            "M": 507155047,
+            "a": 6,
+            "cost": 6,
+            "divisor_residues": [
+              1,
+              7
+            ],
+            "factorization": [
+              [
+                7,
+                2
+              ],
+              [
+                10350103,
+                1
+              ]
+            ],
+            "modulus": 24,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              7
+            ]
+          },
+          {
+            "M": 84525848,
+            "a": 1,
+            "cost": 7,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              8,
+              9,
+              11,
+              15,
+              16,
+              18,
+              22
+            ],
+            "factorization": [
+              [
+                2,
+                3
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                960521,
+                1
+              ]
+            ],
+            "modulus": 28,
+            "obstruction": "group_excludes_minus_one",
+            "u": 7,
+            "unit_subgroup": [
+              1,
+              9,
+              11,
+              15,
+              23,
+              25
+            ]
+          },
+          {
+            "M": 591680888,
+            "a": 7,
+            "cost": 7,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              6,
+              8,
+              10,
+              12,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              23,
+              24,
+              25
+            ],
+            "factorization": [
+              [
+                2,
+                3
+              ],
+              [
+                23,
+                1
+              ],
+              [
+                131,
+                1
+              ],
+              [
+                24547,
+                1
+              ]
+            ],
+            "modulus": 28,
+            "obstruction": "finite_exponent_shortage",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              9,
+              11,
+              13,
+              15,
+              17,
+              19,
+              23,
+              25,
+              27
+            ]
+          },
+          {
+            "M": 84525849,
+            "a": 1,
+            "cost": 8,
+            "divisor_residues": [
+              1,
+              3,
+              9,
+              11,
+              17,
+              19,
+              25,
+              27
+            ],
+            "factorization": [
+              [
+                3,
+                5
+              ],
+              [
+                137,
+                1
+              ],
+              [
+                2539,
+                1
+              ]
+            ],
+            "modulus": 32,
+            "obstruction": "group_excludes_minus_one",
+            "u": 8,
+            "unit_subgroup": [
+              1,
+              3,
+              9,
+              11,
+              17,
+              19,
+              25,
+              27
+            ]
+          },
+          {
+            "M": 676206729,
+            "a": 8,
+            "cost": 8,
+            "divisor_residues": [
+              1,
+              3,
+              9,
+              11,
+              17,
+              19,
+              25,
+              27
+            ],
+            "factorization": [
+              [
+                3,
+                2
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                59,
+                1
+              ],
+              [
+                115769,
+                1
+              ]
+            ],
+            "modulus": 32,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              9,
+              11,
+              17,
+              19,
+              25,
+              27
+            ]
+          },
+          {
+            "M": 84525850,
+            "a": 1,
+            "cost": 9,
+            "divisor_residues": [
+              1,
+              2,
+              5,
+              10,
+              14,
+              22,
+              25,
+              29
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                353,
+                1
+              ],
+              [
+                4789,
+                1
+              ]
+            ],
+            "modulus": 36,
+            "obstruction": "group_excludes_minus_one",
+            "u": 9,
+            "unit_subgroup": [
+              1,
+              5,
+              13,
+              17,
+              25,
+              29
+            ]
+          },
+          {
+            "M": 760732570,
+            "a": 9,
+            "cost": 9,
+            "divisor_residues": [
+              1,
+              2,
+              5,
+              10,
+              13,
+              14,
+              17,
+              22,
+              25,
+              26,
+              29,
+              34
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                13,
+                1
+              ],
+              [
+                5851789,
+                1
+              ]
+            ],
+            "modulus": 36,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              5,
+              13,
+              17,
+              25,
+              29
+            ]
+          },
+          {
+            "M": 84525851,
+            "a": 1,
+            "cost": 10,
+            "divisor_residues": [
+              1,
+              9,
+              11,
+              19,
+              23,
+              37
+            ],
+            "factorization": [
+              [
+                19,
+                1
+              ],
+              [
+                23,
+                1
+              ],
+              [
+                193423,
+                1
+              ]
+            ],
+            "modulus": 40,
+            "obstruction": "group_excludes_minus_one",
+            "u": 10,
+            "unit_subgroup": [
+              1,
+              7,
+              9,
+              11,
+              13,
+              19,
+              23,
+              37
+            ]
+          },
+          {
+            "M": 169051687,
+            "a": 2,
+            "cost": 10,
+            "divisor_residues": [
+              1,
+              7
+            ],
+            "factorization": [
+              [
+                7,
+                1
+              ],
+              [
+                24150241,
+                1
+              ]
+            ],
+            "modulus": 40,
+            "obstruction": "group_excludes_minus_one",
+            "u": 5,
+            "unit_subgroup": [
+              1,
+              7,
+              9,
+              23
+            ]
+          },
+          {
+            "M": 422629207,
+            "a": 5,
+            "cost": 10,
+            "divisor_residues": [
+              1,
+              7,
+              9,
+              11,
+              13,
+              19,
+              23,
+              37
+            ],
+            "factorization": [
+              [
+                7,
+                1
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                13,
+                1
+              ],
+              [
+                37,
+                1
+              ],
+              [
+                11411,
+                1
+              ]
+            ],
+            "modulus": 40,
+            "obstruction": "group_excludes_minus_one",
+            "u": 2,
+            "unit_subgroup": [
+              1,
+              7,
+              9,
+              11,
+              13,
+              19,
+              23,
+              37
+            ]
+          },
+          {
+            "M": 845258411,
+            "a": 10,
+            "cost": 10,
+            "divisor_residues": [
+              1,
+              3,
+              11,
+              17
+            ],
+            "factorization": [
+              [
+                17,
+                1
+              ],
+              [
+                49721083,
+                1
+              ]
+            ],
+            "modulus": 40,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              9,
+              11,
+              17,
+              19,
+              27,
+              33
+            ]
+          },
+          {
+            "M": 84525852,
+            "a": 1,
+            "cost": 11,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              4,
+              6,
+              12,
+              16,
+              23,
+              30,
+              37
+            ],
+            "factorization": [
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                7043821,
+                1
+              ]
+            ],
+            "modulus": 44,
+            "obstruction": "group_excludes_minus_one",
+            "u": 11,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              23,
+              25,
+              27,
+              31,
+              37
+            ]
+          },
+          {
+            "M": 929784252,
+            "a": 11,
+            "cost": 11,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              4,
+              6,
+              12
+            ],
+            "factorization": [
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                77482021,
+                1
+              ]
+            ],
+            "modulus": 44,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              9,
+              15,
+              23,
+              25,
+              27,
+              31,
+              37
+            ]
+          },
+          {
+            "M": 84525853,
+            "a": 1,
+            "cost": 12,
+            "divisor_residues": [
+              1,
+              13,
+              17,
+              29
+            ],
+            "factorization": [
+              [
+                17,
+                2
+              ],
+              [
+                292477,
+                1
+              ]
+            ],
+            "modulus": 48,
+            "obstruction": "group_excludes_minus_one",
+            "u": 12,
+            "unit_subgroup": [
+              1,
+              5,
+              13,
+              17,
+              25,
+              29,
+              37,
+              41
+            ]
+          },
+          {
+            "M": 253577527,
+            "a": 3,
+            "cost": 12,
+            "divisor_residues": [
+              1,
+              7
+            ],
+            "factorization": [
+              [
+                7,
+                1
+              ],
+              [
+                36225361,
+                1
+              ]
+            ],
+            "modulus": 48,
+            "obstruction": "group_excludes_minus_one",
+            "u": 4,
+            "unit_subgroup": [
+              1,
+              7
+            ]
+          },
+          {
+            "M": 338103367,
+            "a": 4,
+            "cost": 12,
+            "divisor_residues": [
+              1,
+              7,
+              13,
+              19,
+              37,
+              43
+            ],
+            "factorization": [
+              [
+                7,
+                1
+              ],
+              [
+                43,
+                1
+              ],
+              [
+                1123267,
+                1
+              ]
+            ],
+            "modulus": 48,
+            "obstruction": "group_excludes_minus_one",
+            "u": 3,
+            "unit_subgroup": [
+              1,
+              7,
+              13,
+              19,
+              25,
+              31,
+              37,
+              43
+            ]
+          },
+          {
+            "M": 1014310093,
+            "a": 12,
+            "cost": 12,
+            "divisor_residues": [
+              1,
+              13
+            ],
+            "factorization": [
+              [
+                1014310093,
+                1
+              ]
+            ],
+            "modulus": 48,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              13,
+              25,
+              37
+            ]
+          },
+          {
+            "M": 84525854,
+            "a": 1,
+            "cost": 13,
+            "divisor_residues": [
+              1,
+              2,
+              5,
+              7,
+              10,
+              14,
+              18,
+              27,
+              30,
+              31,
+              35,
+              41,
+              46,
+              49
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                421,
+                1
+              ],
+              [
+                14341,
+                1
+              ]
+            ],
+            "modulus": 52,
+            "obstruction": "finite_exponent_shortage",
+            "u": 13,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              15,
+              17,
+              19,
+              21,
+              23,
+              25,
+              27,
+              29,
+              31,
+              33,
+              35,
+              37,
+              41,
+              43,
+              45,
+              47,
+              49,
+              51
+            ]
+          },
+          {
+            "M": 1098835934,
+            "a": 13,
+            "cost": 13,
+            "divisor_residues": [
+              1,
+              2,
+              7,
+              14
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                78488281,
+                1
+              ]
+            ],
+            "modulus": 52,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              7,
+              9,
+              11,
+              15,
+              17,
+              19,
+              25,
+              29,
+              31,
+              47,
+              49
+            ]
+          },
+          {
+            "M": 84525855,
+            "a": 1,
+            "cost": 14,
+            "divisor_residues": [
+              1,
+              3,
+              5,
+              15,
+              19,
+              45
+            ],
+            "factorization": [
+              [
+                3,
+                1
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                71,
+                1
+              ],
+              [
+                79367,
+                1
+              ]
+            ],
+            "modulus": 56,
+            "obstruction": "group_excludes_minus_one",
+            "u": 14,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              9,
+              13,
+              15,
+              19,
+              23,
+              25,
+              27,
+              39,
+              45
+            ]
+          },
+          {
+            "M": 169051689,
+            "a": 2,
+            "cost": 14,
+            "divisor_residues": [
+              1,
+              3,
+              9,
+              17,
+              33,
+              41,
+              43,
+              51
+            ],
+            "factorization": [
+              [
+                3,
+                2
+              ],
+              [
+                17,
+                1
+              ],
+              [
+                1104913,
+                1
+              ]
+            ],
+            "modulus": 56,
+            "obstruction": "group_excludes_minus_one",
+            "u": 7,
+            "unit_subgroup": [
+              1,
+              3,
+              9,
+              11,
+              17,
+              19,
+              25,
+              27,
+              33,
+              41,
+              43,
+              51
+            ]
+          },
+          {
+            "M": 591680889,
+            "a": 7,
+            "cost": 14,
+            "divisor_residues": [
+              1,
+              3,
+              9,
+              19,
+              27
+            ],
+            "factorization": [
+              [
+                3,
+                3
+              ],
+              [
+                21914107,
+                1
+              ]
+            ],
+            "modulus": 56,
+            "obstruction": "group_excludes_minus_one",
+            "u": 2,
+            "unit_subgroup": [
+              1,
+              3,
+              9,
+              19,
+              25,
+              27
+            ]
+          },
+          {
+            "M": 1183361775,
+            "a": 14,
+            "cost": 14,
+            "divisor_residues": [
+              1,
+              3,
+              5,
+              15,
+              19,
+              23,
+              25,
+              45
+            ],
+            "factorization": [
+              [
+                3,
+                1
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                15778157,
+                1
+              ]
+            ],
+            "modulus": 56,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              9,
+              13,
+              15,
+              19,
+              23,
+              25,
+              27,
+              39,
+              45
+            ]
+          },
+          {
+            "M": 84525856,
+            "a": 1,
+            "cost": 15,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32,
+              46,
+              53
+            ],
+            "factorization": [
+              [
+                2,
+                5
+              ],
+              [
+                2641433,
+                1
+              ]
+            ],
+            "modulus": 60,
+            "obstruction": "group_excludes_minus_one",
+            "u": 15,
+            "unit_subgroup": [
+              1,
+              17,
+              49,
+              53
+            ]
+          },
+          {
+            "M": 253577528,
+            "a": 3,
+            "cost": 15,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              8,
+              31
+            ],
+            "factorization": [
+              [
+                2,
+                3
+              ],
+              [
+                31697191,
+                1
+              ]
+            ],
+            "modulus": 60,
+            "obstruction": "group_excludes_minus_one",
+            "u": 5,
+            "unit_subgroup": [
+              1,
+              31
+            ]
+          },
+          {
+            "M": 422629208,
+            "a": 5,
+            "cost": 15,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              31,
+              32,
+              34,
+              46,
+              47,
+              53
+            ],
+            "factorization": [
+              [
+                2,
+                3
+              ],
+              [
+                53,
+                1
+              ],
+              [
+                181,
+                1
+              ],
+              [
+                5507,
+                1
+              ]
+            ],
+            "modulus": 60,
+            "obstruction": "group_excludes_minus_one",
+            "u": 3,
+            "unit_subgroup": [
+              1,
+              17,
+              19,
+              23,
+              31,
+              47,
+              49,
+              53
+            ]
+          },
+          {
+            "M": 1267887616,
+            "a": 15,
+            "cost": 15,
+            "divisor_residues": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              23,
+              32,
+              34,
+              38,
+              46,
+              47,
+              49
+            ],
+            "factorization": [
+              [
+                2,
+                9
+              ],
+              [
+                227,
+                1
+              ],
+              [
+                10909,
+                1
+              ]
+            ],
+            "modulus": 60,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              23,
+              47,
+              49
+            ]
+          },
+          {
+            "M": 84525857,
+            "a": 1,
+            "cost": 16,
+            "divisor_residues": [
+              1,
+              13,
+              33,
+              37,
+              41,
+              57
+            ],
+            "factorization": [
+              [
+                13,
+                2
+              ],
+              [
+                500153,
+                1
+              ]
+            ],
+            "modulus": 64,
+            "obstruction": "group_excludes_minus_one",
+            "u": 16,
+            "unit_subgroup": [
+              1,
+              5,
+              9,
+              13,
+              17,
+              21,
+              25,
+              29,
+              33,
+              37,
+              41,
+              45,
+              49,
+              53,
+              57,
+              61
+            ]
+          },
+          {
+            "M": 1352413457,
+            "a": 16,
+            "cost": 16,
+            "divisor_residues": [
+              1,
+              17
+            ],
+            "factorization": [
+              [
+                1352413457,
+                1
+              ]
+            ],
+            "modulus": 64,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              17,
+              33,
+              49
+            ]
+          },
+          {
+            "M": 84525858,
+            "a": 1,
+            "cost": 17,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              9,
+              10,
+              15,
+              18,
+              22,
+              30,
+              45
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4695881,
+                1
+              ]
+            ],
+            "modulus": 68,
+            "obstruction": "finite_exponent_shortage",
+            "u": 17,
+            "unit_subgroup": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              19,
+              21,
+              23,
+              25,
+              27,
+              29,
+              31,
+              33,
+              35,
+              37,
+              39,
+              41,
+              43,
+              45,
+              47,
+              49,
+              53,
+              55,
+              57,
+              59,
+              61,
+              63,
+              65,
+              67
+            ]
+          },
+          {
+            "M": 1436939298,
+            "a": 17,
+            "cost": 17,
+            "divisor_residues": [
+              1,
+              2,
+              3,
+              6,
+              9,
+              18,
+              23,
+              27,
+              46,
+              54
+            ],
+            "factorization": [
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                26609987,
+                1
+              ]
+            ],
+            "modulus": 68,
+            "obstruction": "group_excludes_minus_one",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              3,
+              7,
+              9,
+              11,
+              13,
+              21,
+              23,
+              25,
+              27,
+              31,
+              33,
+              39,
+              49,
+              53,
+              63
+            ]
+          },
+          {
+            "M": 84525859,
+            "a": 1,
+            "cost": 18,
+            "divisor_residues": [
+              1,
+              11,
+              19,
+              41
+            ],
+            "factorization": [
+              [
+                11,
+                1
+              ],
+              [
+                7684169,
+                1
+              ]
+            ],
+            "modulus": 72,
+            "obstruction": "group_excludes_minus_one",
+            "u": 18,
+            "unit_subgroup": [
+              1,
+              11,
+              17,
+              19,
+              25,
+              35,
+              41,
+              43,
+              49,
+              59,
+              65,
+              67
+            ]
+          },
+          {
+            "M": 169051691,
+            "a": 2,
+            "cost": 18,
+            "divisor_residues": [
+              1,
+              11
+            ],
+            "factorization": [
+              [
+                169051691,
+                1
+              ]
+            ],
+            "modulus": 72,
+            "obstruction": "group_excludes_minus_one",
+            "u": 9,
+            "unit_subgroup": [
+              1,
+              11,
+              25,
+              35,
+              49,
+              59
+            ]
+          },
+          {
+            "M": 760732571,
+            "a": 9,
+            "cost": 18,
+            "divisor_residues": [
+              1,
+              11,
+              19,
+              65
+            ],
+            "factorization": [
+              [
+                8011,
+                1
+              ],
+              [
+                94961,
+                1
+              ]
+            ],
+            "modulus": 72,
+            "obstruction": "group_excludes_minus_one",
+            "u": 2,
+            "unit_subgroup": [
+              1,
+              11,
+              17,
+              19,
+              25,
+              35,
+              41,
+              43,
+              49,
+              59,
+              65,
+              67
+            ]
+          },
+          {
+            "M": 1521465139,
+            "a": 18,
+            "cost": 18,
+            "divisor_residues": [
+              1,
+              19,
+              23,
+              29
+            ],
+            "factorization": [
+              [
+                1973,
+                1
+              ],
+              [
+                771143,
+                1
+              ]
+            ],
+            "modulus": 72,
+            "obstruction": "finite_exponent_shortage",
+            "u": 1,
+            "unit_subgroup": [
+              1,
+              5,
+              19,
+              23,
+              25,
+              29,
+              43,
+              47,
+              49,
+              53,
+              67,
+              71
+            ]
+          }
+        ]
+      },
+      "p": 84525841,
+      "successful_witness": {
+        "a": 1,
+        "alpha": 830,
+        "cost": 19,
+        "s": 63079,
+        "u": 19,
+        "v": 1340,
+        "xyz": [
+          21131800,
+          1332972512570,
+          94009640360200
+        ]
+      },
+      "triple_budget": 21
+    }
+  ],
+  "python": "3.14.4",
+  "selected_inputs": 2,
+  "selection": "All existing exact-cost rows with C>12; lower costs cannot violate this bound because subgroup and divisor tests coincide at costs 1,2,3 (unit groups modulo 4,8,12 have exponent at most 2)",
+  "source_target_primes": 179468,
+  "sources": [
+    {
+      "filename": "results.json",
+      "rows": 4519,
+      "rows_sha256": "ee23c2187252324c85a4c8fb756301a394b2783c4d62fb6929120cd7e410a70f"
+    },
+    {
+      "filename": "results-2m-100m.json",
+      "rows": 174949,
+      "rows_sha256": "32f56343f1a8df5e1296b90079ad7c387dea7cb17e6f22ad1dc82f5b9a014010"
+    }
+  ],
+  "universal_ESC_claim": false
+}

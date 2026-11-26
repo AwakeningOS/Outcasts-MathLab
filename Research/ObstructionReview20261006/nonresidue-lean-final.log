@@ -1,0 +1,21 @@
+'OutcastsMathLab.Research.NonresidueBudget20261006.inputs_valid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.NonresidueBudget20261006.only_nonresidue_345601' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.NonresidueBudget20261006.only_nonresidue_670849' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.NonresidueBudget20261006.nonresidues_are_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.NonresidueBudget20261006.no_nonresidue_budget_345601' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.NonresidueBudget20261006.no_nonresidue_budget_670849' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.NonresidueBudget20261006.group_power_escape_345601' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,11 @@
+{
+  "remaining_tuples": 67,
+  "max_h_remaining": 9,
+  "tuples_with_prime_factor_ge11_in_h": 34,
+  "large_h_outcomes": {
+    "q_range": 0,
+    "r_range": 34,
+    "congruence": 0
+  },
+  "scope": "Audit of saved November16 coefficient rows, not a new prime scan or replay of peer scripts"
+}

@@ -1,0 +1,13 @@
+/mnt/hdd1t/outcasts-reply-20261022-C9NHKR/Reply20261022.lean:37:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'OutcastsMathLab.Research.Reply20261022.determinant_identity' depends on axioms: [propext]
+'OutcastsMathLab.Research.Reply20261022.transport_with_cancellation' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.Reply20261022.cancellation_is_needed' depends on axioms: [propext, Quot.sound]
+'OutcastsMathLab.Research.Reply20261022.normalized_divisor_to_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261022.normalized_witness_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OutcastsMathLab.Research.Reply20261022.normalized_divisor_certificate' depends on axioms: [propext]

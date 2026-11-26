@@ -1,0 +1,437 @@
+﻿2026-10-05T05:20:06.2144878Z Current runner version: '2.337.0'
+2026-10-05T05:20:06.2163674Z ##[group]Runner Image Provisioner
+2026-10-05T05:20:06.2164224Z Hosted Compute Agent
+2026-10-05T05:20:06.2164642Z Version: 20260901.588
+2026-10-05T05:20:06.2165025Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+2026-10-05T05:20:06.2165525Z Build Date: 2026-09-01T19:56:44Z
+2026-10-05T05:20:06.2165977Z Worker ID: {dd4dc50a-cc8b-4cf5-a599-12ef8ca96a87}
+2026-10-05T05:20:06.2166412Z Azure Region: centralus
+2026-10-05T05:20:06.2166803Z ##[endgroup]
+2026-10-05T05:20:06.2167645Z ##[group]Operating System
+2026-10-05T05:20:06.2168001Z Ubuntu
+2026-10-05T05:20:06.2168400Z 24.04.5
+2026-10-05T05:20:06.2168712Z LTS
+2026-10-05T05:20:06.2169049Z ##[endgroup]
+2026-10-05T05:20:06.2169392Z ##[group]Runner Image
+2026-10-05T05:20:06.2169777Z Image: ubuntu-24.04
+2026-10-05T05:20:06.2170193Z Version: 20260927.320.1
+2026-10-05T05:20:06.2171133Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-05T05:20:06.2172066Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+2026-10-05T05:20:06.2172641Z ##[endgroup]
+2026-10-05T05:20:06.2173335Z ##[group]GITHUB_TOKEN Permissions
+2026-10-05T05:20:06.2174759Z Contents: read
+2026-10-05T05:20:06.2175173Z Metadata: read
+2026-10-05T05:20:06.2175513Z ##[endgroup]
+2026-10-05T05:20:06.2176959Z Secret source: None
+2026-10-05T05:20:06.2177521Z Cache mode: write
+2026-10-05T05:20:06.2178150Z Prepare workflow directory
+2026-10-05T05:20:06.2422873Z Prepare all required actions
+2026-10-05T05:20:06.2455503Z Getting action download info
+2026-10-05T05:20:06.4620133Z Download action repository 'actions/checkout@v5' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+2026-10-05T05:20:06.5426361Z Download action repository 'leanprover/lean-action@v1' (SHA:f061402b660e0c34644504b324e830f2991d4865)
+2026-10-05T05:20:06.8444192Z Getting action download info
+2026-10-05T05:20:07.0073818Z Download action repository 'actions/cache@caa296126883cff596d87d8935842f9db880ef25' (SHA:caa296126883cff596d87d8935842f9db880ef25)
+2026-10-05T05:20:07.4445745Z Complete job name: Lean kernel verification
+2026-10-05T05:20:07.4909697Z ##[group]Run actions/checkout@v5
+2026-10-05T05:20:07.4910203Z with:
+2026-10-05T05:20:07.4910431Z   repository: AwakeningOS/Outcasts-MathLab
+2026-10-05T05:20:07.4912517Z   token: ***
+2026-10-05T05:20:07.4912733Z   ssh-strict: true
+2026-10-05T05:20:07.4912953Z   ssh-user: git
+2026-10-05T05:20:07.4913181Z   persist-credentials: true
+2026-10-05T05:20:07.4913427Z   clean: true
+2026-10-05T05:20:07.4913649Z   sparse-checkout-cone-mode: true
+2026-10-05T05:20:07.4913905Z   fetch-depth: 1
+2026-10-05T05:20:07.4914117Z   fetch-tags: false
+2026-10-05T05:20:07.4914341Z   show-progress: true
+2026-10-05T05:20:07.4914557Z   lfs: false
+2026-10-05T05:20:07.4914772Z   submodules: false
+2026-10-05T05:20:07.4915001Z   set-safe-directory: true
+2026-10-05T05:20:07.4915257Z   allow-unsafe-pr-checkout: false
+2026-10-05T05:20:07.4915675Z ##[endgroup]
+2026-10-05T05:20:07.5559969Z Syncing repository: AwakeningOS/Outcasts-MathLab
+2026-10-05T05:20:07.5561492Z ##[group]Getting Git version info
+2026-10-05T05:20:07.5561995Z Working directory is '/home/runner/work/Outcasts-MathLab/Outcasts-MathLab'
+2026-10-05T05:20:07.5562670Z [command]/usr/bin/git version
+2026-10-05T05:20:07.5686404Z git version 2.55.0
+2026-10-05T05:20:07.5704986Z ##[endgroup]
+2026-10-05T05:20:07.5711223Z Temporarily overriding HOME='/home/runner/work/_temp/01899503-2db0-46b8-889a-be6f9a76461a' before making global git config changes
+2026-10-05T05:20:07.5711949Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-05T05:20:07.5713777Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Outcasts-MathLab/Outcasts-MathLab
+2026-10-05T05:20:07.6024095Z Deleting the contents of '/home/runner/work/Outcasts-MathLab/Outcasts-MathLab'
+2026-10-05T05:20:07.6028321Z ##[group]Initializing the repository
+2026-10-05T05:20:07.6031673Z [command]/usr/bin/git init /home/runner/work/Outcasts-MathLab/Outcasts-MathLab
+2026-10-05T05:20:07.6835914Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-05T05:20:07.6836579Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-05T05:20:07.6837091Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-05T05:20:07.6837494Z hint: call:
+2026-10-05T05:20:07.6837698Z hint:
+2026-10-05T05:20:07.6837912Z hint: 	git config --global init.defaultBranch <name>
+2026-10-05T05:20:07.6838118Z hint:
+2026-10-05T05:20:07.6838305Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-05T05:20:07.6838600Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-05T05:20:07.6838853Z hint:
+2026-10-05T05:20:07.6838995Z hint: 	git branch -m <name>
+2026-10-05T05:20:07.6839145Z hint:
+2026-10-05T05:20:07.6839353Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-05T05:20:07.6839703Z Initialized empty Git repository in /home/runner/work/Outcasts-MathLab/Outcasts-MathLab/.git/
+2026-10-05T05:20:07.6844834Z [command]/usr/bin/git remote add origin https://github.com/AwakeningOS/Outcasts-MathLab
+2026-10-05T05:20:07.7228180Z ##[endgroup]
+2026-10-05T05:20:07.7228542Z ##[group]Disabling automatic garbage collection
+2026-10-05T05:20:07.7232172Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-05T05:20:07.7810168Z ##[endgroup]
+2026-10-05T05:20:07.7810581Z ##[group]Setting up auth
+2026-10-05T05:20:07.7816491Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-05T05:20:07.7847836Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-05T05:20:07.8189241Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-05T05:20:07.8211078Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-05T05:20:07.8338295Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-05T05:20:07.8366470Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-05T05:20:07.8546470Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-05T05:20:07.8603055Z ##[endgroup]
+2026-10-05T05:20:07.8603523Z ##[group]Fetching the repository
+2026-10-05T05:20:07.8609181Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b663077dba62e95e258f6cb0a4ce4e571025ecad:refs/remotes/pull/6/merge
+2026-10-05T05:20:08.2815213Z From https://github.com/AwakeningOS/Outcasts-MathLab
+2026-10-05T05:20:08.2815637Z  * [new ref]         b663077dba62e95e258f6cb0a4ce4e571025ecad -> pull/6/merge
+2026-10-05T05:20:08.2818942Z ##[endgroup]
+2026-10-05T05:20:08.2819214Z ##[group]Determining the checkout info
+2026-10-05T05:20:08.2820920Z ##[endgroup]
+2026-10-05T05:20:08.2825406Z [command]/usr/bin/git sparse-checkout disable
+2026-10-05T05:20:08.2876482Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-05T05:20:08.2973117Z ##[group]Checking out the ref
+2026-10-05T05:20:08.2975632Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/6/merge
+2026-10-05T05:20:08.3161763Z Note: switching to 'refs/remotes/pull/6/merge'.
+2026-10-05T05:20:08.3162033Z 
+2026-10-05T05:20:08.3162252Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-05T05:20:08.3162716Z changes and commit them, and you can discard any commits you make in this
+2026-10-05T05:20:08.3163198Z state without impacting any branches by switching back to a branch.
+2026-10-05T05:20:08.3163363Z 
+2026-10-05T05:20:08.3163710Z If you want to create a new branch to retain commits you create, you may
+2026-10-05T05:20:08.3164003Z do so (now or later) by using -c with the switch command. Example:
+2026-10-05T05:20:08.3164201Z 
+2026-10-05T05:20:08.3164285Z   git switch -c <new-branch-name>
+2026-10-05T05:20:08.3164395Z 
+2026-10-05T05:20:08.3164472Z Or undo this operation with:
+2026-10-05T05:20:08.3164576Z 
+2026-10-05T05:20:08.3164643Z   git switch -
+2026-10-05T05:20:08.3164735Z 
+2026-10-05T05:20:08.3164881Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-05T05:20:08.3165061Z 
+2026-10-05T05:20:08.3165312Z HEAD is now at b663077 Merge fc6ed0305974e2501721aefd73186907ed45d7f6 into afffbfd463d7e6a626d44f6d66c608a18abeda29
+2026-10-05T05:20:08.3170049Z ##[endgroup]
+2026-10-05T05:20:08.3204492Z [command]/usr/bin/git log -1 --format=%H
+2026-10-05T05:20:08.3224709Z b663077dba62e95e258f6cb0a4ce4e571025ecad
+2026-10-05T05:20:08.3791348Z ##[group]Run leanprover/lean-action@v1
+2026-10-05T05:20:08.3791580Z with:
+2026-10-05T05:20:08.3791717Z   build: true
+2026-10-05T05:20:08.3791849Z   auto-config: true
+2026-10-05T05:20:08.3791983Z   test: default
+2026-10-05T05:20:08.3792111Z   lint: default
+2026-10-05T05:20:08.3792246Z   mk_all-check: false
+2026-10-05T05:20:08.3792390Z   use-mathlib-cache: auto
+2026-10-05T05:20:08.3792554Z   check-reservoir-eligibility: false
+2026-10-05T05:20:08.3792720Z   leanchecker: false
+2026-10-05T05:20:08.3793007Z   lean4checker: false
+2026-10-05T05:20:08.3793149Z   nanoda: false
+2026-10-05T05:20:08.3793284Z   nanoda-allow-sorry: true
+2026-10-05T05:20:08.3793435Z   axiom-audit: false
+2026-10-05T05:20:08.3793612Z   axiom-audit-allow: propext,Classical.choice,Quot.sound
+2026-10-05T05:20:08.3793816Z   use-github-cache: true
+2026-10-05T05:20:08.3793966Z   lake-package-directory: .
+2026-10-05T05:20:08.3794133Z   reinstall-transient-toolchain: false
+2026-10-05T05:20:08.3794308Z ##[endgroup]
+2026-10-05T05:20:08.3835693Z ##[start-action display=install elan;id=__leanprover_lean-action.__run]
+2026-10-05T05:20:08.3901182Z ##[group]Run : Install Elan
+2026-10-05T05:20:08.3901438Z [36;1m: Install Elan[0m
+2026-10-05T05:20:08.3901660Z [36;1m${GITHUB_ACTION_PATH}/scripts/install_elan.sh[0m
+2026-10-05T05:20:08.4459182Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-05T05:20:08.4459438Z ##[endgroup]
+2026-10-05T05:20:08.4678977Z ##[group]Elan Installation Output
+2026-10-05T05:20:08.5355612Z info: downloading installer
+2026-10-05T05:20:09.4327908Z info: downloading https://releases.lean-lang.org/lean4/v4.34.0/lean-4.34.0-linux.tar.zst
+2026-10-05T05:20:14.4588704Z info: installing /home/runner/.elan/toolchains/leanprover--lean4---v4.34.0
+2026-10-05T05:20:25.1473582Z Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)
+2026-10-05T05:20:25.1830355Z Lake version 5.0.0-src+293d5d0 (Lean version 4.34.0)
+2026-10-05T05:20:25.1865251Z ##[endgroup]
+2026-10-05T05:20:25.1865416Z 
+2026-10-05T05:20:25.1879701Z ##[end-action id=__leanprover_lean-action.__run;outcome=success;conclusion=success;duration_ms=16804]
+2026-10-05T05:20:25.1886918Z ##[start-action display=configure `lean-action`;id=__leanprover_lean-action.config]
+2026-10-05T05:20:25.1905456Z ##[group]Run : Configure Lean Action
+2026-10-05T05:20:25.1905648Z [36;1m: Configure Lean Action[0m
+2026-10-05T05:20:25.1905803Z [36;1m${GITHUB_ACTION_PATH}/scripts/config.sh[0m
+2026-10-05T05:20:25.1957488Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-05T05:20:25.1957671Z env:
+2026-10-05T05:20:25.1957777Z   AUTO_CONFIG: true
+2026-10-05T05:20:25.1957907Z   BUILD: true
+2026-10-05T05:20:25.1958025Z   TEST: default
+2026-10-05T05:20:25.1958129Z   LINT: default
+2026-10-05T05:20:25.1958238Z ##[endgroup]
+2026-10-05T05:20:25.2089285Z ##[group]Configure lean-action
+2026-10-05T05:20:25.2107738Z build: true -> will run lake build
+2026-10-05T05:20:25.2108129Z auto-config: true
+2026-10-05T05:20:25.2108331Z     -> will run lake build
+2026-10-05T05:20:25.2440944Z lake check-test failed -> will not run lake test
+2026-10-05T05:20:25.2779357Z lake check-lint failed -> will not run lake lint
+2026-10-05T05:20:25.2804752Z ##[end-action id=__leanprover_lean-action.config;outcome=success;conclusion=success;duration_ms=91]
+2026-10-05T05:20:25.2807909Z ##[start-action display=reinstall transient toolchain;id=__leanprover_lean-action.__run_2]
+2026-10-05T05:20:25.2819006Z ##[end-action id=__leanprover_lean-action.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-05T05:20:25.2821122Z ##[start-action display=ensure all files are imported;id=__leanprover_lean-action.mk_all]
+2026-10-05T05:20:25.2823480Z ##[end-action id=__leanprover_lean-action.mk_all;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-05T05:20:25.2824652Z ##[start-action display=Run actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25;id=__leanprover_lean-action.__actions_cache]
+2026-10-05T05:20:25.4241794Z ##[group]Run actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25
+2026-10-05T05:20:25.4242068Z with:
+2026-10-05T05:20:25.4242196Z   path: ./.lake
+2026-10-05T05:20:25.4242637Z   key: lake-Linux-X64-f0339dae17491ccd1161facc73a2a18a10db21220d48b968679403f778914d2d-ff1f8eab402571604a7075b0c641275302bfc140a3791d5f2c3c12e32ceddb52-b663077dba62e95e258f6cb0a4ce4e571025ecad
+2026-10-05T05:20:25.4243327Z   restore-keys: lake-Linux-X64-f0339dae17491ccd1161facc73a2a18a10db21220d48b968679403f778914d2d-ff1f8eab402571604a7075b0c641275302bfc140a3791d5f2c3c12e32ceddb52
+2026-10-05T05:20:25.4243716Z   enableCrossOsArchive: false
+2026-10-05T05:20:25.4243863Z   fail-on-cache-miss: false
+2026-10-05T05:20:25.4243993Z   lookup-only: false
+2026-10-05T05:20:25.4244116Z ##[endgroup]
+2026-10-05T05:20:25.6328448Z Cache hit for restore-key: lake-Linux-X64-f0339dae17491ccd1161facc73a2a18a10db21220d48b968679403f778914d2d-ff1f8eab402571604a7075b0c641275302bfc140a3791d5f2c3c12e32ceddb52-04d146478189b235d2866039489a8f1c6143006f
+2026-10-05T05:20:26.7980931Z Received 134217728 of 2728537723 (4.9%), 128.1 MBs/sec
+2026-10-05T05:20:27.8027700Z Received 394264576 of 2728537723 (14.4%), 188.0 MBs/sec
+2026-10-05T05:20:28.8021745Z Received 641728512 of 2728537723 (23.5%), 203.9 MBs/sec
+2026-10-05T05:20:29.8003031Z Received 805306368 of 2728537723 (29.5%), 191.9 MBs/sec
+2026-10-05T05:20:30.8095215Z Received 939524096 of 2728537723 (34.4%), 178.8 MBs/sec
+2026-10-05T05:20:31.8122119Z Received 1203765248 of 2728537723 (44.1%), 191.0 MBs/sec
+2026-10-05T05:20:32.8101305Z Received 1413480448 of 2728537723 (51.8%), 192.3 MBs/sec
+2026-10-05T05:20:33.8108675Z Received 1610612736 of 2728537723 (59.0%), 191.7 MBs/sec
+2026-10-05T05:20:34.8141762Z Received 1866465280 of 2728537723 (68.4%), 197.5 MBs/sec
+2026-10-05T05:20:35.8111919Z Received 2046820352 of 2728537723 (75.0%), 194.9 MBs/sec
+2026-10-05T05:20:36.8107787Z Received 2264924160 of 2728537723 (83.0%), 196.1 MBs/sec
+2026-10-05T05:20:37.8106985Z Received 2457862144 of 2728537723 (90.1%), 195.1 MBs/sec
+2026-10-05T05:20:38.8114372Z Received 2654994432 of 2728537723 (97.3%), 194.6 MBs/sec
+2026-10-05T05:20:39.2752135Z Received 2728537723 of 2728537723 (100.0%), 193.1 MBs/sec
+2026-10-05T05:20:39.2753554Z Cache Size: ~2602 MB (2728537723 B)
+2026-10-05T05:20:39.2828972Z [command]/usr/bin/tar -xf /home/runner/work/_temp/85d2cee4-27ab-4225-a4b8-748cd5aaa1bf/cache.tzst -P -C /home/runner/work/Outcasts-MathLab/Outcasts-MathLab --use-compress-program unzstd
+2026-10-05T05:21:28.4271906Z Cache restored successfully
+2026-10-05T05:21:28.5784590Z Cache restored from key: lake-Linux-X64-f0339dae17491ccd1161facc73a2a18a10db21220d48b968679403f778914d2d-ff1f8eab402571604a7075b0c641275302bfc140a3791d5f2c3c12e32ceddb52-04d146478189b235d2866039489a8f1c6143006f
+2026-10-05T05:21:28.5904307Z ##[end-action id=__leanprover_lean-action.__actions_cache;outcome=success;conclusion=success;duration_ms=63307]
+2026-10-05T05:21:28.5906305Z ##[start-action display=detect mathlib;id=__leanprover_lean-action.detect-mathlib]
+2026-10-05T05:21:28.5923179Z ##[group]Run : Detect Mathlib
+2026-10-05T05:21:28.5923371Z [36;1m: Detect Mathlib[0m
+2026-10-05T05:21:28.5923687Z [36;1m${GITHUB_ACTION_PATH}/scripts/detect_mathlib.sh[0m
+2026-10-05T05:21:28.6038919Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-05T05:21:28.6039124Z ##[endgroup]
+2026-10-05T05:21:28.6319701Z ##[group]Detect Mathlib Output
+2026-10-05T05:21:28.6319907Z Trying to detect if project is downstream of Mathlib.
+2026-10-05T05:21:28.6452720Z Detected Mathlib dependency in lake-manifest.json. Using Mathlib cache.
+2026-10-05T05:21:28.6453387Z ##[endgroup]
+2026-10-05T05:21:28.6453587Z 
+2026-10-05T05:21:28.6469391Z ##[end-action id=__leanprover_lean-action.detect-mathlib;outcome=success;conclusion=success;duration_ms=56]
+2026-10-05T05:21:28.6470915Z ##[start-action display=get mathlib cache;id=__leanprover_lean-action.__run_3]
+2026-10-05T05:21:28.6492004Z ##[group]Run : Get Mathlib Cache
+2026-10-05T05:21:28.6492175Z [36;1m: Get Mathlib Cache[0m
+2026-10-05T05:21:28.6492462Z [36;1mecho "::group::Mathlib Cache"[0m
+2026-10-05T05:21:28.6492615Z [36;1mlake exe cache get[0m
+2026-10-05T05:21:28.6492760Z [36;1mecho "::endgroup::"[0m
+2026-10-05T05:21:28.6492892Z [36;1mecho[0m
+2026-10-05T05:21:28.6540460Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-05T05:21:28.6540649Z ##[endgroup]
+2026-10-05T05:21:28.6618112Z ##[group]Mathlib Cache
+2026-10-05T05:21:36.4471903Z Current branch: HEAD
+2026-10-05T05:21:36.4472269Z Using cache from origin: (some leanprover-community/mathlib4)
+2026-10-05T05:21:36.4472855Z Attempting to download 8908 file(s) from leanprover-community/mathlib4 cache at https://cache.mathlib.org/mathlib4-master
+2026-10-05T05:21:36.7359786Z 
+2026-10-05T05:21:36.8356530Z Downloaded: 1 file(s) [attempted 1/8908 = 0%, 55 KB/s], Decompressed: 0
+2026-10-05T05:21:36.9386090Z Downloaded: 81 file(s) [attempted 81/8908 = 0%, 2256 KB/s], Decompressed: 77
+2026-10-05T05:21:37.0382880Z Downloaded: 258 file(s) [attempted 258/8908 = 2%, 3532 KB/s], Decompressed: 255
+2026-10-05T05:21:37.1391587Z Downloaded: 423 file(s) [attempted 423/8908 = 4%, 2361 KB/s], Decompressed: 414
+2026-10-05T05:21:37.2385000Z Downloaded: 612 file(s) [attempted 612/8908 = 6%, 423 KB/s], Decompressed: 607
+2026-10-05T05:21:37.3385894Z Downloaded: 789 file(s) [attempted 789/8908 = 8%, 409 KB/s], Decompressed: 780
+2026-10-05T05:21:37.4434185Z Downloaded: 946 file(s) [attempted 946/8908 = 10%, 483 KB/s], Decompressed: 942
+2026-10-05T05:21:37.5433900Z Downloaded: 1050 file(s) [attempted 1050/8908 = 11%, 617 KB/s], Decompressed: 1045
+2026-10-05T05:21:37.6446871Z Downloaded: 1208 file(s) [attempted 1208/8908 = 13%, 818 KB/s], Decompressed: 1201
+2026-10-05T05:21:37.7445326Z Downloaded: 1377 file(s) [attempted 1377/8908 = 15%, 3750 KB/s], Decompressed: 1372
+2026-10-05T05:21:37.8444105Z Downloaded: 1562 file(s) [attempted 1562/8908 = 17%, 251 KB/s], Decompressed: 1555
+2026-10-05T05:21:37.9447685Z Downloaded: 1732 file(s) [attempted 1732/8908 = 19%, 5073 KB/s], Decompressed: 1725
+2026-10-05T05:21:38.0446035Z Downloaded: 1896 file(s) [attempted 1897/8908 = 21%, 219 KB/s], Decompressed: 1890
+2026-10-05T05:21:38.1458306Z Downloaded: 2057 file(s) [attempted 2058/8908 = 23%, 1270 KB/s], Decompressed: 2054
+2026-10-05T05:21:38.2454594Z Downloaded: 2229 file(s) [attempted 2230/8908 = 25%, 1117 KB/s], Decompressed: 2225
+2026-10-05T05:21:38.3560363Z Downloaded: 2393 file(s) [attempted 2394/8908 = 26%, 3678 KB/s], Decompressed: 2383
+2026-10-05T05:21:38.4563219Z Downloaded: 2451 file(s) [attempted 2452/8908 = 27%, 182 KB/s], Decompressed: 2446
+2026-10-05T05:21:38.5603074Z Downloaded: 2576 file(s) [attempted 2577/8908 = 28%, 802 KB/s], Decompressed: 2571
+2026-10-05T05:21:38.6612567Z Downloaded: 2739 file(s) [attempted 2740/8908 = 30%, 4435 KB/s], Decompressed: 2737
+2026-10-05T05:21:38.7603229Z Downloaded: 2912 file(s) [attempted 2913/8908 = 32%, 8048 KB/s], Decompressed: 2905
+2026-10-05T05:21:38.8661152Z Downloaded: 3072 file(s) [attempted 3073/8908 = 34%, 443 KB/s], Decompressed: 3064
+2026-10-05T05:21:38.9655575Z Downloaded: 3186 file(s) [attempted 3187/8908 = 35%, 3055 KB/s], Decompressed: 3182
+2026-10-05T05:21:39.0660549Z Downloaded: 3320 file(s) [attempted 3321/8908 = 37%, 541 KB/s], Decompressed: 3316
+2026-10-05T05:21:39.1728351Z Downloaded: 3460 file(s) [attempted 3461/8908 = 38%, 3775 KB/s], Decompressed: 3457
+2026-10-05T05:21:39.2754795Z Downloaded: 3600 file(s) [attempted 3601/8908 = 40%, 72 KB/s], Decompressed: 3598
+2026-10-05T05:21:39.3753198Z Downloaded: 3727 file(s) [attempted 3728/8908 = 41%, 819 KB/s], Decompressed: 3725
+2026-10-05T05:21:39.4780431Z Downloaded: 3842 file(s) [attempted 3843/8908 = 43%, 2589 KB/s], Decompressed: 3838
+2026-10-05T05:21:39.5776637Z Downloaded: 3925 file(s) [attempted 3926/8908 = 44%, 308 KB/s], Decompressed: 3920
+2026-10-05T05:21:39.6775411Z Downloaded: 4058 file(s) [attempted 4059/8908 = 45%, 172 KB/s], Decompressed: 4050
+2026-10-05T05:21:39.7777232Z Downloaded: 4194 file(s) [attempted 4195/8908 = 47%, 3130 KB/s], Decompressed: 4187
+2026-10-05T05:21:39.8777889Z Downloaded: 4317 file(s) [attempted 4318/8908 = 48%, 174 KB/s], Decompressed: 4312
+2026-10-05T05:21:39.9773174Z Downloaded: 4463 file(s) [attempted 4464/8908 = 50%, 2079 KB/s], Decompressed: 4458
+2026-10-05T05:21:40.0773979Z Downloaded: 4609 file(s) [attempted 4610/8908 = 51%, 2899 KB/s], Decompressed: 4600
+2026-10-05T05:21:40.1775417Z Downloaded: 4758 file(s) [attempted 4759/8908 = 53%, 2135 KB/s], Decompressed: 4749
+2026-10-05T05:21:40.2786425Z Downloaded: 4892 file(s) [attempted 4893/8908 = 54%, 912 KB/s], Decompressed: 4886
+2026-10-05T05:21:40.3798228Z Downloaded: 5050 file(s) [attempted 5051/8908 = 56%, 1205 KB/s], Decompressed: 5043
+2026-10-05T05:21:40.4794671Z Downloaded: 5211 file(s) [attempted 5212/8908 = 58%, 2240 KB/s], Decompressed: 5206
+2026-10-05T05:21:40.5909316Z Downloaded: 5343 file(s) [attempted 5344/8908 = 59%, 238 KB/s], Decompressed: 5334
+2026-10-05T05:21:40.6922676Z Downloaded: 5427 file(s) [attempted 5428/8908 = 60%, 118 KB/s], Decompressed: 5420
+2026-10-05T05:21:40.7941266Z Downloaded: 5595 file(s) [attempted 5597/8908 = 62%, 215 KB/s], Decompressed: 5588
+2026-10-05T05:21:40.8946853Z Downloaded: 5749 file(s) [attempted 5751/8908 = 64%, 3775 KB/s], Decompressed: 5748
+2026-10-05T05:21:40.9953049Z Downloaded: 5900 file(s) [attempted 5902/8908 = 66%, 1469 KB/s], Decompressed: 5895
+2026-10-05T05:21:41.0958333Z Downloaded: 6049 file(s) [attempted 6051/8908 = 67%, 298 KB/s], Decompressed: 6042
+2026-10-05T05:21:41.1965728Z Downloaded: 6218 file(s) [attempted 6220/8908 = 69%, 4049 KB/s], Decompressed: 6213
+2026-10-05T05:21:41.2985551Z Downloaded: 6371 file(s) [attempted 6373/8908 = 71%, 457 KB/s], Decompressed: 6367
+2026-10-05T05:21:41.3987567Z Downloaded: 6516 file(s) [attempted 6518/8908 = 73%, 830 KB/s], Decompressed: 6513
+2026-10-05T05:21:41.4982596Z Downloaded: 6653 file(s) [attempted 6655/8908 = 74%, 3814 KB/s], Decompressed: 6646
+2026-10-05T05:21:41.6051614Z Downloaded: 6792 file(s) [attempted 6794/8908 = 76%, 352 KB/s], Decompressed: 6790
+2026-10-05T05:21:41.7077999Z Downloaded: 6869 file(s) [attempted 6871/8908 = 77%, 4296 KB/s], Decompressed: 6867
+2026-10-05T05:21:41.8074327Z Downloaded: 7023 file(s) [attempted 7025/8908 = 78%, 1046 KB/s], Decompressed: 7021
+2026-10-05T05:21:41.9072746Z Downloaded: 7191 file(s) [attempted 7193/8908 = 80%, 1495 KB/s], Decompressed: 7184
+2026-10-05T05:21:42.0086772Z Downloaded: 7350 file(s) [attempted 7352/8908 = 82%, 2147 KB/s], Decompressed: 7345
+2026-10-05T05:21:42.1086734Z Downloaded: 7494 file(s) [attempted 7496/8908 = 84%, 629 KB/s], Decompressed: 7492
+2026-10-05T05:21:42.2106206Z Downloaded: 7631 file(s) [attempted 7633/8908 = 85%, 2189 KB/s], Decompressed: 7624
+2026-10-05T05:21:42.3103362Z Downloaded: 7766 file(s) [attempted 7768/8908 = 87%, 307 KB/s], Decompressed: 7765
+2026-10-05T05:21:42.4149341Z Downloaded: 7933 file(s) [attempted 7935/8908 = 89%, 2307 KB/s], Decompressed: 7920
+2026-10-05T05:21:42.5226030Z Downloaded: 8086 file(s) [attempted 8088/8908 = 90%, 940 KB/s], Decompressed: 8076
+2026-10-05T05:21:42.6235795Z Downloaded: 8211 file(s) [attempted 8213/8908 = 92%, 119 KB/s], Decompressed: 8204
+2026-10-05T05:21:42.7238516Z Downloaded: 8346 file(s) [attempted 8348/8908 = 93%, 1762 KB/s], Decompressed: 8341
+2026-10-05T05:21:42.8258236Z Downloaded: 8500 file(s) [attempted 8502/8908 = 95%, 383 KB/s], Decompressed: 8495
+2026-10-05T05:21:42.9254305Z Downloaded: 8670 file(s) [attempted 8672/8908 = 97%, 1692 KB/s], Decompressed: 8665
+2026-10-05T05:21:42.9843559Z Downloaded: 8831 file(s) [attempted 8833/8908 = 99%, 3922 KB/s], Decompressed: 8824
+2026-10-05T05:21:42.9844384Z Downloaded: 8906 file(s) [attempted 8908/8908 = 100%, 3922 KB/s], Decompressed: 8903
+2026-10-05T05:21:42.9866268Z Attempting to download 2 file(s) from leanprover-community/mathlib4 cache at https://cache.mathlib.org/mathlib4
+2026-10-05T05:21:43.2584589Z 
+2026-10-05T05:21:43.2589708Z Downloaded: 0 file(s) [attempted 1/2 = 50%, 0 KB/s], Decompressed: 8903
+2026-10-05T05:21:43.2590717Z Downloaded: 0 file(s) [attempted 2/2 = 100%, 0 KB/s], Decompressed: 8903
+2026-10-05T05:21:43.2591140Z Warning: some files were not found in the cache.
+2026-10-05T05:21:43.2591808Z This usually means that your local checkout of mathlib4 has diverged from upstream.
+2026-10-05T05:21:43.2592084Z 
+2026-10-05T05:21:43.2592212Z   * If you push your commits to a PR to the mathlib4 repository
+2026-10-05T05:21:43.2592511Z     (use a draft PR if it is not ready for review),
+2026-10-05T05:21:43.2593095Z     then CI will build the oleans and they will be available later.
+2026-10-05T05:21:43.2593406Z   * If you have already opened a PR, this may mean
+2026-10-05T05:21:43.2593686Z     the CI build has failed part-way through building.
+2026-10-05T05:21:43.7824110Z Decompressed 8906 file(s)
+2026-10-05T05:21:43.7824319Z Already decompressed 8906 file(s)
+2026-10-05T05:21:43.8188992Z ##[endgroup]
+2026-10-05T05:21:43.8189121Z 
+2026-10-05T05:21:43.8195405Z ##[end-action id=__leanprover_lean-action.__run_3;outcome=success;conclusion=success;duration_ms=15172]
+2026-10-05T05:21:43.8206605Z ##[start-action display=build AwakeningOS/Outcasts-MathLab;id=__leanprover_lean-action.build]
+2026-10-05T05:21:43.8220691Z ##[group]Run : Lake Build
+2026-10-05T05:21:43.8221058Z [36;1m: Lake Build[0m
+2026-10-05T05:21:43.8221272Z [36;1m${GITHUB_ACTION_PATH}/scripts/lake_build.sh[0m
+2026-10-05T05:21:43.8270511Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-05T05:21:43.8270691Z env:
+2026-10-05T05:21:43.8270938Z   BUILD_ARGS: 
+2026-10-05T05:21:43.8271048Z ##[endgroup]
+2026-10-05T05:21:43.8344765Z ##[group]Lake Build Output
+2026-10-05T05:21:44.3042628Z ℹ [135/486] Replayed OutcastsMathLab.Problems.P000_VerifierSmoke.Proof
+2026-10-05T05:21:44.3043064Z info: OutcastsMathLab/Problems/P000_VerifierSmoke/Proof.lean:9:0: 'OutcastsMathLab.P000.verified' does not depend on any axioms
+2026-10-05T05:21:45.2046433Z ℹ [3762/3769] Replayed OutcastsMathLab.Research.JacobiObstruction
+2026-10-05T05:21:45.2047200Z info: OutcastsMathLab/Research/JacobiObstruction.lean:148:0: 'OutcastsMathLab.Research.JacobiObstruction.jacobi_eq_one_of_dvd_succ' depends on axioms: [propext,
+2026-10-05T05:21:45.2047853Z  Classical.choice,
+2026-10-05T05:21:45.2048037Z  Quot.sound]
+2026-10-05T05:21:45.2048583Z info: OutcastsMathLab/Research/JacobiObstruction.lean:149:0: 'OutcastsMathLab.Research.JacobiObstruction.witness_jacobi_eq_neg_one' depends on axioms: [propext,
+2026-10-05T05:21:45.2049199Z  Classical.choice,
+2026-10-05T05:21:45.2049372Z  Quot.sound]
+2026-10-05T05:21:45.2049890Z info: OutcastsMathLab/Research/JacobiObstruction.lean:150:0: 'OutcastsMathLab.Research.JacobiObstruction.no_witness_of_square' depends on axioms: [propext,
+2026-10-05T05:21:45.2050468Z  Classical.choice,
+2026-10-05T05:21:45.2050637Z  Quot.sound]
+2026-10-05T05:21:45.2051303Z info: OutcastsMathLab/Research/JacobiObstruction.lean:151:0: 'OutcastsMathLab.Research.JacobiObstruction.no_witness_of_mod_eq_one' depends on axioms: [propext,
+2026-10-05T05:21:45.2051884Z  Classical.choice,
+2026-10-05T05:21:45.2052053Z  Quot.sound]
+2026-10-05T05:21:45.2052800Z info: OutcastsMathLab/Research/JacobiObstruction.lean:152:0: 'OutcastsMathLab.Research.JacobiObstruction.finite_witnesses_miss_infinitely_many_primes' depends on axioms: [propext,
+2026-10-05T05:21:45.2053945Z  Classical.choice,
+2026-10-05T05:21:45.2054159Z  Quot.sound]
+2026-10-05T05:21:45.2054682Z info: OutcastsMathLab/Research/JacobiObstruction.lean:153:0: 'OutcastsMathLab.Research.JacobiObstruction.witness_409' depends on axioms: [propext]
+2026-10-05T05:21:45.2055413Z ℹ [3763/3769] Replayed OutcastsMathLab.Research.PsiObstruction
+2026-10-05T05:21:45.2056284Z info: OutcastsMathLab/Research/PsiObstruction.lean:100:0: 'OutcastsMathLab.Research.PsiObstruction.jacobi_eq_one_of_prime_factors' depends on axioms: [propext,
+2026-10-05T05:21:45.2057176Z  Classical.choice,
+2026-10-05T05:21:45.2057455Z  Quot.sound]
+2026-10-05T05:21:45.2057985Z info: OutcastsMathLab/Research/PsiObstruction.lean:101:0: 'OutcastsMathLab.Research.PsiObstruction.psi_obstruction_forces_residue' depends on axioms: [propext,
+2026-10-05T05:21:45.2058542Z  Classical.choice,
+2026-10-05T05:21:45.2058656Z  Quot.sound]
+2026-10-05T05:21:45.2059369Z info: OutcastsMathLab/Research/PsiObstruction.lean:102:0: 'OutcastsMathLab.Research.PsiObstruction.psi_eq_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-05T05:21:45.2059950Z info: OutcastsMathLab/Research/PsiObstruction.lean:103:0: 'OutcastsMathLab.Research.PsiObstruction.psi_kernel_forces_residue' depends on axioms: [propext,
+2026-10-05T05:21:45.2060287Z  Classical.choice,
+2026-10-05T05:21:45.2060400Z  Quot.sound]
+2026-10-05T05:21:45.2060712Z info: OutcastsMathLab/Research/PsiObstruction.lean:104:0: 'OutcastsMathLab.Research.PsiObstruction.nonresidue_shift_escapes_psi' depends on axioms: [propext,
+2026-10-05T05:21:45.2061144Z  Classical.choice,
+2026-10-05T05:21:45.2061252Z  Quot.sound]
+2026-10-05T05:21:45.2061504Z ℹ [3764/3769] Replayed OutcastsMathLab.Research.InvolutionBound
+2026-10-05T05:21:45.2061941Z info: OutcastsMathLab/Research/InvolutionBound.lean:137:0: 'OutcastsMathLab.Research.InvolutionBound.neg_one_ne_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-05T05:21:45.2062534Z info: OutcastsMathLab/Research/InvolutionBound.lean:138:0: 'OutcastsMathLab.Research.InvolutionBound.card_le_half_of_fixedPointFree_involution' depends on axioms: [propext,
+2026-10-05T05:21:45.2062901Z  Classical.choice,
+2026-10-05T05:21:45.2063009Z  Quot.sound]
+2026-10-05T05:21:45.2063354Z info: OutcastsMathLab/Research/InvolutionBound.lean:139:0: 'OutcastsMathLab.Research.InvolutionBound.iota_ne_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-05T05:21:45.2063944Z info: OutcastsMathLab/Research/InvolutionBound.lean:140:0: 'OutcastsMathLab.Research.InvolutionBound.card_le_half_totient_of_no_neg_one_divisor' depends on axioms: [propext,
+2026-10-05T05:21:45.2064308Z  Classical.choice,
+2026-10-05T05:21:45.2064443Z  Quot.sound]
+2026-10-05T05:21:45.2064746Z info: OutcastsMathLab/Research/InvolutionBound.lean:141:0: 'OutcastsMathLab.Research.InvolutionBound.dahan_involution_bound' depends on axioms: [propext,
+2026-10-05T05:21:45.2065084Z  Classical.choice,
+2026-10-05T05:21:45.2065195Z  Quot.sound]
+2026-10-05T05:21:45.2065534Z info: OutcastsMathLab/Research/InvolutionBound.lean:142:0: 'OutcastsMathLab.Research.InvolutionBound.no_witness_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-05T05:21:46.5058516Z ℹ [3766/3769] Built OutcastsMathLab.Research.DeterministicFailure (1.3s)
+2026-10-05T05:21:46.5059368Z info: OutcastsMathLab/Research/DeterministicFailure.lean:101:0: 'OutcastsMathLab.Research.DeterministicFailure.dvd_mul_split' depends on axioms: [propext, Quot.sound]
+2026-10-05T05:21:46.5060441Z info: OutcastsMathLab/Research/DeterministicFailure.lean:102:0: 'OutcastsMathLab.Research.DeterministicFailure.mem_subProducts_of_dvd' depends on axioms: [propext,
+2026-10-05T05:21:46.5061247Z  Classical.choice,
+2026-10-05T05:21:46.5061440Z  Quot.sound]
+2026-10-05T05:21:46.5062012Z info: OutcastsMathLab/Research/DeterministicFailure.lean:103:0: 'OutcastsMathLab.Research.DeterministicFailure.no_witness_of_cert' depends on axioms: [propext,
+2026-10-05T05:21:46.5062684Z  Classical.choice,
+2026-10-05T05:21:46.5062866Z  Quot.sound]
+2026-10-05T05:21:46.5063835Z info: OutcastsMathLab/Research/DeterministicFailure.lean:104:0: 'OutcastsMathLab.Research.DeterministicFailure.no_divisorWitness_of_cert' depends on axioms: [propext,
+2026-10-05T05:21:46.5064481Z  Classical.choice,
+2026-10-05T05:21:46.5064661Z  Quot.sound]
+2026-10-05T05:21:48.9093623Z ℹ [3767/3769] Built OutcastsMathLab.Research.HardPrimes20261005 (2.4s)
+2026-10-05T05:21:48.9094759Z info: OutcastsMathLab/Research/HardPrimes20261005.lean:285:0: 'OutcastsMathLab.Research.HardPrimes20261005.no_witness_345601_box' depends on axioms: [propext,
+2026-10-05T05:21:48.9095497Z  Classical.choice,
+2026-10-05T05:21:48.9095911Z  Quot.sound]
+2026-10-05T05:21:48.9096674Z info: OutcastsMathLab/Research/HardPrimes20261005.lean:558:0: 'OutcastsMathLab.Research.HardPrimes20261005.no_witness_670849_box' depends on axioms: [propext,
+2026-10-05T05:21:48.9097332Z  Classical.choice,
+2026-10-05T05:21:48.9097513Z  Quot.sound]
+2026-10-05T05:21:50.7111085Z ✔ [3768/3769] Built OutcastsMathLab (1.8s)
+2026-10-05T05:21:50.7163437Z Build completed successfully (3769 jobs).
+2026-10-05T05:21:50.7476638Z ##[endgroup]
+2026-10-05T05:21:50.7476756Z 
+2026-10-05T05:21:50.7485384Z ##[end-action id=__leanprover_lean-action.build;outcome=success;conclusion=success;duration_ms=6927]
+2026-10-05T05:21:50.7487255Z ##[start-action display=Run actions/cache/save@caa296126883cff596d87d8935842f9db880ef25;id=__leanprover_lean-action.__actions_cache_2]
+2026-10-05T05:21:50.8223926Z ##[group]Run actions/cache/save@caa296126883cff596d87d8935842f9db880ef25
+2026-10-05T05:21:50.8224135Z with:
+2026-10-05T05:21:50.8224246Z   path: ./.lake
+2026-10-05T05:21:50.8224691Z   key: lake-Linux-X64-f0339dae17491ccd1161facc73a2a18a10db21220d48b968679403f778914d2d-ff1f8eab402571604a7075b0c641275302bfc140a3791d5f2c3c12e32ceddb52-b663077dba62e95e258f6cb0a4ce4e571025ecad
+2026-10-05T05:21:50.8225165Z   enableCrossOsArchive: false
+2026-10-05T05:21:50.8225304Z ##[endgroup]
+2026-10-05T05:21:50.9142183Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/Outcasts-MathLab/Outcasts-MathLab --files-from manifest.txt --use-compress-program zstdmt
+2026-10-05T05:22:03.5716873Z Sent 0 of 2729600337 (0.0%), 0.0 MBs/sec
+2026-10-05T05:22:04.5748507Z Sent 536870912 of 2729600337 (19.7%), 255.6 MBs/sec
+2026-10-05T05:22:05.5725565Z Sent 939524096 of 2729600337 (34.4%), 298.3 MBs/sec
+2026-10-05T05:22:06.5730924Z Sent 1342177280 of 2729600337 (49.2%), 319.7 MBs/sec
+2026-10-05T05:22:07.5762636Z Sent 1744830464 of 2729600337 (63.9%), 332.5 MBs/sec
+2026-10-05T05:22:08.5747172Z Sent 2281701376 of 2729600337 (83.6%), 362.3 MBs/sec
+2026-10-05T05:22:09.5374635Z Sent 2729600337 of 2729600337 (100.0%), 373.5 MBs/sec
+2026-10-05T05:22:09.9301790Z Cache saved with key: lake-Linux-X64-f0339dae17491ccd1161facc73a2a18a10db21220d48b968679403f778914d2d-ff1f8eab402571604a7075b0c641275302bfc140a3791d5f2c3c12e32ceddb52-b663077dba62e95e258f6cb0a4ce4e571025ecad
+2026-10-05T05:22:09.9440982Z ##[end-action id=__leanprover_lean-action.__actions_cache_2;outcome=success;conclusion=success;duration_ms=19195]
+2026-10-05T05:22:09.9446047Z ##[start-action display=test AwakeningOS/Outcasts-MathLab;id=__leanprover_lean-action.test]
+2026-10-05T05:22:09.9448980Z ##[end-action id=__leanprover_lean-action.test;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-05T05:22:09.9450462Z ##[start-action display=lint AwakeningOS/Outcasts-MathLab;id=__leanprover_lean-action.lint]
+2026-10-05T05:22:09.9452914Z ##[end-action id=__leanprover_lean-action.lint;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-05T05:22:09.9453921Z ##[start-action display=check reservoir eligibility;id=__leanprover_lean-action.__run_4]
+2026-10-05T05:22:09.9455675Z ##[end-action id=__leanprover_lean-action.__run_4;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-05T05:22:09.9457002Z ##[start-action display=check environment with leanchecker;id=__leanprover_lean-action.__run_5]
+2026-10-05T05:22:09.9459448Z ##[end-action id=__leanprover_lean-action.__run_5;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-05T05:22:09.9461479Z ##[start-action display=check environment with nanoda;id=__leanprover_lean-action.nanoda]
+2026-10-05T05:22:09.9463240Z ##[end-action id=__leanprover_lean-action.nanoda;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-05T05:22:09.9464480Z ##[start-action display=audit axioms with axiom-audit;id=__leanprover_lean-action.axiom-audit]
+2026-10-05T05:22:09.9466165Z ##[end-action id=__leanprover_lean-action.axiom-audit;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-05T05:22:09.9554317Z Post job cleanup.
+2026-10-05T05:22:10.0207312Z [command]/usr/bin/git version
+2026-10-05T05:22:10.0237757Z git version 2.55.0
+2026-10-05T05:22:10.0296357Z Temporarily overriding HOME='/home/runner/work/_temp/00b48efb-61b9-4b4e-bd76-7374ba7899e6' before making global git config changes
+2026-10-05T05:22:10.0307103Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-05T05:22:10.0307826Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Outcasts-MathLab/Outcasts-MathLab
+2026-10-05T05:22:10.0330588Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-05T05:22:10.0358680Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-05T05:22:10.0571675Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-05T05:22:10.0599221Z http.https://github.com/.extraheader
+2026-10-05T05:22:10.0606397Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-05T05:22:10.0637508Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-05T05:22:10.0840403Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-05T05:22:10.0866933Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-05T05:22:10.1163768Z Cleaning up orphan processes

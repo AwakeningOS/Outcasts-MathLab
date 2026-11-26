@@ -1,0 +1,38 @@
+ℹ [135/615] Replayed OutcastsMathLab.Problems.P000_VerifierSmoke.Proof
+info: OutcastsMathLab/Problems/P000_VerifierSmoke/Proof.lean:9:0: 'OutcastsMathLab.P000.verified' does not depend on any axioms
+ℹ [136/615] Replayed OutcastsMathLab.Problems.P001_ErdosStraus1201.Verification
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/Verification.lean:63:0: 'OutcastsLunaReply.example_1201' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/Verification.lean:64:0: 'OutcastsLunaReply.example_1201_integer' does not depend on any axioms
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/Verification.lean:65:0: 'OutcastsLunaReply.factor_pair_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/Verification.lean:66:0: 'OutcastsLunaReply.factor_pair_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/Verification.lean:67:0: 'OutcastsLunaReply.other_example_1201_a' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/Verification.lean:68:0: 'OutcastsLunaReply.other_example_1201_b' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/Verification.lean:69:0: 'OutcastsLunaReply.known_family_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/Verification.lean:70:0: 'OutcastsLunaReply.known_family_positive' depends on axioms: [propext, Quot.sound]
+ℹ [137/615] Replayed OutcastsMathLab.Problems.P001_ErdosStraus1201.ReverseDivisor
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/ReverseDivisor.lean:103:0: 'OutcastsReverseDivisor.reconstruct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/ReverseDivisor.lean:104:0: 'OutcastsReverseDivisor.second_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/ReverseDivisor.lean:105:0: 'OutcastsReverseDivisor.reconstruct_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/ReverseDivisor.lean:106:0: 'OutcastsReverseDivisor.first_denominator_bound' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/ReverseDivisor.lean:107:0: 'OutcastsReverseDivisor.noncoprime_counterexample' depends on axioms: [propext]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/ReverseDivisor.lean:108:0: 'OutcastsReverseDivisor.erdos_straus_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [641/645] Built OutcastsMathLab.Problems.P001_ErdosStraus1201.PrimeCoprimality (84s)
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeCoprimality.lean:69:0: 'OutcastsPrimeCoprimality.gcd_shift_product' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeCoprimality.lean:70:0: 'OutcastsPrimeCoprimality.odd_prime_coprimality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeCoprimality.lean:71:0: 'OutcastsPrimeCoprimality.odd_prime_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [642/645] Built OutcastsMathLab.Problems.P001_ErdosStraus1201.PrimeDivisorBranches (84s)
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeDivisorBranches.lean:88:0: 'OutcastsPrimeDivisorBranches.remove_coprime_square' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeDivisorBranches.lean:89:0: 'OutcastsPrimeDivisorBranches.bounded_divisor_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeDivisorBranches.lean:90:0: 'OutcastsPrimeDivisorBranches.factor_witness_iff_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [643/645] Built OutcastsMathLab.Problems.P001_ErdosStraus1201.PrimeBranchBridge (6.0s)
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:129:0: 'OutcastsPrimeBranchBridge.shift_cast' depends on axioms: [propext, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:130:0: 'OutcastsPrimeBranchBridge.shift_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:131:0: 'OutcastsPrimeBranchBridge.prime_factor_witness_iff_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:132:0: 'OutcastsPrimeBranchBridge.factor_witness_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:133:0: 'OutcastsPrimeBranchBridge.branchI_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:134:0: 'OutcastsPrimeBranchBridge.branchII_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:135:0: 'OutcastsPrimeBranchBridge.example_1201_branchII' depends on axioms: [propext]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:136:0: 'OutcastsPrimeBranchBridge.example_1201_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OutcastsMathLab/Problems/P001_ErdosStraus1201/PrimeBranchBridge.lean:137:0: 'OutcastsPrimeBranchBridge.example_1201_branchI' depends on axioms: [propext]
+✔ [644/645] Built OutcastsMathLab (544ms)
+Build completed successfully (645 jobs).

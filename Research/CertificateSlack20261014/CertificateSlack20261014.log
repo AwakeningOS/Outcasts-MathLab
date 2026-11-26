@@ -1,0 +1,6 @@
+'CertificateSlack20261014.slack_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CertificateSlack20261014.positive_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CertificateSlack20261014.exact_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CertificateSlack20261014.compatible_v_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CertificateSlack20261014.exact_positive_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CertificateSlack20261014.scalar_compatibility_needed' depends on axioms: [propext, Classical.choice, Quot.sound]

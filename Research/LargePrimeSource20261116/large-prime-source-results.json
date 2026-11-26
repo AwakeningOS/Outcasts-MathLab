@@ -1,0 +1,3888 @@
+{
+  "summary": {
+    "tuples": 438,
+    "outcomes": {
+      "q_range": 85,
+      "congruence": 67,
+      "r_range": 286
+    },
+    "unresolved": [],
+    "seconds": 0.0014313129941001534
+  },
+  "rows": [
+    {
+      "s": 1,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 1,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "period": 1680,
+      "counts": {
+        "p_classes": 12,
+        "q_integer": 12
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 1,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "period": 2520,
+      "counts": {
+        "p_classes": 18
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 1,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "period": 2520,
+      "counts": {
+        "p_classes": 18
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 1,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 1,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "period": 7560,
+      "counts": {
+        "p_classes": 54
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "period": 3360,
+      "counts": {
+        "p_classes": 24,
+        "q_integer": 24
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 2,
+      "period": 3360,
+      "counts": {
+        "p_classes": 24
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 3,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36,
+        "q_integer": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 3,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36,
+        "q_integer": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 4,
+      "period": 6720,
+      "counts": {
+        "p_classes": 48
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 5,
+      "period": 8400,
+      "counts": {
+        "p_classes": 60
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 6,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 1,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36,
+        "q_integer": 36,
+        "q_type": 36,
+        "q_small_prime_free": 24
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 2,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 3,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108,
+        "q_integer": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 1,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36,
+        "q_integer": 36,
+        "q_type": 36,
+        "q_small_prime_free": 24
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 2,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 3,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108,
+        "q_integer": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 4,
+      "period": 20160,
+      "counts": {
+        "p_classes": 144
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 5,
+      "period": 25200,
+      "counts": {
+        "p_classes": 180
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 2,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 6,
+      "period": 30240,
+      "counts": {
+        "p_classes": 216
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36,
+        "q_integer": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "period": 7560,
+      "counts": {
+        "p_classes": 54
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 3,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 3,
+      "h": 2,
+      "period": 5040,
+      "counts": {
+        "p_classes": 36,
+        "q_integer": 36
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 3,
+      "h": 3,
+      "period": 7560,
+      "counts": {
+        "p_classes": 54
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 4,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72,
+        "q_integer": 72,
+        "q_type": 36,
+        "q_small_prime_free": 24
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 5,
+      "period": 12600,
+      "counts": {
+        "p_classes": 90
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 6,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 7,
+      "period": 17640,
+      "counts": {
+        "p_classes": 126,
+        "q_integer": 42
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 8,
+      "period": 20160,
+      "counts": {
+        "p_classes": 144
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 9,
+      "period": 22680,
+      "counts": {
+        "p_classes": 162
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "period": 7560,
+      "counts": {
+        "p_classes": 54
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "period": 22680,
+      "counts": {
+        "p_classes": 162
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 3,
+      "h": 1,
+      "period": 7560,
+      "counts": {
+        "p_classes": 54
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 3,
+      "h": 2,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 3,
+      "h": 3,
+      "period": 22680,
+      "counts": {
+        "p_classes": 162
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 2,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 3,
+      "period": 22680,
+      "counts": {
+        "p_classes": 162
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 4,
+      "period": 30240,
+      "counts": {
+        "p_classes": 216
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 5,
+      "period": 37800,
+      "counts": {
+        "p_classes": 270
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 6,
+      "period": 45360,
+      "counts": {
+        "p_classes": 324
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 7,
+      "period": 52920,
+      "counts": {
+        "p_classes": 378
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 8,
+      "period": 60480,
+      "counts": {
+        "p_classes": 432
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 3,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 9,
+      "period": 68040,
+      "counts": {
+        "p_classes": 486
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 4,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 4,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 4,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 4,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 5,
+      "period": 16800,
+      "counts": {
+        "p_classes": 120,
+        "q_integer": 60
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 1,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72,
+        "q_integer": 72,
+        "q_type": 72,
+        "q_small_prime_free": 48
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 4,
+      "h": 1,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 4,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 4,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 1,
+      "period": 10080,
+      "counts": {
+        "p_classes": 72,
+        "q_integer": 72,
+        "q_type": 72,
+        "q_small_prime_free": 48
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 2,
+      "period": 20160,
+      "counts": {
+        "p_classes": 144
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 2,
+      "period": 20160,
+      "counts": {
+        "p_classes": 144
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 3,
+      "period": 30240,
+      "counts": {
+        "p_classes": 216
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 4,
+      "period": 40320,
+      "counts": {
+        "p_classes": 288
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 5,
+      "period": 50400,
+      "counts": {
+        "p_classes": 360
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 4,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 5,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 5,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 5,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 4,
+      "outcome": "q_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 5,
+      "outcome": "q_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 13,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 14,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 1,
+      "alpha": 5,
+      "beta": 1,
+      "h": 15,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 5,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 5,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 5,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 2,
+      "period": 25200,
+      "counts": {
+        "p_classes": 180,
+        "q_integer": 180,
+        "q_type": 180,
+        "q_small_prime_free": 80
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 3,
+      "period": 37800,
+      "counts": {
+        "p_classes": 270,
+        "q_integer": 90
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 4,
+      "period": 50400,
+      "counts": {
+        "p_classes": 360
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 13,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 14,
+      "outcome": "r_range"
+    },
+    {
+      "s": 5,
+      "sigma": 3,
+      "alpha": 5,
+      "beta": 1,
+      "h": 15,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 3,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 3,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 3,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 6,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 6,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 6,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 3,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 3,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 3,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 3,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 3,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 3,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 3,
+      "beta": 2,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 4,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 5,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 6,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 13,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 14,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 15,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 16,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 17,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 1,
+      "alpha": 6,
+      "beta": 1,
+      "h": 18,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 3,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 3,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 3,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 6,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 6,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 6,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 1,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108,
+        "q_integer": 108,
+        "q_type": 108,
+        "q_small_prime_free": 72
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 3,
+      "h": 1,
+      "period": 15120,
+      "counts": {
+        "p_classes": 108
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 3,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 3,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 3,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 3,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 3,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 3,
+      "beta": 2,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 3,
+      "period": 45360,
+      "counts": {
+        "p_classes": 324
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 13,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 14,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 15,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 16,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 17,
+      "outcome": "r_range"
+    },
+    {
+      "s": 6,
+      "sigma": 3,
+      "alpha": 6,
+      "beta": 1,
+      "h": 18,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 7,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 7,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 7,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 4,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 5,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 6,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 7,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 13,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 14,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 15,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 16,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 17,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 18,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 19,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 20,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 1,
+      "alpha": 7,
+      "beta": 1,
+      "h": 21,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 7,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 7,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 7,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 3,
+      "period": 52920,
+      "counts": {
+        "p_classes": 378
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 13,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 14,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 15,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 16,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 17,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 18,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 19,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 20,
+      "outcome": "r_range"
+    },
+    {
+      "s": 7,
+      "sigma": 3,
+      "alpha": 7,
+      "beta": 1,
+      "h": 21,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 2,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 4,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 4,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 4,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 8,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 8,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 1,
+      "beta": 8,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 2,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 4,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 4,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 3,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 4,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 5,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 6,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 7,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 8,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 13,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 14,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 15,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 16,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 17,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 18,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 19,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 20,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 21,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 22,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 23,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 1,
+      "alpha": 8,
+      "beta": 1,
+      "h": 24,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 2,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 4,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 4,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 4,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 8,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 8,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 1,
+      "beta": 8,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 1,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 2,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 2,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 3,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 4,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 1,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 2,
+      "outcome": "q_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 3,
+      "period": 60480,
+      "counts": {
+        "p_classes": 432,
+        "q_integer": 144,
+        "q_type": 144,
+        "q_small_prime_free": 96
+      },
+      "survivors": [],
+      "outcome": "congruence"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 4,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 5,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 6,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 7,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 8,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 9,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 10,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 11,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 12,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 13,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 14,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 15,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 16,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 17,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 18,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 19,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 20,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 21,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 22,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 23,
+      "outcome": "r_range"
+    },
+    {
+      "s": 8,
+      "sigma": 3,
+      "alpha": 8,
+      "beta": 1,
+      "h": 24,
+      "outcome": "r_range"
+    }
+  ]
+}

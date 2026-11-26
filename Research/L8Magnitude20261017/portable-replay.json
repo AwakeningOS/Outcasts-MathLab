@@ -1,0 +1,10 @@
+{
+  "exit": 0,
+  "math_result_fields_except_time_match": true,
+  "replay_seconds": 3.362,
+  "final_source_sha256": "3f41470895188b108380a422e8a3c0587536eb840a444363bebc21176dc6721f",
+  "inputs_are_development_not_holdout": true,
+  "gzip_sha256": "2851fb4611be7461ddc92d63d94ba9939b071c2fba236d9f353c01b44a43b8b1",
+  "new_Lean_or_full_build": false,
+  "log_sha256": "974c55c00ce0cbed14b24e578a580647d8753e592f481fcc037ce93cb3929992"
+}

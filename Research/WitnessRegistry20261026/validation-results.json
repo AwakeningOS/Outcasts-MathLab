@@ -1,0 +1,111 @@
+{
+  "witnesses_checked": 4,
+  "candidate_counterexamples_checked": 3,
+  "checks": [
+    {
+      "id": "ce-cost18-84525841",
+      "candidate_id": "product-cost-at-most-18-v1",
+      "finite_check": "pass",
+      "counterexample_p_minimality_checked": false,
+      "details": {
+        "C": 19,
+        "G": 7,
+        "first_witness": {
+          "a": 1,
+          "u": 19,
+          "s": 63079
+        },
+        "checked_coprime_pairs": 49,
+        "budget": 19
+      }
+    },
+    {
+      "id": "ce-cost2G-84525841",
+      "candidate_id": "product-cost-at-most-twice-group-v1",
+      "finite_check": "pass",
+      "counterexample_p_minimality_checked": false,
+      "details": {
+        "C": 19,
+        "G": 7,
+        "first_witness": {
+          "a": 1,
+          "u": 19,
+          "s": 63079
+        },
+        "checked_coprime_pairs": 49,
+        "budget": 19
+      }
+    },
+    {
+      "id": "ce-short-root-2521",
+      "candidate_id": "uniform-short-root-one-edge-v1",
+      "finite_check": "pass",
+      "counterexample_p_minimality_checked": false,
+      "details": {
+        "q": "11",
+        "root_sources": 13,
+        "children": [
+          "17",
+          "19",
+          "29",
+          "73",
+          "107",
+          "131",
+          "139",
+          "211",
+          "233",
+          "541",
+          "853",
+          "1249"
+        ],
+        "all_child_sources": 44,
+        "bound_children": [
+          "17",
+          "19"
+        ],
+        "good_children": [
+          "29"
+        ]
+      }
+    }
+  ],
+  "Lean_executed": false,
+  "new_research_result": false,
+  "full_thread_inventory": false,
+  "universal_existence_proved": false,
+  "mutation_tests": [
+    {
+      "test": "wrong_denominator",
+      "rejected": true
+    },
+    {
+      "test": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "test": "missing_candidate",
+      "rejected": true
+    },
+    {
+      "test": "false_minimum_C",
+      "rejected": true
+    },
+    {
+      "test": "ESC_relabel",
+      "rejected": true
+    },
+    {
+      "test": "changed_budget",
+      "rejected": true
+    },
+    {
+      "test": "unproved_minimality",
+      "rejected": true
+    },
+    {
+      "test": "unknown_checker",
+      "rejected": true
+    }
+  ],
+  "seconds": 0.04162578000250505
+}
