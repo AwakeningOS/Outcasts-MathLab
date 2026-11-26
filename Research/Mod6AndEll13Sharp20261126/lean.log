@@ -1,0 +1,16 @@
+'type1_unit_fraction_sound' depends on axioms: [propext, Quot.sound]
+'gcd_eq_one_dvd_self_eq_one' depends on axioms: [propext, Quot.sound]
+'upper_j1_hc_derive' depends on axioms: [propext, Quot.sound]
+'thm4_equality_witness_sq' depends on axioms: [propext, Quot.sound]
+'thm4_equality_mod6_one_impossible' depends on axioms: [propext, Quot.sound]
+'upper_j1_mod8_lock' depends on axioms: [propext, Quot.sound]
+'mod6_one_smooth_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'mod6_one_plus_four_zero_free' depends on axioms: [propext, Quot.sound]
+'no_other_ell13_qr_tuple' does not depend on any axioms
+'ell13_qr_cofactor_sharp_lock' depends on axioms: [propext, Quot.sound]
+'ell13_s17_qnr_reductions' depends on axioms: [propext, Quot.sound]
+'transfer_13_to_17_d5' depends on axioms: [propext, Quot.sound]
+'reach_14147458249_root_to_14731' does not depend on any axioms
+'witness_128051449_gt_23_408' does not depend on any axioms
+'witness_123297007849_gt_23_408' does not depend on any axioms
+'witness_250067982481_gt_23_408' does not depend on any axioms

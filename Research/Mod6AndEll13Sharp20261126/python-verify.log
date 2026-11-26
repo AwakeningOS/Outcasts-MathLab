@@ -1,0 +1,9 @@
+Python 3.14.4
+[1. #163 checks] PASS (transfer d=5, s<=12 table, 405368329, 26007529)
+[2. #164 checks] PASS (eq<10^8={11: 207, 17: 35, 23: 2, 29: 2}, (6,6,1,17)<10^8=34, 13 -1495-> 14731)
+[3. Theorem 5A] PASS (p<=100k, ell≡1 mod 6: 153632 sources in (ell+4)r>=p, s!=ell -> 0 successes)
+[4. Theorem 5B witness] p=128051449, s=17, r=7271237, p/r=17.610683 (< 408/23=17.739130) OK
+[4. Theorem 5B witness] p=123297007849, s=17, r=7252172197, p/r=17.001390 (< 408/23=17.739130) OK
+[4. Theorem 5B witness] p=250067982481, s=17, r=14709638311, p/r=17.000281 (< 408/23=17.739130) OK
+
+ALL CHECKS PASSED.
